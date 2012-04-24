@@ -1,0 +1,200 @@
+# Manual list of UnicodeBlockData from JclUnicode.pas
+# Because these are defined in a const array we can't extract
+# it unless we change the source file and add a specifier
+# We don't want that because we will have to do that then
+# on every source update. Therefore we make this file by hand
+# Copyright (C) Jacob Boerema, Transcript
+# This file is distributed under the same license as the PACKAGE package.
+# Jacob Boerema, 2012.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Transcript\n"
+"POT-Creation-Date: 2012-04-24 10:12\n"
+"PO-Revision-Date: 2012-04-24 10:12\n"
+"Last-Translator: Jacob Boerema\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 1.2.2\n"
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Basic Latin"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Latin-1 Supplement"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Latin Extended-A"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Latin Extended-B"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "IPA Extensions"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Spacing Modifier Letters"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Combining Diacritical Marks"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Greek and Coptic"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Cyrillic"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Hebrew"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Arabic"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Latin Extended Additional"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Greek Extended"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "General Punctuation"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Superscripts and Subscripts"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Currency Symbols"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Letterlike Symbols"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Number Forms"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Arrows"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Mathematical Operators"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Miscellaneous Technical"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Box Drawing"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Block Elements"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Geometric Shapes"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Miscellaneous Symbols"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Alphabetic Presentation Forms"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Arabic Presentation Forms-A"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Combining Half Marks"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Arabic Presentation Forms-B"
+msgstr ""
+
+# ***** strings for Special characters dialog *****
+# For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
+# See also Wikipedia: list of unicode blocks
+msgid "Specials"
+msgstr ""

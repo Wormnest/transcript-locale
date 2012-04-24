@@ -1,0 +1,3292 @@
+# input file: Suomi.lng
+# original "Last-Translator: Pekka Valta\n"
+# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: Transcript 2.4.1 BETA\n"
+"POT-Creation-Date: 2012-04-24 15:13\n"
+"PO-Revision-Date: 2012-04-24 15:33+0200\n"
+"Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
+"Language-Team: Transcript\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"Original-Translator: Pekka Valta\n"
+
+#. JgbProgressDialog....Hint
+#: JgbProgressForm.dfm:8 
+msgid ""
+"This dialog shows the progress of the image extraction from a pdf file. It "
+"is not possible to cancel this extraction. You can however focus the editor "
+"window and start typing once the first page has been extracted."
+msgstr ""
+"Tämä ilmoitusikkuna näyttää kuvien pdf:stä eristämisen edistymisen. "
+"Eristämisestä ei voi peruuttaa. Voit kuitenkin siirtyä muokkaajaan ja alkaa "
+"kirjoittamisen kun ensimmäinen kuva on eristetty."
+
+#. JgbProgressDialog..Caption
+#: JgbProgressForm.dfm:12 
+msgid "Extracting images from Pdf"
+msgstr "Kuvien eristäminen Pdf:stä"
+
+#. JgbProgressDialog..JvLabel1..Caption
+#: JgbProgressForm.dfm:33 
+msgid "Source pdf:"
+msgstr "Lähtö pdf:"
+
+#. JgbProgressDialog..JvLabel2..Caption
+#: JgbProgressForm.dfm:57 
+msgid "Status:"
+msgstr "Tila:"
+
+#. JgbProgressDialog..lblStatus....Hint
+#: JgbProgressForm.dfm:71 
+msgid ""
+"Status of image extraction. Shows how many images have been extracted and "
+"the total number of images."
+msgstr ""
+"Kuvien eristämisen tila. Näyttää kuinka monta kaikista kuvista on eristetty "
+"ja kuvien kokonaismäärän."
+
+#. JgbProgressDialog..JvLabel3..Caption
+#: JgbProgressForm.dfm:83 
+msgid "Time left:"
+msgstr "Aikaa jäljellä:"
+
+#. JgbProgressDialog..lblTimeLeft..Hint
+#: JgbProgressForm.dfm:95 
+msgid "Estimation of the time needed to extract the remaining images."
+msgstr "Arvio tarvittavasta ajasta jäljellä olevien kuvien eristämiseksi."
+
+#. JgbProgressDialog..JvLabel4..Caption
+#: JgbProgressForm.dfm:107 
+msgid "Time spent:"
+msgstr "Aikaa kulutettu:"
+
+#. JgbProgressDialog..lblTimeSpent..Hint
+#: JgbProgressForm.dfm:119 
+msgid "Amount of time used to extract the images."
+msgstr "Käytetyn ajan määrä kuvien eristämisessä."
+
+#. SpecialCharsForm..Caption
+#: JgbSpecialCharsForm.dfm:7 
+msgid "Special characters"
+msgstr "Yritysmerkit"
+
+#. SpecialCharsForm..JvLabel1..Caption
+#: JgbSpecialCharsForm.dfm:31 
+msgid "Font:"
+msgstr "Fontti:"
+
+#. SpecialCharsForm..lblFilter..Hint
+#: JgbSpecialCharsForm.dfm:43 
+msgid "Specifies the Unicode character encoding subrange to display."
+msgstr ""
+
+#. SpecialCharsForm..lblFilter..Caption
+#: JgbSpecialCharsForm.dfm:44 
+msgid "Encoding:"
+msgstr "Koodaus:"
+
+#. SpecialCharsForm..lblKeyCode..Caption
+#: JgbSpecialCharsForm.dfm:53 
+msgid "Keyboard shortcut: Alt+"
+msgstr "Pikanäppäin: Alt+"
+
+#. SpecialCharsForm..btnClose..Caption
+#. TransAboutForm..CloseBtn..Caption
+#. EditAutoCorrectionsForm..BtnClose..Caption
+#: JgbSpecialCharsForm.dfm:97 TransAbout.dfm:646 
+#: TransEditAutoCorrect.dfm:200
+msgid "&Close"
+msgstr "&Sulje"
+
+#. SpecialCharsForm..chkCloseOnInsert....Hint
+#: JgbSpecialCharsForm.dfm:149 
+msgid ""
+"When checked this window will close after you insert the character of your "
+"choice into the editor (by double clicking or using the insert button)"
+msgstr ""
+"Kun valittuna tämä ikkuna sulkeutuu kun upotat valitsemasi merkin "
+"muokkaajaan (kaksoisklikkaamalla tai käyttäen Upota-painiketta)"
+
+#. SpecialCharsForm..chkCloseOnInsert..Caption
+#: JgbSpecialCharsForm.dfm:150 
+msgid "Close window after inserting a character"
+msgstr "Sulje ikkuna merkin upottamisen jälkeen"
+
+#. SpecialCharsForm..btnInsert..Caption
+#: JgbSpecialCharsForm.dfm:166 
+msgid "&Insert"
+msgstr "&Upota"
+
+#. #-#-#-#-#  ..\stable\default.po (PACKAGE VERSION)  #-#-#-#-#
+#. SpecialCharsForm..btnHelp..Caption
+#. MainForm..MainMenu..MM_Help..Caption
+#. EditAutoCorrectionsForm..HelpBtn..Caption
+#. OptionsForm..HelpBtn..Caption
+#. ProDialog..HelpBtn..Caption
+#. #-#-#-#-#  ..\..\jgb\source\default.po (PACKAGE VERSION)  #-#-#-#-#
+#. RtfParaDialog..HelpBtn..Caption
+#. RtfTabsDialog..HelpBtn..Caption
+#: JgbSpecialCharsForm.dfm:177 TranscriptMain.dfm:2525 
+#: TransEditAutoCorrect.dfm:211 TransOpties.dfm:1700 TransPro.dfm:74
+#: RtfParagraphOptionsForm.dfm:196 RtfTabSettingsForm.dfm:71
+msgid "&Help"
+msgstr "&Ohje"
+
+#. SpecialCharsForm..chkAlwaysOnTop..Hint
+#: JgbSpecialCharsForm.dfm:186 
+msgid "Option to show this window always above the Transcript window."
+msgstr "Optio näyttää tämä ikkuna aina Transcriptin ikkunan yläpuolella."
+
+#. SpecialCharsForm..chkAlwaysOnTop..Caption
+#: JgbSpecialCharsForm.dfm:187 
+msgid "Always on top"
+msgstr "Aina ylimpänä"
+
+#. TransAboutForm..Caption
+#: TransAbout.dfm:7 
+msgid "About"
+msgstr "Tietoja"
+
+#. TransAboutForm..JvPanel3..JvStaticText4..Caption
+#: TransAbout.dfm:79 
+msgid "E-mail"
+msgstr "Sähköposti"
+
+#. TransAboutForm..JvPanel3..JvStaticText3..Caption
+#: TransAbout.dfm:98 
+msgid "Website"
+msgstr "Verkkosivusto"
+
+#. TransAboutForm..JvPanel3..StaticCopyright..Caption
+#: TransAbout.dfm:115 
+msgid "Copyright © 2003-%d Jacob Boerema"
+msgstr "Copyright © 2003-%d Jacob Boerema"
+
+#. TransAboutForm..JvPanel3..JvHotLink2..Caption
+#. TransAboutForm..JvPanel3..JvHotLink2..URL
+#. 16-1-2008 Website url
+#. Programmer's name for it: WebsiteUrl
+#: TransAbout.dfm:133 TransAbout.dfm:149 TransTranslatableStrings.pas:204 
+msgid "http://www.jacobboerema.nl/en/Freeware.htm"
+msgstr "http://www.jacobboerema.nl/en/Freeware.htm"
+
+#. TransAboutForm..BackPanel..JvStaticText1..Caption
+#: TransAbout.dfm:184 
+msgid "This program uses code and components from"
+msgstr "Tämä ohjelma käyttää koodia ja komponentteja"
+
+#. TransAboutForm..BackPanel..lblJvcl..Caption
+#: TransAbout.dfm:207 
+msgid "Jedi Visual Component Library (JVCL)"
+msgstr "Jedi Visual Component Library (JVCL)"
+
+#. TransAboutForm..BackPanel..JvHotLink3..Caption
+#. TransAboutForm..BackPanel..JvHotLink3..URL
+#: TransAbout.dfm:232 TransAbout.dfm:248 
+msgid "http://jvcl.delphi-jedi.org/"
+msgstr "http://jvcl.delphi-jedi.org/"
+
+#. TransAboutForm..BackPanel..JclLink..Caption
+#. TransAboutForm..BackPanel..JclLink..URL
+#: TransAbout.dfm:259 TransAbout.dfm:275 
+msgid "http://jcl.delphi-jedi.org/"
+msgstr "http://jcl.delphi-jedi.org/"
+
+#. TransAboutForm..BackPanel..lblJcl..Caption
+#: TransAbout.dfm:284 
+msgid "Jedi Code Library (JCL)"
+msgstr "Jedi Code Library (JCL)"
+
+#. TransAboutForm..BackPanel..lblTwain..Caption
+#: TransAbout.dfm:357 
+msgid "Colin Wilson's Twain code (adapted)"
+msgstr "Colin Wilson's Twain code (sovitettu)"
+
+#. TransAboutForm..BackPanel..JvTabBar1......Caption
+#: TransAbout.dfm:424 
+msgid "Credits"
+msgstr ""
+
+#. TransAboutForm..BackPanel..JvTabBar1......Caption
+#: TransAbout.dfm:428 
+msgid "Info"
+msgstr ""
+
+#. TransAboutForm..JvPanel1..StaticProgVersion..Caption
+#. TranscriptAppName := Copy(Application.Title,1,Length(Application.Title)-4);
+#: TransAbout.dfm:477 TransInfoSupplier.pas:87 
+msgid "%s version %d.%d.%d.%d"
+msgstr "%s versio %d.%d.%d.%d"
+
+#. MainForm..CoolBar..EditBar..FontCombo..Hint
+#: TranscriptMain.dfm:178 
+msgid "Choose font"
+msgstr "Valitse fontti"
+
+#. MainForm..CoolBar..EditBar..FontSize..Hint
+#: TranscriptMain.dfm:192 
+msgid "Change fontsize"
+msgstr "Muuta fontin koko"
+
+#. MainForm..CoolBar..EditBar..EditorZoomCombo..Hint
+#: TranscriptMain.dfm:205 
+msgid "Zoom in or out on the text (default is 100)"
+msgstr "Lähennä tai loitanna tekstiä (oletus on 100)"
+
+#. MainForm..CoolBar..EditBar..NummeringBtn..Hint
+#: TranscriptMain.dfm:286 
+msgid "Choose numbering style"
+msgstr "Valitse numeroinnin tyyppi"
+
+#. MainForm..CoolBar..EditBar..NummeringBtn..Caption
+#. MainForm..ActionList1..NoNumberingActn..Caption
+#: TranscriptMain.dfm:287 TranscriptMain.dfm:1543 
+msgid "None"
+msgstr "Ei mitään"
+
+#. MainForm..CoolBar..EditBar..BackgroundColorButton..Properties.DefaultColorCaption
+#. MainForm..CoolBar..EditBar..TextColorButton..Properties.DefaultColorCaption
+#: TranscriptMain.dfm:376 TranscriptMain.dfm:433 
+msgid "Automatic"
+msgstr "Ei mitään"
+
+#. MainForm..CoolBar..EditBar..BackgroundColorButton..Properties.CustomColorCaption
+#. MainForm..CoolBar..EditBar..TextColorButton..Properties.CustomColorCaption
+#: TranscriptMain.dfm:377 TranscriptMain.dfm:434 
+msgid "Other colors..."
+msgstr "Muut värit..."
+
+#. MainForm..CoolBar..EditBar..BackgroundColorButton..Properties.DefaultColorHint
+#. MainForm..CoolBar..EditBar..TextColorButton..Properties.DefaultColorHint
+#: TranscriptMain.dfm:378 TranscriptMain.dfm:435 
+msgid "Automatic color"
+msgstr "Automaattinen väri"
+
+#. MainForm..CoolBar..EditBar..BackgroundColorButton..Properties.CustomColorHint
+#. MainForm..CoolBar..EditBar..TextColorButton..Properties.CustomColorHint
+#: TranscriptMain.dfm:379 TranscriptMain.dfm:436 
+msgid "Other colors"
+msgstr "Muut värit"
+
+#. MainForm..CoolBar..EditBar..BackgroundColorButton..Properties.DragBarHint
+#. MainForm..CoolBar..EditBar..TextColorButton..Properties.DragBarHint
+#: TranscriptMain.dfm:395 TranscriptMain.dfm:452 
+msgid "Drag to make this menu floating"
+msgstr "Raahaa tehdäksesi tästä valikosta kelluva"
+
+#. MainForm..CoolBar..PictBar..lblImage..Hint
+#. MainForm..CoolBar..PictBar..PictFileCombo..Hint
+#: TranscriptMain.dfm:496 TranscriptMain.dfm:513 
+msgid "Choose an image from this list."
+msgstr "Valitse kuva tästä listasta."
+
+#. MainForm..CoolBar..PictBar..lblImage..Caption
+#: TranscriptMain.dfm:497 
+msgid "&Image:"
+msgstr "&Kuva:"
+
+#. MainForm..CoolBar..PictBar..lblZoom..Caption
+#: TranscriptMain.dfm:553 
+msgid "&Zoom:"
+msgstr "&Zoomaa:"
+
+#. MainForm..CoolBar..PictBar..ZoomCombo..Hint
+#: TranscriptMain.dfm:569 
+msgid "Zoom in or out on the image (default is 100)"
+msgstr "Zoomaa kuvaa (oletus on 100)"
+
+#. MainForm..CoolBar..PictBar..lblBrightness..Caption
+#: TranscriptMain.dfm:611 
+msgid "&Brightness:"
+msgstr "&Kirkkaus:"
+
+#. MainForm..CoolBar..PictBar..BrightnessCombo..Hint
+#: TranscriptMain.dfm:627 
+msgid "Change brightness (default is 100)"
+msgstr "Muuta kirkkautta (oletus on 100)"
+
+#. MainForm..CoolBar..ProjectsToolBar..lblProject..Hint
+#. MainForm..CoolBar..ProjectsToolBar..ProjectsCombo..Hint
+#: TranscriptMain.dfm:690 TranscriptMain.dfm:707 
+msgid "Current project (choose from the list to open another project)"
+msgstr "Nykyinen projekti (valitse listalta toisen projektin avaamiseksi)"
+
+#. MainForm..CoolBar..ProjectsToolBar..lblProject..Caption
+#: TranscriptMain.dfm:691 
+msgid "Project:"
+msgstr "Projekti:"
+
+#. MainForm..CoolBar..ProjectsToolBar..lblTime..Hint
+#: TranscriptMain.dfm:744 
+msgid "hours:minutes:seconds worked on this project"
+msgstr "tuntia:minuuttia:sekuntia työstetty tätä projektia"
+
+#. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintIndentFirst
+#: TranscriptMain.dfm:862 
+msgid "First Indent"
+msgstr "Ensi sisennys"
+
+#. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintIndentLeft
+#: TranscriptMain.dfm:863 
+msgid "Left Indent"
+msgstr "Vasen sisennys"
+
+#. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintIndentHanging
+#: TranscriptMain.dfm:864 
+msgid "Hanging Indent"
+msgstr "Riippuva sisennys"
+
+#. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintIndentRight
+#: TranscriptMain.dfm:865 
+msgid "Right Indent"
+msgstr "Oikea sisennys"
+
+#. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintTabCenter
+#: TranscriptMain.dfm:866 
+msgid "Center aligned tab"
+msgstr "Keskelle tasauksen kieleke"
+
+#. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintTabDecimal
+#: TranscriptMain.dfm:867 
+msgid "Decimal aligned tab"
+msgstr "Desimaalien tasauksen kieleke"
+
+#. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintTabLeft
+#: TranscriptMain.dfm:868 
+msgid "Left aligned tab"
+msgstr "Vasemmalle tasauksen kieleke"
+
+#. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintTabRight
+#: TranscriptMain.dfm:869 
+msgid "Right aligned tab"
+msgstr "Oikealle tasauksen kieleke"
+
+#. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintTabWordBar
+#: TranscriptMain.dfm:870 
+msgid "Word Bar aligned tab"
+msgstr ""
+
+#. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.MenuTabCenter
+#: TranscriptMain.dfm:871 
+msgid "Center align"
+msgstr "Tasaus keskelle"
+
+#. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.MenuTabDecimal
+#: TranscriptMain.dfm:872 
+msgid "Decimal align"
+msgstr "Desimaalien tasaus"
+
+#. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.MenuTabLeft
+#: TranscriptMain.dfm:873 
+msgid "Left align"
+msgstr "Tasaus vasemmalle"
+
+#. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.MenuTabRight
+#: TranscriptMain.dfm:874 
+msgid "Right align"
+msgstr "Tasaus oikealle"
+
+#. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.MenuTabWordBar
+#: TranscriptMain.dfm:875 
+msgid "Word Bar align"
+msgstr ""
+
+#. MainForm..ActionList1..PrevPictActn..Caption
+#: TranscriptMain.dfm:1054 
+msgid "&Previous image"
+msgstr "&Edellinen kuva"
+
+#. MainForm..ActionList1..PrevPictActn..Hint
+#: TranscriptMain.dfm:1056 
+msgid "Go to the previous image"
+msgstr "Siirry edelliseen kuvaan"
+
+#. MainForm..ActionList1..FileOpenActn..Caption
+#: TranscriptMain.dfm:1063 
+msgid "&Open rtf textfile..."
+msgstr "&Avaa rtf tekstitiedosto..."
+
+#. MainForm..ActionList1..FileOpenActn..Hint
+#: TranscriptMain.dfm:1064 
+msgid "Open textfile in rich text format"
+msgstr "Avaa tekstitiedosto rich text format-muotoisena"
+
+#. MainForm..ActionList1..FileSaveActn..Caption
+#: TranscriptMain.dfm:1071 
+msgid "&Save rtf textfile"
+msgstr "&Tallenna rtf tekstitiedosto"
+
+#. MainForm..ActionList1..FileSaveActn..Hint
+#: TranscriptMain.dfm:1072 
+msgid "Save a textfile in rich text format"
+msgstr "Tallenna tekstitiedosto rich text format-muotoisena"
+
+#. MainForm..ActionList1..FileCloseActn..Caption
+#: TranscriptMain.dfm:1079 
+msgid "E&xit"
+msgstr "&Lopeta"
+
+#. MainForm..ActionList1..FileCloseActn..Hint
+#: TranscriptMain.dfm:1080 
+msgid "Exit program (Alt+F4)"
+msgstr "Lopeta (Alt+F4)"
+
+#. MainForm..ActionList1..OptionsActn..Caption
+#: TranscriptMain.dfm:1086 
+msgid "&Options..."
+msgstr "&Lisävalinnat..."
+
+#. MainForm..ActionList1..OptionsActn..Hint
+#. OptionsForm..Caption
+#: TranscriptMain.dfm:1087 TransOpties.dfm:8 
+msgid "Options"
+msgstr "Optiot"
+
+#. MainForm..ActionList1..FindTextActn..Caption
+#: TranscriptMain.dfm:1094 
+msgid "&Find..."
+msgstr "&Etsi..."
+
+#. MainForm..ActionList1..FindTextActn..Hint
+#: TranscriptMain.dfm:1095 
+msgid "Find text"
+msgstr "Etsi teksti"
+
+#. MainForm..ActionList1..NextPictActn..Caption
+#: TranscriptMain.dfm:1102 
+msgid "&Next image"
+msgstr "&Seuraava kuva"
+
+#. MainForm..ActionList1..NextPictActn..Hint
+#: TranscriptMain.dfm:1104 
+msgid "Go to the next image"
+msgstr "Siirry seuraavaan kuvaan"
+
+#. MainForm..ActionList1..FileSaveAsActn..Caption
+#: TranscriptMain.dfm:1111 
+msgid "Save &as..."
+msgstr "Tallenna &nimellä..."
+
+#. MainForm..ActionList1..FileSaveAsActn..Hint
+#: TranscriptMain.dfm:1112 
+#, fuzzy
+msgid "Save rtf textfile under another name"
+msgstr "Tallenna rtf rich text format-muotoisena toisella nimellä"
+
+#. MainForm..ActionList1..FileNewActn..Caption
+#: TranscriptMain.dfm:1119 
+msgid "&New rtf textfile"
+msgstr "&Uusi rtf tekstitiedosto"
+
+#. MainForm..ActionList1..FileNewActn..Hint
+#: TranscriptMain.dfm:1120 
+msgid "Create new rtf textfile"
+msgstr "Luo uusi rtf tekstitiedosto"
+
+#. MainForm..ActionList1..ReplaceTextActn..Caption
+#: TranscriptMain.dfm:1127 
+msgid "R&eplace..."
+msgstr "K&orvaa..."
+
+#. MainForm..ActionList1..ReplaceTextActn..Hint
+#: TranscriptMain.dfm:1128 
+msgid "Replace text"
+msgstr "Korvaa teksti"
+
+#. MainForm..ActionList1..FindNextActn..Caption
+#: TranscriptMain.dfm:1135 
+msgid "Find ne&xt"
+msgstr "Etsi seu&raava"
+
+#. MainForm..ActionList1..FindNextActn..Hint
+#: TranscriptMain.dfm:1136 
+msgid "Find next occurence of text"
+msgstr "Etsi tekstin seuraava esiintymä"
+
+#. MainForm..ActionList1..HelpShowHelpActn..Caption
+#: TranscriptMain.dfm:1143 
+msgid "&Help information"
+msgstr "&Ohje"
+
+#. MainForm..ActionList1..HelpShowHelpActn..Hint
+#: TranscriptMain.dfm:1145 
+msgid "Show help information"
+msgstr "Näytä ohjetietoja"
+
+#. MainForm..ActionList1..HelpAboutActn..Caption
+#: TranscriptMain.dfm:1152 
+msgid "&About..."
+msgstr "&Tästä ohjelmasta..."
+
+#. MainForm..ActionList1..HelpAboutActn..Hint
+#: TranscriptMain.dfm:1153 
+msgid "Information about this program"
+msgstr "Tietoja tästä ohjelmasta"
+
+#. MainForm..ActionList1..DefaultFontActn..Caption
+#: TranscriptMain.dfm:1159 
+msgid "Default &font..."
+msgstr "Oletus &fontti..."
+
+#. MainForm..ActionList1..DefaultFontActn..Hint
+#: TranscriptMain.dfm:1160 
+msgid "Change default font"
+msgstr "Vaihda oletusfontti"
+
+#. MainForm..ActionList1..ToggleBoldActn..Caption
+#: TranscriptMain.dfm:1167 
+msgid "&Bold"
+msgstr "&Lihavoitu"
+
+#. MainForm..ActionList1..ToggleBoldActn..Hint
+#: TranscriptMain.dfm:1168 
+msgid "Bold"
+msgstr "Lihavoitu"
+
+#. MainForm..ActionList1..ToggleItalicActn..Caption
+#: TranscriptMain.dfm:1175 
+msgid "&Italic"
+msgstr "&Kursivoitu"
+
+#. MainForm..ActionList1..ToggleItalicActn..Hint
+#: TranscriptMain.dfm:1176 
+msgid "Italic"
+msgstr "Kursivoitu"
+
+#. MainForm..ActionList1..ToggleUnderlineActn..Caption
+#: TranscriptMain.dfm:1183 
+msgid "&Underline"
+msgstr "&Alleviivaus"
+
+#. MainForm..ActionList1..ToggleUnderlineActn..Hint
+#: TranscriptMain.dfm:1184 
+msgid "Underline"
+msgstr "Alleviivaus"
+
+#. MainForm..ActionList1..PictOpenActn..Caption
+#: TranscriptMain.dfm:1191 
+msgid "Open &imagefile..."
+msgstr "Avaa &kuvatiedosto..."
+
+#. MainForm..ActionList1..PictOpenActn..Hint
+#: TranscriptMain.dfm:1192 
+msgid "Open imagefile to transcribe"
+msgstr "Avaa kuvatiedosto tulkittavaksi"
+
+#. MainForm..ActionList1..CurFontActn..Caption
+#: TranscriptMain.dfm:1199 
+msgid "&Font..."
+msgstr "&Fontti..."
+
+#. MainForm..ActionList1..CurFontActn..Hint
+#: TranscriptMain.dfm:1200 
+msgid "Change font"
+msgstr "Vaihda fontti"
+
+#. MainForm..ActionList1..EditUndo1..Caption
+#: TranscriptMain.dfm:1207 
+msgid "&Undo"
+msgstr "&Kumoa"
+
+#. MainForm..ActionList1..EditUndo1..Hint
+#: TranscriptMain.dfm:1208 
+msgid "Undo|Reverts the last action"
+msgstr "Kumoa viimeinen toimenpide"
+
+#. MainForm..ActionList1..EditCut1..Caption
+#: TranscriptMain.dfm:1215 
+msgid "Cu&t"
+msgstr "&Leikkaa"
+
+#. MainForm..ActionList1..EditCut1..Hint
+#: TranscriptMain.dfm:1216 
+msgid "Cut|Cuts the selection and puts it on the Clipboard"
+msgstr "Leikkaa valinnan leikepöydälle"
+
+#. MainForm..ActionList1..EditCopy1..Caption
+#. MainForm..ActionList1..actEditCopy..Caption
+#: TranscriptMain.dfm:1222 TranscriptMain.dfm:2033 
+msgid "&Copy"
+msgstr "&Kopioi"
+
+#. MainForm..ActionList1..EditCopy1..Hint
+#. MainForm..ActionList1..actEditCopy..Hint
+#: TranscriptMain.dfm:1224 TranscriptMain.dfm:2034 
+msgid "Copy|Copies the selection and puts it on the Clipboard"
+msgstr "Leikkaa valinnan leikepöydälle"
+
+#. MainForm..ActionList1..EditPaste1..Caption
+#. MainForm..ActionList1..actEditPaste..Caption
+#: TranscriptMain.dfm:1231 TranscriptMain.dfm:1920 
+msgid "&Paste"
+msgstr "&Liitä"
+
+#. MainForm..ActionList1..EditPaste1..Hint
+#. MainForm..ActionList1..actEditPaste..Hint
+#: TranscriptMain.dfm:1233 TranscriptMain.dfm:1921 
+msgid "Paste|Inserts Clipboard contents"
+msgstr "Liittää | Upottaa leikepöydän sisällön"
+
+#. MainForm..ActionList1..EditSelectAll1..Caption
+#: TranscriptMain.dfm:1240 
+msgid "Select &All"
+msgstr "Valitse &Kaikki"
+
+#. MainForm..ActionList1..EditSelectAll1..Hint
+#: TranscriptMain.dfm:1241 
+msgid "Select All|Selects the entire document"
+msgstr "Valitse kaikki|Valitsee koko asiakirjan"
+
+#. MainForm..ActionList1..ToggleStrikeoutActn..Caption
+#: TranscriptMain.dfm:1247 
+msgid "&Strikeout"
+msgstr "&Yliviivaus"
+
+#. MainForm..ActionList1..ToggleStrikeoutActn..Hint
+#: TranscriptMain.dfm:1248 
+msgid "Strikeout"
+msgstr "Yliviivaus"
+
+#. MainForm..ActionList1..ToggleBulletsActn..Caption
+#: TranscriptMain.dfm:1255 
+msgid "Bullets"
+msgstr "Luettelomerkit"
+
+#. MainForm..ActionList1..ToggleBulletsActn....Hint
+#: TranscriptMain.dfm:1258 
+msgid ""
+"Insert a bullet on the current line (cycle through the bullet styles with "
+"Ctrl+Shift+L)"
+msgstr ""
+"Upota luettelomerkki nykyiselle riville (selaa luettelomerkkien tyyppejä Ctrl"
+"+Shift+L näppäinvalinnalla)"
+
+#. MainForm..ActionList1..AlignLeftActn..Caption
+#: TranscriptMain.dfm:1264 
+msgid "Align &Left"
+msgstr "Tasaa &Vasemmat reunat"
+
+#. MainForm..ActionList1..AlignLeftActn..Hint
+#: TranscriptMain.dfm:1266 
+msgid "Align Left|Aligns text at the left indent"
+msgstr "Tasaa vasemmat reunat"
+
+#. MainForm..ActionList1..AlignRightActn..Caption
+#: TranscriptMain.dfm:1272 
+msgid "Align &Right"
+msgstr "Tasaa &Oikeat reunat"
+
+#. MainForm..ActionList1..AlignRightActn..Hint
+#: TranscriptMain.dfm:1274 
+msgid "Align Right|Aligns text at the right indent"
+msgstr "Tasaa oikeat reunat"
+
+#. MainForm..ActionList1..AlignCenterActn..Caption
+#: TranscriptMain.dfm:1280 
+msgid "&Center"
+msgstr "&Keskitä"
+
+#. MainForm..ActionList1..AlignCenterActn..Hint
+#: TranscriptMain.dfm:1282 
+msgid "Center|Centers text between margins"
+msgstr "Keskitä teksti"
+
+#. MainForm..ActionList1..ParaOptionsActn..Caption
+#: TranscriptMain.dfm:1288 
+msgid "&Paragraph..."
+msgstr "&Kappale..."
+
+#. MainForm..ActionList1..ParaOptionsActn..Hint
+#: TranscriptMain.dfm:1289 
+msgid "Paragraph options"
+msgstr "Kappale lisävalinnat"
+
+#. MainForm..ActionList1..AlignJustifyActn..Caption
+#: TranscriptMain.dfm:1296 
+msgid "&Justify"
+msgstr "&Tasaa"
+
+#. MainForm..ActionList1..AlignJustifyActn..Hint
+#: TranscriptMain.dfm:1298 
+msgid "Justify: Justifies text between left and right margins"
+msgstr "Tasaa teksti"
+
+#. MainForm..ActionList1..EditDelete1..Caption
+#. EditAutoCorrectionsForm..btnDelete..Caption
+#: TranscriptMain.dfm:1304 TransEditAutoCorrect.dfm:287 
+msgid "&Delete"
+msgstr "&Poista"
+
+#. MainForm..ActionList1..EditDelete1..Hint
+#: TranscriptMain.dfm:1305 
+msgid "Delete|Erases the selection"
+msgstr "Tyhjentää valinnan"
+
+#. MainForm..ActionList1..EditRedoActn..Caption
+#: TranscriptMain.dfm:1310 
+msgid "&Redo"
+msgstr "&Palauta"
+
+#. MainForm..ActionList1..EditRedoActn..Hint
+#: TranscriptMain.dfm:1311 
+msgid "Redo|Reverts the last undo"
+msgstr "Kumoa|mitätöi edellinen kumoaminen"
+
+#. MainForm..ActionList1..TabSettingsActn..Caption
+#: TranscriptMain.dfm:1319 
+msgid "&Tabs..."
+msgstr "&Sarkaimet..."
+
+#. MainForm..ActionList1..TabSettingsActn..Hint
+#: TranscriptMain.dfm:1320 
+msgid "Tab settings"
+msgstr "Sarkainasetukset"
+
+#. MainForm..ActionList1..GetTwainImage..Caption
+#: TranscriptMain.dfm:1332 
+msgid "Ac&quire image..."
+msgstr "&Nouda kuva..."
+
+#. MainForm..ActionList1..GetTwainSource..Caption
+#: TranscriptMain.dfm:1338 
+msgid "Select Twain source..."
+msgstr "Valitse Twain lähde..."
+
+#. MainForm..ActionList1..SuperScriptActn..Caption
+#: TranscriptMain.dfm:1501 
+msgid "Superscript"
+msgstr "Yläindeksi"
+
+#. MainForm..ActionList1..SuperScriptActn..Hint
+#: TranscriptMain.dfm:1502 
+msgid "Toggle superscript"
+msgstr "Yläindeksi päälle/päältä"
+
+#. MainForm..ActionList1..SubscriptActn..Caption
+#: TranscriptMain.dfm:1508 
+msgid "Subscript"
+msgstr "Alaindeksi"
+
+#. MainForm..ActionList1..SubscriptActn..Hint
+#: TranscriptMain.dfm:1509 
+msgid "Toggle subscript"
+msgstr "Alaindeksi päälle/päältä"
+
+#. MainForm..ActionList1..ImportFileActn..Caption
+#: TranscriptMain.dfm:1515 
+msgid "Import textfile..."
+msgstr "Tuo tekstitiedosto..."
+
+#. MainForm..ActionList1..ImportFileActn....Hint
+#: TranscriptMain.dfm:1518 
+msgid "Import a textfile using the Microsoft Office import/export filters"
+msgstr "Tuo tekstitiedosto käyttäen Microsoft Office tuo/vie suodattimia"
+
+#. MainForm..ActionList1..ExportFileActn..Caption
+#: TranscriptMain.dfm:1524 
+msgid "Export textfile..."
+msgstr "Vie tekstitiedosto..."
+
+#. MainForm..ActionList1..ExportFileActn....Hint
+#: TranscriptMain.dfm:1527 
+msgid "Export a textfile using the Microsoft Office import/export filters"
+msgstr "Vie tekstitiedosto käyttäen Microsoft Office tuo/vie suodattimia"
+
+#. MainForm..ActionList1..InvertPictActn..Caption
+#: TranscriptMain.dfm:1563 
+msgid "&Inverted colors"
+msgstr "&Vastavärit"
+
+#. MainForm..ActionList1..GrayscalePictActn..Caption
+#: TranscriptMain.dfm:1568 
+msgid "&Greyscale image"
+msgstr "&Harmaasävykuva"
+
+#. MainForm..ActionList1..RotateLeftActn..Caption
+#: TranscriptMain.dfm:1573 
+msgid "Rotate &left"
+msgstr "Käännä &vastapäivään"
+
+#. MainForm..ActionList1..RotateRightActn..Caption
+#: TranscriptMain.dfm:1579 
+msgid "Rotate &right"
+msgstr "Käännä &myötäpäivään"
+
+#. MainForm..ActionList1..Rot90Actn..Caption
+#: TranscriptMain.dfm:1585 
+msgid "Rotate 90°"
+msgstr "Käännä 90°"
+
+#. MainForm..ActionList1..Rot180Actn..Caption
+#: TranscriptMain.dfm:1591 
+msgid "Rotate 180°"
+msgstr "Käännä 180°"
+
+#. MainForm..ActionList1..Rot270Actn..Caption
+#: TranscriptMain.dfm:1597 
+msgid "Rotate 270°"
+msgstr "Käännä 270°"
+
+#. MainForm..ActionList1..NoRotationActn..Caption
+#: TranscriptMain.dfm:1603 
+msgid "No Rotation"
+msgstr "Ei kääntöä"
+
+#. MainForm..ActionList1..OriginalImageActn..Caption
+#: TranscriptMain.dfm:1609 
+msgid "Original image"
+msgstr "Alkuperäinen kuva"
+
+#. MainForm..ActionList1..TopOfRightPageActn..Caption
+#: TranscriptMain.dfm:1621 
+msgid "Top of right page"
+msgstr "Oikean sivun yläreuna"
+
+#. MainForm..ActionList1..TopOfRightPageActn..Hint
+#: TranscriptMain.dfm:1622 
+msgid "Go to the top of the right page on the image"
+msgstr "Siirry kuvan oikean sivun yläreunaan"
+
+#. MainForm..ActionList1..TopOfLeftPageActn..Caption
+#: TranscriptMain.dfm:1628 
+msgid "Top of left page"
+msgstr "Vasemman sivun yläreuna"
+
+#. MainForm..ActionList1..TopOfLeftPageActn..Hint
+#: TranscriptMain.dfm:1629 
+msgid "Go to the top of the left page on the image"
+msgstr "Siirry kuvan vasemman sivun yläreunaan"
+
+#. MainForm..ActionList1..LeftPageActn..Caption
+#. MainForm..ActionList1..actImgLeftPage..Caption
+#: TranscriptMain.dfm:1635 TranscriptMain.dfm:1845 
+msgid "Left page"
+msgstr "Vasen sivu"
+
+#. MainForm..ActionList1..LeftPageActn..Hint
+#: TranscriptMain.dfm:1636 
+msgid "Go to the left page on the image"
+msgstr "Siirry kuvan vasempaan sivuun"
+
+#. MainForm..ActionList1..RightPageActn..Caption
+#. MainForm..ActionList1..actImgRightPage..Caption
+#: TranscriptMain.dfm:1642 TranscriptMain.dfm:1870 
+msgid "Right page"
+msgstr "Oikea sivu"
+
+#. MainForm..ActionList1..RightPageActn..Hint
+#: TranscriptMain.dfm:1643 
+msgid "Go to the right page on the image"
+msgstr "Siirry kuvan vasempaan sivuun"
+
+#. MainForm..ActionList1..MaximizePictWin..Caption
+#: TranscriptMain.dfm:1649 
+msgid "Maximize &image window"
+msgstr "Maksimoi &kuvaikkuna"
+
+#. MainForm..ActionList1..MaximizePictWin....Hint
+#: TranscriptMain.dfm:1652 
+msgid ""
+"Maximize the image window (editor will not be visible but you can still use "
+"it)"
+msgstr ""
+"Maksimoi kuvaikkuna (muokkaaja ei ole näkyvissä mutta sitä voi yhä käyttää)"
+
+#. MainForm..ActionList1..MaximizeEditWin..Caption
+#: TranscriptMain.dfm:1659 
+msgid "Maximize &editor window"
+msgstr "Maksimoi &muokkausikkuna"
+
+#. MainForm..ActionList1..MaximizeEditWin..Hint
+#: TranscriptMain.dfm:1660 
+msgid "Maximize the editor window (image window will not be visible)"
+msgstr "Maksimoi muokkausikkuna (kuvaikkuna ei ole näkyvissä)"
+
+#. MainForm..ActionList1..FileCloseImageFileActn..Caption
+#: TranscriptMain.dfm:1667 
+msgid "&Close imagefile"
+msgstr "&Sulje kuvatiedosto"
+
+#. MainForm..ActionList1..FileCloseImageFileActn..Hint
+#: TranscriptMain.dfm:1668 
+msgid "Close the current image file"
+msgstr "Sulje nykyinen kuvatiedosto"
+
+#. MainForm..ActionList1..FileCloseTextFileActn..Caption
+#: TranscriptMain.dfm:1674 
+msgid "Close rtf &textfile"
+msgstr "Sulje rtf &tekstitiedosto"
+
+#. MainForm..ActionList1..FileCloseTextFileActn..Hint
+#: TranscriptMain.dfm:1675 
+msgid "Close the current rtf textfile (same as new rtf textfile)"
+msgstr "Sulje nykyinen rtf tekstitiedosto (sama kuin rtf tekstitiedosto)"
+
+#. MainForm..ActionList1..FullScreenActn..Caption
+#: TranscriptMain.dfm:1682 
+msgid "&Full Screen"
+msgstr "&Kokonäyttö"
+
+#. MainForm..ActionList1..RegisterActn..Caption
+#: TranscriptMain.dfm:1689 
+msgid "&Register..."
+msgstr "&Rekisteröi..."
+
+#. MainForm..ActionList1..InsertFilenamActn..Caption
+#: TranscriptMain.dfm:1695 
+msgid "&Insert autotext"
+msgstr "&Upota automaattinen teksti"
+
+#. MainForm..ActionList1..NewProjectActn..Caption
+#: TranscriptMain.dfm:1704 
+msgid "&New project..."
+msgstr "&Uusi projekti..."
+
+#. MainForm..ActionList1..NewProjectActn..Hint
+#: TranscriptMain.dfm:1706 
+msgid "Make a new project using the current settings"
+msgstr "Luo uusi projekti nykyisillä asetuksilla"
+
+#. MainForm..ActionList1..ManageProjectsActn..Caption
+#: TranscriptMain.dfm:1714 
+msgid "&Manage projects..."
+msgstr "&Hallinnoi projekteja..."
+
+#. MainForm..ActionList1..ManageProjectsActn..Hint
+#: TranscriptMain.dfm:1716 
+msgid "Manage projects (rename, delete, set sorted)"
+msgstr "Hallinnoi projekteja (nimeä uusiksi, poista, lajittele)"
+
+#. MainForm..ActionList1..actBackgroundColorBtn..Hint
+#: TranscriptMain.dfm:1724 
+msgid "Select backgroundcolor"
+msgstr "Valitse taustan väri"
+
+#. MainForm..ActionList1..actTextColorBtn..Hint
+#: TranscriptMain.dfm:1730 
+msgid "Select textcolor"
+msgstr "Valitse tekstin väri"
+
+#. MainForm..ActionList1..actIncreaseIndent..Caption
+#: TranscriptMain.dfm:1736 
+msgid "Increase indentation"
+msgstr "Suurenna sisennystä"
+
+#. MainForm..ActionList1..actIncreaseIndent..Hint
+#: TranscriptMain.dfm:1737 
+msgid "Increase the indentation of this paragraph"
+msgstr "Suurenna tämän kappaleen sisennystä"
+
+#. MainForm..ActionList1..actDecreaseIndent..Caption
+#: TranscriptMain.dfm:1744 
+msgid "Decrease indentation"
+msgstr "Pienennä sisennystä"
+
+#. MainForm..ActionList1..actDecreaseIndent..Hint
+#: TranscriptMain.dfm:1745 
+msgid "Decrease the indentation of this paragraph"
+msgstr "Pienennä tämän kappaleen sisennystä"
+
+#. MainForm..ActionList1..actShowEditorRuler..Caption
+#: TranscriptMain.dfm:1753 
+msgid "Show/Hide Ruler"
+msgstr "Näytä/Piilota linjain"
+
+#. MainForm..ActionList1..actDoubleUnderline..Caption
+#. MainForm..ActionList1..actDoubleUnderline..Hint
+#: TranscriptMain.dfm:1762 TranscriptMain.dfm:1763 
+msgid "Double Underline"
+msgstr "Kaksinkertainen alleviivaus"
+
+#. MainForm..ActionList1..actSharpen..Caption
+#: TranscriptMain.dfm:1769 
+msgid "Sharpen"
+msgstr "Terävöi"
+
+#. MainForm..ActionList1..actSharpen..Hint
+#: TranscriptMain.dfm:1770 
+msgid "Sharpen image"
+msgstr "Terävöi kuva"
+
+#. MainForm..ActionList1..actAutoContrast..Caption
+#: TranscriptMain.dfm:1776 
+msgid "Auto Contrast"
+msgstr "Automaattinen kontrasti"
+
+#. MainForm..ActionList1..actReloadAutoreplacements..Caption
+#: TranscriptMain.dfm:1787 
+msgid "Reload autreplacements list"
+msgstr "Lataa uudestaan automaattisten korvausten lista"
+
+#. MainForm..ActionList1..actZoomIn..Caption
+#. MainForm..ActionList1..actHighlighterZoomIn..Caption
+#: TranscriptMain.dfm:1794 TranscriptMain.dfm:2101 
+msgid "Zoom In"
+msgstr "Lähennä"
+
+#. MainForm..ActionList1..actZoomOut..Caption
+#. MainForm..ActionList1..actHighlighterZoomOut..Caption
+#: TranscriptMain.dfm:1799 TranscriptMain.dfm:2106 
+msgid "Zoom Out"
+msgstr "Loitonna"
+
+#. MainForm..ActionList1..actToggleProjectTimer..Caption
+#: TranscriptMain.dfm:1804 
+msgid "Start/pause project timer"
+msgstr "Käynnistä/pysäytä projektin aikalaskin"
+
+#. MainForm..ActionList1..actToggleProjectTimer....Hint
+#: TranscriptMain.dfm:1808 
+msgid ""
+"Start or pause the project timer which measures the time spent on this "
+"project"
+msgstr ""
+"Käynnistä tai pysäytä kello, joka mittaa tähän projektiin käytettyä aikaa"
+
+#. MainForm..ActionList1..actStopProjectTimer..Caption
+#. 13-4-2007
+#. Programmer's name for it: MsgStopTimerCaption
+#: TranscriptMain.dfm:1815 TransTranslatableStrings.pas:132 
+msgid "Stop project timer"
+msgstr "Pysäytä projektin aikalaskin"
+
+#. MainForm..ActionList1..actStopProjectTimer....Hint
+#: TranscriptMain.dfm:1819 
+msgid ""
+"This stops the project timer if it is running and resets the time spent "
+"working on this project to 0"
+msgstr "Tämä pysäyttää päällä olevan projektin aikalaskimen ja nollaa sen"
+
+#. MainForm..ActionList1..actResetProjectTimer..Caption
+#. Programmer's name for it: MsgResetTimerCaption
+#: TranscriptMain.dfm:1826 TransTranslatableStrings.pas:133 
+msgid "Reset project timer"
+msgstr "Nollaa projektiajanotto"
+
+#. MainForm..ActionList1..actResetProjectTimer..Hint
+#: TranscriptMain.dfm:1828 
+#, fuzzy
+msgid "Resets the time spent working on this project to 0"
+msgstr "Tämä pysäyttää päällä olevan projektin aikalaskimen ja nollaa sen"
+
+#. MainForm..ActionList1..actImgSetHorLeftOffset..Caption
+#: TranscriptMain.dfm:1835 
+msgid "Set horizontal offset for left pages"
+msgstr "Aseta vasemmalla olevien sivujen siirto"
+
+#. MainForm..ActionList1..actImgSetHorRightOffset..Caption
+#: TranscriptMain.dfm:1840 
+msgid "Set horizontal offset for right pages"
+msgstr "Aseta oikeallaolevien sivujen siirto"
+
+#. MainForm..ActionList1..actImgSetVertOffset..Caption
+#: TranscriptMain.dfm:1850 
+msgid "Set vertical offset"
+msgstr "Aseta pystysuoran siirron määrä"
+
+#. MainForm..ActionList1..actSetCenterImage..Caption
+#: TranscriptMain.dfm:1855 
+#, fuzzy
+msgid "Horizontal center image"
+msgstr "Keskitä kuva"
+
+#. MainForm..ActionList1..actSetHorOffsetAll..Caption
+#: TranscriptMain.dfm:1860 
+msgid "Use same horizontal offset for all images"
+msgstr "Käytä samaa vaakasuoraa siirtoa kaikissa kuvissa"
+
+#. MainForm..ActionList1..actSetHorOffsetLeftRight..Caption
+#: TranscriptMain.dfm:1865 
+msgid "Use different horizontal offsets for left and right pages"
+msgstr "Käytä eri siirtoa vasempaan ja oikeaan sivuun"
+
+#. MainForm..ActionList1..actAutoTextDlg..Caption
+#: TranscriptMain.dfm:1875 
+msgid "Edit autoreplacements list..."
+msgstr "Muokkaa automaattisten korvausten listaa..."
+
+#. MainForm..ActionList1..actAddReplacement..Caption
+#: TranscriptMain.dfm:1883 
+msgid "Add selection to replacements list..."
+msgstr "Lisää valinta korvausten listalle..."
+
+#. MainForm..ActionList1..actDeletePdfImages..Caption
+#: TranscriptMain.dfm:1891 
+msgid "Delete all extracted pdf images"
+msgstr "Poista kaikki puretut pdf kuvat"
+
+#. MainForm..ActionList1..actDeletePdfImages..Hint
+#: TranscriptMain.dfm:1893 
+msgid "Deletes all images extracted from pdf in the current directory"
+msgstr "Poistaa kaikki puretut pdf kuvat nykyisessä kansiossa"
+
+#. MainForm..ActionList1..actPdf75dpi..Caption
+#: TranscriptMain.dfm:1899 
+msgid "75 dpi"
+msgstr "75 dpi"
+
+#. MainForm..ActionList1..actPdf150dpi..Caption
+#: TranscriptMain.dfm:1906 
+msgid "150 dpi"
+msgstr "150 dpi"
+
+#. MainForm..ActionList1..actPdf300dpi..Caption
+#: TranscriptMain.dfm:1913 
+msgid "300 dpi"
+msgstr "300 dpi"
+
+#. MainForm..ActionList1..actEditPasteSpecial..Caption
+#: TranscriptMain.dfm:1929 
+msgid "Paste special..."
+msgstr "Liitä määräten..."
+
+#. MainForm..ActionList1..actToggleReadOnly..Caption
+#: TranscriptMain.dfm:1935 
+msgid "Read Only"
+msgstr "Vain lukuoikeus"
+
+#. MainForm..ActionList1..actGoToWebsite..Caption
+#: TranscriptMain.dfm:1940 
+msgid "Open Transcript website..."
+msgstr "Avaa Transcriptin verkkosivusto..."
+
+#. MainForm..ActionList1..actResumeTimerWhenTyping..Caption
+#: TranscriptMain.dfm:1947 
+msgid "Resume timer when typing"
+msgstr "Käynnistä aikalaskin tietoja syötettäessä"
+
+#. MainForm..ActionList1..actResumeTimerWhenTyping..Hint
+#: TranscriptMain.dfm:1949 
+#, fuzzy
+msgid "Resume manually paused timer when you start typing"
+msgstr "Käynnistä aikalaskin tietoja syötettäessä"
+
+#. MainForm..ActionList1..actStretchNearest..Caption
+#: TranscriptMain.dfm:1956 
+msgid "Nearest (fastest but worst quality)"
+msgstr "Lähin (nopein mutta heikoin laatu)"
+
+#. MainForm..ActionList1..actStretchDraft..Caption
+#: TranscriptMain.dfm:1964 
+msgid "Draft"
+msgstr "Luonnos"
+
+#. MainForm..ActionList1..actStretchLinear..Caption
+#: TranscriptMain.dfm:1972 
+msgid "Linear"
+msgstr "Lineaarinen"
+
+#. MainForm..ActionList1..actStretchCosine..Caption
+#: TranscriptMain.dfm:1980 
+msgid "Cosine"
+msgstr "Kosini"
+
+#. MainForm..ActionList1..actStretchSpline..Caption
+#: TranscriptMain.dfm:1988 
+msgid "Spline"
+msgstr "Splini"
+
+#. MainForm..ActionList1..actStretchLanczos..Caption
+#: TranscriptMain.dfm:1996 
+msgid "Lanczos"
+msgstr "Lanczos"
+
+#. MainForm..ActionList1..actStretchMitchell..Caption
+#: TranscriptMain.dfm:2005 
+msgid "Mitchell (slowest but best quality)"
+msgstr "Mitchell (hitain mutta paras laatu)"
+
+#. MainForm..ActionList1..actMoveMode..Caption
+#: TranscriptMain.dfm:2012 
+msgid "Move image with mouse"
+msgstr "Siirrä kuvaa hiirellä"
+
+#. MainForm..ActionList1..actMoveMode..Hint
+#: TranscriptMain.dfm:2015 
+msgid "Use mouse to move image"
+msgstr "Käytä hiirtä kuvan siirtämiseksi"
+
+#. MainForm..ActionList1..actSelectMode..Caption
+#: TranscriptMain.dfm:2023 
+msgid "Select part of image with mouse"
+msgstr "Valitse hiirellä osa kuvasta"
+
+#. MainForm..ActionList1..actSelectMode..Hint
+#: TranscriptMain.dfm:2026 
+msgid "Use mouse to select part of the image"
+msgstr "Käytä hiirtä osan valitsemiseksi kuvasta"
+
+#. MainForm..ActionList1..actPasteImgSelection..Caption
+#: TranscriptMain.dfm:2042 
+msgid "Insert image selection"
+msgstr "Upota kuvavalinta"
+
+#. MainForm..ActionList1..actPasteImgSelection..Hint
+#: TranscriptMain.dfm:2044 
+#, fuzzy
+msgid "Insert selected portion of image into the editor"
+msgstr "Valitse hiirellä osa kuvasta"
+
+#. MainForm..ActionList1..actCopySelectionToWindow..Caption
+#: TranscriptMain.dfm:2052 
+msgid "Copy selection to separate window"
+msgstr "Kopioi valinta omaan ikkunaansa"
+
+#. MainForm..ActionList1..actSpecialCharsDlg..Caption
+#: TranscriptMain.dfm:2059 
+msgid "Special characters..."
+msgstr "Erikoismerkit..."
+
+#. MainForm..ActionList1..actToggleViewToolbars..Caption
+#: TranscriptMain.dfm:2066 
+msgid "Show toolbars"
+msgstr "Näytä työkalupalkit"
+
+#. MainForm..ActionList1..actToggleWindowPositioning..Caption
+#: TranscriptMain.dfm:2073 
+msgid "Windows side by side"
+msgstr ""
+
+#. MainForm..ActionList1..actShowImageRuler..Caption
+#: TranscriptMain.dfm:2080 
+msgid "Show highlighter"
+msgstr ""
+
+#. MainForm..ActionList1..actSetHighlighterStartOffset..Caption
+#: TranscriptMain.dfm:2086 
+msgid "Set highlighter top offset"
+msgstr ""
+
+#. MainForm..ActionList1..actResetZoom..Caption
+#: TranscriptMain.dfm:2091 
+msgid "Reset to default zoom"
+msgstr ""
+
+#. MainForm..ActionList1..actResetBrightness..Caption
+#: TranscriptMain.dfm:2096 
+msgid "Reset to default brightness"
+msgstr ""
+
+#. MainForm..ActionList1..actHighlighterBrightnessInc..Caption
+#: TranscriptMain.dfm:2111 
+msgid "Increase brightness"
+msgstr "Lisää valoisuutta"
+
+#. MainForm..ActionList1..actHighlighterBrightnessDec..Caption
+#: TranscriptMain.dfm:2116 
+msgid "Decrease brightness"
+msgstr "Pienennä valoisuutta"
+
+#. MainForm..MainMenu..MM_Bestand..Caption
+#: TranscriptMain.dfm:2133 
+msgid "&File"
+msgstr "&Tiedosto"
+
+#. MainForm..MainMenu..MM_Bestand..RecentFilesMenu..Caption
+#: TranscriptMain.dfm:2145 
+msgid "&Reopen"
+msgstr "&Avaa jälleen"
+
+#. MainForm..MainMenu..MM_Bewerken..Caption
+#: TranscriptMain.dfm:2184 
+msgid "&Edit"
+msgstr "&Muokkaa"
+
+#. MainForm..MainMenu..Format1..Caption
+#: TranscriptMain.dfm:2236 
+msgid "For&mat"
+msgstr "Muotoile&"
+
+#. MainForm..MainMenu..MM_View..Caption
+#: TranscriptMain.dfm:2300 
+msgid "&View"
+msgstr "&Näytä"
+
+#. MainForm..MainMenu..MM_Navigatie..Caption
+#: TranscriptMain.dfm:2330 
+msgid "&Image"
+msgstr "&Kuva"
+
+#. MainForm..MainMenu..MM_Navigatie..Pdf1..Caption
+#. OptionsForm..JvPageControl..PdfTab..Caption
+#: TranscriptMain.dfm:2393 TransOpties.dfm:1521 
+msgid "Pdf"
+msgstr "Pdf"
+
+#. MainForm..MainMenu..MM_Navigatie..mnuStretchfilterwhenzoomedin..Caption
+#: TranscriptMain.dfm:2411 
+msgid "Stretch filter when zoomed in"
+msgstr "Venytä filteriä lähennettäessä"
+
+#. MainForm..MainMenu..MM_Navigatie..mnuStretchfilterwhenzoomedout..Caption
+#: TranscriptMain.dfm:2443 
+msgid "Stretch filter when zoomed out"
+msgstr "Venytä filteriä loitonnettaessä"
+
+#. MainForm..MainMenu..MM_Tools..Caption
+#: TranscriptMain.dfm:2476 
+msgid "&Tools"
+msgstr "&Työkalut"
+
+#. MainForm..EditPopup..Inserttext1..Caption
+#: TranscriptMain.dfm:2616 
+msgid "&Insert quick text"
+msgstr "&Upota pikateksti"
+
+#. MainForm..EditPopup..SetQuicktext..Caption
+#: TranscriptMain.dfm:2649 
+msgid "S&et quick text"
+msgstr "A&seta pikateksti"
+
+#. MainForm..pmImage..Copyselectiontowindow1....Hint
+#: TranscriptMain.dfm:6148 
+#, fuzzy
+msgid "Copies the selected portion of the image to a separate image window"
+msgstr "Kopioi valinta omaan ikkunaansa"
+
+#. MainForm..pmImage..mnuPositioning..Caption
+#: TranscriptMain.dfm:6157 
+msgid "Horizontal image positioning"
+msgstr "Kuvan vaakasuora asemointi"
+
+#. MainForm..pmImage..mnuPositioning..Horizontalcenterimage1..Caption
+#: TranscriptMain.dfm:6160 
+msgid "Center image"
+msgstr "Keskitä kuva"
+
+#. EditAutoCorrectionsForm..Caption
+#: TransEditAutoCorrect.dfm:8 
+msgid "Edit autoreplacements list"
+msgstr "Muokkaa autom. korvausten listaa"
+
+#. EditAutoCorrectionsForm..JvLabel1..Caption
+#: TransEditAutoCorrect.dfm:158 
+msgid "&Replace:"
+msgstr "&Vaihda:"
+
+#. EditAutoCorrectionsForm..JvLabel2..Caption
+#: TransEditAutoCorrect.dfm:171 
+msgid "&With:"
+msgstr "&Millä:"
+
+#. EditAutoCorrectionsForm..btnAdd..Caption
+#: TransEditAutoCorrect.dfm:273 
+msgid "&Add"
+msgstr "&Lisää"
+
+#. ExceptionDialog..SendBtn..Hint
+#: TransExceptionDlg.dfm:43 
+msgid "Send bug report using default mail client"
+msgstr ""
+
+#. ExceptionDialog..SendBtn..Caption
+#: TransExceptionDlg.dfm:45 
+msgid "&Send"
+msgstr "&Lähetä"
+
+#. ExceptionDialog..TextLabel..Hint
+#: TransExceptionDlg.dfm:54 
+msgid "Use Ctrl+C to copy the report to the clipboard"
+msgstr ""
+
+#. #-#-#-#-#  ..\stable\default.po (PACKAGE VERSION)  #-#-#-#-#
+#. ExceptionDialog..OkBtn..Caption
+#. OptionsForm..OKBtn..Caption
+#. #-#-#-#-#  ..\..\jgb\source\default.po (PACKAGE VERSION)  #-#-#-#-#
+#. RtfParaDialog..OKBtn..Caption
+#. RtfTabsDialog..OKBtn..Caption
+#: TransExceptionDlg.dfm:72 TransOpties.dfm:29 
+#: RtfParagraphOptionsForm.dfm:176 RtfTabSettingsForm.dfm:50
+msgid "&OK"
+msgstr "&OK"
+
+#. ExceptionDialog..DetailsBtn..Hint
+#: TransExceptionDlg.dfm:82 
+#, fuzzy
+msgid "Show or hide additional information"
+msgstr "Näytä ohjetietoja"
+
+#. ExceptionDialog..DetailsBtn..Caption
+#: TransExceptionDlg.dfm:84 
+msgid "&Details"
+msgstr "&Tiedot"
+
+#. OptionsForm..JvPageControl..GeneralTab..Caption
+#: TransOpties.dfm:50 
+msgid "General"
+msgstr "Yleistä"
+
+#. OptionsForm..JvPageControl..GeneralTab..AutoSaveGroup..Caption
+#: TransOpties.dfm:56 
+msgid "Save textfile"
+msgstr "Talleta tekstitiedosto"
+
+#. OptionsForm..JvPageControl..GeneralTab..AutoSaveGroup..JvLabel3..Caption
+#: TransOpties.dfm:65 
+msgid "Every"
+msgstr "Joka"
+
+#. OptionsForm..JvPageControl..GeneralTab..AutoSaveGroup..JvLabel4..Caption
+#: TransOpties.dfm:80 
+msgid "minutes"
+msgstr "minuutti"
+
+#. OptionsForm..JvPageControl..GeneralTab..AutoSaveGroup..AutoSaveCheck..Hint
+#: TransOpties.dfm:95 
+msgid "Option to save textfile automatically."
+msgstr "Optio tekstitiedoston automaattisesta tallettamisesta."
+
+#. OptionsForm..JvPageControl..GeneralTab..AutoSaveGroup..AutoSaveCheck..Caption
+#: TransOpties.dfm:96 
+msgid "&Automatic save"
+msgstr "&Automaattinen talletus"
+
+#. OptionsForm..JvPageControl..GeneralTab..AutoSaveGroup..MinutesEdit..Hint
+#: TransOpties.dfm:112 
+msgid "State here how often the file should be saved in minutes."
+msgstr "Aseta täällä minuuteissa kuinka usein tiedosto on tallennettava."
+
+#. OptionsForm..JvPageControl..GeneralTab..AutoSaveGroup..MakeBackups....Hint
+#: TransOpties.dfm:130 
+msgid ""
+"If you set this option a backup copy of the rtf textfile will be made when "
+"saving"
+msgstr ""
+"Tällä optiolla tekstitiedostosta tehdään varmuuskopio tallennuksen yhteydessä"
+
+#. OptionsForm..JvPageControl..GeneralTab..AutoSaveGroup..MakeBackups..Caption
+#: TransOpties.dfm:131 
+msgid "Make &backup copy"
+msgstr "Tee &varmuuskopio"
+
+#. OptionsForm..JvPageControl..GeneralTab..AutoLoadFiles....Hint
+#: TransOpties.dfm:149 
+msgid "Option whether or not the previously used files are opened at startup."
+msgstr ""
+"Optio sille näytetäänkö käynnistettäessä aikaisemmin käytetyt tiedostot vai "
+"ei."
+
+#. OptionsForm..JvPageControl..GeneralTab..AutoLoadFiles..Caption
+#: TransOpties.dfm:150 
+msgid "Automatically &load files at startup"
+msgstr "Lataa käynnistyksen yhteydessä tiedostot automaattisesti"
+
+#. OptionsForm..JvPageControl..GeneralTab..HintsGroup..Caption
+#: TransOpties.dfm:167 
+msgid "Hints"
+msgstr "Vihjeet"
+
+#. OptionsForm..JvPageControl..GeneralTab..HintsGroup..JvLabel12..Caption
+#: TransOpties.dfm:176 
+msgid "Hide after"
+msgstr "Piilota"
+
+#. OptionsForm..JvPageControl..GeneralTab..HintsGroup..JvLabel13..Caption
+#: TransOpties.dfm:191 
+msgid "seconds"
+msgstr "sekunnin jälkeen"
+
+#. OptionsForm..JvPageControl..GeneralTab..HintsGroup..ShowHintsCheck..Hint
+#: TransOpties.dfm:206 
+msgid "Option whether you want to see hints."
+msgstr "Optio vihjeiden näyttämisestä."
+
+#. OptionsForm..JvPageControl..GeneralTab..HintsGroup..ShowHintsCheck..Caption
+#: TransOpties.dfm:207 
+msgid "&Show hints"
+msgstr "&Näytä vihjeet"
+
+#. OptionsForm..JvPageControl..GeneralTab..HintsGroup..HintHideEdit..Hint
+#: TransOpties.dfm:223 
+msgid "Number of seconds after which a hint should be hidden."
+msgstr "Sekuntien määrä jonka jälkeen vihje piilotetaan."
+
+#. OptionsForm..JvPageControl..GeneralTab..MeasureGroup..Caption
+#: TransOpties.dfm:239 
+msgid "&Measurements"
+msgstr "&Mitta-asteikot"
+
+#. OptionsForm..JvPageControl..GeneralTab..MeasureGroup....Items.Strings
+#: TransOpties.dfm:242 
+msgid "inches"
+msgstr "tuumaa"
+
+#. OptionsForm..JvPageControl..GeneralTab..MeasureGroup....Items.Strings
+#: TransOpties.dfm:243 
+msgid "centimeters"
+msgstr "senttimetriä"
+
+#. OptionsForm..JvPageControl..GeneralTab..RememberTextZoomCheck....Hint
+#: TransOpties.dfm:255 
+msgid "Set this option to restore previous text zoom value at program startup"
+msgstr ""
+"Aseta tämä optio palauttaaksesi ohjelman käynnistyessä aikaisempi tekstin "
+"zoomaus arvo"
+
+#. OptionsForm..JvPageControl..GeneralTab..RememberTextZoomCheck..Caption
+#: TransOpties.dfm:256 
+msgid "&Remember text zoom settings"
+msgstr "&Muista tekstin zoomaus asetetukset"
+
+#. OptionsForm..JvPageControl..GeneralTab..IndentSettingsBox..Caption
+#: TransOpties.dfm:271 
+msgid "Editor settings"
+msgstr "Muokkausasetukset"
+
+#. OptionsForm..JvPageControl..GeneralTab..IndentSettingsBox..IndenLabel..Caption
+#: TransOpties.dfm:278 
+msgid "Indent amount:"
+msgstr "Sisennyksen määrä:"
+
+#. OptionsForm..JvPageControl..GeneralTab..IndentSettingsBox..IndentEdit....Hint
+#: TransOpties.dfm:294 
+msgid ""
+"Specify the amount with which the indentation should be changed when "
+"pressing then increase or decrease indent buttons"
+msgstr ""
+"Määrittele se määrä jolla sisennystä muutetaan painettaessa sisennyksen "
+"lisäyksen tai pienennyksen painiketta"
+
+#. #-#-#-#-#  ..\stable\default.po (PACKAGE VERSION)  #-#-#-#-#
+#. OptionsForm..JvPageControl..GeneralTab..IndentSettingsBox..IndentEdit..DisplaySuffix
+#. #-#-#-#-#  ..\..\jgb\source\default.po (PACKAGE VERSION)  #-#-#-#-#
+#. RtfParaDialog..MarginsGroup..LeftMarginEdit..DisplaySuffix
+#. RtfParaDialog..MarginsGroup..RightMarginEdit..DisplaySuffix
+#. RtfParaDialog..MarginsGroup..FirstLineEdit..DisplaySuffix
+#. RtfTabsDialog..TabPosEdit..DisplaySuffix
+#: TransOpties.dfm:299 RtfParagraphOptionsForm.dfm:138 
+#: RtfParagraphOptionsForm.dfm:152 RtfParagraphOptionsForm.dfm:166
+#: RtfTabSettingsForm.dfm:84
+msgid " cm"
+msgstr " cm"
+
+#. OptionsForm..JvPageControl..GeneralTab..rgrpDefaultFilename....Hint
+#: TransOpties.dfm:312 
+msgid ""
+"Choose wether the default name for new text files should be based on the "
+"first line of text or on the name of the current image"
+msgstr ""
+"Valitse annetaanko uusille tekstitiedostoille nimi perustuen tekstin "
+"enmsimmäiseen riviin tai nykyisen kuvan nimeen"
+
+#. OptionsForm..JvPageControl..GeneralTab..rgrpDefaultFilename..Caption
+#: TransOpties.dfm:313 
+msgid "Default &Filename"
+msgstr "Oletus &Tiedostonimi"
+
+#. OptionsForm..JvPageControl..GeneralTab..rgrpDefaultFilename....Items.Strings
+#: TransOpties.dfm:316 
+msgid "First line of text"
+msgstr "Tekstin ensimmäinen rivi"
+
+#. OptionsForm..JvPageControl..GeneralTab..rgrpDefaultFilename....Items.Strings
+#: TransOpties.dfm:317 
+msgid "Same as image"
+msgstr "Tallenna kuvana"
+
+#. OptionsForm..JvPageControl..GeneralTab..grpbProgress..Caption
+#: TransOpties.dfm:326 
+msgid "Image File progress"
+msgstr "Kuvatiedoston edistyminen"
+
+#. OptionsForm..JvPageControl..GeneralTab..grpbProgress..cbShowProgress....Hint
+#: TransOpties.dfm:335 
+msgid ""
+"When you check this the progress of the images you have done will be visible "
+"in the filename list on the image toolbar"
+msgstr ""
+"Valitessani tämän kuvien käsittelyn edistyminen näytetään tietostonimen "
+"listassa kuvan työkaluissa"
+
+#. OptionsForm..JvPageControl..GeneralTab..grpbProgress..cbShowProgress..Caption
+#: TransOpties.dfm:336 
+msgid "Show &progress (percentage images done)"
+msgstr "Näytä &edistyminen (prosenttia kuvista tehty)"
+
+#. OptionsForm..JvPageControl..PictureTab..Caption
+#. Transcript main 6-4-2007
+#. Programmer's name for it: MsgImage
+#: TransOpties.dfm:353 TransTranslatableStrings.pas:167 
+msgid "Image"
+msgstr "Kuva"
+
+#. OptionsForm..JvPageControl..PictureTab..JvLabel2..Hint
+#. OptionsForm..JvPageControl..PictureTab..PictStepEdit..Hint
+#: TransOpties.dfm:360 TransOpties.dfm:493 
+msgid "Change here the zoom factor (between 1 and 50, default 10%)"
+msgstr "Muuta tässä zoomauskerroin (1 ja 50 välillä, oletus 10%)"
+
+#. OptionsForm..JvPageControl..PictureTab..JvLabel2..Caption
+#: TransOpties.dfm:362 
+msgid "&Stepsize for zoom in/out:"
+msgstr "&Zoomauksen askelluksen koko:"
+
+#. OptionsForm..JvPageControl..PictureTab..JvLabel1....Hint
+#. OptionsForm..JvPageControl..PictureTab..DefaultPictTop....Hint
+#: TransOpties.dfm:379 TransOpties.dfm:526 
+msgid ""
+"How many pixels to scroll from the top of the image when showing a new image."
+msgstr ""
+"Kuinka monta pikseliä on vieritettävä kuvan yläreunasta näytettäessä uusi "
+"kuva."
+
+#. OptionsForm..JvPageControl..PictureTab..JvLabel1..Caption
+#: TransOpties.dfm:381 
+msgid "&Vertical starting position of image:"
+msgstr "&Kuvan pystysuuntainen aloituspiste:"
+
+#. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..Caption
+#: TransOpties.dfm:396 
+msgid "Move image"
+msgstr "Siirrä kuva"
+
+#. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..JvLabel5..Caption
+#: TransOpties.dfm:405 
+msgid "Pixels to move:"
+msgstr "Pikseleitä siirrettävä:"
+
+#. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..NumPixels2Move....Hint
+#: TransOpties.dfm:422 
+msgid ""
+"State here how many pixels to move the image when pressing \"Enter"
+"\" (between 0 en 500)."
+msgstr ""
+"Aseta tässä kuinka monta pikseliä kuvaa on siirrettävä jokaisesta "
+"\"Enter\"-painalluksesta (0 ja 500 välillä)."
+
+#. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..MoveOnEnterCheck....Hint
+#: TransOpties.dfm:438 
+msgid ""
+"State here whether the image should be scrolled down on every \"Enter\"."
+msgstr ""
+"Aseta tässä onko kuvaa vieritettävä alaspäin jokaisella \"Enter\"-"
+"painalluksella."
+
+#. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..MoveOnEnterCheck..Caption
+#: TransOpties.dfm:439 
+msgid "Scroll image on every \"Enter\""
+msgstr "Vieritä kuvaa jokaisella \"Enter\"-painalluksella"
+
+#. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..MoveOnWrapCheck....Hint
+#: TransOpties.dfm:457 
+msgid ""
+"Check this when you want the image to be scrolled down after every wordwrap."
+msgstr ""
+"Aseta tässä haluatko kuvan vieritettäväksi alaspäin jokaisesta "
+"sanantasauksesta."
+
+#. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..MoveOnWrapCheck..Caption
+#: TransOpties.dfm:458 
+msgid "Scroll image on wordwrap"
+msgstr "Vieritä kuvaa jokaisella sanantasauksella"
+
+#. OptionsForm..JvPageControl..PictureTab..RememberZoomCheck....Hint
+#: TransOpties.dfm:477 
+msgid ""
+"If set all image adjustments like zoom, brightness, inverted, greyscale and "
+"rotation will be preserved when changing images"
+msgstr ""
+"Tällä asetuksella kaikki kuvan sovitukset kuten zoomaus, kirkkaus, "
+"käänteinen, harmaaasteikko ja pyöritys säilyvät kuvia vaihdettaessa"
+
+#. OptionsForm..JvPageControl..PictureTab..RememberZoomCheck..Caption
+#: TransOpties.dfm:478 
+msgid "&Remember image adjustments"
+msgstr "&Muista kuvan sovitukset"
+
+#. OptionsForm..JvPageControl..PictureTab..HorScrollCheck....Hint
+#: TransOpties.dfm:508 
+msgid ""
+"When checked you can scroll the image entirely to the left until only the "
+"edge is visible."
+msgstr ""
+"Tällä valinnalla voit vierittää kuvan kokonaan vasemmalle niin että vain "
+"reuna näkyy."
+
+#. OptionsForm..JvPageControl..PictureTab..HorScrollCheck..Caption
+#: TransOpties.dfm:509 
+msgid "Scroll image entirely to the left"
+msgstr "Vieritä kuva kokonaan vasemmalle"
+
+#. OptionsForm..JvPageControl..PictureTab..AlternateRotateCheck....Hint
+#: TransOpties.dfm:539 
+msgid ""
+"If checked rotation alternates between left (270 degrees) and right (90 "
+"degrees) when loading an image"
+msgstr ""
+"Tämä valittuna kääntäminen muuttuu vasemmasta (270 astetta) oikeaan(90 "
+"astetta) kun kuva ladataan"
+
+#. OptionsForm..JvPageControl..PictureTab..AlternateRotateCheck..Caption
+#: TransOpties.dfm:540 
+msgid "Alternate between left and right rotation"
+msgstr "Vaihtoehtoisesti vasempaan ja oikeaan kääntäminen"
+
+#. OptionsForm..JvPageControl..PictureTab..ImageCursorStyle....Hint
+#: TransOpties.dfm:557 
+msgid ""
+"Choose between new and old style image cursor handling. New style means "
+"dragging is default, you can zoom by using the ctrl key."
+msgstr ""
+"Valitse uuden ja vanhan tyylin kohdistimen käsittelyn välillä. Uudessa "
+"tyylissä raahaus on oletus, zoomata voit ctrl-painikkeella."
+
+#. OptionsForm..JvPageControl..PictureTab..ImageCursorStyle..Caption
+#: TransOpties.dfm:558 
+msgid "Image cursor style"
+msgstr "Kuvan kohdistimen tyyli"
+
+#. OptionsForm..JvPageControl..PictureTab..ImageCursorStyle....Items.Strings
+#: TransOpties.dfm:561 
+msgid "New style (dragging default, for zoom use ctrl)"
+msgstr "Uusi tyyli (raahaus oletus, käytä zoomaukseen ctrl-painiketta)"
+
+#. OptionsForm..JvPageControl..PictureTab..ImageCursorStyle....Items.Strings
+#: TransOpties.dfm:562 
+msgid "Old style (zoom default, for dragging use ctrl)"
+msgstr "Vanha tyyli (zoomaus oletus, käytä raahaukseen ctrl-painiketta)"
+
+#. OptionsForm..JvPageControl..PictureTab..GoBackToEditorCheck....Hint
+#: TransOpties.dfm:573 
+msgid ""
+"If checked you will go automatically back to the editor after releasing the "
+"mouse button."
+msgstr ""
+"Tämän valinnalla siirryt automaattisesti takaisin muokkaukseen hiiren "
+"painike vapauttamalla."
+
+#. OptionsForm..JvPageControl..PictureTab..GoBackToEditorCheck..Caption
+#: TransOpties.dfm:574 
+msgid "Go automatically back to the editor after releasing mouse button"
+msgstr ""
+"Siirry automaattisesti takaisin muokkaukseen vapauttamalla hiiren painike"
+
+#. OptionsForm..JvPageControl..PictureTab..TwoPageCheck....Hint
+#: TransOpties.dfm:593 
+msgid ""
+"If checked this assumes that the image contains two pages. Going to the next/"
+"previous page will center it on the left/right part of the image."
+msgstr ""
+"Tämän valinnalla oletetaan kuvan olevan kaksisivuinen. Seuraavaan/edelliseen "
+"sivuun siirtyminen keskittää kuvan vasemman/oikean osan."
+
+#. OptionsForm..JvPageControl..PictureTab..TwoPageCheck..Caption
+#: TransOpties.dfm:594 
+msgid "Two pages visible on image"
+msgstr "Kuvasta näkyvissä kaksi sivua"
+
+#. OptionsForm..JvPageControl..AdvancedTab..Caption
+#: TransOpties.dfm:607 
+msgid "Advanced"
+msgstr "Edistynyt"
+
+#. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..Caption
+#: TransOpties.dfm:615 
+msgid "Images and textfiles the same name"
+msgstr "Kuvilla ja tekstitiedostoilla sama nimi"
+
+#. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..TextDirLabel..Caption
+#: TransOpties.dfm:623 
+msgid "<Directory where text file will be stored>"
+msgstr ""
+
+#. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..EachPhotoApartCheck....Hint
+#: TransOpties.dfm:643 
+msgid ""
+"Whether or not to save the text for each image in their own file. When you "
+"select another image a new textfile is automatically opened or created."
+msgstr ""
+"Talletetaanko kuvan teksti omaan tiedostoonsa. Uusi tekstitiedosto avataan "
+"tai luodaan valitettasi toisen kuvan."
+
+#. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..EachPhotoApartCheck..Caption
+#: TransOpties.dfm:644 
+msgid "Use the same name for &each image and its corresponding textfile"
+msgstr "Käytä samaa nimeä &jokaiselle kuvalle ja vastaavalle tekstitiedostolle"
+
+#. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..SeparateTextDirCheck....Hint
+#: TransOpties.dfm:662 
+msgid ""
+"Specify if you want to save the rtf text files in a different directory than "
+"the image files."
+msgstr ""
+"Määrittele haluatko tallettaa rtf tekstitiedostot muuhun hakemistoon kuin "
+"kuvat."
+
+#. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..SeparateTextDirCheck..Caption
+#: TransOpties.dfm:663 
+msgid "Use a &different directory"
+msgstr "Käytä &toista hakemistoa"
+
+#. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..BrowseFolderBtn..Hint
+#: TransOpties.dfm:680 
+msgid "Browse to the folder you want to use for saving rtf text files."
+msgstr "Selaa hakemistoon jonne haluat tallettaa rtf tekstitiedostot."
+
+#. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..BrowseFolderBtn..Caption
+#. OptionsForm..JvPageControl..AutoCorrectTab..SoundBrowseBtn..Caption
+#. OptionsForm..JvPageControl..AutoCorrectTab..ReplaceBrowseBtn..Caption
+#: TransOpties.dfm:681 TransOpties.dfm:1300 TransOpties.dfm:1349 
+msgid "&Browse..."
+msgstr "&Selaa..."
+
+#. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..SaveWithoutAskingCheck....Hint
+#: TransOpties.dfm:693 
+msgid "Option to save the rtf text file without asking for confirmation."
+msgstr "Optio rft tekstitiedoston tallettamiseksi vahvistusta kysymättä."
+
+#. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..SaveWithoutAskingCheck..Caption
+#: TransOpties.dfm:694 
+msgid "&Save without asking"
+msgstr "&Talleta kysymättä"
+
+#. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..Caption
+#: TransOpties.dfm:711 
+msgid "Automatic text insertion"
+msgstr "Automaattinen tekstin upotus"
+
+#. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..JvLabel100..Caption
+#: TransOpties.dfm:720 
+msgid "Autotext specification:"
+msgstr "Autom. tekstin määrittely:"
+
+#. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingLabel..Caption
+#: TransOpties.dfm:736 
+msgid "Counter type:"
+msgstr "Laskimen tyyppi:"
+
+#. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingStartLabel..Caption
+#: TransOpties.dfm:752 
+msgid "Counter next value:"
+msgstr "Laskimen seuraava arvo:"
+
+#. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..AutoInsertFilenameCheck....Hint
+#: TransOpties.dfm:771 
+msgid ""
+"After opening the next image (F6) the program will automatically insert the "
+"autotext according to your specification if this option is set (can be "
+"temporarily disabled by setting scoll lock on)"
+msgstr ""
+"Avattuasi seuraavan kuvan (F6) ohjelma upottaa automaattisesti autom. "
+"tekstin määrittelysi mukaan jos tämä optio on valittu (voidaan tilapäisesti "
+"poistaa käytöstä asettamalla Scroll lock päälle)"
+
+#. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..AutoInsertFilenameCheck..Caption
+#: TransOpties.dfm:772 
+msgid "Automatically insert autotext after showing next image"
+msgstr "Upota autom. teksti kun seuraava kuva on näytetty"
+
+#. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..EditInsertFormat..Hint
+#: TransOpties.dfm:788 
+msgid "Specify here the text that should be inserted"
+msgstr "Määritä tässä teksti joka tulisi upottaa"
+
+#. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..btnResetDefaultSpec....Hint
+#: TransOpties.dfm:798 
+msgid ""
+"Use this button to reset the image filename specification to its default "
+"value"
+msgstr ""
+"Käytä tätä painiketta palauttaaksesi kuvan tiedostonimen määrityksen "
+"oletusarvoonsa"
+
+#. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..btnResetDefaultSpec..Caption
+#: TransOpties.dfm:799 
+msgid "Reset"
+msgstr "Palauta"
+
+#. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingTypeCombo....Hint
+#: TransOpties.dfm:810 
+msgid "Select the counter type you want to use in your autotext specification"
+msgstr ""
+"Valitse laskimen tyyppi jota haluat käyttää autom. tekstin määrityksessä"
+
+#. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingTypeCombo....Items.Strings
+#: TransOpties.dfm:815 
+msgid "Number/Page"
+msgstr "Numero/Sivu"
+
+#. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingTypeCombo....Items.Strings
+#: TransOpties.dfm:816 
+msgid "Folio"
+msgstr "Aukeaman sivu"
+
+#. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingValueEdit....Hint
+#: TransOpties.dfm:825 
+msgid "You can specify here the counter value that will be inserted next"
+msgstr "Voi määrittää tässä laskimen arvon joka upotetaan seuraavaksi"
+
+#. OptionsForm..JvPageControl..LanguageTab..Caption
+#: TransOpties.dfm:852 
+msgid "Language"
+msgstr "Kieli"
+
+#. OptionsForm..JvPageControl..LanguageTab..JvStaticText1..Caption
+#: TransOpties.dfm:873 
+msgid "Select language:"
+msgstr "Valitse kieli:"
+
+#. OptionsForm..JvPageControl..LanguageTab..Panel1..JvLabel8..Caption
+#. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText2..Caption
+#: TransOpties.dfm:904 TransOpties.dfm:998 
+msgid "Program version:"
+msgstr "Ohjelman versio:"
+
+#. OptionsForm..JvPageControl..LanguageTab..Panel1..JvLabel7..Caption
+#. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText3..Caption
+#: TransOpties.dfm:925 TransOpties.dfm:1024 
+msgid "Translator:"
+msgstr "Kääntäjä:"
+
+#. OptionsForm..JvPageControl..LanguageTab..Panel1..JvLabel14..Caption
+#: TransOpties.dfm:972 
+msgid "Translation Info"
+msgstr "Käännösinfo"
+
+#. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText4..Caption
+#: TransOpties.dfm:1094 
+msgid "Date:"
+msgstr "Päiväys:"
+
+#. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText5....Caption
+#: TransOpties.dfm:1148 
+msgid ""
+"If you see translation errors please report them using the e-mail below. If "
+"you want to help translate Transcript into your language you can also e-mail "
+"me. Translators get a free registered version!"
+msgstr ""
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..Caption
+#: TransOpties.dfm:1172 
+msgid "Autocorrection"
+msgstr "Autom. korjaus"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..SoundLabel....Hint
+#. OptionsForm..JvPageControl..AutoCorrectTab..SoundEdit....Hint
+#: TransOpties.dfm:1182 TransOpties.dfm:1290 
+msgid "Name of sound (wave) file, leave it empty to hear the default sound"
+msgstr "Äänitiedoston nimi, tyhjäksi jättämällä kuulet oletusäänen"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..SoundLabel..Caption
+#: TransOpties.dfm:1184 
+msgid "Sound file:"
+msgstr "Äänitiedosto:"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..lblReplaceFile..Hint
+#: TransOpties.dfm:1196 
+msgid "Name of file where the autoreplacements are stored"
+msgstr "Nimi tiedostolle jossa autom. vaihdokset talletetaan"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..lblReplaceFile..Caption
+#: TransOpties.dfm:1198 
+msgid "Replacementfile:"
+msgstr "Vaihtamistiedosto:"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..WarnOnCorrectionCheck....Hint
+#: TransOpties.dfm:1212 
+msgid ""
+"When you set this option you hear a warning sound whenever something is auto "
+"corrected."
+msgstr ""
+"Asettamalla tämän option kuulet varoitusäänen kun jotakin korjataan "
+"automaattisesti."
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..WarnOnCorrectionCheck..Caption
+#: TransOpties.dfm:1213 
+msgid "Use warning sound when correcting"
+msgstr "Käytä varoitusääntä kun korjataan"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..TWoCapitalsCheck..Hint
+#: TransOpties.dfm:1229 
+msgid "Set this is you want TWo capitals corrected."
+msgstr "Asettamalla tämän haluat korjattavan KAhdet isot kirjaimet."
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..TWoCapitalsCheck..Caption
+#: TransOpties.dfm:1230 
+msgid "Correct TWo capitals"
+msgstr "Korjaa KAksi isot kirjaimet"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..IJExceptionCheck....Hint
+#: TransOpties.dfm:1250 
+msgid ""
+"Set this if you want the IJ combination considered as an exception where two "
+"capitals should not be corrected"
+msgstr ""
+"Aseta tämä jos haluat IJ pidettävän poikkeuksena kun kahta isoa kirjainta ei "
+"korjata"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..IJExceptionCheck..Caption
+#: TransOpties.dfm:1251 
+msgid "Do not correct IJ"
+msgstr "Älä korjaa IJ"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..sEcondCapCheck....Hint
+#: TransOpties.dfm:1270 
+msgid ""
+"Set this is you want a sEcond capital corrected and replaced by a capital "
+"for the first letter"
+msgstr ""
+"Aseta tämä jos haluat tOisen ison kirjaimen korjattavan ja korvattavan "
+"ensimmäisen merkin isolla kirjaimella"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..sEcondCapCheck..Caption
+#: TransOpties.dfm:1271 
+msgid "Correct sEcond capital"
+msgstr "Korjaa tOinen iso kirjain"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..SoundBrowseBtn..Hint
+#: TransOpties.dfm:1299 
+msgid "Browse to select the sound file you want to use."
+msgstr "Valitse äänitiedosto jota haluat käyttää."
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..AutoReplaceCheck....Hint
+#: TransOpties.dfm:1313 
+#, fuzzy
+msgid ""
+"When this option is set the specified replacements file will be used to "
+"automatically replace abbreviations or typos with the complete or correct "
+"text"
+msgstr ""
+"Kun tämä optio on valittu määritetty korvausten tiedostoa käytetään "
+"vaihtamaan lyhenteet tai kirjoitusvirheet täydellisellä tai oikealla "
+"tekstillä"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..AutoReplaceCheck..Caption
+#: TransOpties.dfm:1314 
+msgid "Enable autoreplacement"
+msgstr "Mahdollista autom. vaihtaminen"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..ReplaceFileEdit..Hint
+#: TransOpties.dfm:1337 
+#, fuzzy
+msgid "Name of file where the autoreplacements are to be stored"
+msgstr "Nimi tiedostolle jossa autom. vaihdokset talletetaan"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..ReplaceBrowseBtn....Hint
+#: TransOpties.dfm:1348 
+msgid ""
+"Browse to select the autoreplacements file you want to use or enter the name "
+"of a new file."
+msgstr ""
+"Selaa valitaksesi autom. vaihdosten tiedoston jota haluat käyttää tai syötä "
+"uuden tiedoston nimi."
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..cbIgnore2ndSpace....Hint
+#: TransOpties.dfm:1360 
+msgid ""
+"Set this if you want two spaces after another replaced by just one space"
+msgstr ""
+"Aseta tämä jos haluat kaksi peräkkäistä välilyöntiä korvattavan yhdellä"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..cbIgnore2ndSpace..Caption
+#: TransOpties.dfm:1361 
+msgid "Ignore second space"
+msgstr "Ohita toinen välilyönti"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..Caption
+#: TransOpties.dfm:1378 
+msgid "Automatically delete unused autoreplacement items"
+msgstr "Automaattisesti poista käyttämättömät autom. korvauksen listan rivit"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..JvLabel17..Caption
+#. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..JvLabel9..Caption
+#: TransOpties.dfm:1385 TransOpties.dfm:1400 
+msgid "weeks"
+msgstr "viikkoa"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteUnusedItems....Hint
+#: TransOpties.dfm:1417 
+msgid ""
+"Option to automatically delete all items in the autoreplacement list that "
+"were not used in the specified number of weeks"
+msgstr ""
+"Optio niiden autom. korvauksen listan rivit joita ei ole käytetty lukum. "
+"määritettyjen viikkojen aikana"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteUnusedItems..Caption
+#: TransOpties.dfm:1418 
+msgid "Delete items not used in"
+msgstr "Poista käyttämättömätlistan rivit"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..seDeleteUnused....Hint
+#: TransOpties.dfm:1438 
+msgid "Number of weeks that items should not have been used before deleting"
+msgstr ""
+"Viikkojen lukumäärä jona listan rivejä ei ole käytetty ennen poistamista"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteNeverUsedItems....Hint
+#: TransOpties.dfm:1456 
+msgid ""
+"Option to automatically delete all items in the autoreplacement list that "
+"have never been used and are older than the specified number of weeks"
+msgstr ""
+"Optio automaattisesti poistaa kaikki ne rivit autom. korvauksen listassa "
+"joita ei ole käytetty ja jotka ovat vanhempia viikkona kuin on määritetty "
+"lukuna"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteNeverUsedItems..Caption
+#: TransOpties.dfm:1457 
+msgid "Delete never used items older than"
+msgstr "Poista listan rivit joita ei ole käytetty ja jotka ovat vanhempia kuin"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..seDeleteNeverUsed..Hint
+#: TransOpties.dfm:1474 
+msgid "Age in number of weeks before never used items should be deleted"
+msgstr "Lukum.ikä viikkoina ennenkuin käyttämättömät listan rivit poistetaa"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..cbResetUsageCount....Hint
+#: TransOpties.dfm:1492 
+msgid ""
+"This option specifies wheter the usage count should be reset to 0 when an "
+"autoreplacement item gets changed"
+msgstr ""
+"Tämä optio määrittää pitääkö käyttölaskuri nollata kun autom. korvauksen "
+"listan rivi vaihtuu"
+
+#. OptionsForm..JvPageControl..AutoCorrectTab..cbResetUsageCount..Caption
+#: TransOpties.dfm:1493 
+msgid "Reset usage count when changing an autoreplacement item"
+msgstr "Nollaa käyttölaskuri vaihtaessasi autom. korvauksen listan riviä"
+
+#. OptionsForm..JvPageControl..PdfTab..JvLabel15....Hint
+#. OptionsForm..JvPageControl..PdfTab..cbResolution....Hint
+#: TransOpties.dfm:1531 TransOpties.dfm:1611 
+msgid ""
+"Choose the best resolution for the extraction of images from your pdf file"
+msgstr "Valitse paras resoluutio jolla pdf tiedostostasi erotetaan kuvat"
+
+#. OptionsForm..JvPageControl..PdfTab..JvLabel15..Caption
+#: TransOpties.dfm:1533 
+msgid "&Pdf images resolution:"
+msgstr "&Pdf kuvion resoluutio:"
+
+#. OptionsForm..JvPageControl..PdfTab..JvLabel16....Hint
+#. OptionsForm..JvPageControl..PdfTab..TrackBar....Hint
+#: TransOpties.dfm:1550 TransOpties.dfm:1632 
+msgid ""
+"Choose the jpeg quality for saving extracted images. (higher value means "
+"better quality but larger files and slower extraction)"
+msgstr ""
+"Valitse jpg laatu jolla talletetaan erotetut kuvat. (korkeampi luku "
+"merkitsee parempaa laatua mutta suurempia tiedostoja ja hitaampaa "
+"erottamista)"
+
+#. OptionsForm..JvPageControl..PdfTab..JvLabel16..Caption
+#: TransOpties.dfm:1552 
+msgid "&Jpeg quality:"
+msgstr "&Jpeg laatu:"
+
+#. OptionsForm..JvPageControl..PdfTab..JvLabel18..Caption
+#: TransOpties.dfm:1567 
+msgid "dpi"
+msgstr "dpi"
+
+#. OptionsForm..JvPageControl..PdfTab..ckbDelAfterLastImage....Hint
+#: TransOpties.dfm:1652 
+msgid ""
+"Automatically delete all extracted images of the current pdf when you're "
+"done using the last image"
+msgstr ""
+"Automaattisesti poista kaikki nykyisestä pdf:stä erotetut kuvat käsiteltyäsi "
+"viimeisen kuvan"
+
+#. OptionsForm..JvPageControl..PdfTab..ckbDelAfterLastImage..Caption
+#: TransOpties.dfm:1653 
+msgid "&Delete extracted images when done with the last page image"
+msgstr "&Poista erotetut kuvat viimeisen kuvan käsittelyn jälkeen"
+
+#. OptionsForm..JvPageControl..PdfTab..ckbDelAfterChangeDir....Hint
+#: TransOpties.dfm:1672 
+msgid ""
+"Automatically delete all extracted images when changing to another image "
+"directory"
+msgstr ""
+"Automaattisesti poista kaikki erotetut kuvat kun vaihdat toiseen "
+"kuvahakemistoon"
+
+#. OptionsForm..JvPageControl..PdfTab..ckbDelAfterChangeDir..Caption
+#: TransOpties.dfm:1673 
+msgid "Delete &all extracted images after changing directory"
+msgstr "Poista &kaikki erotetut kuvat vaihdettuasi hakemistoa"
+
+#. #-#-#-#-#  ..\stable\default.po (PACKAGE VERSION)  #-#-#-#-#
+#. OptionsForm..CancelBtn..Caption
+#. ProDialog..CancelBtn..Caption
+#. #-#-#-#-#  ..\..\jgb\source\default.po (PACKAGE VERSION)  #-#-#-#-#
+#. RtfParaDialog..CancelBtn..Caption
+#. RtfTabsDialog..CancelBtn..Caption
+#: TransOpties.dfm:1690 TransPro.dfm:57 RtfParagraphOptionsForm.dfm:187 
+#: RtfTabSettingsForm.dfm:62
+msgid "&Cancel"
+msgstr "&Peruuta"
+
+#. OptionsForm..BrowseFolderDlg..StatusText
+#: TransOpties.dfm:1706 
+msgid "Select directory to use for saving rtf textfiles"
+msgstr "Valitse hakemisto rtf tekstitiedostojen talletukseen"
+
+#. ProDialog..Caption
+#: TransPro.dfm:6 
+msgid "Transcript Pro Registration"
+msgstr "Transcript Pron rekisteröinti"
+
+#. ProDialog..Label1..Caption
+#: TransPro.dfm:25 
+msgid "Enter user name:"
+msgstr "Syötä käyttäjänimi:"
+
+#. ProDialog..lbl..Caption
+#: TransPro.dfm:32 
+msgid "Enter registration code:"
+msgstr "Syötä rekisteröintikoodi:"
+
+#. #-#-#-#-#  ..\stable\default.po (PACKAGE VERSION)  #-#-#-#-#
+#. ProDialog..OKBtn..Caption
+#. #-#-#-#-#  ..\..\jgb\source\default.po (PACKAGE VERSION)  #-#-#-#-#
+#. RtfTabsDialog..ActionList1..actOK..Caption
+#: TransPro.dfm:46 RtfTabSettingsForm.dfm:183 
+msgid "OK"
+msgstr "OK"
+
+#. ManageProjectsForm..Caption
+#: TransProjectManager.dfm:7 
+msgid "Manage projects"
+msgstr "Hallinnoi projekteja"
+
+#. ManageProjectsForm..pnlBack..lbl_1..Caption
+#: TransProjectManager.dfm:48 
+msgid "Projects:"
+msgstr "Projektit:"
+
+#. ManageProjectsForm..pnlBack..HelpBtn..Caption
+#: TransProjectManager.dfm:57 
+msgid "Help"
+msgstr "Tietoja"
+
+#. ManageProjectsForm..pnlBack..DeleteBtn..Caption
+#: TransProjectManager.dfm:67 
+msgid "Delete Project"
+msgstr "Poista projekti"
+
+#. ManageProjectsForm..pnlBack..CreateShortcutBtn..Caption
+#: TransProjectManager.dfm:78 
+msgid "Create Shortcut"
+msgstr "Luo pikaikoni"
+
+#. ManageProjectsForm..pnlBack..CloseBtn..Caption
+#: TransProjectManager.dfm:89 
+msgid "Close"
+msgstr "Sulje"
+
+#. ManageProjectsForm..pnlBack..btnEditDescription..Caption
+#: TransProjectManager.dfm:100 
+msgid "Edit Description"
+msgstr "Muokkaa kuvausta"
+
+#. ManageProjectsForm..pnlBack..RenameBtn..Caption
+#: TransProjectManager.dfm:122 
+msgid "Rename Project"
+msgstr "Nimeä projekti uudelleen"
+
+#. ManageProjectsForm..pnlBack..SortedCheck....Hint
+#: TransProjectManager.dfm:134 
+msgid ""
+"Select this option if you want the projects in the list to be sorted "
+"alphabetically"
+msgstr ""
+"Valitse tämä optio halutessasi lajitella listan projektit aakkosjärjestykseen"
+
+#. ManageProjectsForm..pnlBack..SortedCheck..Caption
+#: TransProjectManager.dfm:136 
+msgid "Sort projects"
+msgstr "Lajittele projektit"
+
+#. ManageProjectsForm..pnlBack..pnlProjInfo..lblTextFile..Caption
+#: TransProjectManager.dfm:171 
+msgid "Textfile:"
+msgstr "Tekstitiedosto:"
+
+#. ManageProjectsForm..pnlBack..pnlProjInfo..lblImgFile..Caption
+#: TransProjectManager.dfm:183 
+msgid "Image:"
+msgstr "Kuva:"
+
+#. ManageProjectsForm..pnlBack..pnlProjInfo..lblDescription..Caption
+#: TransProjectManager.dfm:195 
+msgid "Description:"
+msgstr "Kuvaus:"
+
+#. er kan verschil zitten in de modulelist dus hier weer:
+#: Transcript.dpr:91 
+msgid "Unexpected error converting ini file"
+msgstr ""
+
+#. Converts a pdf InputFile to images baes on OutputFileMask
+#: TransGhostScript.pas:1065 
+msgid "GhostScript conversion thread already running!"
+msgstr ""
+
+#. 26-1-2011 moved to separate unit TransInfoSupplier
+#. Programmer's name for it: RsAppError
+#: TransInfoSupplier.pas:44 
+msgid "%s - application error"
+msgstr ""
+
+#. Programmer's name for it: RsExceptionClass
+#: TransInfoSupplier.pas:45 
+msgid "Exception class: %s"
+msgstr ""
+
+#. Programmer's name for it: RsExceptionMessage
+#: TransInfoSupplier.pas:46 
+msgid "Exception message: %s"
+msgstr ""
+
+#. Programmer's name for it: RsExceptionAddr
+#: TransInfoSupplier.pas:47 
+msgid "Exception address: %p"
+msgstr ""
+
+#. Programmer's name for it: RsStackList
+#: TransInfoSupplier.pas:48 
+msgid "Stack list, generated %s"
+msgstr ""
+
+#. Programmer's name for it: RsModulesList
+#: TransInfoSupplier.pas:49 
+msgid "List of loaded modules:"
+msgstr ""
+
+#. Programmer's name for it: RsOSVersion
+#: TransInfoSupplier.pas:50 
+msgid "System: %s %s %d bits, Version: %d.%d, Build: %x, \"%s\""
+msgstr ""
+
+#. Programmer's name for it: RsProcessor
+#: TransInfoSupplier.pas:51 
+msgid "Processor: %s, %s, %d MHz"
+msgstr ""
+
+#. Programmer's name for it: RsMemory
+#: TransInfoSupplier.pas:52 
+msgid "Memory: %d; free %d"
+msgstr ""
+
+#. Programmer's name for it: RsScreenRes
+#: TransInfoSupplier.pas:53 
+msgid "Display %d: %dx%d pixels, %d bpp"
+msgstr ""
+
+#. Programmer's name for it: RsActiveControl
+#: TransInfoSupplier.pas:54 
+msgid "Active Controls hierarchy:"
+msgstr ""
+
+#. Programmer's name for it: RsThread
+#: TransInfoSupplier.pas:55 
+msgid "Thread: %s"
+msgstr ""
+
+#. Programmer's name for it: RsMissingVersionInfo
+#: TransInfoSupplier.pas:56 
+msgid "(no version info)"
+msgstr ""
+
+#: TransInfoSupplier.pas:81 
+#, fuzzy
+msgid "<unknown>"
+msgstr "Tuntematon"
+
+#. ************** ALS TEST: ZET DIT OP 4 !!!!!!!!!!!!!!!!!!
+#: TransIniConverter.pas:110 
+msgid ""
+"You are using an older version of Microsoft's RichEd20.dll\n"
+"This means that not all text capabilities will be visible\n"
+"(e.g. justify). For the rest it doesn't influence my program.\n"
+"You can look for a newer version on Microsoft's site.\n"
+"Preferrably fileversion 5.30.x.x or higher (RichEdit version 3)."
+msgstr ""
+
+#. Op deze manier is het simpeler te vertalen
+#. Programmer's name for it: AllFilter
+#: TransTranslatableStrings.pas:25 
+msgid "All files"
+msgstr "Kaikki tiedostot"
+
+#. Programmer's name for it: RtfFilter
+#: TransTranslatableStrings.pas:26 
+msgid "Rich Text files"
+msgstr "Rich Text tiedostot"
+
+#. Programmer's name for it: TxtFilter
+#: TransTranslatableStrings.pas:27 
+msgid "Plain text files"
+msgstr "Suorat tekstitiedostot"
+
+#. Programmer's name for it: ImgFilterJpg
+#: TransTranslatableStrings.pas:28 
+msgid "Jp(e)g files"
+msgstr "Jp(e)g tiedostot"
+
+#. Programmer's name for it: ImgFilterBmp
+#: TransTranslatableStrings.pas:29 
+msgid "Bmp files"
+msgstr "Bmp tiedostot"
+
+#. Programmer's name for it: ImgFilterGif
+#: TransTranslatableStrings.pas:30 
+msgid "Gif files"
+msgstr "Gif tiedostot"
+
+#. Programmer's name for it: ImgFilterPng
+#: TransTranslatableStrings.pas:31 
+msgid "Png files"
+msgstr "Png tiedostot"
+
+#. Programmer's name for it: ImgFilterTif
+#: TransTranslatableStrings.pas:32 
+msgid "Tif(f) files"
+msgstr "Tif(f) tiedostot"
+
+#. Programmer's name for it: ImgFilterPm
+#: TransTranslatableStrings.pas:33 
+msgid "Portabe map files"
+msgstr "Portabe map tiedostot"
+
+#. Programmer's name for it: ImgFilterPsp
+#: TransTranslatableStrings.pas:34 
+msgid "PaintShop files"
+msgstr "PaintShop tiedostot"
+
+#. Programmer's name for it: ImgFilterPcd
+#: TransTranslatableStrings.pas:35 
+msgid "PhotoCD files"
+msgstr "PhotoCD tiedostot"
+
+#. Programmer's name for it: ImgFilterPsd
+#: TransTranslatableStrings.pas:36 
+msgid "PhotoShop files"
+msgstr "PhotoShop tiedostot"
+
+#. Programmer's name for it: ImgFilterPdf
+#: TransTranslatableStrings.pas:37 
+msgid "Pdf files"
+msgstr "Pdf tiedostot"
+
+#. Programmer's name for it: ImgFilterAll
+#: TransTranslatableStrings.pas:38 
+msgid "Image files"
+msgstr "Kuvatiedostot"
+
+#. 17-11-2005, aangepast 24-3-2007
+#. Programmer's name for it: WavFilter
+#: TransTranslatableStrings.pas:40 
+msgid "Sound files"
+msgstr "Äänitiedostot"
+
+#. 9-9-2007 ook gebruikt voor Tad
+#. Programmer's name for it: TacFilter
+#: TransTranslatableStrings.pas:41 
+msgid "Autoreplacement files"
+msgstr "Korvausten tiedostot"
+
+#. Programmer's name for it: strModified
+#: TransTranslatableStrings.pas:75 
+msgid "(Modified)"
+msgstr "(Muutettu)"
+
+#. Programmer's name for it: Nieuw
+#: TransTranslatableStrings.pas:76 
+msgid "(new)"
+msgstr "(uusi)"
+
+#. Programmer's name for it: rsSaveFile
+#: TransTranslatableStrings.pas:77 
+msgid ""
+"The text in the current file has changed.\n"
+"Save this file?"
+msgstr ""
+"Nykyisen tiedoston teksti on muuttunut.\n"
+"Tallennetaanko tämä tiedosto?"
+
+#. Programmer's name for it: rsSaveCaption
+#: TransTranslatableStrings.pas:78 
+msgid "Save file?"
+msgstr "Tallennetaanko tiedosto?"
+
+#. Programmer's name for it: rsLoadPictFileErr
+#: TransTranslatableStrings.pas:80 
+msgid "Cannot load image. It does not exist!"
+msgstr "Kuvan lataaminen ei onnistu. Sitä ei ole!"
+
+#. Programmer's name for it: rsLoadPictCaptionErr
+#: TransTranslatableStrings.pas:81 
+msgid "Error loading image"
+msgstr "Ongelma kuvan lataamisessa"
+
+#. 12-1-2012
+#. Programmer's name for it: rsLoadEditFileErr
+#: TransTranslatableStrings.pas:83 
+msgid ""
+"Cannot load textfile %s.\n"
+"It does not exist!"
+msgstr ""
+
+#. Programmer's name for it: rsLoadEditCaptionErr
+#: TransTranslatableStrings.pas:84 
+msgid "Error loading textfile"
+msgstr ""
+
+#. 15-3-2012
+#. Programmer's name for it: rsEditFileInUseErr
+#: TransTranslatableStrings.pas:86 
+msgid ""
+"Cannot load %s.\n"
+"It is in use by another program!"
+msgstr ""
+
+#. 14-1-2012
+#. Programmer's name for it: rsExpFileExistsErr
+#: TransTranslatableStrings.pas:88 
+msgid ""
+"%s already exists.\n"
+"Do you want to replace it?"
+msgstr ""
+
+#. Opslaan als bevestigen
+#. Programmer's name for it: rsExpConfirmCaptionErr
+#: TransTranslatableStrings.pas:89 
+msgid "Confirm export"
+msgstr "Vahvista muuntaminen"
+
+#. ***** MessageBox teksten *****
+#. Programmer's name for it: rsExpConfirmCaptionErr
+#: TransTranslatableStrings.pas:99 
+msgid ""
+"You have chosen the option \"Use the same name for each image\n"
+"and its corresponding textfile\" but the filenames of the current\n"
+"image and text are different.\n"
+"Do you want to change the name of the current textfile to that of the\n"
+"photo then choose yes.\n"
+"When you choose no the forementioned option will be disabled and\n"
+"when you choose cancel no changes will be made."
+msgstr ""
+"Olet valinnut option \"Käytä samaa nimeä jokaiseen kuvaan ja sen\n"
+"vastaavaan tekstitiedostoon\" nykyisen kuvan ja tekstin tiedostonimet ovat "
+"erilaiset.\n"
+"Haluatko vaihtaa nykyisen tekstitiedoston nimen \n"
+"kuvan nimeen niin valitse OK.\n"
+"Valitessasi ei mainittu optio ei ole enää aktiivinen ja\n"
+"valitessasi peruutuksen mitään muutoksia ei tehdä."
+
+#. Programmer's name for it: MsgCaptionFileNamesDiffer
+#: TransTranslatableStrings.pas:100 
+msgid "Filenames are different"
+msgstr ""
+
+#. Programmer's name for it: MsgCaptionFileNamesDiffer
+#: TransTranslatableStrings.pas:106 
+msgid ""
+"The directory path of the current textfile is not the same as\n"
+"the selected save directory in advanced options.\n"
+"Choose yes if you want to change te path of the current textfile.\n"
+"When you choose no the path will not be changed for this file\n"
+"but new files will use the selected path."
+msgstr ""
+"Nykyisen tekstitiedoston hakmistopolku ei ole sama kuin\\valittu "
+"talletushakemisto laajemmisssa optioissa.\n"
+"Valitse OK halutessasi vaihtaa nykyisen tekstitiedoston polun.\n"
+"Valitessasi ei tämän tiedoston polkua ei muuteta\n"
+"mutta uudet tiedostot käyttävät valittua polkua."
+
+#. Programmer's name for it: MsgCaptionFilePathsDiffer
+#: TransTranslatableStrings.pas:107 
+msgid "Pathnames are different"
+msgstr ""
+
+#. Programmer's name for it: MsgTextNotFound
+#: TransTranslatableStrings.pas:109 
+msgid "Search string \"%s\" not found"
+msgstr "Haettua tekstiä \"%s\" ei löytynyt"
+
+#. Programmer's name for it: MsgTextNotFoundCaption
+#: TransTranslatableStrings.pas:110 
+msgid "Text search"
+msgstr "Tekstinhaku"
+
+#. Project Name already exists!
+#. Programmer's name for it: MsgProjectExists
+#: TransTranslatableStrings.pas:113 
+msgid "Project %s already exists"
+msgstr "Projekti %s jo olemassa"
+
+#. Programmer's name for it: MsgProjectExistsCaption
+#: TransTranslatableStrings.pas:114 
+msgid "New project"
+msgstr "Uusi projekti"
+
+#. Get project name
+#. Programmer's name for it: MsgProjectNameCaption
+#: TransTranslatableStrings.pas:116 
+msgid "Enter a name for this project"
+msgstr "Syötä tälle projektille nimi"
+
+#. Programmer's name for it: MsgProjectName
+#: TransTranslatableStrings.pas:117 
+msgid "Name of project:"
+msgstr "Projektin nimi:"
+
+#. Ask for confirmation: delete or rename project
+#. Programmer's name for it: MsgDeleteProject
+#: TransTranslatableStrings.pas:119 
+msgid "Do you really want to delete project %s?"
+msgstr "Haluatko todella poistaa projektin %s?"
+
+#. Programmer's name for it: MsgDeleteProjectCaption
+#: TransTranslatableStrings.pas:120 
+msgid "Delete project"
+msgstr "Poista projekti"
+
+#. Rename
+#. Programmer's name for it: MsgRenameProject
+#: TransTranslatableStrings.pas:122 
+msgid "Enter a new name for this project:"
+msgstr "Anna tälle projektille uusi nimi:"
+
+#. Programmer's name for it: MsgRenameProjectCaption
+#: TransTranslatableStrings.pas:123 
+msgid "Rename project"
+msgstr "Nimeä projekti uudelleen"
+
+#. Invalid chars in ProjectName
+#. Programmer's name for it: MsgInvalidChars
+#: TransTranslatableStrings.pas:125 
+msgid "This project name contains one or more invalid characters"
+msgstr "Projektin nimessä on ainakin yksi kelpaamaton merkki"
+
+#. Programmer's name for it: MsgInvalidCharsCaption
+#: TransTranslatableStrings.pas:126 
+msgid "Invalid project name"
+msgstr "Kelpaamaton projektin nimi"
+
+#. 14-5-2006
+#. Programmer's name for it: MsgAreYouSure
+#: TransTranslatableStrings.pas:129 
+msgid "Are you really sure?"
+msgstr "Oletko todella varma?"
+
+#. Programmer's name for it: MsgDelPdfImagesCaption
+#: TransTranslatableStrings.pas:134 
+msgid "Delete extracted pdf images"
+msgstr "Poista tuotetut pdf kuvat"
+
+#. 13-1-2007
+#. Programmer's name for it: MsgEditDescription
+#: TransTranslatableStrings.pas:137 
+msgid "Edit the description of this project:"
+msgstr "Muokkaa tämän projektin kuvausta:"
+
+#. Programmer's name for it: MsgEditDescriptionCaption
+#: TransTranslatableStrings.pas:138 
+msgid "Edit project description"
+msgstr "Muokkaa projektin kuvausta"
+
+#. 19-1-2007
+#. Programmer's name for it: MsgCannotClose
+#: TransTranslatableStrings.pas:141 
+msgid ""
+"The program cannot close at the moment: the pdf extraction is not yet done!"
+msgstr "Ohjelmaa ei voi sulkea tällä hetkellä: pdf purkua ei ole tehty vielä!"
+
+#. Programmer's name for it: MsgCannotCloseCaption
+#: TransTranslatableStrings.pas:142 
+msgid "Cannot close program"
+msgstr "Ohjelmaa ei voi sulkea"
+
+#. 21-3-2007
+#. Programmer's name for it: MsgTimerPaused
+#: TransTranslatableStrings.pas:145 
+msgid "(paused)"
+msgstr "(keskeytetty)"
+
+#. Programmer's name for it: rsProject
+#: TransTranslatableStrings.pas:146 
+msgid "Project"
+msgstr "Projekti"
+
+#. 21-3-2007
+#. Programmer's name for it: MsgPdfExtractedPages
+#: TransTranslatableStrings.pas:150 
+msgid "Extracted pages:"
+msgstr "Puretut sivut:"
+
+#. 6-4-2007: nu ook gebruikt voor
+#. Programmer's name for it: MsgPdfOf
+#: TransTranslatableStrings.pas:151 
+msgid "of"
+msgstr "of"
+
+#. Image  x of y (zz%)
+#. Programmer's name for it: MsgPdfInitializing
+#: TransTranslatableStrings.pas:153 
+msgid "Initializing"
+msgstr "Alustaminen"
+
+#. 6-4-2012 Error extracting NB NOT YET IN LANGUAGE FILES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#. Programmer's name for it: MsgGhostScriptCaption
+#: TransTranslatableStrings.pas:156 
+msgid "Pdf conversion"
+msgstr ""
+
+#. Programmer's name for it: MsgGhostScriptNotFound
+#: TransTranslatableStrings.pas:159 
+msgid ""
+"Ghostscript 32 bits is not installed on your computer.\n"
+"Transcript cannot use pdf files without Ghostscript.\n"
+"See my website for instructions on how to download Ghostscript."
+msgstr ""
+
+#. Programmer's name for it: MsgGhostscriptError
+#: TransTranslatableStrings.pas:164 
+msgid ""
+"Ghostscript encountered an error.\n"
+"Most likely reasons are a write protected medium (cd/dvd/folder) or\n"
+"a pdf that does not allow extracting images.\n"
+"The first problem can be fixed by copying the pdf to a location\n"
+"that you can write to."
+msgstr ""
+
+#. 21-3-2007
+#. Programmer's name for it: MsgAutoCaption
+#: TransTranslatableStrings.pas:171 
+msgid "Autoreplacement"
+msgstr "Automaattinen korvaus"
+
+#. Programmer's name for it: MsgAutoNoList
+#: TransTranslatableStrings.pas:172 
+msgid ""
+"Before you can use autoreplacements you first need to set a filename in "
+"options!"
+msgstr ""
+"Ennen automaattisten korvausten käyttämistä sinun on ensin annettava "
+"tiedostonimi optioissa!"
+
+#. Programmer's name for it: MsgAutoNotAllowed
+#: TransTranslatableStrings.pas:173 
+msgid "The replacement source should only contain alphanumeric characters!"
+msgstr "Korvaava lähdetieto voi sisältää vain aakkosnumeerisia merkkejä!"
+
+#. Registration
+#. Programmer's name for it: rsRegCaption
+#: TransTranslatableStrings.pas:176 
+msgid "Registration of Transcript"
+msgstr "Tulkkauksen rekisteröinti"
+
+#. Programmer's name for it: rsRegFailed
+#: TransTranslatableStrings.pas:177 
+msgid "Invalid registration name or code!"
+msgstr "Kelpaamaton rekisteröintinimi tai koodi!"
+
+#. Programmer's name for it: rsRegOk
+#: TransTranslatableStrings.pas:178 
+msgid "Thanks for registering. You can now use all pro features."
+msgstr "Kiitos rekisteröinnistä. Käytössäsi ovat nyt kaikki pro ominaisuudet."
+
+#. ***** Opties dialoog teksten
+#. Programmer's name for it: strUnknown
+#: TransTranslatableStrings.pas:181 
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#. Programmer's name for it: strDefault
+#: TransTranslatableStrings.pas:182 
+msgid "(Default)"
+msgstr "(Oletus)"
+
+#. tussen de linkerkant en de rechterkant van de =
+#. Programmer's name for it: strSpecifierInfo1
+#: TransTranslatableStrings.pas:188 
+msgid "Possible specifiers (case is important!): %f"
+msgstr "Mahdolliset tarkennukset(kirjainkoko tärkeä!): %f"
+
+#. Programmer's name for it: strSpecifierInfo2
+#: TransTranslatableStrings.pas:189 
+msgid "filename only without extension; %e"
+msgstr "tiedostonimi ilman määritettä; %e"
+
+#. Programmer's name for it: strSpecifierInfo3
+#: TransTranslatableStrings.pas:190 
+msgid "extension (including '.'); %p"
+msgstr "määrite (sisältäen '.'); %p"
+
+#. Programmer's name for it: strSpecifierInfo4
+#: TransTranslatableStrings.pas:191 
+msgid "path (including last '\\'); %n"
+msgstr "polku (sisältäen viimeisen '\\'); %n"
+
+#. Programmer's name for it: strSpecifierInfo5
+#: TransTranslatableStrings.pas:192 
+msgid "new line; %t"
+msgstr "uusi rivi; %t"
+
+#. Programmer's name for it: strSpecifierInfo6
+#: TransTranslatableStrings.pas:193 
+msgid "tab; %F"
+msgstr "kieleke; %F"
+
+#. Programmer's name for it: strSpecifierInfo7
+#: TransTranslatableStrings.pas:194 
+msgid "complete path, file and extension; %c"
+msgstr "täydellinen polku, tiedosto ja määrite; %c"
+
+#. Programmer's name for it: strSpecifierInfo8
+#: TransTranslatableStrings.pas:195 
+msgid "insert counter/page number. Anything else is literally inserted."
+msgstr "Upota laskuri/sivunumero. Kaikki muu lisätään merkkeinä."
+
+#. ***** Toolbar strings (pictcombo)
+#. Programmer's name for it: strNone
+#: TransTranslatableStrings.pas:198 
+msgid "(none)"
+msgstr "(ei mitään)"
+
+#. ***** Help bekijken / dialoog
+#. Programmer's name for it: HelpDialogCaption
+#: TransTranslatableStrings.pas:201 
+msgid "View helpfile"
+msgstr "Katso ohjeita"
+
+#. RtfParaDialog..Caption
+#: RtfParagraphOptionsForm.dfm:7 
+msgid "Paragraph"
+msgstr "Kappale"
+
+#. RtfParaDialog..JvLabel4..Caption
+#: RtfParagraphOptionsForm.dfm:30 
+msgid "Heading style:"
+msgstr "Otsikon tyyli:"
+
+#. RtfParaDialog..HeadingStyleCombo....Items.Strings
+#: RtfParagraphOptionsForm.dfm:49 
+msgid "Plain text"
+msgstr "Pelkkää tekstiä"
+
+#. RtfParaDialog..HeadingStyleCombo....Items.Strings
+#: RtfParagraphOptionsForm.dfm:50 
+msgid "Heading 1"
+msgstr "Otsikko 1"
+
+#. RtfParaDialog..HeadingStyleCombo....Items.Strings
+#: RtfParagraphOptionsForm.dfm:51 
+msgid "Heading 2"
+msgstr "Otsikko 2"
+
+#. RtfParaDialog..HeadingStyleCombo....Items.Strings
+#: RtfParagraphOptionsForm.dfm:52 
+msgid "Heading 3"
+msgstr "Otsikko 3"
+
+#. RtfParaDialog..HeadingStyleCombo....Items.Strings
+#: RtfParagraphOptionsForm.dfm:53 
+msgid "Heading 4"
+msgstr "Otsikko 4"
+
+#. RtfParaDialog..HeadingStyleCombo....Items.Strings
+#: RtfParagraphOptionsForm.dfm:54 
+msgid "Heading 5"
+msgstr "Otsikko 5"
+
+#. RtfParaDialog..HeadingStyleCombo....Items.Strings
+#: RtfParagraphOptionsForm.dfm:55 
+msgid "Heading 6"
+msgstr "Otsikko 6"
+
+#. RtfParaDialog..HeadingStyleCombo....Items.Strings
+#: RtfParagraphOptionsForm.dfm:56 
+msgid "Heading 7"
+msgstr "Otsikko 7"
+
+#. RtfParaDialog..HeadingStyleCombo....Items.Strings
+#: RtfParagraphOptionsForm.dfm:57 
+msgid "Heading 8"
+msgstr "Otsikko 8"
+
+#. RtfParaDialog..HeadingStyleCombo....Items.Strings
+#: RtfParagraphOptionsForm.dfm:58 
+msgid "Heading 9"
+msgstr "Otsikko 9"
+
+#. RtfParaDialog..AlignmentGroup..Hint
+#: RtfParagraphOptionsForm.dfm:65 
+msgid "Set text alignment"
+msgstr "Aseta tekstin tasaus"
+
+#. RtfParaDialog..AlignmentGroup..Caption
+#: RtfParagraphOptionsForm.dfm:66 
+msgid "&Alignment"
+msgstr "&Tasaus"
+
+#. RtfParaDialog..AlignmentGroup....Items.Strings
+#. RtfTabsDialog..AlignmentGroup....Items.Strings
+#: RtfParagraphOptionsForm.dfm:69 RtfTabSettingsForm.dfm:115 
+msgid "Left"
+msgstr "Vasen"
+
+#. RtfParaDialog..AlignmentGroup....Items.Strings
+#. RtfTabsDialog..AlignmentGroup....Items.Strings
+#: RtfParagraphOptionsForm.dfm:70 RtfTabSettingsForm.dfm:117 
+msgid "Right"
+msgstr "Oikea"
+
+#. RtfParaDialog..AlignmentGroup....Items.Strings
+#. RtfTabsDialog..AlignmentGroup....Items.Strings
+#: RtfParagraphOptionsForm.dfm:71 RtfTabSettingsForm.dfm:116 
+msgid "Center"
+msgstr "Keskitä"
+
+#. RtfParaDialog..AlignmentGroup....Items.Strings
+#: RtfParagraphOptionsForm.dfm:72 
+msgid "Justify"
+msgstr "Tasaa"
+
+#. RtfParaDialog..MarginsGroup..Hint
+#: RtfParagraphOptionsForm.dfm:81 
+msgid "Set text margins"
+msgstr "Aseta tekstin reunukset"
+
+#. RtfParaDialog..MarginsGroup..Caption
+#: RtfParagraphOptionsForm.dfm:82 
+msgid "&Margins"
+msgstr "&Reunukset"
+
+#. RtfParaDialog..MarginsGroup..JvLabel1..Caption
+#: RtfParagraphOptionsForm.dfm:90 
+msgid "Left:"
+msgstr "Vasen:"
+
+#. RtfParaDialog..MarginsGroup..JvLabel2..Caption
+#: RtfParagraphOptionsForm.dfm:105 
+msgid "Right:"
+msgstr "Oikea:"
+
+#. RtfParaDialog..MarginsGroup..JvLabel3..Caption
+#: RtfParagraphOptionsForm.dfm:120 
+msgid "First line:"
+msgstr "Ensimmäinen rivi:"
+
+#. RtfParaDialog..DefaultParaSetting..Hint
+#: RtfParagraphOptionsForm.dfm:205 
+msgid "Use these paragraph options as default for new documents"
+msgstr "Käytä näitä kappaleoptioina oletuksena uusille asiakirjoille"
+
+#. RtfParaDialog..DefaultParaSetting..Caption
+#: RtfParagraphOptionsForm.dfm:206 
+msgid "Set as default for new documents"
+msgstr "Aseta oletuksena uusille asiakirjoille"
+
+#. RtfParaDialog..SpacingGroup..Hint
+#: RtfParagraphOptionsForm.dfm:220 
+msgid "Set paragraph spacing"
+msgstr "Aseta kappaleiden välistys"
+
+#. RtfParaDialog..SpacingGroup..Caption
+#: RtfParagraphOptionsForm.dfm:221 
+msgid "&Spacing"
+msgstr "&Välistys"
+
+#. RtfParaDialog..SpacingGroup..JvLabel5..Caption
+#: RtfParagraphOptionsForm.dfm:229 
+msgid "Before:"
+msgstr "Ennen:"
+
+#. RtfParaDialog..SpacingGroup..JvLabel6..Caption
+#: RtfParagraphOptionsForm.dfm:244 
+msgid "After:"
+msgstr "Jälkeen:"
+
+#. RtfParaDialog..SpacingGroup..SpaceBeforeEdit..DisplaySuffix
+#. RtfParaDialog..SpacingGroup..SpaceAfterEdit..DisplaySuffix
+#: RtfParagraphOptionsForm.dfm:260 RtfParagraphOptionsForm.dfm:272 
+msgid " pt"
+msgstr " pt"
+
+#. RtfParaDialog..LineSpacingGroup..Hint
+#: RtfParagraphOptionsForm.dfm:283 
+msgid "Set line spacing"
+msgstr "Aseta rivien välistys"
+
+#. RtfParaDialog..LineSpacingGroup..Caption
+#: RtfParagraphOptionsForm.dfm:284 
+msgid "&Linespacing"
+msgstr "&Rivien välistys"
+
+#. RtfParaDialog..LineSpacingGroup..JvLabel10..Caption
+#: RtfParagraphOptionsForm.dfm:292 
+msgid "On:"
+msgstr "Päällä:"
+
+#. RtfParaDialog..LineSpacingGroup..LineSpacingCombo....Items.Strings
+#: RtfParagraphOptionsForm.dfm:324 
+msgid "Single"
+msgstr "Yksi"
+
+#. RtfParaDialog..LineSpacingGroup..LineSpacingCombo....Items.Strings
+#: RtfParagraphOptionsForm.dfm:325 
+msgid "One and a half"
+msgstr "Puolitoista"
+
+#. RtfParaDialog..LineSpacingGroup..LineSpacingCombo....Items.Strings
+#: RtfParagraphOptionsForm.dfm:326 
+msgid "Double"
+msgstr "Kaksi"
+
+#. RtfParaDialog..LineSpacingGroup..LineSpacingCombo....Items.Strings
+#: RtfParagraphOptionsForm.dfm:327 
+msgid "Specified or more"
+msgstr "Asetettu arvo tai enemmän"
+
+#. RtfParaDialog..LineSpacingGroup..LineSpacingCombo....Items.Strings
+#: RtfParagraphOptionsForm.dfm:328 
+msgid "Specified"
+msgstr "Asetettu arvo"
+
+#. RtfParaDialog..LineSpacingGroup..LineSpacingCombo....Items.Strings
+#: RtfParagraphOptionsForm.dfm:329 
+msgid "Multiple"
+msgstr "Useita"
+
+#. RtfTabsDialog..Caption
+#: RtfTabSettingsForm.dfm:7 
+#, fuzzy
+msgid "Tabs"
+msgstr "&Sarkaimet..."
+
+#. RtfTabsDialog..JvLabel1..Caption
+#: RtfTabSettingsForm.dfm:28 
+msgid "&Tabposition"
+msgstr "&Kielekkeen asema"
+
+#. RtfTabsDialog..AlignmentGroup..Hint
+#: RtfTabSettingsForm.dfm:110 
+msgid "Set tab alignment"
+msgstr "Aseta kielekkeen linjaus"
+
+#. RtfTabsDialog..AlignmentGroup..Caption
+#: RtfTabSettingsForm.dfm:111 
+msgid "Ali&gnment"
+msgstr "&Lin&jaus"
+
+#. RtfTabsDialog..AlignmentGroup....Items.Strings
+#: RtfTabSettingsForm.dfm:118 
+msgid "Decimal"
+msgstr "Desimaalia"
+
+#. RtfTabsDialog..AlignmentGroup....Items.Strings
+#: RtfTabSettingsForm.dfm:119 
+msgid "Bar"
+msgstr "Palkki"
+
+#. RtfTabsDialog..LeaderGroup..Hint
+#: RtfTabSettingsForm.dfm:129 
+msgid "Set leader character"
+msgstr "Aseta edeltävä merkki"
+
+#. RtfTabsDialog..LeaderGroup..Caption
+#: RtfTabSettingsForm.dfm:130 
+msgid "&Leader"
+msgstr "&Edeltävä"
+
+#. RtfTabsDialog..LeaderGroup....Items.Strings
+#: RtfTabSettingsForm.dfm:134 
+msgid "&1 None"
+msgstr "&1 Ei mikään"
+
+#. RtfTabsDialog..ActionList1..actSet..Caption
+#: RtfTabSettingsForm.dfm:169 
+msgid "&Set"
+msgstr "&Aseta"
+
+#. RtfTabsDialog..ActionList1..actClear..Caption
+#: RtfTabSettingsForm.dfm:174 
+msgid "Cl&ear"
+msgstr "Tyh&jennä"
+
+#. RtfTabsDialog..ActionList1..actClearAll..Caption
+#: RtfTabSettingsForm.dfm:179 
+msgid "Clear &All"
+msgstr "Tyhjennä &Kaikki"
+
+#. RtfTabsDialog..ActionList1..actCancel..Caption
+#: RtfTabSettingsForm.dfm:187 
+msgid "Cancel"
+msgstr "Peruuta"
+
+msgid "Basic Latin"
+msgstr "Latinalainen, perus"
+
+msgid "Latin-1 Supplement"
+msgstr "Latinalainen-1 Täydennys"
+
+msgid "Latin Extended-A"
+msgstr "Latinalainen, laajennettu-A"
+
+msgid "Latin Extended-B"
+msgstr "Latinalainen, laajennettu-B"
+
+msgid "IPA Extensions"
+msgstr "IPA laajennukset"
+
+msgid "Spacing Modifier Letters"
+msgstr "Välinmäärityskirjaimet"
+
+msgid "Combining Diacritical Marks"
+msgstr "Yhdistetään diakriittiset merkit"
+
+msgid "Greek and Coptic"
+msgstr "Kreikka ja kopti"
+
+msgid "Cyrillic"
+msgstr "Kyrillinen"
+
+msgid "Hebrew"
+msgstr "Hebrea"
+
+msgid "Arabic"
+msgstr "Arabia"
+
+msgid "Latin Extended Additional"
+msgstr "Latinalainen, laajennettu (lisä)"
+
+msgid "Greek Extended"
+msgstr "Kreikka, laajennettu"
+
+msgid "General Punctuation"
+msgstr "Yleiset välimerkit"
+
+msgid "Superscripts and Subscripts"
+msgstr "Ylä- ja alaindeksit"
+
+msgid "Currency Symbols"
+msgstr "Valuuttamerkit"
+
+msgid "Letterlike Symbols"
+msgstr "Kirjainmerkit"
+
+msgid "Number Forms"
+msgstr "Numeromuodot"
+
+msgid "Arrows"
+msgstr "Nuolet"
+
+msgid "Mathematical Operators"
+msgstr "Matemaattiset operaattorit"
+
+msgid "Miscellaneous Technical"
+msgstr "Muut tekniset"
+
+msgid "Box Drawing"
+msgstr "Kehyksenpiirtomerkit"
+
+msgid "Block Elements"
+msgstr "Lohkon osat"
+
+msgid "Geometric Shapes"
+msgstr "Geometriset muodot"
+
+msgid "Miscellaneous Symbols"
+msgstr "Muita merkkejä"
+
+msgid "Alphabetic Presentation Forms"
+msgstr "Alfanumeerisen esityksen muodot"
+
+msgid "Arabic Presentation Forms-A"
+msgstr "Arabialaiset esitysmuodot-A"
+
+msgid "Combining Half Marks"
+msgstr "Yhdistävät puolimerkit"
+
+msgid "Arabic Presentation Forms-B"
+msgstr "Arabialaiset esitysmuodot-B"
+
+msgid "Specials"
+msgstr "Erikoismerkit"
+
+#, fuzzy
+#~ msgid "program_options"
+#~ msgstr "Kappale lisävalinnat"
+
+#, fuzzy
+#~ msgid "Mitchell (slowest but best quality )"
+#~ msgstr "Mitchell (hitain mutta paras laatu)"
+
+#, fuzzy
+#~ msgid "Transcript"
+#~ msgstr "Yläindeksi"
+
+#, fuzzy
+#~ msgid "Decrease level"
+#~ msgstr "Pienennä valoisuutta"
+
+#, fuzzy
+#~ msgid "Increase level"
+#~ msgstr "Lisää valoisuutta"
+
+#~ msgid "Export text to html"
+#~ msgstr "Vie teksti html-tiedostoon"
+
+#~ msgid "Export rtf textfile to html"
+#~ msgstr "Vie rtf teksti html-tiedostoon"
+
+#~ msgid "Page se&tup..."
+#~ msgstr "Sivun ase&tukset..."
+
+#~ msgid "Confirmation"
+#~ msgstr "Vahvistus"
+
+#~ msgid "Graphics32"
+#~ msgstr "Graphics32"
+
+#~ msgid "http://graphics32.org/"
+#~ msgstr "http://graphics32.org/"
+
+#~ msgid "http://www.wilsonc.demon.co.uk/delphi_6.htm"
+#~ msgstr "http://www.wilsonc.demon.co.uk/delphi_6.htm"
+
+#~ msgid "Text directory:"
+#~ msgstr "Tekstihakemisto:"
+
+#~ msgid "Language:"
+#~ msgstr "Kieli:"
+
+#~ msgid "Contact:"
+#~ msgstr "Kontakti:"
+
+#~ msgid "Website:"
+#~ msgstr "Nettisivu:"
+
+#~ msgid "Comments:"
+#~ msgstr "Kommentit:"
+
+#~ msgid "&2 ........."
+#~ msgstr "&2 ........."
+
+#~ msgid "&3 ---------"
+#~ msgstr "&3 ---------"
+
+#~ msgid "&4 _____"
+#~ msgstr "&4 _____"
+
+#~ msgid "Set a new tab"
+#~ msgstr "Aseta uusi kieleke"
+
+#~ msgid "Remove the currently selected tab"
+#~ msgstr "Poista valittu kieleke"
+
+#~ msgid "Clear all tabs"
+#~ msgstr "Tyhjennä kaikki kielekkeet"

@@ -1,0 +1,4 @@
+syntax: glob
+**.mo
+default.po
+transcript.po

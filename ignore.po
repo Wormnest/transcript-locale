@@ -1,0 +1,4 @@
+#. TransAboutForm..JvPanel3..StaticCopyright..Caption
+#: TransAbout.dfm:115
+msgid "Copyright © 2003-%d Jacob Boerema"
+msgstr ""
