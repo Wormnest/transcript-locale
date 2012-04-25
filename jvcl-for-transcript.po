@@ -1,0 +1,269 @@
+# Manual list of useful translatable strings from jvcl code
+# Because we don't want to translate everything or make a
+# big ignore file we add the parts from jvcl we want by hand
+# Copyright (C) Jacob Boerema, Transcript
+# This file is distributed under the same license as the PACKAGE package.
+# Jacob Boerema, 2012.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Transcript\n"
+"POT-Creation-Date: 2012-04-24 10:12\n"
+"PO-Revision-Date: 2012-04-24 10:12\n"
+"Last-Translator: Jacob Boerema\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 1.2.2\n"
+
+#. === JvTypes.pas ============================================================
+#. Programmer's name for it: RsClBlack
+#: JvResources.pas:2122 
+msgid "Black"
+msgstr ""
+
+#. Programmer's name for it: RsClMaroon
+#: JvResources.pas:2123 
+msgid "Maroon"
+msgstr ""
+
+#. Programmer's name for it: RsClNavy
+#: JvResources.pas:2126 
+msgid "Navy blue"
+msgstr ""
+
+#. Programmer's name for it: RsClPurple
+#: JvResources.pas:2127 
+msgid "Purple"
+msgstr ""
+
+#. Programmer's name for it: RsClTeal
+#: JvResources.pas:2128 
+msgid "Teal"
+msgstr ""
+
+#. Programmer's name for it: RsClGray
+#: JvResources.pas:2129 
+msgid "Gray"
+msgstr ""
+
+#. Programmer's name for it: RsClSilver
+#: JvResources.pas:2130 
+msgid "Silver"
+msgstr ""
+
+#. Programmer's name for it: RsClLime
+#: JvResources.pas:2132 
+msgid "Lime"
+msgstr ""
+
+#. Programmer's name for it: RsClFuchsia
+#: JvResources.pas:2135 
+msgid "Fuchsia"
+msgstr ""
+
+#. Programmer's name for it: RsClAqua
+#: JvResources.pas:2136 
+msgid "Aqua"
+msgstr ""
+
+#. Programmer's name for it: RsClWhite
+#: JvResources.pas:2137 
+msgid "White"
+msgstr ""
+
+#. Programmer's name for it: RsClMoneyGreen
+#: JvResources.pas:2138 
+msgid "Money green"
+msgstr ""
+
+#. Programmer's name for it: RsClSkyBlue
+#: JvResources.pas:2139 
+msgid "Sky blue"
+msgstr ""
+
+#. Programmer's name for it: RsClCream
+#: JvResources.pas:2140 
+msgid "Cream"
+msgstr ""
+
+#. Programmer's name for it: RsClMedGray
+#: JvResources.pas:2141 
+msgid "Medium gray"
+msgstr ""
+
+#. Standrad colors
+#. Programmer's name for it: RsClBrown
+#: JvResources.pas:2144 
+msgid "Brown"
+msgstr ""
+
+#. Programmer's name for it: RsClOliveGreen
+#: JvResources.pas:2145 
+msgid "Olive Green"
+msgstr ""
+
+#. Programmer's name for it: RsClDarkGreen
+#: JvResources.pas:2146 
+msgid "Dark Green"
+msgstr ""
+
+#. Programmer's name for it: RsClDarkTeal
+#: JvResources.pas:2147 
+msgid "Dark Teal"
+msgstr ""
+
+#. Programmer's name for it: RsClDarkBlue
+#: JvResources.pas:2148 
+msgid "Dark Blue"
+msgstr ""
+
+#. Programmer's name for it: RsClIndigo
+#: JvResources.pas:2149 
+msgid "Indigo"
+msgstr ""
+
+#. Programmer's name for it: RsClGray80
+#: JvResources.pas:2150 
+msgid "Gray 80%"
+msgstr ""
+
+#. Programmer's name for it: RsClDarkRed
+#: JvResources.pas:2152 
+msgid "Dark Red"
+msgstr ""
+
+#. Programmer's name for it: RsClOrange
+#: JvResources.pas:2153 
+msgid "Orange"
+msgstr ""
+
+#. Programmer's name for it: RsClDarkYellow
+#: JvResources.pas:2154 
+msgid "Dark Yellow"
+msgstr ""
+
+#. Programmer's name for it: RsClBlueGray
+#: JvResources.pas:2155 
+msgid "Blue Gray"
+msgstr ""
+
+#. Programmer's name for it: RsClGray50
+#: JvResources.pas:2156 
+msgid "Gray 50%"
+msgstr ""
+
+#. Programmer's name for it: RsClLightOrange
+#: JvResources.pas:2158 
+msgid "Light Orange"
+msgstr ""
+
+#. Programmer's name for it: RsClSeaGreen
+#: JvResources.pas:2159 
+msgid "Sea Green"
+msgstr ""
+
+#. Programmer's name for it: RsClLightBlue
+#: JvResources.pas:2160 
+msgid "Light Blue"
+msgstr ""
+
+#. Programmer's name for it: RsClViolet
+#: JvResources.pas:2161 
+msgid "Violet"
+msgstr ""
+
+#. Programmer's name for it: RsClGray40
+#: JvResources.pas:2162 
+msgid "Gray 40%"
+msgstr ""
+
+#. Programmer's name for it: RsClPink
+#: JvResources.pas:2164 
+msgid "Pink"
+msgstr ""
+
+#. Programmer's name for it: RsClGold
+#: JvResources.pas:2165 
+msgid "Gold"
+msgstr ""
+
+#. Programmer's name for it: RsClBrightGreen
+#: JvResources.pas:2166 
+msgid "Bright Green"
+msgstr ""
+
+#. Programmer's name for it: RsClTurquoise
+#: JvResources.pas:2167 
+msgid "Turquoise"
+msgstr ""
+
+#. Programmer's name for it: RsClPlum
+#: JvResources.pas:2168 
+msgid "Plum"
+msgstr ""
+
+#. Programmer's name for it: RsClGray25
+#: JvResources.pas:2169 
+msgid "Gray 25%"
+msgstr ""
+
+#. Programmer's name for it: RsClRose
+#: JvResources.pas:2171 
+msgid "Rose"
+msgstr ""
+
+#. Programmer's name for it: RsClTan
+#: JvResources.pas:2172 
+msgid "Tan"
+msgstr ""
+
+#. Programmer's name for it: RsClLightYellow
+#: JvResources.pas:2173 
+msgid "Light Yellow"
+msgstr ""
+
+#. Programmer's name for it: RsClLightGreen
+#: JvResources.pas:2174 
+msgid "Light Green"
+msgstr ""
+
+#. Programmer's name for it: RsClLightTurquoise
+#: JvResources.pas:2175 
+msgid "Light Turquoise"
+msgstr ""
+
+#. Programmer's name for it: RsClPaleBlue
+#: JvResources.pas:2176 
+msgid "Pale Blue"
+msgstr ""
+
+#. Programmer's name for it: RsClLavender
+#: JvResources.pas:2177 
+msgid "Lavender"
+msgstr ""
+
+#. Programmer's name for it: RsRGB_Red
+#. Programmer's name for it: RsClRed
+#: JvResources.pas:872 JvResources.pas:2131 
+msgid "Red"
+msgstr ""
+
+#. Programmer's name for it: RsRGB_Green
+#. Programmer's name for it: RsClGreen
+#: JvResources.pas:873 JvResources.pas:2124 
+msgid "Green"
+msgstr ""
+
+#. Programmer's name for it: RsRGB_Blue
+#. Programmer's name for it: RsClBlue
+#: JvResources.pas:874 JvResources.pas:2134 
+msgid "Blue"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Default"
+msgstr ""

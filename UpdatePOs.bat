@@ -36,7 +36,7 @@ dxgettext -q -o ..\stable -b ..\stable --delphi --nonascii --useignorepo
 : then merge all the generated po files into one
 echo Merging files...
 copy ..\stable\default.po default.po
-msgcat ..\stable\default.po ..\..\jgb\source\default.po unicodeblockdata.po -o default.po
+msgcat ..\stable\default.po ..\..\jgb\source\default.po unicodeblockdata.po jvcl-for-transcript.po -o default.po
 
 : ensure uniqueness
 msguniq -u --no-wrap default.po -o transcript.po
