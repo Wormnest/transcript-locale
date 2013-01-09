@@ -1,11 +1,11 @@
 # input file: Deutsch.lng
 # original "Last-Translator: Wolfgang Hauer\n"
-# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012.
+# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.4.1 BETA\n"
-"POT-Creation-Date: 2012-05-11 14:28\n"
-"PO-Revision-Date: 2012-05-11 14:32+0200\n"
+"POT-Creation-Date: 2012-09-07 16:02\n"
+"PO-Revision-Date: 2013-01-09 13:41+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
 "Language: de\n"
@@ -134,7 +134,7 @@ msgstr "&Einfügen"
 #. #-#-#-#-#  ..\..\jgb\source\default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..HelpBtn..Caption
 #. RtfTabsDialog..HelpBtn..Caption
-#: JgbSpecialCharsForm.dfm:177 TranscriptMain.dfm:2528 
+#: JgbSpecialCharsForm.dfm:177 TranscriptMain.dfm:2537 
 #: TransEditAutoCorrect.dfm:211 TransOpties.dfm:1699 TransPro.dfm:73
 #: RtfParagraphOptionsForm.dfm:196 RtfTabSettingsForm.dfm:71
 msgid "&Help"
@@ -213,7 +213,7 @@ msgstr "Colin Wilson's Twain code (adapted)"
 #. TransAboutForm..BackPanel..JvTabBar1......Caption
 #: TransAbout.dfm:424 
 msgid "Credits"
-msgstr "Credits"
+msgstr "Danksagung"
 
 #. TransAboutForm..BackPanel..JvTabBar1......Caption
 #: TransAbout.dfm:428 
@@ -239,7 +239,7 @@ msgstr "Schriftgröße ändern"
 #. MainForm..CoolBar..EditBar..EditorZoomCombo..Hint
 #: TranscriptMain.dfm:205 
 msgid "Zoom in or out on the text (default is 100)"
-msgstr "auf dem Text Ein- oder Auszoomen (Standard ist 100)"
+msgstr "Text vergrößern oder verkleinern (Standard ist 100)"
 
 #. MainForm..CoolBar..EditBar..NummeringBtn..Hint
 #: TranscriptMain.dfm:286 
@@ -297,12 +297,12 @@ msgstr "&Bild:"
 #. MainForm..CoolBar..PictBar..lblZoom..Caption
 #: TranscriptMain.dfm:553 
 msgid "&Zoom:"
-msgstr "&Zoom:"
+msgstr "&Vergrößerung:"
 
 #. MainForm..CoolBar..PictBar..ZoomCombo..Hint
 #: TranscriptMain.dfm:569 
 msgid "Zoom in or out on the image (default is 100)"
-msgstr "auf dem Bild Ein- oder Auszoomen (Standard ist 100)"
+msgstr "Bild vergrößern oder verkleinern (Standard ist 100)"
 
 #. MainForm..CoolBar..PictBar..lblBrightness..Caption
 #: TranscriptMain.dfm:611 
@@ -1035,13 +1035,13 @@ msgstr "Autokorrekturliste erneut laden"
 #. MainForm..ActionList1..actHighlighterZoomIn..Caption
 #: TranscriptMain.dfm:1797 TranscriptMain.dfm:2104 
 msgid "Zoom In"
-msgstr "Einzoomen"
+msgstr "Vergrößern"
 
 #. MainForm..ActionList1..actZoomOut..Caption
 #. MainForm..ActionList1..actHighlighterZoomOut..Caption
 #: TranscriptMain.dfm:1802 TranscriptMain.dfm:2109 
 msgid "Zoom Out"
-msgstr "Auszoomen"
+msgstr "Verkleinern"
 
 #. MainForm..ActionList1..actToggleProjectTimer..Caption
 #: TranscriptMain.dfm:1807 
@@ -1268,22 +1268,22 @@ msgstr "Fenster nebeneinander"
 #. MainForm..ActionList1..actShowImageRuler..Caption
 #: TranscriptMain.dfm:2083 
 msgid "Show highlighter"
-msgstr ""
+msgstr "Zeige Marker"
 
 #. MainForm..ActionList1..actSetHighlighterStartOffset..Caption
 #: TranscriptMain.dfm:2089 
 msgid "Set highlighter top offset"
-msgstr ""
+msgstr "Obere Position des Bild-Markers einstellen"
 
 #. MainForm..ActionList1..actResetZoom..Caption
 #: TranscriptMain.dfm:2094 
 msgid "Reset to default zoom"
-msgstr ""
+msgstr "Standardvergrößerung wiederherstellen"
 
 #. MainForm..ActionList1..actResetBrightness..Caption
 #: TranscriptMain.dfm:2099 
 msgid "Reset to default brightness"
-msgstr ""
+msgstr "Standardhelligkeit wiederherstellen"
 
 #. MainForm..ActionList1..actHighlighterBrightnessInc..Caption
 #: TranscriptMain.dfm:2114 
@@ -1295,80 +1295,90 @@ msgstr "&Helligkeit erhöhen"
 msgid "Decrease brightness"
 msgstr "He&lligkeit verringern"
 
+#. MainForm..ActionList1..actCopyImage2Editor..Caption
+#: TranscriptMain.dfm:2124 
+msgid "Insert image into editor"
+msgstr "Bild einfügen"
+
+#. MainForm..ActionList1..actCopyImage2Editor..Hint
+#: TranscriptMain.dfm:2126 
+msgid "Inserts the current image into the editor"
+msgstr ""
+
 #. MainForm..MainMenu..MM_Bestand..Caption
-#: TranscriptMain.dfm:2136 
+#: TranscriptMain.dfm:2145 
 msgid "&File"
 msgstr "&Datei"
 
 #. MainForm..MainMenu..MM_Bestand..RecentFilesMenu..Caption
-#: TranscriptMain.dfm:2148 
+#: TranscriptMain.dfm:2157 
 msgid "&Reopen"
 msgstr "&Wieder öffnen"
 
 #. MainForm..MainMenu..MM_Bewerken..Caption
-#: TranscriptMain.dfm:2187 
+#: TranscriptMain.dfm:2196 
 msgid "&Edit"
 msgstr "&Bearbeiten"
 
 #. MainForm..MainMenu..Format1..Caption
-#: TranscriptMain.dfm:2239 
+#: TranscriptMain.dfm:2248 
 msgid "For&mat"
 msgstr "Forma&t"
 
 #. MainForm..MainMenu..MM_View..Caption
-#: TranscriptMain.dfm:2303 
+#: TranscriptMain.dfm:2312 
 msgid "&View"
 msgstr "&Ansicht"
 
 #. MainForm..MainMenu..MM_Navigatie..Caption
-#: TranscriptMain.dfm:2333 
+#: TranscriptMain.dfm:2342 
 msgid "&Image"
 msgstr "B&ild"
 
 #. MainForm..MainMenu..MM_Navigatie..Pdf1..Caption
 #. OptionsForm..JvPageControl..PdfTab..Caption
-#: TranscriptMain.dfm:2396 TransOpties.dfm:1520 
+#: TranscriptMain.dfm:2405 TransOpties.dfm:1520 
 msgid "Pdf"
 msgstr "PDF"
 
 #. MainForm..MainMenu..MM_Navigatie..mnuStretchfilterwhenzoomedin..Caption
-#: TranscriptMain.dfm:2414 
+#: TranscriptMain.dfm:2423 
 msgid "Stretch filter when zoomed in"
-msgstr "Interpolations-Filter wenn ein gezoomed"
+msgstr "Interpolations-Filter beim vergrößern"
 
 #. MainForm..MainMenu..MM_Navigatie..mnuStretchfilterwhenzoomedout..Caption
-#: TranscriptMain.dfm:2446 
+#: TranscriptMain.dfm:2455 
 msgid "Stretch filter when zoomed out"
-msgstr "Interpolations-Filter wenn aus gezoomed"
+msgstr "Interpolations-Filter beim verkleinern"
 
 #. MainForm..MainMenu..MM_Tools..Caption
-#: TranscriptMain.dfm:2479 
+#: TranscriptMain.dfm:2488 
 msgid "&Tools"
-msgstr "&Werkzeuge"
+msgstr "E&xtras"
 
 #. MainForm..EditPopup..Inserttext1..Caption
-#: TranscriptMain.dfm:2619 
+#: TranscriptMain.dfm:2628 
 msgid "&Insert quick text"
 msgstr "&Textbausteine einfügen"
 
 #. MainForm..EditPopup..SetQuicktext..Caption
-#: TranscriptMain.dfm:2652 
+#: TranscriptMain.dfm:2661 
 msgid "S&et quick text"
 msgstr "Textbaustein au&swählen"
 
 #. MainForm..pmImage..Copyselectiontowindow1....Hint
-#: TranscriptMain.dfm:6151 
+#: TranscriptMain.dfm:6163 
 #, fuzzy
 msgid "Copies the selected portion of the image to a separate image window"
 msgstr "Markierung in ein separates Fenster kopieren"
 
 #. MainForm..pmImage..mnuPositioning..Caption
-#: TranscriptMain.dfm:6160 
+#: TranscriptMain.dfm:6172 
 msgid "Horizontal image positioning"
 msgstr "Horizontale Bildpositionierung"
 
 #. MainForm..pmImage..mnuPositioning..Horizontalcenterimage1..Caption
-#: TranscriptMain.dfm:6163 
+#: TranscriptMain.dfm:6175 
 msgid "Center image"
 msgstr "Bild zentrieren"
 
@@ -1539,13 +1549,13 @@ msgstr "Zentimeter"
 #: TransOpties.dfm:255 
 msgid "Set this option to restore previous text zoom value at program startup"
 msgstr ""
-"Diese Option wählen, um bei Programmstart den Zoomparameter des "
+"Diese Option wählen, um bei Programmstart den Vergrößerungs parameter des "
 "vorherhehenden Textes einzustellen"
 
 #. OptionsForm..JvPageControl..GeneralTab..RememberTextZoomCheck..Caption
 #: TransOpties.dfm:256 
 msgid "&Remember text zoom settings"
-msgstr "Parameter für &Textzoom merken"
+msgstr "Parameter für &Text Vergrößerung merken"
 
 #. OptionsForm..JvPageControl..GeneralTab..IndentSettingsBox..Caption
 #: TransOpties.dfm:271 
@@ -1620,12 +1630,13 @@ msgstr "Bild"
 #. OptionsForm..JvPageControl..PictureTab..PictStepEdit..Hint
 #: TransOpties.dfm:359 TransOpties.dfm:492 
 msgid "Change here the zoom factor (between 1 and 50, default 10%)"
-msgstr "Ändern Sie hier den Zoomfaktor (zwischen 1 und 50, Vorgabe ist 10%)"
+msgstr ""
+"Ändern Sie hier den Vergrößerung faktor (zwischen 1 und 50, Vorgabe ist 10%)"
 
 #. OptionsForm..JvPageControl..PictureTab..JvLabel2..Caption
 #: TransOpties.dfm:361 
 msgid "&Stepsize for zoom in/out:"
-msgstr "&Schrittweite für ein/auszoomen:"
+msgstr "&Schrittweite für vergrößern/verkleinern:"
 
 #. OptionsForm..JvPageControl..PictureTab..JvLabel1....Hint
 #. OptionsForm..JvPageControl..PictureTab..DefaultPictTop....Hint
@@ -1690,7 +1701,7 @@ msgid ""
 "If set all image adjustments like zoom, brightness, inverted, greyscale and "
 "rotation will be preserved when changing images"
 msgstr ""
-"Falls aktiviert, werden alle Bildeinstellungen wie Zoom, Helligkeit, "
+"Falls aktiviert, werden alle Bildeinstellungen wie Vergrößerung, Helligkeit, "
 "umgekehrt Farben, Graustufe und Drehung auf neue Bilder angewandt"
 
 #. OptionsForm..JvPageControl..PictureTab..RememberZoomCheck..Caption
@@ -1733,7 +1744,7 @@ msgid ""
 "dragging is default, you can zoom by using the ctrl key."
 msgstr ""
 "Wählen Sie zwischen dem neuen und alten Bildcursor-Stil. Neuer Stil bedeutet "
-"verschieben ist vorgegeben, zum zoomen die Ctrl-Taste verwenden."
+"verschieben ist vorgegeben, zum vergrößern die Ctrl-Taste verwenden."
 
 #. OptionsForm..JvPageControl..PictureTab..ImageCursorStyle..Caption
 #: TransOpties.dfm:557 
@@ -1743,12 +1754,12 @@ msgstr "Stil des Bildcursors"
 #. OptionsForm..JvPageControl..PictureTab..ImageCursorStyle....Items.Strings
 #: TransOpties.dfm:560 
 msgid "New style (dragging default, for zoom use ctrl)"
-msgstr "Neuer Stil (verschieben ist Vorgabe, zum zoomen Ctrl drücken)"
+msgstr "Neuer Stil (verschieben ist Vorgabe, zum vergrößern Ctrl drücken)"
 
 #. OptionsForm..JvPageControl..PictureTab..ImageCursorStyle....Items.Strings
 #: TransOpties.dfm:561 
 msgid "Old style (zoom default, for dragging use ctrl)"
-msgstr "Alter Stil (zoomen ist Vorgabe, zum ziehen Ctrl drücken)"
+msgstr "Alter Stil (vergrößern ist Vorgabe, zum ziehen Ctrl drücken)"
 
 #. OptionsForm..JvPageControl..PictureTab..GoBackToEditorCheck....Hint
 #: TransOpties.dfm:572 
@@ -2335,7 +2346,7 @@ msgid "Unexpected error converting ini file"
 msgstr ""
 
 #. separate space so no need to translate it at end which could be forgotten
-#: TranscriptMain.pas:6817 
+#: TranscriptMain.pas:6839 
 msgid "width x height:"
 msgstr "Breite × Höhe:"
 
@@ -2648,7 +2659,7 @@ msgid ""
 "It is in use by another program!"
 msgstr ""
 "%s kann nicht geladen werden.\n"
-"Ein anderes Programm verwendet es!"
+"Sie wird von einem anderen Programm benutzt!"
 
 #. 14-1-2012
 #. Programmer's name for it: rsExpFileExistsErr
@@ -3240,28 +3251,28 @@ msgid "Cancel"
 msgstr "Abbrechen"
 
 #. loading finished
-#: JgbImgView.pas:1058 
+#: JgbImgView.pas:1076 
 msgid "Unsupported (uncommon) image subformat or not a valid image."
 msgstr ""
 
-#: JgbImgView.pas:1059 JgbImgView.pas:1061 JgbImgView.pas:1068 
-#: JgbImgView.pas:1073 JgbImgView.pas:1077
+#: JgbImgView.pas:1077 JgbImgView.pas:1079 JgbImgView.pas:1086 
+#: JgbImgView.pas:1091 JgbImgView.pas:1095
 msgid "Open Image"
-msgstr ""
+msgstr "Bild öffnen"
 
-#: JgbImgView.pas:1061 
+#: JgbImgView.pas:1079 
 msgid "Image uses unsupported (uncommon) color depth."
 msgstr ""
 
-#: JgbImgView.pas:1067 
+#: JgbImgView.pas:1085 
 msgid "Can't load image most likely due to not enough available free memory."
 msgstr ""
 
-#: JgbImgView.pas:1072 
+#: JgbImgView.pas:1090 
 msgid "Can't load image probably due to running out of resources."
 msgstr ""
 
-#: JgbImgView.pas:1076 
+#: JgbImgView.pas:1094 
 msgid "Invalid PNG image (%s)."
 msgstr ""
 
@@ -3369,22 +3380,22 @@ msgstr "Kastanienbraun"
 #. Programmer's name for it: RsClNavy
 #: JvResources.pas:2126 
 msgid "Navy blue"
-msgstr ""
+msgstr "Marineblau"
 
 #. Programmer's name for it: RsClPurple
 #: JvResources.pas:2127 
 msgid "Purple"
-msgstr ""
+msgstr "Purpur"
 
 #. Programmer's name for it: RsClTeal
 #: JvResources.pas:2128 
 msgid "Teal"
-msgstr ""
+msgstr "Aquamarin"
 
 #. Programmer's name for it: RsClGray
 #: JvResources.pas:2129 
 msgid "Gray"
-msgstr ""
+msgstr "Grau"
 
 #. Programmer's name for it: RsClSilver
 #: JvResources.pas:2130 
@@ -3394,17 +3405,17 @@ msgstr "Silber"
 #. Programmer's name for it: RsClLime
 #: JvResources.pas:2132 
 msgid "Lime"
-msgstr ""
+msgstr "Limone"
 
 #. Programmer's name for it: RsClFuchsia
 #: JvResources.pas:2135 
 msgid "Fuchsia"
-msgstr ""
+msgstr "Fuchsie"
 
 #. Programmer's name for it: RsClAqua
 #: JvResources.pas:2136 
 msgid "Aqua"
-msgstr ""
+msgstr "Wasser-Blau"
 
 #. Programmer's name for it: RsClWhite
 #: JvResources.pas:2137 
@@ -3419,17 +3430,17 @@ msgstr ""
 #. Programmer's name for it: RsClSkyBlue
 #: JvResources.pas:2139 
 msgid "Sky blue"
-msgstr ""
+msgstr "Himmelblau!"
 
 #. Programmer's name for it: RsClCream
 #: JvResources.pas:2140 
 msgid "Cream"
-msgstr ""
+msgstr "Cream"
 
 #. Programmer's name for it: RsClMedGray
 #: JvResources.pas:2141 
 msgid "Medium gray"
-msgstr ""
+msgstr "Mittleres Grau"
 
 #. Standrad colors
 #. Programmer's name for it: RsClBrown
@@ -3445,7 +3456,7 @@ msgstr ""
 #. Programmer's name for it: RsClDarkGreen
 #: JvResources.pas:2146 
 msgid "Dark Green"
-msgstr ""
+msgstr "Dunkelgrün"
 
 #. Programmer's name for it: RsClDarkTeal
 #: JvResources.pas:2147 
@@ -3455,7 +3466,7 @@ msgstr ""
 #. Programmer's name for it: RsClDarkBlue
 #: JvResources.pas:2148 
 msgid "Dark Blue"
-msgstr ""
+msgstr "Dunkelblau"
 
 #. Programmer's name for it: RsClIndigo
 #: JvResources.pas:2149 
@@ -3465,12 +3476,12 @@ msgstr "Indigo"
 #. Programmer's name for it: RsClGray80
 #: JvResources.pas:2150 
 msgid "Gray 80%"
-msgstr ""
+msgstr "Grau 80%"
 
 #. Programmer's name for it: RsClDarkRed
 #: JvResources.pas:2152 
 msgid "Dark Red"
-msgstr ""
+msgstr "Dunkelrot"
 
 #. Programmer's name for it: RsClOrange
 #: JvResources.pas:2153 
@@ -3480,22 +3491,22 @@ msgstr "Orange"
 #. Programmer's name for it: RsClDarkYellow
 #: JvResources.pas:2154 
 msgid "Dark Yellow"
-msgstr ""
+msgstr "Dunkelgelb"
 
 #. Programmer's name for it: RsClBlueGray
 #: JvResources.pas:2155 
 msgid "Blue Gray"
-msgstr ""
+msgstr "Blaugrau"
 
 #. Programmer's name for it: RsClGray50
 #: JvResources.pas:2156 
 msgid "Gray 50%"
-msgstr ""
+msgstr "Grau 50%"
 
 #. Programmer's name for it: RsClLightOrange
 #: JvResources.pas:2158 
 msgid "Light Orange"
-msgstr ""
+msgstr "Hellorange"
 
 #. Programmer's name for it: RsClSeaGreen
 #: JvResources.pas:2159 
@@ -3505,22 +3516,22 @@ msgstr ""
 #. Programmer's name for it: RsClLightBlue
 #: JvResources.pas:2160 
 msgid "Light Blue"
-msgstr ""
+msgstr "Hellblau"
 
 #. Programmer's name for it: RsClViolet
 #: JvResources.pas:2161 
 msgid "Violet"
-msgstr ""
+msgstr "Violett"
 
 #. Programmer's name for it: RsClGray40
 #: JvResources.pas:2162 
 msgid "Gray 40%"
-msgstr ""
+msgstr "Grau 40%"
 
 #. Programmer's name for it: RsClPink
 #: JvResources.pas:2164 
 msgid "Pink"
-msgstr ""
+msgstr "Rosa"
 
 #. Programmer's name for it: RsClGold
 #: JvResources.pas:2165 
@@ -3530,42 +3541,42 @@ msgstr "Gold"
 #. Programmer's name for it: RsClBrightGreen
 #: JvResources.pas:2166 
 msgid "Bright Green"
-msgstr ""
+msgstr "Hellgrün"
 
 #. Programmer's name for it: RsClTurquoise
 #: JvResources.pas:2167 
 msgid "Turquoise"
-msgstr ""
+msgstr "Türkis"
 
 #. Programmer's name for it: RsClPlum
 #: JvResources.pas:2168 
 msgid "Plum"
-msgstr ""
+msgstr "Pflaume"
 
 #. Programmer's name for it: RsClGray25
 #: JvResources.pas:2169 
 msgid "Gray 25%"
-msgstr ""
+msgstr "Grau 25%"
 
 #. Programmer's name for it: RsClRose
 #: JvResources.pas:2171 
 msgid "Rose"
-msgstr ""
+msgstr "Rosen"
 
 #. Programmer's name for it: RsClTan
 #: JvResources.pas:2172 
 msgid "Tan"
-msgstr ""
+msgstr "Tan"
 
 #. Programmer's name for it: RsClLightYellow
 #: JvResources.pas:2173 
 msgid "Light Yellow"
-msgstr ""
+msgstr "Hellgelb"
 
 #. Programmer's name for it: RsClLightGreen
 #: JvResources.pas:2174 
 msgid "Light Green"
-msgstr ""
+msgstr "Hellgrün"
 
 #. Programmer's name for it: RsClLightTurquoise
 #: JvResources.pas:2175 
@@ -3575,12 +3586,12 @@ msgstr ""
 #. Programmer's name for it: RsClPaleBlue
 #: JvResources.pas:2176 
 msgid "Pale Blue"
-msgstr ""
+msgstr "Fahlblau"
 
 #. Programmer's name for it: RsClLavender
 #: JvResources.pas:2177 
 msgid "Lavender"
-msgstr ""
+msgstr "Lavendel"
 
 #. Programmer's name for it: RsRGB_Red
 #. Programmer's name for it: RsClRed
