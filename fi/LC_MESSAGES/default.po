@@ -4,14 +4,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.4.1 BETA\n"
-"POT-Creation-Date: 2012-05-11 14:28\n"
-"PO-Revision-Date: 2012-04-26 15:38+0200\n"
+"POT-Creation-Date: 2012-09-07 16:02\n"
+"PO-Revision-Date: 2012-09-07 16:07+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Virtaal 0.7.1\n"
 "Original-Translator: Pekka Valta\n"
@@ -132,7 +132,7 @@ msgstr "&Upota"
 #. #-#-#-#-#  ..\..\jgb\source\default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..HelpBtn..Caption
 #. RtfTabsDialog..HelpBtn..Caption
-#: JgbSpecialCharsForm.dfm:177 TranscriptMain.dfm:2528 
+#: JgbSpecialCharsForm.dfm:177 TranscriptMain.dfm:2537 
 #: TransEditAutoCorrect.dfm:211 TransOpties.dfm:1699 TransPro.dfm:73
 #: RtfParagraphOptionsForm.dfm:196 RtfTabSettingsForm.dfm:71
 msgid "&Help"
@@ -1284,80 +1284,90 @@ msgstr "Lisää valoisuutta"
 msgid "Decrease brightness"
 msgstr "Pienennä valoisuutta"
 
+#. MainForm..ActionList1..actCopyImage2Editor..Caption
+#: TranscriptMain.dfm:2124 
+msgid "Insert image into editor"
+msgstr ""
+
+#. MainForm..ActionList1..actCopyImage2Editor..Hint
+#: TranscriptMain.dfm:2126 
+msgid "Inserts the current image into the editor"
+msgstr ""
+
 #. MainForm..MainMenu..MM_Bestand..Caption
-#: TranscriptMain.dfm:2136 
+#: TranscriptMain.dfm:2145 
 msgid "&File"
 msgstr "&Tiedosto"
 
 #. MainForm..MainMenu..MM_Bestand..RecentFilesMenu..Caption
-#: TranscriptMain.dfm:2148 
+#: TranscriptMain.dfm:2157 
 msgid "&Reopen"
 msgstr "&Avaa jälleen"
 
 #. MainForm..MainMenu..MM_Bewerken..Caption
-#: TranscriptMain.dfm:2187 
+#: TranscriptMain.dfm:2196 
 msgid "&Edit"
 msgstr "&Muokkaa"
 
 #. MainForm..MainMenu..Format1..Caption
-#: TranscriptMain.dfm:2239 
+#: TranscriptMain.dfm:2248 
 msgid "For&mat"
 msgstr "Muotoile&"
 
 #. MainForm..MainMenu..MM_View..Caption
-#: TranscriptMain.dfm:2303 
+#: TranscriptMain.dfm:2312 
 msgid "&View"
 msgstr "&Näytä"
 
 #. MainForm..MainMenu..MM_Navigatie..Caption
-#: TranscriptMain.dfm:2333 
+#: TranscriptMain.dfm:2342 
 msgid "&Image"
 msgstr "&Kuva"
 
 #. MainForm..MainMenu..MM_Navigatie..Pdf1..Caption
 #. OptionsForm..JvPageControl..PdfTab..Caption
-#: TranscriptMain.dfm:2396 TransOpties.dfm:1520 
+#: TranscriptMain.dfm:2405 TransOpties.dfm:1520 
 msgid "Pdf"
 msgstr "Pdf"
 
 #. MainForm..MainMenu..MM_Navigatie..mnuStretchfilterwhenzoomedin..Caption
-#: TranscriptMain.dfm:2414 
+#: TranscriptMain.dfm:2423 
 msgid "Stretch filter when zoomed in"
 msgstr "Venytä filteriä lähennettäessä"
 
 #. MainForm..MainMenu..MM_Navigatie..mnuStretchfilterwhenzoomedout..Caption
-#: TranscriptMain.dfm:2446 
+#: TranscriptMain.dfm:2455 
 msgid "Stretch filter when zoomed out"
 msgstr "Venytä filteriä loitonnettaessä"
 
 #. MainForm..MainMenu..MM_Tools..Caption
-#: TranscriptMain.dfm:2479 
+#: TranscriptMain.dfm:2488 
 msgid "&Tools"
 msgstr "&Työkalut"
 
 #. MainForm..EditPopup..Inserttext1..Caption
-#: TranscriptMain.dfm:2619 
+#: TranscriptMain.dfm:2628 
 msgid "&Insert quick text"
 msgstr "&Upota pikateksti"
 
 #. MainForm..EditPopup..SetQuicktext..Caption
-#: TranscriptMain.dfm:2652 
+#: TranscriptMain.dfm:2661 
 msgid "S&et quick text"
 msgstr "A&seta pikateksti"
 
 #. MainForm..pmImage..Copyselectiontowindow1....Hint
-#: TranscriptMain.dfm:6151 
+#: TranscriptMain.dfm:6163 
 #, fuzzy
 msgid "Copies the selected portion of the image to a separate image window"
 msgstr "Kopioi valinta omaan ikkunaansa"
 
 #. MainForm..pmImage..mnuPositioning..Caption
-#: TranscriptMain.dfm:6160 
+#: TranscriptMain.dfm:6172 
 msgid "Horizontal image positioning"
 msgstr "Kuvan vaakasuora asemointi"
 
 #. MainForm..pmImage..mnuPositioning..Horizontalcenterimage1..Caption
-#: TranscriptMain.dfm:6163 
+#: TranscriptMain.dfm:6175 
 msgid "Center image"
 msgstr "Keskitä kuva"
 
@@ -2315,7 +2325,7 @@ msgid "Unexpected error converting ini file"
 msgstr ""
 
 #. separate space so no need to translate it at end which could be forgotten
-#: TranscriptMain.pas:6817 
+#: TranscriptMain.pas:6839 
 msgid "width x height:"
 msgstr ""
 
@@ -3212,28 +3222,28 @@ msgid "Cancel"
 msgstr "Peruuta"
 
 #. loading finished
-#: JgbImgView.pas:1058 
+#: JgbImgView.pas:1076 
 msgid "Unsupported (uncommon) image subformat or not a valid image."
 msgstr ""
 
-#: JgbImgView.pas:1059 JgbImgView.pas:1061 JgbImgView.pas:1068 
-#: JgbImgView.pas:1073 JgbImgView.pas:1077
+#: JgbImgView.pas:1077 JgbImgView.pas:1079 JgbImgView.pas:1086 
+#: JgbImgView.pas:1091 JgbImgView.pas:1095
 msgid "Open Image"
 msgstr ""
 
-#: JgbImgView.pas:1061 
+#: JgbImgView.pas:1079 
 msgid "Image uses unsupported (uncommon) color depth."
 msgstr ""
 
-#: JgbImgView.pas:1067 
+#: JgbImgView.pas:1085 
 msgid "Can't load image most likely due to not enough available free memory."
 msgstr ""
 
-#: JgbImgView.pas:1072 
+#: JgbImgView.pas:1090 
 msgid "Can't load image probably due to running out of resources."
 msgstr ""
 
-#: JgbImgView.pas:1076 
+#: JgbImgView.pas:1094 
 msgid "Invalid PNG image (%s)."
 msgstr ""
 
