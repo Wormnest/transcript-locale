@@ -1,36 +1,11 @@
-# #-#-#-#-#  ..\stable\default.po (PACKAGE VERSION)  #-#-#-#-#
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# Ingvar <ingvarnore@hotmail.com>, 2012.
-# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2013.
-# 
-# #-#-#-#-#  ..\..\jgb\source\default.po (PACKAGE VERSION)  #-#-#-#-#
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# #-#-#-#-#  unicodeblockdata.po (Transcript)  #-#-#-#-#
-# Manual list of UnicodeBlockData from JclUnicode.pas
-# Because these are defined in a const array we can't extract
-# it unless we change the source file and add a specifier
-# We don't want that because we will have to do that then
-# on every source update. Therefore we make this file by hand
 # Copyright (C) Jacob Boerema, Transcript
 # This file is distributed under the same license as the PACKAGE package.
 # Jacob Boerema, 2012.
-# 
-# #-#-#-#-#  jvcl-for-transcript.po (Transcript)  #-#-#-#-#
-# Manual list of useful translatable strings from jvcl code
-# Because we don't want to translate everything or make a
-# big ignore file we add the parts from jvcl we want by hand
-# Copyright (C) Jacob Boerema, Transcript
-# This file is distributed under the same license as the PACKAGE package.
-# Jacob Boerema, 2012.
+# original "Last-Translator: Ingvar\n"
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Transcript\n"
+"Project-Id-Version: Transcript 2.4.1 BETA\n"
 "POT-Creation-Date: 2013-09-05 00:16\n"
 "PO-Revision-Date: 2013-09-05 00:24+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
