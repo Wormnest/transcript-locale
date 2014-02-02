@@ -1,6 +1,5 @@
 syntax: glob
 **.mo
-default.po
 transcript.po
 **.zip
 sv/LC_MESSAGES/default-old version.po
