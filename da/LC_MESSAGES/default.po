@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.4.1 BETA\n"
-"POT-Creation-Date: 2013-10-23 19:09\n"
+"POT-Creation-Date: 2014-08-03 17:11\n"
 "PO-Revision-Date: 2012-09-07 16:08+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
@@ -50,7 +50,7 @@ msgstr "Luk imagefil"
 #. Programmer's name for it: MsgImage
 #: JgbImageViewerForm.dfm:274 JgbImageViewerForm.dfm:280 
 #: JgbImageViewerForm.dfm:286 JgbImageViewerForm.dfm:292 TransOpties.dfm:352
-#: TransTranslatableStrings.pas:177
+#: TransTranslatableStrings.pas:182
 msgid "Image"
 msgstr "Image"
 
@@ -100,12 +100,12 @@ msgid "Source pdf:"
 msgstr "Kilde-pdf:"
 
 #. JgbProgressDialog..JvLabel2..Caption
-#: JgbProgressForm.dfm:57 
+#: JgbProgressForm.dfm:56 
 msgid "Status:"
 msgstr "Status:"
 
 #. JgbProgressDialog..lblStatus....Hint
-#: JgbProgressForm.dfm:71 
+#: JgbProgressForm.dfm:70 
 msgid ""
 "Status of image extraction. Shows how many images have been extracted and "
 "the total number of images."
@@ -114,22 +114,22 @@ msgstr ""
 "images."
 
 #. JgbProgressDialog..JvLabel3..Caption
-#: JgbProgressForm.dfm:83 
+#: JgbProgressForm.dfm:82 
 msgid "Time left:"
 msgstr "Tid tilbage:"
 
 #. JgbProgressDialog..lblTimeLeft..Hint
-#: JgbProgressForm.dfm:95 
+#: JgbProgressForm.dfm:94 
 msgid "Estimation of the time needed to extract the remaining images."
 msgstr "Anslået tid for at udtrække resterende images."
 
 #. JgbProgressDialog..JvLabel4..Caption
-#: JgbProgressForm.dfm:107 
+#: JgbProgressForm.dfm:106 
 msgid "Time spent:"
 msgstr "Tid brugt:"
 
 #. JgbProgressDialog..lblTimeSpent..Hint
-#: JgbProgressForm.dfm:119 
+#: JgbProgressForm.dfm:118 
 msgid "Amount of time used to extract the images."
 msgstr "Tid brugt på at udtrække images."
 
@@ -161,13 +161,13 @@ msgstr "Tastaturgenvej: Alt+"
 #. SpecialCharsForm..btnClose..Caption
 #. TransAboutForm..CloseBtn..Caption
 #. EditAutoCorrectionsForm..BtnClose..Caption
-#: JgbSpecialCharsForm.dfm:103 TransAbout.dfm:646 
+#: JgbSpecialCharsForm.dfm:97 TransAbout.dfm:646 
 #: TransEditAutoCorrect.dfm:200
 msgid "&Close"
 msgstr "&Luk"
 
 #. SpecialCharsForm..chkCloseOnInsert....Hint
-#: JgbSpecialCharsForm.dfm:155 
+#: JgbSpecialCharsForm.dfm:149 
 msgid ""
 "When checked this window will close after you insert the character of your "
 "choice into the editor (by double clicking or using the insert button)"
@@ -176,12 +176,12 @@ msgstr ""
 "i tekstruden (ved at dobbeltklikke eller ved at bruge indsæt-knappen)"
 
 #. SpecialCharsForm..chkCloseOnInsert..Caption
-#: JgbSpecialCharsForm.dfm:156 
+#: JgbSpecialCharsForm.dfm:150 
 msgid "Close window after inserting a character"
 msgstr "Luk vinduet efter at have indsat karakter"
 
 #. SpecialCharsForm..btnInsert..Caption
-#: JgbSpecialCharsForm.dfm:172 
+#: JgbSpecialCharsForm.dfm:166 
 msgid "&Insert"
 msgstr "&Indsæt"
 
@@ -194,19 +194,19 @@ msgstr "&Indsæt"
 #. #-#-#-#-#  ..\..\jgb\source\default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..HelpBtn..Caption
 #. RtfTabsDialog..HelpBtn..Caption
-#: JgbSpecialCharsForm.dfm:183 TranscriptMain.dfm:2549 
+#: JgbSpecialCharsForm.dfm:177 TranscriptMain.dfm:2549 
 #: TransEditAutoCorrect.dfm:211 TransOpties.dfm:1681 TransPro.dfm:73
 #: RtfParagraphOptionsForm.dfm:196 RtfTabSettingsForm.dfm:71
 msgid "&Help"
 msgstr "&Hjælp"
 
 #. SpecialCharsForm..chkAlwaysOnTop..Hint
-#: JgbSpecialCharsForm.dfm:192 
+#: JgbSpecialCharsForm.dfm:186 
 msgid "Option to show this window always above the Transcript window."
 msgstr "Vælg for at dette vindue altid ligger over Transcript-vinuet."
 
 #. SpecialCharsForm..chkAlwaysOnTop..Caption
-#: JgbSpecialCharsForm.dfm:193 
+#: JgbSpecialCharsForm.dfm:187 
 msgid "Always on top"
 msgstr "Altid øverst"
 
@@ -229,7 +229,7 @@ msgstr "Webside"
 #. TransAboutForm..JvPanel3..JvHotLink2..URL
 #. 16-1-2008 Website url
 #. Programmer's name for it: WebsiteUrl
-#: TransAbout.dfm:133 TransAbout.dfm:149 TransTranslatableStrings.pas:211 
+#: TransAbout.dfm:133 TransAbout.dfm:149 TransTranslatableStrings.pas:216 
 msgid "http://www.jacobboerema.nl/en/Freeware.htm"
 msgstr "http://www.jacobboerema.nl/en/Freeware.htm"
 
@@ -1406,18 +1406,18 @@ msgid "S&et quick text"
 msgstr "Opret quick-tekst"
 
 #. MainForm..pmImage..Copyselectiontowindow1....Hint
-#: TranscriptMain.dfm:6168 
+#: TranscriptMain.dfm:6167 
 #, fuzzy
 msgid "Copies the selected portion of the image to a separate image window"
 msgstr "Kopier udsnit til separat vindue"
 
 #. MainForm..pmImage..mnuPositioning..Caption
-#: TranscriptMain.dfm:6177 
+#: TranscriptMain.dfm:6176 
 msgid "Horizontal image positioning"
 msgstr "Horisontal image position"
 
 #. MainForm..pmImage..mnuPositioning..Horizontalcenterimage1..Caption
-#: TranscriptMain.dfm:6180 
+#: TranscriptMain.dfm:6179 
 msgid "Center image"
 msgstr "Centrer image"
 
@@ -1572,7 +1572,7 @@ msgstr "&Målesystem"
 #. OptionsForm..JvPageControl..GeneralTab..MeasureGroup....Items.Strings
 #. Make string extraction from consts for translating work:
 #. Programmer's name for it: TranscriptProgramType
-#: TransOpties.dfm:242 TransTypes.pas:78 
+#: TransOpties.dfm:242 TransTypes.pas:80 
 msgid "inches"
 msgstr "tommer"
 
@@ -2316,20 +2316,43 @@ msgid "Unexpected error converting ini file"
 msgstr ""
 
 #. sqlite3 could not be found/loaded
-#: TranscriptMain.pas:1193 
+#: TranscriptMain.pas:1195 
 msgid ""
 "Could not load sqlite3.dll which is needed for autoreplacements.\n"
 "The zip of Transcript beta versions does not contain all needed files.\n"
 "You should copy the beta on top of a normal Transcript install!"
 msgstr ""
 
+#: TranscriptMain.pas:1561 
+msgid ""
+"Couldn't make a backup. Your file was not saved! Possibly the old backup is "
+"in use by another program. Close it there and then try to save again."
+msgstr ""
+
+#: TranscriptMain.pas:1562 
+#, fuzzy
+msgid "Error making backup"
+msgstr "Fejl ved åbning af image"
+
+#. om te zorgen dat (Gewijzigd) uit caption wordt verwijderd!
+#: TranscriptMain.pas:1573 
+msgid ""
+"Couldn't Save file. Most likely it is in use by another program. Close it "
+"there and then try to save again."
+msgstr ""
+
+#: TranscriptMain.pas:1574 
+#, fuzzy
+msgid "Error saving file"
+msgstr "Fejl ved hentning af tekstfil"
+
 #. separate space so no need to translate it at end which could be forgotten
-#: TranscriptMain.pas:6538 
+#: TranscriptMain.pas:6502 
 msgid "width x height:"
 msgstr "Bredde x højde:"
 
 #. Converts a pdf InputFile to images baes on OutputFileMask
-#: TransGhostScript.pas:1071 
+#: TransGhostScript.pas:476 
 msgid "GhostScript conversion thread already running!"
 msgstr ""
 
@@ -2847,95 +2870,111 @@ msgid ""
 "that you can write to."
 msgstr ""
 
+#. Programmer's name for it: MsgGhostscriptFatalError
+#: TransTranslatableStrings.pas:176 
+msgid ""
+"Ghostscript caused an error: %s\n"
+"You are advised to save your work and restart Transcript."
+msgstr ""
+
+#. Programmer's name for it: MsgGhostscriptInitInstanceError
+#: TransTranslatableStrings.pas:179 
+msgid ""
+"Error initializing Ghostscript instance.\n"
+"In most cases this means Ghostscript wasn't correctly terminated "
+"previously.\n"
+"Please restart Transcript and try again."
+msgstr ""
+
 #. 21-3-2007
 #. Programmer's name for it: MsgAutoCaption
-#: TransTranslatableStrings.pas:181 
+#: TransTranslatableStrings.pas:186 
 msgid "Autoreplacement"
 msgstr "Autoerstat"
 
 #. Programmer's name for it: MsgAutoNoList
-#: TransTranslatableStrings.pas:182 
+#: TransTranslatableStrings.pas:187 
 msgid ""
 "Before you can use autoreplacements you first need to set a filename in "
 "options!"
 msgstr "Inden du kan bruge auto-erstat skal du angive et fil-navn under valg!"
 
 #. Programmer's name for it: MsgAutoNotAllowed
-#: TransTranslatableStrings.pas:183 
+#: TransTranslatableStrings.pas:188 
 msgid "The replacement source should only contain alphanumeric characters!"
 msgstr "Erstat-kilden kan kun indeholde alfanumeriske karakterer!"
 
 #. Registration
 #. Programmer's name for it: rsRegCaption
-#: TransTranslatableStrings.pas:186 
+#: TransTranslatableStrings.pas:191 
 msgid "Registration of Transcript"
 msgstr "Registrering af Transcript"
 
 #. Programmer's name for it: rsRegFailed
-#: TransTranslatableStrings.pas:187 
+#: TransTranslatableStrings.pas:192 
 msgid "Invalid registration name or code!"
 msgstr "Forkert registreringsnavn eller kode!"
 
 #. Programmer's name for it: rsRegOk
-#: TransTranslatableStrings.pas:188 
+#: TransTranslatableStrings.pas:193 
 msgid "Thanks for registering. You can now use all pro features."
 msgstr "Tak for registreringen. Du kan nu bruge alle Pro-faciliteter."
 
 #. ***** Options dialog
 #. Programmer's name for it: strUnknown
-#: TransTranslatableStrings.pas:191 
+#: TransTranslatableStrings.pas:196 
 msgid "Unknown"
 msgstr "Ukendt"
 
 #. Programmer's name for it: strDefault
-#: TransTranslatableStrings.pas:192 
+#: TransTranslatableStrings.pas:197 
 msgid "(Default)"
 msgstr "(Standard)"
 
 #. tussen de linkerkant en de rechterkant van de =
 #. Programmer's name for it: strSpecifierInfo1
-#: TransTranslatableStrings.pas:198 
+#: TransTranslatableStrings.pas:203 
 msgid "Possible specifiers (case is important!): %f"
 msgstr "Mulige specifiers (store/små bogstaver er vigtigt!): %f"
 
 #. Programmer's name for it: strSpecifierInfo2
-#: TransTranslatableStrings.pas:199 
+#: TransTranslatableStrings.pas:204 
 msgid "filename only without extension; %e"
 msgstr "kun filnavn uden filtype; %e"
 
 #. Programmer's name for it: strSpecifierInfo3
-#: TransTranslatableStrings.pas:200 
+#: TransTranslatableStrings.pas:205 
 msgid "extension (including '.'); %p"
 msgstr "filtype (incl. '.'); %p"
 
 #. Programmer's name for it: strSpecifierInfo4
-#: TransTranslatableStrings.pas:201 
+#: TransTranslatableStrings.pas:206 
 msgid "path (including last '\\'); %n"
 msgstr "sti (incl. sidste '\\'); %n"
 
 #. Programmer's name for it: strSpecifierInfo5
-#: TransTranslatableStrings.pas:202 
+#: TransTranslatableStrings.pas:207 
 msgid "new line; %t"
 msgstr "ny linie; %t"
 
 #. Programmer's name for it: strSpecifierInfo6
-#: TransTranslatableStrings.pas:203 
+#: TransTranslatableStrings.pas:208 
 msgid "tab; %F"
 msgstr "tab; %F"
 
 #. Programmer's name for it: strSpecifierInfo7
-#: TransTranslatableStrings.pas:204 
+#: TransTranslatableStrings.pas:209 
 msgid "complete path, file and extension; %c"
 msgstr "komplet sti, filnavn og filtype; %c"
 
 #. Programmer's name for it: strSpecifierInfo8
-#: TransTranslatableStrings.pas:205 
+#: TransTranslatableStrings.pas:210 
 msgid "insert counter/page number. Anything else is literally inserted."
 msgstr "indsæt tæller/sidenummer. Alt andet er bogstaveligt indsat."
 
 #. ***** Toolbar strings (pictcombo)
 #. Programmer's name for it: strNone
-#: TransTranslatableStrings.pas:208 
+#: TransTranslatableStrings.pas:213 
 msgid "(none)"
 msgstr "(ingen)"
 
@@ -3213,32 +3252,32 @@ msgid "Cancel"
 msgstr "Annuller"
 
 #. loading finished
-#: JgbImgView.pas:1087 
+#: JgbImgView.pas:1056 
 msgid "Unsupported (uncommon) image subformat or not a valid image."
 msgstr ""
 
-#: JgbImgView.pas:1088 JgbImgView.pas:1090 JgbImgView.pas:1093 
-#: JgbImgView.pas:1100 JgbImgView.pas:1105 JgbImgView.pas:1109
+#: JgbImgView.pas:1057 JgbImgView.pas:1059 JgbImgView.pas:1062 
+#: JgbImgView.pas:1069 JgbImgView.pas:1074 JgbImgView.pas:1078
 msgid "Open Image"
 msgstr "Åbn billede"
 
-#: JgbImgView.pas:1090 
+#: JgbImgView.pas:1059 
 msgid "Image uses unsupported (uncommon) color depth."
 msgstr ""
 
-#: JgbImgView.pas:1093 
+#: JgbImgView.pas:1062 
 msgid "EReadError: most likely this is an invalid image or uncommon image type"
 msgstr ""
 
-#: JgbImgView.pas:1099 
+#: JgbImgView.pas:1068 
 msgid "Can't load image most likely due to not enough available free memory."
 msgstr ""
 
-#: JgbImgView.pas:1104 
+#: JgbImgView.pas:1073 
 msgid "Can't load image probably due to running out of resources."
 msgstr ""
 
-#: JgbImgView.pas:1108 
+#: JgbImgView.pas:1077 
 msgid "Invalid PNG image (%s)."
 msgstr ""
 
@@ -3579,6 +3618,14 @@ msgstr ""
 
 msgid "Default"
 msgstr "Standard"
+
+# Some languages (Spanish) have translations for certain keys
+msgid "Shift"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Ctrl"
+#~ msgstr "Centreret"
 
 #, fuzzy
 #~ msgid ""

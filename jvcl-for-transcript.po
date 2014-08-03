@@ -267,3 +267,8 @@ msgstr ""
 
 msgid "Default"
 msgstr ""
+
+# Some languages (Spanish) have translations for certain keys
+# But this seems not to help in translating it in the menus
+msgid "Shift"
+msgstr ""
