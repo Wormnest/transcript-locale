@@ -1,17 +1,17 @@
 # input file: Suomi.lng
 # original "Last-Translator: Pekka Valta\n"
-# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012.
+# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.4.1 BETA\n"
-"POT-Creation-Date: 2014-08-03 17:11\n"
-"PO-Revision-Date: 2012-09-07 16:07+0200\n"
+"POT-Creation-Date: 2014-08-18 20:02\n"
+"PO-Revision-Date: 2014-08-18 21:06+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Virtaal 0.7.1\n"
 "Original-Translator: Pekka Valta\n"
@@ -194,7 +194,7 @@ msgstr "&Upota"
 #. RtfParaDialog..HelpBtn..Caption
 #. RtfTabsDialog..HelpBtn..Caption
 #: JgbSpecialCharsForm.dfm:177 TranscriptMain.dfm:2549 
-#: TransEditAutoCorrect.dfm:211 TransOpties.dfm:1681 TransPro.dfm:73
+#: TransEditAutoCorrect.dfm:211 TransOpties.dfm:1682 TransPro.dfm:73
 #: RtfParagraphOptionsForm.dfm:196 RtfTabSettingsForm.dfm:71
 msgid "&Help"
 msgstr "&Ohje"
@@ -1374,7 +1374,7 @@ msgstr "&Kuva"
 
 #. MainForm..MainMenu..MM_Navigatie..Pdf1..Caption
 #. OptionsForm..JvPageControl..PdfTab..Caption
-#: TranscriptMain.dfm:2417 TransOpties.dfm:1503 
+#: TranscriptMain.dfm:2417 TransOpties.dfm:1504 
 msgid "Pdf"
 msgstr "Pdf"
 
@@ -1848,7 +1848,7 @@ msgstr "Selaa hakemistoon jonne haluat tallettaa rtf tekstitiedostot."
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..BrowseFolderBtn..Caption
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundBrowseBtn..Caption
 #. OptionsForm..JvPageControl..AutoCorrectTab..ReplaceBrowseBtn..Caption
-#: TransOpties.dfm:664 TransOpties.dfm:1282 TransOpties.dfm:1331 
+#: TransOpties.dfm:664 TransOpties.dfm:1283 TransOpties.dfm:1332 
 msgid "&Browse..."
 msgstr "&Selaa..."
 
@@ -1944,34 +1944,34 @@ msgid "Language"
 msgstr "Kieli"
 
 #. OptionsForm..JvPageControl..LanguageTab..JvStaticText1..Caption
-#: TransOpties.dfm:855 
+#: TransOpties.dfm:856 
 msgid "Select language:"
 msgstr "Valitse kieli:"
 
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvLabel8..Caption
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText2..Caption
-#: TransOpties.dfm:886 TransOpties.dfm:980 
+#: TransOpties.dfm:887 TransOpties.dfm:981 
 msgid "Program version:"
 msgstr "Ohjelman versio:"
 
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvLabel7..Caption
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText3..Caption
-#: TransOpties.dfm:907 TransOpties.dfm:1006 
+#: TransOpties.dfm:908 TransOpties.dfm:1007 
 msgid "Translator:"
 msgstr "Kääntäjä:"
 
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvLabel14..Caption
-#: TransOpties.dfm:954 
+#: TransOpties.dfm:955 
 msgid "Translation Info"
 msgstr "Käännösinfo"
 
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText4..Caption
-#: TransOpties.dfm:1076 
+#: TransOpties.dfm:1077 
 msgid "Date:"
 msgstr "Päiväys:"
 
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText5....Caption
-#: TransOpties.dfm:1130 
+#: TransOpties.dfm:1131 
 msgid ""
 "If you see translation errors please report them using the e-mail below. If "
 "you want to help translate Transcript into your language you can also e-mail "
@@ -1979,33 +1979,33 @@ msgid ""
 msgstr ""
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..Caption
-#: TransOpties.dfm:1154 
+#: TransOpties.dfm:1155 
 msgid "Autocorrection"
 msgstr "Autom. korjaus"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundLabel....Hint
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundEdit....Hint
-#: TransOpties.dfm:1164 TransOpties.dfm:1272 
+#: TransOpties.dfm:1165 TransOpties.dfm:1273 
 msgid "Name of sound (wave) file, leave it empty to hear the default sound"
 msgstr "Äänitiedoston nimi, tyhjäksi jättämällä kuulet oletusäänen"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundLabel..Caption
-#: TransOpties.dfm:1166 
+#: TransOpties.dfm:1167 
 msgid "Sound file:"
 msgstr "Äänitiedosto:"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..lblReplaceFile..Hint
-#: TransOpties.dfm:1178 
+#: TransOpties.dfm:1179 
 msgid "Name of file where the autoreplacements are stored"
 msgstr "Nimi tiedostolle jossa autom. vaihdokset talletetaan"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..lblReplaceFile..Caption
-#: TransOpties.dfm:1180 
+#: TransOpties.dfm:1181 
 msgid "Replacementfile:"
 msgstr "Vaihtamistiedosto:"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..WarnOnCorrectionCheck....Hint
-#: TransOpties.dfm:1194 
+#: TransOpties.dfm:1195 
 msgid ""
 "When you set this option you hear a warning sound whenever something is auto "
 "corrected."
@@ -2014,22 +2014,22 @@ msgstr ""
 "automaattisesti."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..WarnOnCorrectionCheck..Caption
-#: TransOpties.dfm:1195 
+#: TransOpties.dfm:1196 
 msgid "Use warning sound when correcting"
 msgstr "Käytä varoitusääntä kun korjataan"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..TWoCapitalsCheck..Hint
-#: TransOpties.dfm:1211 
+#: TransOpties.dfm:1212 
 msgid "Set this is you want TWo capitals corrected."
 msgstr "Asettamalla tämän haluat korjattavan KAhdet isot kirjaimet."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..TWoCapitalsCheck..Caption
-#: TransOpties.dfm:1212 
+#: TransOpties.dfm:1213 
 msgid "Correct TWo capitals"
 msgstr "Korjaa KAksi isot kirjaimet"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..IJExceptionCheck....Hint
-#: TransOpties.dfm:1232 
+#: TransOpties.dfm:1233 
 msgid ""
 "Set this if you want the IJ combination considered as an exception where two "
 "capitals should not be corrected"
@@ -2038,12 +2038,12 @@ msgstr ""
 "korjata"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..IJExceptionCheck..Caption
-#: TransOpties.dfm:1233 
+#: TransOpties.dfm:1234 
 msgid "Do not correct IJ"
 msgstr "Älä korjaa IJ"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..sEcondCapCheck....Hint
-#: TransOpties.dfm:1252 
+#: TransOpties.dfm:1253 
 msgid ""
 "Set this is you want a sEcond capital corrected and replaced by a capital "
 "for the first letter"
@@ -2052,17 +2052,17 @@ msgstr ""
 "ensimmäisen merkin isolla kirjaimella"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..sEcondCapCheck..Caption
-#: TransOpties.dfm:1253 
+#: TransOpties.dfm:1254 
 msgid "Correct sEcond capital"
 msgstr "Korjaa tOinen iso kirjain"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundBrowseBtn..Hint
-#: TransOpties.dfm:1281 
+#: TransOpties.dfm:1282 
 msgid "Browse to select the sound file you want to use."
 msgstr "Valitse äänitiedosto jota haluat käyttää."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..AutoReplaceCheck....Hint
-#: TransOpties.dfm:1295 
+#: TransOpties.dfm:1296 
 msgid ""
 "When this option is set the specified replacements file will be used to "
 "automatically replace abbreviations or typos with the complete or correct "
@@ -2073,17 +2073,17 @@ msgstr ""
 "tekstillä"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..AutoReplaceCheck..Caption
-#: TransOpties.dfm:1296 
+#: TransOpties.dfm:1297 
 msgid "Enable autoreplacement"
 msgstr "Mahdollista autom. vaihtaminen"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..ReplaceFileEdit..Hint
-#: TransOpties.dfm:1319 
+#: TransOpties.dfm:1320 
 msgid "Name of file where the autoreplacements are to be stored"
 msgstr "Nimi tiedostolle jossa autom. vaihdokset talletetaan"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..ReplaceBrowseBtn....Hint
-#: TransOpties.dfm:1330 
+#: TransOpties.dfm:1331 
 msgid ""
 "Browse to select the autoreplacements file you want to use or enter the name "
 "of a new file."
@@ -2092,30 +2092,30 @@ msgstr ""
 "uuden tiedoston nimi."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbIgnore2ndSpace....Hint
-#: TransOpties.dfm:1342 
+#: TransOpties.dfm:1343 
 msgid ""
 "Set this if you want two spaces after another replaced by just one space"
 msgstr ""
 "Aseta tämä jos haluat kaksi peräkkäistä välilyöntiä korvattavan yhdellä"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbIgnore2ndSpace..Caption
-#: TransOpties.dfm:1343 
+#: TransOpties.dfm:1344 
 msgid "Ignore second space"
 msgstr "Ohita toinen välilyönti"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..Caption
-#: TransOpties.dfm:1360 
+#: TransOpties.dfm:1361 
 msgid "Automatically delete unused autoreplacement items"
 msgstr "Automaattisesti poista käyttämättömät autom. korvauksen listan rivit"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..JvLabel17..Caption
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..JvLabel9..Caption
-#: TransOpties.dfm:1367 TransOpties.dfm:1382 
+#: TransOpties.dfm:1368 TransOpties.dfm:1383 
 msgid "weeks"
 msgstr "viikkoa"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteUnusedItems....Hint
-#: TransOpties.dfm:1399 
+#: TransOpties.dfm:1400 
 msgid ""
 "Option to automatically delete all items in the autoreplacement list that "
 "were not used in the specified number of weeks"
@@ -2124,18 +2124,18 @@ msgstr ""
 "määritettyjen viikkojen aikana"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteUnusedItems..Caption
-#: TransOpties.dfm:1400 
+#: TransOpties.dfm:1401 
 msgid "Delete items not used in"
 msgstr "Poista käyttämättömätlistan rivit"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..seDeleteUnused....Hint
-#: TransOpties.dfm:1420 
+#: TransOpties.dfm:1421 
 msgid "Number of weeks that items should not have been used before deleting"
 msgstr ""
 "Viikkojen lukumäärä jona listan rivejä ei ole käytetty ennen poistamista"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteNeverUsedItems....Hint
-#: TransOpties.dfm:1438 
+#: TransOpties.dfm:1439 
 msgid ""
 "Option to automatically delete all items in the autoreplacement list that "
 "have never been used and are older than the specified number of weeks"
@@ -2145,17 +2145,17 @@ msgstr ""
 "lukuna"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteNeverUsedItems..Caption
-#: TransOpties.dfm:1439 
+#: TransOpties.dfm:1440 
 msgid "Delete never used items older than"
 msgstr "Poista listan rivit joita ei ole käytetty ja jotka ovat vanhempia kuin"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..seDeleteNeverUsed..Hint
-#: TransOpties.dfm:1456 
+#: TransOpties.dfm:1457 
 msgid "Age in number of weeks before never used items should be deleted"
 msgstr "Lukum.ikä viikkoina ennenkuin käyttämättömät listan rivit poistetaa"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbResetUsageCount....Hint
-#: TransOpties.dfm:1474 
+#: TransOpties.dfm:1475 
 msgid ""
 "This option specifies wheter the usage count should be reset to 0 when an "
 "autoreplacement item gets changed"
@@ -2164,25 +2164,25 @@ msgstr ""
 "listan rivi vaihtuu"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbResetUsageCount..Caption
-#: TransOpties.dfm:1475 
+#: TransOpties.dfm:1476 
 msgid "Reset usage count when changing an autoreplacement item"
 msgstr "Nollaa käyttölaskuri vaihtaessasi autom. korvauksen listan riviä"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel15....Hint
 #. OptionsForm..JvPageControl..PdfTab..cbResolution....Hint
-#: TransOpties.dfm:1513 TransOpties.dfm:1593 
+#: TransOpties.dfm:1514 TransOpties.dfm:1594 
 msgid ""
 "Choose the best resolution for the extraction of images from your pdf file"
 msgstr "Valitse paras resoluutio jolla pdf tiedostostasi erotetaan kuvat"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel15..Caption
-#: TransOpties.dfm:1515 
+#: TransOpties.dfm:1516 
 msgid "&Pdf images resolution:"
 msgstr "&Pdf kuvion resoluutio:"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel16....Hint
 #. OptionsForm..JvPageControl..PdfTab..TrackBar....Hint
-#: TransOpties.dfm:1532 TransOpties.dfm:1613 
+#: TransOpties.dfm:1533 TransOpties.dfm:1614 
 msgid ""
 "Choose the jpeg quality for saving extracted images. (higher value means "
 "better quality but larger files and slower extraction)"
@@ -2192,17 +2192,17 @@ msgstr ""
 "erottamista)"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel16..Caption
-#: TransOpties.dfm:1534 
+#: TransOpties.dfm:1535 
 msgid "&Jpeg quality:"
 msgstr "&Jpeg laatu:"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel18..Caption
-#: TransOpties.dfm:1549 
+#: TransOpties.dfm:1550 
 msgid "dpi"
 msgstr "dpi"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterLastImage....Hint
-#: TransOpties.dfm:1633 
+#: TransOpties.dfm:1634 
 msgid ""
 "Automatically delete all extracted images of the current pdf when you're "
 "done using the last image"
@@ -2211,12 +2211,12 @@ msgstr ""
 "viimeisen kuvan"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterLastImage..Caption
-#: TransOpties.dfm:1634 
+#: TransOpties.dfm:1635 
 msgid "&Delete extracted images when done with the last page image"
 msgstr "&Poista erotetut kuvat viimeisen kuvan käsittelyn jälkeen"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterChangeDir....Hint
-#: TransOpties.dfm:1653 
+#: TransOpties.dfm:1654 
 msgid ""
 "Automatically delete all extracted images when changing to another image "
 "directory"
@@ -2225,7 +2225,7 @@ msgstr ""
 "kuvahakemistoon"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterChangeDir..Caption
-#: TransOpties.dfm:1654 
+#: TransOpties.dfm:1655 
 msgid "Delete &all extracted images after changing directory"
 msgstr "Poista &kaikki erotetut kuvat vaihdettuasi hakemistoa"
 
@@ -2235,13 +2235,13 @@ msgstr "Poista &kaikki erotetut kuvat vaihdettuasi hakemistoa"
 #. #-#-#-#-#  ..\..\jgb\source\default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..CancelBtn..Caption
 #. RtfTabsDialog..CancelBtn..Caption
-#: TransOpties.dfm:1671 TransPro.dfm:56 RtfParagraphOptionsForm.dfm:187 
+#: TransOpties.dfm:1672 TransPro.dfm:56 RtfParagraphOptionsForm.dfm:187 
 #: RtfTabSettingsForm.dfm:62
 msgid "&Cancel"
 msgstr "&Peruuta"
 
 #. OptionsForm..BrowseFolderDlg..StatusText
-#: TransOpties.dfm:1687 
+#: TransOpties.dfm:1688 
 msgid "Select directory to use for saving rtf textfiles"
 msgstr "Valitse hakemisto rtf tekstitiedostojen talletukseen"
 
@@ -2337,38 +2337,36 @@ msgid "Unexpected error converting ini file"
 msgstr ""
 
 #. sqlite3 could not be found/loaded
-#: TranscriptMain.pas:1195 
+#: TranscriptMain.pas:1197 
 msgid ""
 "Could not load sqlite3.dll which is needed for autoreplacements.\n"
 "The zip of Transcript beta versions does not contain all needed files.\n"
 "You should copy the beta on top of a normal Transcript install!"
 msgstr ""
 
-#: TranscriptMain.pas:1561 
+#: TranscriptMain.pas:1563 
 msgid ""
 "Couldn't make a backup. Your file was not saved! Possibly the old backup is "
 "in use by another program. Close it there and then try to save again."
 msgstr ""
 
-#: TranscriptMain.pas:1562 
-#, fuzzy
+#: TranscriptMain.pas:1564 
 msgid "Error making backup"
-msgstr "Ongelma kuvan lataamisessa"
+msgstr ""
 
 #. om te zorgen dat (Gewijzigd) uit caption wordt verwijderd!
-#: TranscriptMain.pas:1573 
+#: TranscriptMain.pas:1575 
 msgid ""
 "Couldn't Save file. Most likely it is in use by another program. Close it "
 "there and then try to save again."
 msgstr ""
 
-#: TranscriptMain.pas:1574 
-#, fuzzy
+#: TranscriptMain.pas:1576 
 msgid "Error saving file"
-msgstr "Ongelma kuvan lataamisessa"
+msgstr ""
 
 #. separate space so no need to translate it at end which could be forgotten
-#: TranscriptMain.pas:6502 
+#: TranscriptMain.pas:6506 
 msgid "width x height:"
 msgstr ""
 
@@ -2648,11 +2646,10 @@ msgstr "Ongelma kuvan lataamisessa"
 
 #. Programmer's name for it: rsLoadPictFileErr
 #: TransTranslatableStrings.pas:94 
-#, fuzzy
 msgid ""
 "Cannot load image %s.\n"
 "%s"
-msgstr "Kuvan lataaminen ei onnistu. Sitä ei ole!"
+msgstr ""
 
 #. Programmer's name for it: rsLoadEditCaptionErr
 #: TransTranslatableStrings.pas:95 
@@ -2661,11 +2658,10 @@ msgstr ""
 
 #. Programmer's name for it: rsLoadEditFileErr
 #: TransTranslatableStrings.pas:96 
-#, fuzzy
 msgid ""
 "Cannot load textfile %s.\n"
 "%s"
-msgstr "Kuvan lataaminen ei onnistu. Sitä ei ole!"
+msgstr ""
 
 #. Programmer's name for it: rsLoadErrorReason
 #: TransTranslatableStrings.pas:97 
@@ -3638,13 +3634,15 @@ msgstr ""
 msgid "Default"
 msgstr "Oletus"
 
-# Some languages (Spanish) have translations for certain keys
-msgid "Shift"
+# This is apparently how it's used in shortcut keys
+msgid "Shift+"
 msgstr ""
 
-#, fuzzy
-#~ msgid "Ctrl"
-#~ msgstr "Keskitä"
+msgid "Ctrl+"
+msgstr ""
+
+msgid "Alt+"
+msgstr ""
 
 #, fuzzy
 #~ msgid "pdf"

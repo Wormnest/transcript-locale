@@ -268,7 +268,14 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-# Some languages (Spanish) have translations for certain keys
-# But this seems not to help in translating it in the menus
-msgid "Shift"
+# Some languages (Spanish, German) have translations for certain shortcut keys (used in menus)
+# For now we only add the keys that we actually use in shortcuts
+# This is apparently how Shift, Ctrl and Alt are used in shortcut keys
+msgid "Shift+"
+msgstr ""
+
+msgid "Ctrl+"
+msgstr ""
+
+msgid "Alt+"
 msgstr ""

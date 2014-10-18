@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.4.1 BETA\n"
-"POT-Creation-Date: 2014-08-03 17:11\n"
-"PO-Revision-Date: 2014-08-03 17:13+0200\n"
+"POT-Creation-Date: 2014-08-18 20:02\n"
+"PO-Revision-Date: 2014-08-18 20:24+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
 "Language: cs\n"
@@ -194,7 +194,7 @@ msgstr "&Vložit"
 #. RtfParaDialog..HelpBtn..Caption
 #. RtfTabsDialog..HelpBtn..Caption
 #: JgbSpecialCharsForm.dfm:177 TranscriptMain.dfm:2549 
-#: TransEditAutoCorrect.dfm:211 TransOpties.dfm:1681 TransPro.dfm:73
+#: TransEditAutoCorrect.dfm:211 TransOpties.dfm:1682 TransPro.dfm:73
 #: RtfParagraphOptionsForm.dfm:196 RtfTabSettingsForm.dfm:71
 msgid "&Help"
 msgstr "&Nápověda"
@@ -1367,7 +1367,7 @@ msgstr "&Obrázek"
 
 #. MainForm..MainMenu..MM_Navigatie..Pdf1..Caption
 #. OptionsForm..JvPageControl..PdfTab..Caption
-#: TranscriptMain.dfm:2417 TransOpties.dfm:1503 
+#: TranscriptMain.dfm:2417 TransOpties.dfm:1504 
 msgid "Pdf"
 msgstr "PDF"
 
@@ -1830,7 +1830,7 @@ msgstr "Vybrat složku pro ukládání textových souborů RTF."
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..BrowseFolderBtn..Caption
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundBrowseBtn..Caption
 #. OptionsForm..JvPageControl..AutoCorrectTab..ReplaceBrowseBtn..Caption
-#: TransOpties.dfm:664 TransOpties.dfm:1282 TransOpties.dfm:1331 
+#: TransOpties.dfm:664 TransOpties.dfm:1283 TransOpties.dfm:1332 
 msgid "&Browse..."
 msgstr "&Procházet..."
 
@@ -1925,34 +1925,34 @@ msgid "Language"
 msgstr "Jazyk"
 
 #. OptionsForm..JvPageControl..LanguageTab..JvStaticText1..Caption
-#: TransOpties.dfm:855 
+#: TransOpties.dfm:856 
 msgid "Select language:"
 msgstr "Zvolit jazyk:"
 
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvLabel8..Caption
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText2..Caption
-#: TransOpties.dfm:886 TransOpties.dfm:980 
+#: TransOpties.dfm:887 TransOpties.dfm:981 
 msgid "Program version:"
 msgstr "Verze programu:"
 
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvLabel7..Caption
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText3..Caption
-#: TransOpties.dfm:907 TransOpties.dfm:1006 
+#: TransOpties.dfm:908 TransOpties.dfm:1007 
 msgid "Translator:"
 msgstr "Překladatel:"
 
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvLabel14..Caption
-#: TransOpties.dfm:954 
+#: TransOpties.dfm:955 
 msgid "Translation Info"
 msgstr "Informace o překladu"
 
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText4..Caption
-#: TransOpties.dfm:1076 
+#: TransOpties.dfm:1077 
 msgid "Date:"
 msgstr "Datum:"
 
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText5....Caption
-#: TransOpties.dfm:1130 
+#: TransOpties.dfm:1131 
 msgid ""
 "If you see translation errors please report them using the e-mail below. If "
 "you want to help translate Transcript into your language you can also e-mail "
@@ -1963,35 +1963,35 @@ msgstr ""
 "Překladatelé získají zdarma registrovanou verzi!"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..Caption
-#: TransOpties.dfm:1154 
+#: TransOpties.dfm:1155 
 msgid "Autocorrection"
 msgstr "Automatické opravy"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundLabel....Hint
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundEdit....Hint
-#: TransOpties.dfm:1164 TransOpties.dfm:1272 
+#: TransOpties.dfm:1165 TransOpties.dfm:1273 
 msgid "Name of sound (wave) file, leave it empty to hear the default sound"
 msgstr ""
 "Název souboru se zvukovým záznamem (ponechte prázdné pro poslech aktuálního "
 "záznamu)"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundLabel..Caption
-#: TransOpties.dfm:1166 
+#: TransOpties.dfm:1167 
 msgid "Sound file:"
 msgstr "Zvukový soubor:"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..lblReplaceFile..Hint
-#: TransOpties.dfm:1178 
+#: TransOpties.dfm:1179 
 msgid "Name of file where the autoreplacements are stored"
 msgstr "Název souboru, ve kterém je uložen seznam automatických nahrazování"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..lblReplaceFile..Caption
-#: TransOpties.dfm:1180 
+#: TransOpties.dfm:1181 
 msgid "Replacementfile:"
 msgstr "Soubor s nahrazováním:"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..WarnOnCorrectionCheck....Hint
-#: TransOpties.dfm:1194 
+#: TransOpties.dfm:1195 
 msgid ""
 "When you set this option you hear a warning sound whenever something is auto "
 "corrected."
@@ -2000,22 +2000,22 @@ msgstr ""
 "zvuk."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..WarnOnCorrectionCheck..Caption
-#: TransOpties.dfm:1195 
+#: TransOpties.dfm:1196 
 msgid "Use warning sound when correcting"
 msgstr "Použít zvukovou výstrahu při opravách"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..TWoCapitalsCheck..Hint
-#: TransOpties.dfm:1211 
+#: TransOpties.dfm:1212 
 msgid "Set this is you want TWo capitals corrected."
 msgstr "Nastavit, pokud se mají opravovat DVě velká písmena."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..TWoCapitalsCheck..Caption
-#: TransOpties.dfm:1212 
+#: TransOpties.dfm:1213 
 msgid "Correct TWo capitals"
 msgstr "Opravovat DVě velká písmena"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..IJExceptionCheck....Hint
-#: TransOpties.dfm:1232 
+#: TransOpties.dfm:1233 
 msgid ""
 "Set this if you want the IJ combination considered as an exception where two "
 "capitals should not be corrected"
@@ -2024,12 +2024,12 @@ msgstr ""
 "jsou opravována DVě velká písmena"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..IJExceptionCheck..Caption
-#: TransOpties.dfm:1233 
+#: TransOpties.dfm:1234 
 msgid "Do not correct IJ"
 msgstr "Neopravovat \"IJ\""
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..sEcondCapCheck....Hint
-#: TransOpties.dfm:1252 
+#: TransOpties.dfm:1253 
 msgid ""
 "Set this is you want a sEcond capital corrected and replaced by a capital "
 "for the first letter"
@@ -2037,17 +2037,17 @@ msgstr ""
 "Nastavit, pokud chcete opravovat dRuhé velké písmeno na První velké písmeno"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..sEcondCapCheck..Caption
-#: TransOpties.dfm:1253 
+#: TransOpties.dfm:1254 
 msgid "Correct sEcond capital"
 msgstr "Opravovat dRuhé velké písmeno"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundBrowseBtn..Hint
-#: TransOpties.dfm:1281 
+#: TransOpties.dfm:1282 
 msgid "Browse to select the sound file you want to use."
 msgstr "Vybrat zvukový soubor."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..AutoReplaceCheck....Hint
-#: TransOpties.dfm:1295 
+#: TransOpties.dfm:1296 
 msgid ""
 "When this option is set the specified replacements file will be used to "
 "automatically replace abbreviations or typos with the complete or correct "
@@ -2058,46 +2058,46 @@ msgstr ""
 "textem."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..AutoReplaceCheck..Caption
-#: TransOpties.dfm:1296 
+#: TransOpties.dfm:1297 
 msgid "Enable autoreplacement"
 msgstr "Povolit automatické nahrazování"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..ReplaceFileEdit..Hint
-#: TransOpties.dfm:1319 
+#: TransOpties.dfm:1320 
 msgid "Name of file where the autoreplacements are to be stored"
 msgstr "Název souboru, ve kterém jsou uložena automatická nahrazování textu"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..ReplaceBrowseBtn....Hint
-#: TransOpties.dfm:1330 
+#: TransOpties.dfm:1331 
 msgid ""
 "Browse to select the autoreplacements file you want to use or enter the name "
 "of a new file."
 msgstr "Vybrat souboru s nahrazováním textu nebo zadat jméno soboru nového."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbIgnore2ndSpace....Hint
-#: TransOpties.dfm:1342 
+#: TransOpties.dfm:1343 
 msgid ""
 "Set this if you want two spaces after another replaced by just one space"
 msgstr "Nastavit, pokud chcete nahrazovat dvě mezery mezerou jednou"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbIgnore2ndSpace..Caption
-#: TransOpties.dfm:1343 
+#: TransOpties.dfm:1344 
 msgid "Ignore second space"
 msgstr "Ignorovat druhou mezeru"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..Caption
-#: TransOpties.dfm:1360 
+#: TransOpties.dfm:1361 
 msgid "Automatically delete unused autoreplacement items"
 msgstr "Automaticky mazat nepoužité položky automatického nahrazování"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..JvLabel17..Caption
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..JvLabel9..Caption
-#: TransOpties.dfm:1367 TransOpties.dfm:1382 
+#: TransOpties.dfm:1368 TransOpties.dfm:1383 
 msgid "weeks"
 msgstr "týdnů"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteUnusedItems....Hint
-#: TransOpties.dfm:1399 
+#: TransOpties.dfm:1400 
 msgid ""
 "Option to automatically delete all items in the autoreplacement list that "
 "were not used in the specified number of weeks"
@@ -2106,18 +2106,18 @@ msgstr ""
 "nahrazování, které nebyly použity v udaném počtu týdnů."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteUnusedItems..Caption
-#: TransOpties.dfm:1400 
+#: TransOpties.dfm:1401 
 msgid "Delete items not used in"
 msgstr "Smazat položky nepoužité během"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..seDeleteUnused....Hint
-#: TransOpties.dfm:1420 
+#: TransOpties.dfm:1421 
 msgid "Number of weeks that items should not have been used before deleting"
 msgstr ""
 "Počet týdnů, ve kterých by položky neměly být použity než budou smazány"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteNeverUsedItems....Hint
-#: TransOpties.dfm:1438 
+#: TransOpties.dfm:1439 
 msgid ""
 "Option to automatically delete all items in the autoreplacement list that "
 "have never been used and are older than the specified number of weeks"
@@ -2126,18 +2126,18 @@ msgstr ""
 "nahrazování, které nebyly nikdy použity a jsou starší než udaný  počet týdnů."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteNeverUsedItems..Caption
-#: TransOpties.dfm:1439 
+#: TransOpties.dfm:1440 
 msgid "Delete never used items older than"
 msgstr "Smazat nikdy nepoužité položky starší než"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..seDeleteNeverUsed..Hint
-#: TransOpties.dfm:1456 
+#: TransOpties.dfm:1457 
 msgid "Age in number of weeks before never used items should be deleted"
 msgstr ""
 "Stáří nikdy nepoužitých položek v týdnech, před tím než je bude možné smazat."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbResetUsageCount....Hint
-#: TransOpties.dfm:1474 
+#: TransOpties.dfm:1475 
 msgid ""
 "This option specifies wheter the usage count should be reset to 0 when an "
 "autoreplacement item gets changed"
@@ -2146,26 +2146,26 @@ msgstr ""
 "automatického nahrazování, pokud se položka změní."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbResetUsageCount..Caption
-#: TransOpties.dfm:1475 
+#: TransOpties.dfm:1476 
 msgid "Reset usage count when changing an autoreplacement item"
 msgstr ""
 "Vynulovat počítadlo použití, když se položka automatického nahrazování změní"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel15....Hint
 #. OptionsForm..JvPageControl..PdfTab..cbResolution....Hint
-#: TransOpties.dfm:1513 TransOpties.dfm:1593 
+#: TransOpties.dfm:1514 TransOpties.dfm:1594 
 msgid ""
 "Choose the best resolution for the extraction of images from your pdf file"
 msgstr "Vyberte nejlepší rozlišení pro extrakci obrázků z PDF souboru"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel15..Caption
-#: TransOpties.dfm:1515 
+#: TransOpties.dfm:1516 
 msgid "&Pdf images resolution:"
 msgstr "&Rozlišení obrázků z PDF:"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel16....Hint
 #. OptionsForm..JvPageControl..PdfTab..TrackBar....Hint
-#: TransOpties.dfm:1532 TransOpties.dfm:1613 
+#: TransOpties.dfm:1533 TransOpties.dfm:1614 
 msgid ""
 "Choose the jpeg quality for saving extracted images. (higher value means "
 "better quality but larger files and slower extraction)"
@@ -2174,17 +2174,17 @@ msgstr ""
 "kvalitu, ale větší soubory a pomalejší extrakci)"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel16..Caption
-#: TransOpties.dfm:1534 
+#: TransOpties.dfm:1535 
 msgid "&Jpeg quality:"
 msgstr "Kvalita &JPEG:"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel18..Caption
-#: TransOpties.dfm:1549 
+#: TransOpties.dfm:1550 
 msgid "dpi"
 msgstr "dpi"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterLastImage....Hint
-#: TransOpties.dfm:1633 
+#: TransOpties.dfm:1634 
 msgid ""
 "Automatically delete all extracted images of the current pdf when you're "
 "done using the last image"
@@ -2193,12 +2193,12 @@ msgstr ""
 "zpracování posledního obrázku"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterLastImage..Caption
-#: TransOpties.dfm:1634 
+#: TransOpties.dfm:1635 
 msgid "&Delete extracted images when done with the last page image"
 msgstr "&Smazat extrahované obrázky po dokončení práce s posledním z nich"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterChangeDir....Hint
-#: TransOpties.dfm:1653 
+#: TransOpties.dfm:1654 
 msgid ""
 "Automatically delete all extracted images when changing to another image "
 "directory"
@@ -2206,7 +2206,7 @@ msgstr ""
 "Automaticky smazat všechy extrahované obrázky při přechodu do jiné složky"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterChangeDir..Caption
-#: TransOpties.dfm:1654 
+#: TransOpties.dfm:1655 
 msgid "Delete &all extracted images after changing directory"
 msgstr "Smazat všechny extrahované obrázky po změně složky"
 
@@ -2216,13 +2216,13 @@ msgstr "Smazat všechny extrahované obrázky po změně složky"
 #. #-#-#-#-#  ..\..\jgb\source\default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..CancelBtn..Caption
 #. RtfTabsDialog..CancelBtn..Caption
-#: TransOpties.dfm:1671 TransPro.dfm:56 RtfParagraphOptionsForm.dfm:187 
+#: TransOpties.dfm:1672 TransPro.dfm:56 RtfParagraphOptionsForm.dfm:187 
 #: RtfTabSettingsForm.dfm:62
 msgid "&Cancel"
 msgstr "&Zrušit"
 
 #. OptionsForm..BrowseFolderDlg..StatusText
-#: TransOpties.dfm:1687 
+#: TransOpties.dfm:1688 
 msgid "Select directory to use for saving rtf textfiles"
 msgstr "Vyberte složku pro ukládání textových souboru RTF"
 
@@ -2317,7 +2317,7 @@ msgid "Unexpected error converting ini file"
 msgstr "Neočekávaná chyba při převodu souboru ini"
 
 #. sqlite3 could not be found/loaded
-#: TranscriptMain.pas:1195 
+#: TranscriptMain.pas:1197 
 msgid ""
 "Could not load sqlite3.dll which is needed for autoreplacements.\n"
 "The zip of Transcript beta versions does not contain all needed files.\n"
@@ -2327,31 +2327,29 @@ msgstr ""
 "Zip soubor beta verze Transcriptu neobsahuje všechny potřebné soubory.\n"
 "Beta verzi byste měli nakopírovat přes normální instalaci Transcriptu!!"
 
-#: TranscriptMain.pas:1561 
+#: TranscriptMain.pas:1563 
 msgid ""
 "Couldn't make a backup. Your file was not saved! Possibly the old backup is "
 "in use by another program. Close it there and then try to save again."
 msgstr ""
 
-#: TranscriptMain.pas:1562 
-#, fuzzy
+#: TranscriptMain.pas:1564 
 msgid "Error making backup"
-msgstr "Chyba při načítání obrázku"
+msgstr ""
 
 #. om te zorgen dat (Gewijzigd) uit caption wordt verwijderd!
-#: TranscriptMain.pas:1573 
+#: TranscriptMain.pas:1575 
 msgid ""
 "Couldn't Save file. Most likely it is in use by another program. Close it "
 "there and then try to save again."
 msgstr ""
 
-#: TranscriptMain.pas:1574 
-#, fuzzy
+#: TranscriptMain.pas:1576 
 msgid "Error saving file"
-msgstr "Chyba při nahrávání textového souboru"
+msgstr ""
 
 #. separate space so no need to translate it at end which could be forgotten
-#: TranscriptMain.pas:6502 
+#: TranscriptMain.pas:6506 
 msgid "width x height:"
 msgstr "šířka x výška:"
 
@@ -3729,10 +3727,15 @@ msgstr "Modrá"
 msgid "Default"
 msgstr "Výchozí"
 
-#, fuzzy
-msgid "Shift"
-msgstr "Bílá"
+msgid "Shift+"
+msgstr ""
+
+msgid "Ctrl+"
+msgstr ""
+
+msgid "Alt+"
+msgstr ""
 
 #, fuzzy
-#~ msgid "Ctrl"
-#~ msgstr "Nastřed"
+#~ msgid "Shift"
+#~ msgstr "Bílá"
