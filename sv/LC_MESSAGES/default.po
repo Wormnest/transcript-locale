@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.4.1 BETA\n"
-"POT-Creation-Date: 2014-08-18 20:02\n"
-"PO-Revision-Date: 2014-08-18 21:16+0200\n"
+"POT-Creation-Date: 2014-12-31 14:09\n"
+"PO-Revision-Date: 2014-12-31 14:33+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
 "Language: sv\n"
@@ -39,9 +39,8 @@ msgstr "&Stäng"
 
 #. JgbViewerForm..ActionList..actClose..Hint
 #: JgbImageViewerForm.dfm:269 
-#, fuzzy
 msgid "Close extra image viewer"
-msgstr "Stäng aktuell bildfil"
+msgstr ""
 
 #. JgbViewerForm..ActionList..actRotateLeft..Category
 #. JgbViewerForm..ActionList..actRotateRight..Category
@@ -196,7 +195,7 @@ msgstr "&Infoga"
 #. #-#-#-#-#  ..\..\jgb\source\default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..HelpBtn..Caption
 #. RtfTabsDialog..HelpBtn..Caption
-#: JgbSpecialCharsForm.dfm:177 TranscriptMain.dfm:2549 
+#: JgbSpecialCharsForm.dfm:177 TranscriptMain.dfm:2560 
 #: TransEditAutoCorrect.dfm:211 TransOpties.dfm:1682 TransPro.dfm:73
 #: RtfParagraphOptionsForm.dfm:196 RtfTabSettingsForm.dfm:71
 msgid "&Help"
@@ -1347,79 +1346,89 @@ msgstr "Infoga aktuell bild i redigeringsverktyg"
 msgid "Extra image window"
 msgstr ""
 
+#. MainForm..ActionList1..actGoToFacebook..Caption
+#: TranscriptMain.dfm:2139 
+msgid "Open Transcript on Facebook..."
+msgstr ""
+
+#. MainForm..ActionList1..actPayPalBuyNow..Caption
+#: TranscriptMain.dfm:2145 
+msgid "Buy Transcript Pro..."
+msgstr ""
+
 #. MainForm..MainMenu..MM_Bestand..Caption
-#: TranscriptMain.dfm:2151 
+#: TranscriptMain.dfm:2162 
 msgid "&File"
 msgstr "&Arkiv"
 
 #. MainForm..MainMenu..MM_Bestand..RecentFilesMenu..Caption
-#: TranscriptMain.dfm:2163 
+#: TranscriptMain.dfm:2174 
 msgid "&Reopen"
 msgstr "&Öppna senaste"
 
 #. MainForm..MainMenu..MM_Bewerken..Caption
-#: TranscriptMain.dfm:2202 
+#: TranscriptMain.dfm:2213 
 msgid "&Edit"
 msgstr "&Redigera"
 
 #. MainForm..MainMenu..Format1..Caption
-#: TranscriptMain.dfm:2254 
+#: TranscriptMain.dfm:2265 
 msgid "For&mat"
 msgstr "&Format"
 
 #. MainForm..MainMenu..MM_View..Caption
-#: TranscriptMain.dfm:2318 
+#: TranscriptMain.dfm:2329 
 msgid "&View"
 msgstr "&Visa"
 
 #. MainForm..MainMenu..MM_Navigatie..Caption
-#: TranscriptMain.dfm:2354 
+#: TranscriptMain.dfm:2365 
 msgid "&Image"
 msgstr "&Bild"
 
 #. MainForm..MainMenu..MM_Navigatie..Pdf1..Caption
 #. OptionsForm..JvPageControl..PdfTab..Caption
-#: TranscriptMain.dfm:2417 TransOpties.dfm:1504 
+#: TranscriptMain.dfm:2428 TransOpties.dfm:1504 
 msgid "Pdf"
 msgstr "Pdf"
 
 #. MainForm..MainMenu..MM_Navigatie..mnuStretchfilterwhenzoomedin..Caption
-#: TranscriptMain.dfm:2435 
+#: TranscriptMain.dfm:2446 
 msgid "Stretch filter when zoomed in"
 msgstr "Expandera filter vid inzoomning"
 
 #. MainForm..MainMenu..MM_Navigatie..mnuStretchfilterwhenzoomedout..Caption
-#: TranscriptMain.dfm:2467 
+#: TranscriptMain.dfm:2478 
 msgid "Stretch filter when zoomed out"
 msgstr "Expandera filter vid utzoomning"
 
 #. MainForm..MainMenu..MM_Tools..Caption
-#: TranscriptMain.dfm:2500 
+#: TranscriptMain.dfm:2511 
 msgid "&Tools"
 msgstr "&Verktyg"
 
 #. MainForm..EditPopup..Inserttext1..Caption
-#: TranscriptMain.dfm:2640 
+#: TranscriptMain.dfm:2657 
 msgid "&Insert quick text"
 msgstr "&Infoga kvicktext"
 
 #. MainForm..EditPopup..SetQuicktext..Caption
-#: TranscriptMain.dfm:2673 
+#: TranscriptMain.dfm:2690 
 msgid "S&et quick text"
 msgstr "&Sätt kvicktext"
 
 #. MainForm..pmImage..Copyselectiontowindow1....Hint
-#: TranscriptMain.dfm:6167 
+#: TranscriptMain.dfm:6184 
 msgid "Copies the selected portion of the image to a separate image window"
 msgstr "Kopiera markerad del av bilden till ett separat fönster"
 
 #. MainForm..pmImage..mnuPositioning..Caption
-#: TranscriptMain.dfm:6176 
+#: TranscriptMain.dfm:6193 
 msgid "Horizontal image positioning"
 msgstr "Horisontell bild positionering"
 
 #. MainForm..pmImage..mnuPositioning..Horizontalcenterimage1..Caption
-#: TranscriptMain.dfm:6179 
+#: TranscriptMain.dfm:6196 
 msgid "Center image"
 msgstr "Centrera bild"
 
@@ -2323,38 +2332,38 @@ msgid "Unexpected error converting ini file"
 msgstr "Oväntat fel vid konvertering av inifil"
 
 #. sqlite3 could not be found/loaded
-#: TranscriptMain.pas:1197 
+#: TranscriptMain.pas:1190 
 msgid ""
 "Could not load sqlite3.dll which is needed for autoreplacements.\n"
 "The zip of Transcript beta versions does not contain all needed files.\n"
 "You should copy the beta on top of a normal Transcript install!"
 msgstr ""
 
-#: TranscriptMain.pas:1563 
+#: TranscriptMain.pas:1556 
 msgid ""
 "Couldn't make a backup. Your file was not saved! Possibly the old backup is "
 "in use by another program. Close it there and then try to save again."
 msgstr ""
 
-#: TranscriptMain.pas:1564 
+#: TranscriptMain.pas:1557 
 #, fuzzy
 msgid "Error making backup"
 msgstr "Fel vid laddning av bild"
 
 #. om te zorgen dat (Gewijzigd) uit caption wordt verwijderd!
-#: TranscriptMain.pas:1575 
+#: TranscriptMain.pas:1568 
 msgid ""
 "Couldn't Save file. Most likely it is in use by another program. Close it "
 "there and then try to save again."
 msgstr ""
 
-#: TranscriptMain.pas:1576 
+#: TranscriptMain.pas:1569 
 #, fuzzy
 msgid "Error saving file"
 msgstr "Fel vid inläsning av textfil"
 
 #. separate space so no need to translate it at end which could be forgotten
-#: TranscriptMain.pas:6506 
+#: TranscriptMain.pas:6435 
 msgid "width x height:"
 msgstr "bredd × höjd"
 
@@ -3276,33 +3285,33 @@ msgid "Cancel"
 msgstr "Avbryt"
 
 #. loading finished
-#: JgbImgView.pas:1056 
+#: JgbImgView.pas:1052 
 msgid "Unsupported (uncommon) image subformat or not a valid image."
 msgstr "Okänt eller inte godkänt bildformat"
 
-#: JgbImgView.pas:1057 JgbImgView.pas:1059 JgbImgView.pas:1062 
-#: JgbImgView.pas:1069 JgbImgView.pas:1074 JgbImgView.pas:1078
+#: JgbImgView.pas:1053 JgbImgView.pas:1055 JgbImgView.pas:1058 
+#: JgbImgView.pas:1065 JgbImgView.pas:1070 JgbImgView.pas:1074
 msgid "Open Image"
 msgstr "Öppna bild"
 
-#: JgbImgView.pas:1059 
+#: JgbImgView.pas:1055 
 msgid "Image uses unsupported (uncommon) color depth."
 msgstr "Bild använder ej supportat eller okänt antal färger"
 
-#: JgbImgView.pas:1062 
+#: JgbImgView.pas:1058 
 msgid "EReadError: most likely this is an invalid image or uncommon image type"
 msgstr ""
 
-#: JgbImgView.pas:1068 
+#: JgbImgView.pas:1064 
 msgid "Can't load image most likely due to not enough available free memory."
 msgstr "Kan inte ladda bild,troligen på grund av minnesbrist."
 
-#: JgbImgView.pas:1073 
+#: JgbImgView.pas:1069 
 #, fuzzy
 msgid "Can't load image probably due to running out of resources."
 msgstr "Kan inte ladda bild, troligen på grund av reusrsbrist"
 
-#: JgbImgView.pas:1077 
+#: JgbImgView.pas:1073 
 msgid "Invalid PNG image (%s)."
 msgstr "Fel i PNG-bild (%s)"
 
