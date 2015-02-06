@@ -1,11 +1,11 @@
 # input file: Nederlands.lng
 # original "Last-Translator: Jacob Boerema\n"
-# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2013, 2014.
+# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2013, 2014, 2015.
 msgid ""
 msgstr ""
-"Project-Id-Version: Transcript 2.4.1 BETA\n"
+"Project-Id-Version: Transcript 2.5.0\n"
 "POT-Creation-Date: 2014-12-31 14:09\n"
-"PO-Revision-Date: 2014-12-31 14:13+0200\n"
+"PO-Revision-Date: 2015-01-28 17:14+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
 "Language: nl\n"
@@ -1351,13 +1351,11 @@ msgstr "Extra afbeeldings venster"
 
 #. MainForm..ActionList1..actGoToFacebook..Caption
 #: TranscriptMain.dfm:2139 
-#, fuzzy
 msgid "Open Transcript on Facebook..."
 msgstr "Open Transcript op Facebook..."
 
 #. MainForm..ActionList1..actPayPalBuyNow..Caption
 #: TranscriptMain.dfm:2145 
-#, fuzzy
 msgid "Buy Transcript Pro..."
 msgstr "Koop Transcript Pro..."
 
@@ -2400,7 +2398,6 @@ msgstr ""
 "probeer dan opnieuw te bewaren."
 
 #: TranscriptMain.pas:1557 
-#, fuzzy
 msgid "Error making backup"
 msgstr "Fout bij het maken van een back-up"
 
