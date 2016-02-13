@@ -1,11 +1,10 @@
 # Jacob <jgboerema@gmail.com>, 2012.
-# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2015.
-#
+# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2015, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.5.1 BETA\n"
 "POT-Creation-Date: 2014-12-31 14:09\n"
-"PO-Revision-Date: 2016-02-10 00:56+0100\n"
+"PO-Revision-Date: 2016-02-13 15:40+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
 "Language: no\n"
@@ -13,8 +12,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7\n"
-"Original-Translator: Add your name here\n"
+"X-Generator: Virtaal 0.7.1\n"
+"Original-Translator: Eivind G. Hoel\n"
 "X-Poedit-Bookmarks: -1,-1,-1,-1,-1,-1,6,-1,-1,-1\n"
 
 #
@@ -746,7 +745,7 @@ msgstr "Midtstill|Midtstiller teksten mellom margene"
 #. MainForm..ActionList1..ParaOptionsActn..Caption
 #: TranscriptMain.dfm:1292
 msgid "&Paragraph..."
-msgstr "&Avsnitt"
+msgstr "&Avsnitt..."
 
 #. MainForm..ActionList1..ParaOptionsActn..Hint
 #: TranscriptMain.dfm:1293
@@ -983,7 +982,7 @@ msgstr "&Sett inn autotekst"
 #. MainForm..ActionList1..NewProjectActn..Caption
 #: TranscriptMain.dfm:1708
 msgid "&New project..."
-msgstr "&Nytt prosjekt"
+msgstr "&Nytt prosjekt..."
 
 #. MainForm..ActionList1..NewProjectActn..Hint
 #: TranscriptMain.dfm:1710
@@ -1083,7 +1082,7 @@ msgstr "Start/pause prosjekttidtaker"
 msgid ""
 "Start or pause the project timer which measures the time spent on this "
 "project"
-msgstr "Start eller pause tidtaker som måler tidsbruken på dette prosjektet "
+msgstr "Start eller pause tidtaker som måler tidsbruken på dette prosjektet"
 
 #. MainForm..ActionList1..actStopProjectTimer..Caption
 #. 13-4-2007
@@ -1702,7 +1701,7 @@ msgstr ""
 #. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..MoveOnEnterCheck..Caption
 #: TransOpties.dfm:438
 msgid "Scroll image on every \"Enter\""
-msgstr "Flyttet bildet ved hver klikk på \"Enter\"."
+msgstr "Flyttet bildet ved hver klikk på \"Enter\""
 
 #. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..MoveOnWrapCheck....Hint
 #: TransOpties.dfm:456
@@ -1793,7 +1792,7 @@ msgstr "Avansert"
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..Caption
 #: TransOpties.dfm:598
 msgid "Images and textfiles the same name"
-msgstr "Felles navn til bilder og tekstfiler "
+msgstr "Felles navn til bilder og tekstfiler"
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..TextDirLabel..Caption
 #: TransOpties.dfm:606
@@ -1829,7 +1828,7 @@ msgstr "Benytt en annen mappe"
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..BrowseFolderBtn..Hint
 #: TransOpties.dfm:663
 msgid "Browse to the folder you want to use for saving rtf text files."
-msgstr "Bla til ønsket mappe for lagring av rtf-tekstfiler"
+msgstr "Bla til ønsket mappe for lagring av rtf-tekstfiler."
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..BrowseFolderBtn..Caption
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundBrowseBtn..Caption
@@ -1989,14 +1988,14 @@ msgstr "Navn på autoerstattfil"
 #. OptionsForm..JvPageControl..AutoCorrectTab..lblReplaceFile..Caption
 #: TransOpties.dfm:1181
 msgid "Replacementfile:"
-msgstr "Erstatningsfil"
+msgstr "Erstatningsfil:"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..WarnOnCorrectionCheck....Hint
 #: TransOpties.dfm:1195
 msgid ""
 "When you set this option you hear a warning sound whenever something is "
 "auto corrected."
-msgstr "Angi varsellyd om det utføres autokorrektur"
+msgstr "Angi varsellyd om det utføres autokorrektur."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..WarnOnCorrectionCheck..Caption
 #: TransOpties.dfm:1196
@@ -2040,7 +2039,7 @@ msgstr "Rett aNnen stor bokstav"
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundBrowseBtn..Hint
 #: TransOpties.dfm:1282
 msgid "Browse to select the sound file you want to use."
-msgstr "Bla for å velge lydfil"
+msgstr "Bla for å velge lydfil."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..AutoReplaceCheck....Hint
 #: TransOpties.dfm:1296
@@ -2364,7 +2363,7 @@ msgstr "Liste over åpnede moduler:"
 #. Programmer's name for it: RsOSVersion
 #: TransInfoSupplier.pas:70
 msgid "System: %s %s %d bits, Version: %d.%d, Build: %x, \"%s\""
-msgstr "System: %s %s %d bits, Versjon %d.%d, Build: %x, \"%s\""
+msgstr "System: %s %s %d bits, Versjon: %d.%d, Build: %x, \"%s\""
 
 #. Programmer's name for it: RsProcessor
 #: TransInfoSupplier.pas:71
@@ -2419,7 +2418,7 @@ msgstr "Språk: %s"
 #. Programmer's name for it: HELP_FILE
 #: TransInfoSupplier.pas:141
 msgid "Help file: %s"
-msgstr "Hjelpefil:%s"
+msgstr "Hjelpefil: %s"
 
 #. Programmer's name for it: EDIT_FILE
 #: TransInfoSupplier.pas:142
@@ -2434,7 +2433,7 @@ msgstr "Bildefil: %s"
 #. Programmer's name for it: IMAGE_DIMENSIONS
 #: TransInfoSupplier.pas:144
 msgid "Image width x height:"
-msgstr "Bilde bredde x høyde"
+msgstr "Bilde bredde x høyde:"
 
 #. Programmer's name for it: HEADER_PROJECT_INFO
 #: TransInfoSupplier.pas:145
@@ -2464,7 +2463,7 @@ msgstr "RichEdit versjon %d benyttet."
 #. Programmer's name for it: cGHOSTSCRIPT_VERSION
 #: TransInfoSupplier.pas:150
 msgid "%s version %s installed."
-msgstr "%s versjon % installert."
+msgstr "%s versjon %s installert."
 
 #. Programmer's name for it: cNO_GHOSTSCRIPT
 #: TransInfoSupplier.pas:151
@@ -2658,7 +2657,7 @@ msgstr "Den finnes ikke eller filnavnet inneholder multicode Unicode-tegn!"
 #. Programmer's name for it: rsEditFileInUseErr
 #: TransTranslatableStrings.pas:98
 msgid "It is in use by another program!"
-msgstr "Den er i bruk av et annet program."
+msgstr "Den er i bruk av et annet program!"
 
 #. Programmer's name for it: rsExpFileExistsErr
 #: TransTranslatableStrings.pas:99
@@ -2666,7 +2665,7 @@ msgid ""
 "%s already exists.\n"
 "Do you want to replace it?"
 msgstr ""
-"% finnes allerede.\n"
+"%s finnes allerede.\n"
 "Vil du erstatte den?"
 
 #. Confirm save as
@@ -2766,7 +2765,7 @@ msgstr "Slett prosjekt"
 #. Programmer's name for it: MsgRenameProject
 #: TransTranslatableStrings.pas:133
 msgid "Enter a new name for this project:"
-msgstr "Angi nytt prosjektnavn"
+msgstr "Angi nytt prosjektnavn:"
 
 #. Programmer's name for it: MsgRenameProjectCaption
 #: TransTranslatableStrings.pas:134
@@ -2965,7 +2964,7 @@ msgstr "filtype (med \".\"); %p"
 #. Programmer's name for it: strSpecifierInfo4
 #: TransTranslatableStrings.pas:206
 msgid "path (including last '\\'); %n"
-msgstr "Mappesti (med siste \"\\\"); %n"
+msgstr "mappesti (med siste \"\\\"); %n"
 
 #. Programmer's name for it: strSpecifierInfo5
 #: TransTranslatableStrings.pas:207
@@ -3209,7 +3208,7 @@ msgstr "Tabulatorer"
 #. RtfTabsDialog..JvLabel1..Caption
 #: RtfTabSettingsForm.dfm:28
 msgid "&Tabposition"
-msgstr "%Tabulatorposisjon"
+msgstr "&Tabulatorposisjon"
 
 #. RtfTabsDialog..AlignmentGroup..Hint
 #: RtfTabSettingsForm.dfm:110
@@ -3219,7 +3218,7 @@ msgstr "Angi tabulatorposisjon"
 #. RtfTabsDialog..AlignmentGroup..Caption
 #: RtfTabSettingsForm.dfm:111
 msgid "Ali&gnment"
-msgstr "%Stilling"
+msgstr "&tilling"
 
 #. RtfTabsDialog..AlignmentGroup....Items.Strings
 #: RtfTabSettingsForm.dfm:118
@@ -3283,7 +3282,7 @@ msgstr "Bildet har ikke støttet (uvanlig) farvedybde."
 #: JgbImgView.pas:1058
 msgid ""
 "EReadError: most likely this is an invalid image or uncommon image type"
-msgstr "EReadError: Antakelig ugyldig bilde uvanlig bildeformat."
+msgstr "EReadError: Antakelig ugyldig bilde uvanlig bildeformat"
 
 #: JgbImgView.pas:1064
 msgid "Can't load image most likely due to not enough available free memory."
@@ -3301,7 +3300,7 @@ msgstr "Ugyldig PNG-bilde (%s)."
 # For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
 # See also Wikipedia: list of unicode blocks
 msgid "Basic Latin"
-msgstr "Latin Standard "
+msgstr "Latin Standard"
 
 # ***** strings for Special characters dialog *****
 # For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
@@ -3457,7 +3456,7 @@ msgstr "Alfabetiske presentasjonsformer"
 # For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
 # See also Wikipedia: list of unicode blocks
 msgid "Arabic Presentation Forms-A"
-msgstr "Arabiske  presentasjonsformer-A"
+msgstr "Arabiske presentasjonsformer-A"
 
 # ***** strings for Special characters dialog *****
 # For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
@@ -3469,7 +3468,7 @@ msgstr "Kombinerende halvmerker"
 # For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
 # See also Wikipedia: list of unicode blocks
 msgid "Arabic Presentation Forms-B"
-msgstr "Arabiske  presentasjonsformer-B"
+msgstr "Arabiske presentasjonsformer-B"
 
 # ***** strings for Special characters dialog *****
 # For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
