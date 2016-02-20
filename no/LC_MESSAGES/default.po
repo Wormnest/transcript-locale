@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.5.1 BETA\n"
 "POT-Creation-Date: 2014-12-31 14:09\n"
-"PO-Revision-Date: 2016-02-13 15:40+0200\n"
+"PO-Revision-Date: 2016-02-13 16:48+0100\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
 "Language: no\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Poedit 1.8.7\n"
 "Original-Translator: Eivind G. Hoel\n"
 "X-Poedit-Bookmarks: -1,-1,-1,-1,-1,-1,6,-1,-1,-1\n"
 
@@ -83,14 +83,14 @@ msgid ""
 "is not possible to cancel this extraction. You can however focus the editor "
 "window and start typing once the first page has been extracted."
 msgstr ""
-"Denne dialogen viser fremdriften av bildeuttrekk fra pdf-fil. Det er mulig "
-"å avbryte dette uttrekket. Du kan imidlertid fokusere redigeringsvinduet og "
-"starte med å skrive så snart den første siden er tatt ut."
+"Denne dialogen viser fremdriften av bildeimport fra pdf-fil. Du kan avbryte "
+"prosessen, men kan i stedet gå til redigeringsvinduet og starte med å "
+"skrive så snart den første siden er ferdig."
 
 #. JgbProgressDialog..Caption
 #: JgbProgressForm.dfm:12
 msgid "Extracting images from Pdf"
-msgstr "Uttrekking av bilder fra pdf"
+msgstr "Import av bilder fra pdf"
 
 #. JgbProgressDialog..JvLabel1..Caption
 #: JgbProgressForm.dfm:33
@@ -108,7 +108,7 @@ msgid ""
 "Status of image extraction. Shows how many images have been extracted and "
 "the total number of images."
 msgstr ""
-"Status for bildeuttrekk. Viser hvor mange bilder som er trukket ut og "
+"Status for bildeimport. Viser hvor mange bilder som er importert og "
 "totalantallet av bilder."
 
 #. JgbProgressDialog..JvLabel3..Caption
@@ -119,7 +119,7 @@ msgstr "Gjenstående tid:"
 #. JgbProgressDialog..lblTimeLeft..Hint
 #: JgbProgressForm.dfm:94
 msgid "Estimation of the time needed to extract the remaining images."
-msgstr "Anslått tid for å trekke ut resterende bilder."
+msgstr "Anslått tid for å ta ut resterende bilder."
 
 #. JgbProgressDialog..JvLabel4..Caption
 #: JgbProgressForm.dfm:106
@@ -129,7 +129,7 @@ msgstr "Benyttet tid:"
 #. JgbProgressDialog..lblTimeSpent..Hint
 #: JgbProgressForm.dfm:118
 msgid "Amount of time used to extract the images."
-msgstr "Benyttet tid for uttrekking av bilder."
+msgstr "Benyttet tid for bildeuttak."
 
 #. SpecialCharsForm..Caption
 #: JgbSpecialCharsForm.dfm:7
@@ -198,7 +198,7 @@ msgstr "&Hjelp"
 #. SpecialCharsForm..chkAlwaysOnTop..Hint
 #: JgbSpecialCharsForm.dfm:186
 msgid "Option to show this window always above the Transcript window."
-msgstr "Velg for at dette vinduet alltid ligger over Transcript-vinduet."
+msgstr "Angi at dette vinduet alltid ligger over Transcript-vinduet."
 
 #. SpecialCharsForm..chkAlwaysOnTop..Caption
 #: JgbSpecialCharsForm.dfm:187
@@ -493,13 +493,13 @@ msgstr "Avslutt program (Alt+F4)"
 #. MainForm..ActionList1..OptionsActn..Caption
 #: TranscriptMain.dfm:1090
 msgid "&Options..."
-msgstr "&Valg..."
+msgstr "&Innstillinger..."
 
 #. MainForm..ActionList1..OptionsActn..Hint
 #. OptionsForm..Caption
 #: TranscriptMain.dfm:1091 TransOpties.dfm:8
 msgid "Options"
-msgstr "Valg"
+msgstr "Innstillinger"
 
 #. MainForm..ActionList1..FindTextActn..Caption
 #: TranscriptMain.dfm:1098
@@ -755,12 +755,12 @@ msgstr "Avsnittsvalg"
 #. MainForm..ActionList1..AlignJustifyActn..Caption
 #: TranscriptMain.dfm:1300
 msgid "&Justify"
-msgstr "&Justér"
+msgstr "&Juster"
 
 #. MainForm..ActionList1..AlignJustifyActn..Hint
 #: TranscriptMain.dfm:1302
 msgid "Justify: Justifies text between left and right margins"
-msgstr "Justér: Justerer teksten mellom venstre og høyre marger"
+msgstr "Juster: Justerer teksten mellom venstre og høyre marger"
 
 #. MainForm..ActionList1..EditDelete1..Caption
 #. EditAutoCorrectionsForm..btnDelete..Caption
@@ -836,12 +836,12 @@ msgstr "Importer tekstfil via Microsoft Office import-/eksportfilter"
 #. MainForm..ActionList1..ExportFileActn..Caption
 #: TranscriptMain.dfm:1528
 msgid "Export textfile..."
-msgstr "Eksportér tekstfil..."
+msgstr "Eksporter tekstfil..."
 
 #. MainForm..ActionList1..ExportFileActn....Hint
 #: TranscriptMain.dfm:1531
 msgid "Export a textfile using the Microsoft Office import/export filters"
-msgstr "Eksportér tekstfil via Microsoft Office import-/eksportfilter"
+msgstr "Eksporter tekstfil via Microsoft Office import-/eksportfilter"
 
 #. MainForm..ActionList1..InvertPictActn..Caption
 #: TranscriptMain.dfm:1567
@@ -856,17 +856,17 @@ msgstr "&Gråtonebilde"
 #. MainForm..ActionList1..Rot90Actn..Caption
 #: TranscriptMain.dfm:1589
 msgid "Rotate 90°"
-msgstr "Rotér 90°"
+msgstr "Roter 90°"
 
 #. MainForm..ActionList1..Rot180Actn..Caption
 #: TranscriptMain.dfm:1595
 msgid "Rotate 180°"
-msgstr "Rotér 180°"
+msgstr "Roter 180°"
 
 #. MainForm..ActionList1..Rot270Actn..Caption
 #: TranscriptMain.dfm:1601
 msgid "Rotate 270°"
-msgstr "Rotér 270°"
+msgstr "Roter 270°"
 
 #. MainForm..ActionList1..NoRotationActn..Caption
 #: TranscriptMain.dfm:1607
@@ -923,7 +923,7 @@ msgstr "Gå til høyre side på bildet"
 #. MainForm..ActionList1..MaximizePictWin..Caption
 #: TranscriptMain.dfm:1653
 msgid "Maximize &image window"
-msgstr "Maksimér bildevindu"
+msgstr "Maksimer bildevindu"
 
 #. MainForm..ActionList1..MaximizePictWin....Hint
 #: TranscriptMain.dfm:1656
@@ -931,18 +931,18 @@ msgid ""
 "Maximize the image window (editor will not be visible but you can still use "
 "it)"
 msgstr ""
-"Maksimér bildevindu (tekstruten vil ikke være synlig, men du kan fremdeles "
+"Maksimer bildevindu (tekstruten vil ikke være synlig, men du kan fremdeles "
 "bruke den)"
 
 #. MainForm..ActionList1..MaximizeEditWin..Caption
 #: TranscriptMain.dfm:1663
 msgid "Maximize &editor window"
-msgstr "Maksimér tekstruten"
+msgstr "Maksimer tekstruten"
 
 #. MainForm..ActionList1..MaximizeEditWin..Hint
 #: TranscriptMain.dfm:1664
 msgid "Maximize the editor window (image window will not be visible)"
-msgstr "Maksimér tekstruten (bildevinduet vil ikke være synlig)"
+msgstr "Maksimer tekstruten (bildevinduet vil ikke være synlig)"
 
 #. MainForm..ActionList1..FileCloseImageFileActn..Caption
 #: TranscriptMain.dfm:1671
@@ -992,12 +992,12 @@ msgstr "Lag et nytt prosjekt med gjeldende innstillinger"
 #. MainForm..ActionList1..ManageProjectsActn..Caption
 #: TranscriptMain.dfm:1718
 msgid "&Manage projects..."
-msgstr "&Administrér prosjekter..."
+msgstr "&Administrer prosjekter..."
 
 #. MainForm..ActionList1..ManageProjectsActn..Hint
 #: TranscriptMain.dfm:1720
 msgid "Manage projects (rename, delete, set sorted)"
-msgstr "Administrér prosjekter (gi nytt navn, slett, sortér)"
+msgstr "Administrer prosjekter (gi nytt navn, slett, sorter)"
 
 #. MainForm..ActionList1..actBackgroundColorBtn..Hint
 #: TranscriptMain.dfm:1728
@@ -1017,17 +1017,17 @@ msgstr "Øk innrykk"
 #. MainForm..ActionList1..actIncreaseIndent..Hint
 #: TranscriptMain.dfm:1741
 msgid "Increase the indentation of this paragraph"
-msgstr "Øk innrykket på dette avsnittet"
+msgstr "Øke innrykk på dette avsnittet"
 
 #. MainForm..ActionList1..actDecreaseIndent..Caption
 #: TranscriptMain.dfm:1748
 msgid "Decrease indentation"
-msgstr "Minsk innrykket"
+msgstr "Minsk innrykk"
 
 #. MainForm..ActionList1..actDecreaseIndent..Hint
 #: TranscriptMain.dfm:1749
 msgid "Decrease the indentation of this paragraph"
-msgstr "Minsk innrykket på dette avsnittet"
+msgstr "Minske innrykk på dette avsnittet"
 
 #. MainForm..ActionList1..actShowEditorRuler..Caption
 #: TranscriptMain.dfm:1757
@@ -1153,12 +1153,12 @@ msgstr "Legg utvalg til autoerstattliste..."
 #. MainForm..ActionList1..actDeletePdfImages..Caption
 #: TranscriptMain.dfm:1895
 msgid "Delete all extracted pdf images"
-msgstr "Slett alle uttrukne pdf-bilder"
+msgstr "Slett alle bilder tatt fra pdf-filer"
 
 #. MainForm..ActionList1..actDeletePdfImages..Hint
 #: TranscriptMain.dfm:1897
 msgid "Deletes all images extracted from pdf in the current directory"
-msgstr "Slett alle bilder uttrukket fra pdf i gjeldende mappe"
+msgstr "Slett alle bilder tatt fra pdf-filer i gjeldende mappe"
 
 #. MainForm..ActionList1..actPdf75dpi..Caption
 #: TranscriptMain.dfm:1903
@@ -1353,12 +1353,12 @@ msgstr "&Åpne påny"
 #. MainForm..MainMenu..MM_Bewerken..Caption
 #: TranscriptMain.dfm:2213
 msgid "&Edit"
-msgstr "&Redigér"
+msgstr "&Rediger"
 
 #. MainForm..MainMenu..Format1..Caption
 #: TranscriptMain.dfm:2265
 msgid "For&mat"
-msgstr "&Formatér"
+msgstr "&Formater"
 
 #. MainForm..MainMenu..MM_View..Caption
 #: TranscriptMain.dfm:2329
@@ -1404,7 +1404,7 @@ msgstr "&Opprett hurtigtekst"
 #. MainForm..pmImage..Copyselectiontowindow1....Hint
 #: TranscriptMain.dfm:6184
 msgid "Copies the selected portion of the image to a separate image window"
-msgstr "Kopierér valgt bildeutsnitt til eget bildevindu"
+msgstr "Kopierer valgt bildeutsnitt til eget bildevindu"
 
 #. MainForm..pmImage..mnuPositioning..Caption
 #: TranscriptMain.dfm:6193
@@ -1493,7 +1493,7 @@ msgstr "minutt"
 #. OptionsForm..JvPageControl..GeneralTab..AutoSaveGroup..AutoSaveCheck..Hint
 #: TransOpties.dfm:95
 msgid "Option to save textfile automatically."
-msgstr "Valg for å autolagre tekstfil."
+msgstr "Innstillinger for autolagring av tekstfil."
 
 #. OptionsForm..JvPageControl..GeneralTab..AutoSaveGroup..AutoSaveCheck..Caption
 #: TransOpties.dfm:96
@@ -1511,8 +1511,7 @@ msgid ""
 "If you set this option a backup copy of the rtf textfile will be made when "
 "saving"
 msgstr ""
-"Hvis du angir dette valget vil det bli laget en sikkerhetskopi av rtf-"
-"tekstfilen ved lagring"
+"Angi om det skal lages en sikkerhetskopi av rtf-tekstfilen ved lagring"
 
 #. OptionsForm..JvPageControl..GeneralTab..AutoSaveGroup..MakeBackups..Caption
 #: TransOpties.dfm:131
@@ -1522,12 +1521,12 @@ msgstr "&Lag sikkerhetskopi"
 #. OptionsForm..JvPageControl..GeneralTab..AutoLoadFiles....Hint
 #: TransOpties.dfm:149
 msgid "Option whether or not the previously used files are opened at startup."
-msgstr "Valg om hvorvidt tidligere benyttede filer skal åpnes ved oppstart."
+msgstr "Angi om tidligere benyttede filer skal åpnes ved oppstart."
 
 #. OptionsForm..JvPageControl..GeneralTab..AutoLoadFiles..Caption
 #: TransOpties.dfm:150
 msgid "Automatically &load files at startup"
-msgstr "Åpne automatisk filer ved oppstart"
+msgstr "Åpne filer automatisk ved oppstart"
 
 #. OptionsForm..JvPageControl..GeneralTab..HintsGroup..Caption
 #: TransOpties.dfm:167
@@ -1547,7 +1546,7 @@ msgstr "sekund"
 #. OptionsForm..JvPageControl..GeneralTab..HintsGroup..ShowHintsCheck..Hint
 #: TransOpties.dfm:206
 msgid "Option whether you want to see hints."
-msgstr "Velg om du vil se hint."
+msgstr "Angi om du vil se hint."
 
 #. OptionsForm..JvPageControl..GeneralTab..HintsGroup..ShowHintsCheck..Caption
 #: TransOpties.dfm:207
@@ -1562,7 +1561,7 @@ msgstr "Antall sekunder før et hint skal skjules."
 #. OptionsForm..JvPageControl..GeneralTab..MeasureGroup..Caption
 #: TransOpties.dfm:239
 msgid "&Measurements"
-msgstr "&Målinger"
+msgstr "&Måleenhet"
 
 #. OptionsForm..JvPageControl..GeneralTab..MeasureGroup....Items.Strings
 #. Make string extraction from consts for translating work:
@@ -1579,7 +1578,7 @@ msgstr "centimeter"
 #. OptionsForm..JvPageControl..GeneralTab..RememberTextZoomCheck....Hint
 #: TransOpties.dfm:255
 msgid "Set this option to restore previous text zoom value at program startup"
-msgstr "Sett dette valget for å samme zoomverdi ved programmets oppstart"
+msgstr "Angi for å gjenopprette tidligere zoomverdi ved srat av programmet"
 
 #. OptionsForm..JvPageControl..GeneralTab..RememberTextZoomCheck..Caption
 #: TransOpties.dfm:256
@@ -1594,7 +1593,7 @@ msgstr "Redigeringsvalg"
 #. OptionsForm..JvPageControl..GeneralTab..IndentSettingsBox..IndenLabel..Caption
 #: TransOpties.dfm:278
 msgid "Indent amount:"
-msgstr "Innrykkstørrelse:"
+msgstr "Innrykksverdi:"
 
 #. OptionsForm..JvPageControl..GeneralTab..IndentSettingsBox..IndentEdit....Hint
 #: TransOpties.dfm:294
@@ -1610,8 +1609,8 @@ msgid ""
 "Choose wether the default name for new text files should be based on the "
 "first line of text or on the name of the current image"
 msgstr ""
-"Velg hvorvidt standardnavn på nye tekstfiler skal baseres på første "
-"tekstlinje eller navnet på gjeldende bilde"
+"Velg om standardnavn på nye tekstfiler skal baseres på første tekstlinje "
+"eller navnet på gjeldende bilde"
 
 #. OptionsForm..JvPageControl..GeneralTab..rgrpDefaultFilename..Caption
 #: TransOpties.dfm:312
@@ -2145,7 +2144,7 @@ msgstr "Nullstill bruksteller når en autoerstatning endres"
 #: TransOpties.dfm:1514 TransOpties.dfm:1594
 msgid ""
 "Choose the best resolution for the extraction of images from your pdf file"
-msgstr "Velg beste oppløsning for bildeuttrekk fra pdf-fil"
+msgstr "Velg beste oppløsning for bildeimport fra pdf-fil"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel15..Caption
 #: TransOpties.dfm:1516
@@ -2159,8 +2158,8 @@ msgid ""
 "Choose the jpeg quality for saving extracted images. (higher value means "
 "better quality but larger files and slower extraction)"
 msgstr ""
-"Velg jpeg-kvalitet for lagring av uttrukne bilder. (høyere verdi gir bedre "
-"kvalitet, men større filer og senere bildeuttrekk)"
+"Velg jpeg-kvalitet for lagring av importerte bilder. (høyere verdi gir "
+"bedre kvalitet, men større filer og senere bildeimport)"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel16..Caption
 #: TransOpties.dfm:1535
@@ -2178,13 +2177,13 @@ msgid ""
 "Automatically delete all extracted images of the current pdf when you're "
 "done using the last image"
 msgstr ""
-"Automatisk sletting av alle uttrukne bilder fra gjeldende pdf når du er "
-"ferdig med siste bilde"
+"Automatisk sletting av alle bilder tatt fra gjeldende pdf når du er ferdig "
+"med å bruke det siste bilde"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterLastImage..Caption
 #: TransOpties.dfm:1635
 msgid "&Delete extracted images when done with the last page image"
-msgstr "&Slett uttrukne bilder når ferdig med siste bilde"
+msgstr "&Slett importerte bilder når ferdig med siste bilde"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterChangeDir....Hint
 #: TransOpties.dfm:1654
@@ -2192,12 +2191,12 @@ msgid ""
 "Automatically delete all extracted images when changing to another image "
 "directory"
 msgstr ""
-"Automatisk sletting av alle uttrukne bilder ved bytte til annen bildemappe"
+"Automatisk sletting av alle importerte bilder ved bytte til annen bildemappe"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterChangeDir..Caption
 #: TransOpties.dfm:1655
 msgid "Delete &all extracted images after changing directory"
-msgstr "Slett &uttrukne bilder ved bytte til annen bildemappe"
+msgstr "Slett &importerte bilder ved bytte til annen bildemappe"
 
 #. OptionsForm..CancelBtn..Caption
 #. ProDialog..CancelBtn..Caption
@@ -2237,7 +2236,7 @@ msgstr "OK"
 #. ManageProjectsForm..Caption
 #: TransProjectManager.dfm:7
 msgid "Manage projects"
-msgstr "Administrér prosjekt"
+msgstr "Administrer prosjekt"
 
 #. ManageProjectsForm..pnlBack..lbl_1..Caption
 #: TransProjectManager.dfm:48
@@ -2792,7 +2791,7 @@ msgstr "Er du virkelig sikker?"
 #. Programmer's name for it: MsgDelPdfImagesCaption
 #: TransTranslatableStrings.pas:145
 msgid "Delete extracted pdf images"
-msgstr "Slett alle uttrukne pdf-bilder"
+msgstr "Slett alle bilder tatt fra pdf-filer"
 
 #. 13-1-2007
 #. Programmer's name for it: MsgEditDescription
@@ -2811,7 +2810,7 @@ msgstr "Endre prosjektbeskrivelse"
 msgid ""
 "The program cannot close at the moment: the pdf extraction is not yet done!"
 msgstr ""
-"Programmet kan ikke avsluttes for øyeblikket: pdf-uttrekket er ikke utført!"
+"Programmet kan ikke avsluttes for øyeblikket: pdf-import pågår fremdeles!"
 
 #. Programmer's name for it: MsgCannotCloseCaption
 #: TransTranslatableStrings.pas:153
@@ -2833,7 +2832,7 @@ msgstr "Prosjekt"
 #. Programmer's name for it: MsgPdfExtractedPages
 #: TransTranslatableStrings.pas:161
 msgid "Extracted pages:"
-msgstr "Uttrukne sider:"
+msgstr "Importerte sider:"
 
 #. 6-4-2007: now also used for Image x of y (zz%)
 #. Programmer's name for it: MsgPdfOf
@@ -2875,7 +2874,7 @@ msgstr ""
 "Ghostscript fikk en feil. Dette kan skyldes:\n"
 "1) Skrivebeskyttet medium (cd/dvd/mappe).\n"
 "Kopier pdf-filen til en mappe med skriverettigheter.\n"
-"2) Pdf-fil tillater ikke uttrekking av bilder.\n"
+"2) Pdf-fil tillater ikke uttak av bilder.\n"
 "Bruk PrintScreen, lagre dette bildet."
 
 #. Programmer's name for it: MsgGhostscriptFatalError
@@ -3735,3 +3734,4 @@ msgstr "Ctrl+"
 
 msgid "Alt+"
 msgstr "Alt+"
+
