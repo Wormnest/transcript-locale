@@ -1,12 +1,12 @@
 # input file: Francais.lng
 # original "Last-Translator: Luc LOCHTMANS\n"
-# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2013, 2014.
+# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2013, 2014, 2016.
 # Eric Herbaut <herbaut@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.4.1 BETA\n"
 "POT-Creation-Date: 2014-12-31 14:09\n"
-"PO-Revision-Date: 2014-12-31 14:31+0200\n"
+"PO-Revision-Date: 2016-03-20 12:15+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
 "Language: fr\n"
@@ -1655,7 +1655,7 @@ msgstr "Même que l'image"
 #. OptionsForm..JvPageControl..GeneralTab..grpbProgress..Caption
 #: TransOpties.dfm:325 
 msgid "Image File progress"
-msgstr "Progrèssion du fichier image"
+msgstr "Progression du fichier image"
 
 #. OptionsForm..JvPageControl..GeneralTab..grpbProgress..cbShowProgress....Hint
 #: TransOpties.dfm:334 
