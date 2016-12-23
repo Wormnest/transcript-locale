@@ -20,9 +20,10 @@ if errorlevel 1 goto nodxgettext
 
 : first, extract all strings
 echo Extracting strings from jgb\source...
-dxgettext -q -o ..\..\jgb\source -b ..\..\jgb\source --delphi --nonascii --useignorepo
+dxgettext -q -o ..\jgb\source -b ..\jgb\source --delphi --nonascii --useignorepo
 echo Extracting strings from Transcript\stable...
 dxgettext -q -o ..\stable -b ..\stable --delphi --nonascii --useignorepo
+
 :echo Extracting strings from Transcript\thirdparty
 : currently nothing really important that needs translating so ignore it for now
 :dxgettext -q -r -o ..\thirdparty -b ..\thirdparty --delphi --nonascii --useignorepo
@@ -36,9 +37,10 @@ dxgettext -q -o ..\stable -b ..\stable --delphi --nonascii --useignorepo
 : then merge all the generated po files into one
 echo Merging files...
 copy ..\stable\default.po default.po
-msgcat ..\stable\default.po ..\..\jgb\source\default.po unicodeblockdata.po jvcl-for-transcript.po -o default.po
+msgcat ..\stable\default.po ..\jgb\source\default.po unicodeblockdata.po jvcl-for-transcript.po -o default.po
 
 : ensure uniqueness
+echo Ensure that strings are unique...
 msguniq -u --no-wrap default.po -o transcript.po
 
 : remove translations that need to be ignored
