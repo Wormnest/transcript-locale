@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.4.1 BETA\n"
-"POT-Creation-Date: 2018-07-04 20:13\n"
+"POT-Creation-Date: 2018-07-05 00:22\n"
 "PO-Revision-Date: 2018-07-04 14:26+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
@@ -2409,7 +2409,7 @@ msgstr ""
 
 #. Programmer's name for it: RUnknownError
 #: JgbUpdateForm.pas:54
-msgid "An unknown error occured while trying to download the version info."
+msgid "An unknown error occurred while trying to download the version info."
 msgstr ""
 
 #. Programmer's name for it: RErrorMsg

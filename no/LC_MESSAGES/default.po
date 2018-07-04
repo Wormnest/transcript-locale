@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.5.1 BETA\n"
-"POT-Creation-Date: 2018-07-04 20:13\n"
-"PO-Revision-Date: 2018-07-04 14:31+0200\n"
+"POT-Creation-Date: 2018-07-05 00:22\n"
+"PO-Revision-Date: 2018-07-05 00:19+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
 "Language: no\n"
@@ -210,9 +210,8 @@ msgstr "Alltid øverst"
 
 #. frmJgbUpdate..Caption
 #: JgbUpdateForm.dfm:4
-#, fuzzy
 msgid "Transcript Update Checker"
-msgstr "Transcript.ini sti: %s"
+msgstr ""
 
 #. TransAboutForm..Caption
 #: TransAbout.dfm:7
@@ -2390,7 +2389,7 @@ msgstr ""
 
 #. Programmer's name for it: RUnknownError
 #: JgbUpdateForm.pas:54
-msgid "An unknown error occured while trying to download the version info."
+msgid "An unknown error occurred while trying to download the version info."
 msgstr ""
 
 #. Programmer's name for it: RErrorMsg
@@ -2438,9 +2437,8 @@ msgid ""
 msgstr ""
 
 #: TranscriptMain.pas:1502
-#, fuzzy
 msgid "Automatic update checking"
-msgstr "Automatisk tekstinnsettelse"
+msgstr ""
 
 #: TranscriptMain.pas:1551
 msgid ""
