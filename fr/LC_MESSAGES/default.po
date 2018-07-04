@@ -1,12 +1,12 @@
 # input file: Francais.lng
 # original "Last-Translator: Luc LOCHTMANS\n"
-# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2013, 2014, 2016.
+# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2013, 2014, 2016, 2018.
 # Eric Herbaut <herbaut@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.4.1 BETA\n"
-"POT-Creation-Date: 2016-12-23 14:55\n"
-"PO-Revision-Date: 2016-12-23 16:31+0200\n"
+"POT-Creation-Date: 2018-07-04 14:21\n"
+"PO-Revision-Date: 2018-07-04 14:29+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
 "Language: fr\n"
@@ -28,8 +28,9 @@ msgid "Open image file..."
 msgstr "Ouvrir une &image..."
 
 #. JgbViewerForm..ActionList..actClose..Caption
+#. frmJgbUpdate..btnClose..Caption
 #. ManageProjectsForm..pnlBack..CloseBtn..Caption
-#: JgbImageViewerForm.dfm:261 TransProjectManager.dfm:84
+#: JgbImageViewerForm.dfm:261 JgbUpdateForm.dfm:89 TransProjectManager.dfm:82
 msgid "Close"
 msgstr "&Fermer"
 
@@ -53,25 +54,25 @@ msgstr "Image"
 
 #. JgbViewerForm..ActionList..actRotateLeft..Caption
 #. MainForm..ActionList1..RotateLeftActn..Caption
-#: JgbImageViewerForm.dfm:268 TranscriptMain.dfm:1560
+#: JgbImageViewerForm.dfm:268 TranscriptMain.dfm:1543
 msgid "Rotate &left"
 msgstr "Rotation à gauche"
 
 #. JgbViewerForm..ActionList..actRotateRight..Caption
 #. MainForm..ActionList1..RotateRightActn..Caption
-#: JgbImageViewerForm.dfm:274 TranscriptMain.dfm:1566
+#: JgbImageViewerForm.dfm:274 TranscriptMain.dfm:1549
 msgid "Rotate &right"
 msgstr "Rotation à droite"
 
 #. JgbViewerForm..ActionList..actNextImage..Caption
 #. MainForm..ActionList1..NextPictActn..Caption
-#: JgbImageViewerForm.dfm:280 TranscriptMain.dfm:1089
+#: JgbImageViewerForm.dfm:280 TranscriptMain.dfm:1072
 msgid "&Next image"
 msgstr "Image &suivante"
 
 #. JgbViewerForm..ActionList..actPrevImage..Caption
 #. MainForm..ActionList1..PrevPictActn..Caption
-#: JgbImageViewerForm.dfm:286 TranscriptMain.dfm:1041
+#: JgbImageViewerForm.dfm:286 TranscriptMain.dfm:1024
 msgid "&Previous image"
 msgstr "Image &précédente"
 
@@ -159,12 +160,12 @@ msgstr "Raccourci Clavier: Alt+"
 #. SpecialCharsForm..btnClose..Caption
 #. TransAboutForm..CloseBtn..Caption
 #. EditAutoCorrectionsForm..BtnClose..Caption
-#: JgbSpecialCharsForm.dfm:93 TransAbout.dfm:571 TransEditAutoCorrect.dfm:187
+#: JgbSpecialCharsForm.dfm:87 TransAbout.dfm:574 TransEditAutoCorrect.dfm:186
 msgid "&Close"
 msgstr "&Fermer"
 
 #. SpecialCharsForm..chkCloseOnInsert....Hint
-#: JgbSpecialCharsForm.dfm:145
+#: JgbSpecialCharsForm.dfm:139
 msgid ""
 "When checked this window will close after you insert the character of your "
 "choice into the editor (by double clicking or using the insert button)"
@@ -174,12 +175,12 @@ msgstr ""
 "d'insertion)"
 
 #. SpecialCharsForm..chkCloseOnInsert..Caption
-#: JgbSpecialCharsForm.dfm:146
+#: JgbSpecialCharsForm.dfm:140
 msgid "Close window after inserting a character"
 msgstr "Fermer la fenêtre après l'insertion d'un caractère"
 
 #. SpecialCharsForm..btnInsert..Caption
-#: JgbSpecialCharsForm.dfm:156
+#: JgbSpecialCharsForm.dfm:150
 msgid "&Insert"
 msgstr "&Insérer"
 
@@ -192,23 +193,29 @@ msgstr "&Insérer"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..HelpBtn..Caption
 #. RtfTabsDialog..HelpBtn..Caption
-#: JgbSpecialCharsForm.dfm:167 TranscriptMain.dfm:2543
-#: TransEditAutoCorrect.dfm:198 TransOpties.dfm:1405 TransPro.dfm:73
+#: JgbSpecialCharsForm.dfm:161 TranscriptMain.dfm:2531
+#: TransEditAutoCorrect.dfm:197 TransOpties.dfm:1350 TransPro.dfm:73
 #: RtfParagraphOptionsForm.dfm:165 RtfTabSettingsForm.dfm:67
 msgid "&Help"
 msgstr "&Aide"
 
 #. SpecialCharsForm..chkAlwaysOnTop..Hint
-#: JgbSpecialCharsForm.dfm:176
+#: JgbSpecialCharsForm.dfm:170
 msgid "Option to show this window always above the Transcript window."
 msgstr ""
 "Option pour afficher cette fenêtre toujours au-dessus de la fenêtre de "
 "transcription."
 
 #. SpecialCharsForm..chkAlwaysOnTop..Caption
-#: JgbSpecialCharsForm.dfm:177
+#: JgbSpecialCharsForm.dfm:171
 msgid "Always on top"
 msgstr "Toujours au dessus"
+
+#. frmJgbUpdate..Caption
+#: JgbUpdateForm.dfm:4
+#, fuzzy
+msgid "Transcript Update Checker"
+msgstr "Chemin de Transcript.ini : %s"
 
 #. TransAboutForm..Caption
 #: TransAbout.dfm:7
@@ -235,7 +242,7 @@ msgstr "http://www.jacobboerema.nl/en/Freeware.htm"
 
 #. TransAboutForm..JvPanel1..StaticProgVersion..Caption
 #. Application.Title - verkorte versienummer (Transcript, of Transcript Pro)
-#: TransAbout.dfm:148 TransInfoSupplier.pas:125
+#: TransAbout.dfm:148 TransInfoSupplier.pas:144
 #, object-pascal-format
 msgid "%s version %d.%d.%d.%d"
 msgstr "%s version %d.%d.%d.%d"
@@ -251,34 +258,34 @@ msgid "Info"
 msgstr "Informations"
 
 #. TransAboutForm..tcBottom..BackPanel..JvStaticText1..Caption
-#: TransAbout.dfm:351
+#: TransAbout.dfm:354
 msgid "This program uses code and components from"
 msgstr "Ce programme utilise du code et des composants de"
 
 #. TransAboutForm..tcBottom..BackPanel..lblJvcl..Caption
-#: TransAbout.dfm:369
+#: TransAbout.dfm:372
 msgid "Jedi Visual Component Library (JVCL)"
 msgstr "Jedi Visual Component Library (JVCL)"
 
 #. TransAboutForm..tcBottom..BackPanel..JvHotLink3..Caption
 #. TransAboutForm..tcBottom..BackPanel..JvHotLink3..URL
-#: TransAbout.dfm:389 TransAbout.dfm:405
+#: TransAbout.dfm:392 TransAbout.dfm:408
 msgid "http://jvcl.delphi-jedi.org/"
 msgstr "http://jvcl.delphi-jedi.org/"
 
 #. TransAboutForm..tcBottom..BackPanel..JclLink..Caption
 #. TransAboutForm..tcBottom..BackPanel..JclLink..URL
-#: TransAbout.dfm:416 TransAbout.dfm:432
+#: TransAbout.dfm:419 TransAbout.dfm:435
 msgid "http://jcl.delphi-jedi.org/"
 msgstr "http://jcl.delphi-jedi.org/"
 
 #. TransAboutForm..tcBottom..BackPanel..lblJcl..Caption
-#: TransAbout.dfm:441
+#: TransAbout.dfm:444
 msgid "Jedi Code Library (JCL)"
 msgstr "Jedi Code Library (JCL)"
 
 #. TransAboutForm..tcBottom..BackPanel..lblTwain..Caption
-#: TransAbout.dfm:504
+#: TransAbout.dfm:507
 msgid "Colin Wilson's Twain code (adapted)"
 msgstr "Colin Wilson's Twain code (adapté)"
 
@@ -305,13 +312,13 @@ msgstr "Choisir le modèle de numérotation"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. MainForm..CoolBar..EditBar..NummeringBtn..Caption
 #. MainForm..ActionList1..NoNumberingActn..Caption
-#: TranscriptMain.dfm:308 TranscriptMain.dfm:1530
+#: TranscriptMain.dfm:308 TranscriptMain.dfm:1513
 msgid "None"
 msgstr "Aucun"
 
 #. MainForm..CoolBar..EditBar..BackgroundColorButton..Properties.DefaultColorCaption
 #. MainForm..CoolBar..EditBar..TextColorButton..Properties.DefaultColorCaption
-#: TranscriptMain.dfm:403 TranscriptMain.dfm:466
+#: TranscriptMain.dfm:397 TranscriptMain.dfm:454
 #: JgbTranslateJvOfficeColorButton.pas:93
 msgid "Automatic"
 msgstr "Automatique"
@@ -319,625 +326,625 @@ msgstr "Automatique"
 #. MainForm..CoolBar..EditBar..BackgroundColorButton..Properties.CustomColorCaption
 #. MainForm..CoolBar..EditBar..TextColorButton..Properties.CustomColorCaption
 #. Update the other hints/buttons
-#: TranscriptMain.dfm:404 TranscriptMain.dfm:467
+#: TranscriptMain.dfm:398 TranscriptMain.dfm:455
 #: JgbTranslateJvOfficeColorButton.pas:91
 msgid "Other colors..."
 msgstr "Autres couleurs..."
 
 #. MainForm..CoolBar..EditBar..BackgroundColorButton..Properties.DefaultColorHint
 #. MainForm..CoolBar..EditBar..TextColorButton..Properties.DefaultColorHint
-#: TranscriptMain.dfm:405 TranscriptMain.dfm:468
+#: TranscriptMain.dfm:399 TranscriptMain.dfm:456
 #: JgbTranslateJvOfficeColorButton.pas:94
 msgid "Automatic color"
 msgstr "Couleur automatique"
 
 #. MainForm..CoolBar..EditBar..BackgroundColorButton..Properties.CustomColorHint
 #. MainForm..CoolBar..EditBar..TextColorButton..Properties.CustomColorHint
-#: TranscriptMain.dfm:406 TranscriptMain.dfm:469
+#: TranscriptMain.dfm:400 TranscriptMain.dfm:457
 #: JgbTranslateJvOfficeColorButton.pas:92
 msgid "Other colors"
 msgstr "Autres couleurs"
 
 #. MainForm..CoolBar..EditBar..BackgroundColorButton..Properties.DragBarHint
 #. MainForm..CoolBar..EditBar..TextColorButton..Properties.DragBarHint
-#: TranscriptMain.dfm:422 TranscriptMain.dfm:485
+#: TranscriptMain.dfm:416 TranscriptMain.dfm:473
 #: JgbTranslateJvOfficeColorButton.pas:95
 msgid "Drag to make this menu floating"
 msgstr "Cliquer et glisser pour déplacer ce menu"
 
 #. MainForm..CoolBar..PictBar..lblImage..Hint
 #. MainForm..CoolBar..PictBar..PictFileCombo..Hint
-#: TranscriptMain.dfm:527 TranscriptMain.dfm:540
+#: TranscriptMain.dfm:514 TranscriptMain.dfm:527
 msgid "Choose an image from this list."
 msgstr "Choisir une image dans la liste."
 
 #. MainForm..CoolBar..PictBar..lblImage..Caption
-#: TranscriptMain.dfm:528
+#: TranscriptMain.dfm:515
 msgid "&Image:"
 msgstr "&Image:"
 
 #. MainForm..CoolBar..PictBar..lblZoom..Caption
-#: TranscriptMain.dfm:579
+#: TranscriptMain.dfm:566
 msgid "&Zoom:"
 msgstr "&Zoom:"
 
 #. MainForm..CoolBar..PictBar..ZoomCombo..Hint
-#: TranscriptMain.dfm:591
+#: TranscriptMain.dfm:578
 msgid "Zoom in or out on the image (default is 100)"
 msgstr "Zoomer + ou - sur l'image (défaut à 100%)"
 
 #. MainForm..CoolBar..PictBar..lblBrightness..Caption
-#: TranscriptMain.dfm:633
+#: TranscriptMain.dfm:620
 msgid "&Brightness:"
 msgstr "&Luminosité:"
 
 #. MainForm..CoolBar..PictBar..BrightnessCombo..Hint
-#: TranscriptMain.dfm:645
+#: TranscriptMain.dfm:632
 msgid "Change brightness (default is 100)"
 msgstr "Changer la luminosité (défaut à 100%)"
 
 #. MainForm..CoolBar..ProjectsToolBar..lblProject..Hint
 #. MainForm..CoolBar..ProjectsToolBar..ProjectsCombo..Hint
-#: TranscriptMain.dfm:707 TranscriptMain.dfm:720
+#: TranscriptMain.dfm:694 TranscriptMain.dfm:707
 msgid "Current project (choose from the list to open another project)"
 msgstr "Projet courant (choisir dans la liste un autre projet à ouvrir)"
 
 #. MainForm..CoolBar..ProjectsToolBar..lblProject..Caption
-#: TranscriptMain.dfm:708
+#: TranscriptMain.dfm:695
 msgid "Project:"
 msgstr "Projet:"
 
 #. MainForm..CoolBar..ProjectsToolBar..lblTime..Hint
-#: TranscriptMain.dfm:756
+#: TranscriptMain.dfm:743
 msgid "hours:minutes:seconds worked on this project"
 msgstr "heures:minutes:secondes passées sur ce projet"
 
 #. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintIndentFirst
-#: TranscriptMain.dfm:857
+#: TranscriptMain.dfm:843
 msgid "First Indent"
 msgstr "Retrait de la première ligne"
 
 #. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintIndentLeft
-#: TranscriptMain.dfm:858
+#: TranscriptMain.dfm:844
 msgid "Left Indent"
 msgstr "Retrait à gauche"
 
 #. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintIndentHanging
-#: TranscriptMain.dfm:859
+#: TranscriptMain.dfm:845
 msgid "Hanging Indent"
 msgstr "Retrait négatif"
 
 #. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintIndentRight
-#: TranscriptMain.dfm:860
+#: TranscriptMain.dfm:846
 msgid "Right Indent"
 msgstr "Retrait à droite"
 
 #. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintTabCenter
-#: TranscriptMain.dfm:863
+#: TranscriptMain.dfm:849
 msgid "Center aligned tab"
 msgstr "Tabulation alignée centrée"
 
 #. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintTabDecimal
-#: TranscriptMain.dfm:864
+#: TranscriptMain.dfm:850
 msgid "Decimal aligned tab"
 msgstr "Tabulation alignée décimale"
 
 #. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintTabLeft
-#: TranscriptMain.dfm:865
+#: TranscriptMain.dfm:851
 msgid "Left aligned tab"
 msgstr "Tabulation alignée gauche"
 
 #. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintTabRight
-#: TranscriptMain.dfm:866
+#: TranscriptMain.dfm:852
 msgid "Right aligned tab"
 msgstr "Tabulation alignée droite"
 
 #. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintTabWordBar
-#: TranscriptMain.dfm:867
+#: TranscriptMain.dfm:853
 msgid "Word Bar aligned tab"
 msgstr "Tabulation alignée barre Word"
 
 #. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.MenuTabCenter
-#: TranscriptMain.dfm:868
+#: TranscriptMain.dfm:854
 msgid "Center align"
 msgstr "Alignement centré"
 
 #. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.MenuTabDecimal
-#: TranscriptMain.dfm:869
+#: TranscriptMain.dfm:855
 msgid "Decimal align"
 msgstr "Alignement décimal"
 
 #. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.MenuTabLeft
-#: TranscriptMain.dfm:870
+#: TranscriptMain.dfm:856
 msgid "Left align"
 msgstr "Alignement à gauche"
 
 #. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.MenuTabRight
-#: TranscriptMain.dfm:871
+#: TranscriptMain.dfm:857
 msgid "Right align"
 msgstr "Alignement à droite"
 
 #. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.MenuTabWordBar
-#: TranscriptMain.dfm:872
+#: TranscriptMain.dfm:858
 msgid "Word Bar align"
 msgstr "Alignement barre Word"
 
 #. MainForm..ActionList1..PrevPictActn..Hint
-#: TranscriptMain.dfm:1043
+#: TranscriptMain.dfm:1026
 msgid "Go to the previous image"
 msgstr "Aller à l'image précédente"
 
 #. MainForm..ActionList1..FileOpenActn..Caption
-#: TranscriptMain.dfm:1050
+#: TranscriptMain.dfm:1033
 msgid "&Open rtf textfile..."
 msgstr "&Ouvrir un fichier texte rtf..."
 
 #. MainForm..ActionList1..FileOpenActn..Hint
-#: TranscriptMain.dfm:1051
+#: TranscriptMain.dfm:1034
 msgid "Open textfile in rich text format"
 msgstr "Ouvrir un fichier texte au format rtf"
 
 #. MainForm..ActionList1..FileSaveActn..Caption
-#: TranscriptMain.dfm:1058
+#: TranscriptMain.dfm:1041
 msgid "&Save rtf textfile"
 msgstr "&Sauver le fichier texte rtf"
 
 #. MainForm..ActionList1..FileSaveActn..Hint
-#: TranscriptMain.dfm:1059
+#: TranscriptMain.dfm:1042
 msgid "Save a textfile in rich text format"
 msgstr "Sauver le fichier texte au format rtf"
 
 #. MainForm..ActionList1..FileCloseActn..Caption
-#: TranscriptMain.dfm:1066
+#: TranscriptMain.dfm:1049
 msgid "E&xit"
 msgstr "&Quitter"
 
 #. MainForm..ActionList1..FileCloseActn..Hint
-#: TranscriptMain.dfm:1067
+#: TranscriptMain.dfm:1050
 msgid "Exit program (Alt+F4)"
 msgstr "Quitter le programme (Alt+F4)"
 
 #. MainForm..ActionList1..OptionsActn..Caption
-#: TranscriptMain.dfm:1073
+#: TranscriptMain.dfm:1056
 msgid "&Options..."
 msgstr "&Options..."
 
 #. MainForm..ActionList1..OptionsActn..Hint
 #. OptionsForm..Caption
-#: TranscriptMain.dfm:1074 TransOpties.dfm:8
+#: TranscriptMain.dfm:1057 TransOpties.dfm:8
 msgid "Options"
 msgstr "Options"
 
 #. MainForm..ActionList1..FindTextActn..Caption
-#: TranscriptMain.dfm:1081
+#: TranscriptMain.dfm:1064
 msgid "&Find..."
 msgstr "Rechercher..."
 
 #. MainForm..ActionList1..FindTextActn..Hint
-#: TranscriptMain.dfm:1082
+#: TranscriptMain.dfm:1065
 msgid "Find text"
 msgstr "Rechercher le texte"
 
 #. MainForm..ActionList1..NextPictActn..Hint
-#: TranscriptMain.dfm:1091
+#: TranscriptMain.dfm:1074
 msgid "Go to the next image"
 msgstr "Aller à l'image suivante"
 
 #. MainForm..ActionList1..FileSaveAsActn..Caption
-#: TranscriptMain.dfm:1098
+#: TranscriptMain.dfm:1081
 msgid "Save &as..."
 msgstr "Sauver so&us..."
 
 #. MainForm..ActionList1..FileSaveAsActn..Hint
-#: TranscriptMain.dfm:1099
+#: TranscriptMain.dfm:1082
 msgid "Save rtf textfile under another name"
 msgstr "Sauver le fichier rtf sous un autre nom"
 
 #. MainForm..ActionList1..FileNewActn..Caption
-#: TranscriptMain.dfm:1106
+#: TranscriptMain.dfm:1089
 msgid "&New rtf textfile"
 msgstr "&Nouveau fichier texte rtf"
 
 #. MainForm..ActionList1..FileNewActn..Hint
-#: TranscriptMain.dfm:1107
+#: TranscriptMain.dfm:1090
 msgid "Create new rtf textfile"
 msgstr "Créer un nouveau fichier texte rtf"
 
 #. MainForm..ActionList1..ReplaceTextActn..Caption
-#: TranscriptMain.dfm:1114
+#: TranscriptMain.dfm:1097
 msgid "R&eplace..."
 msgstr "Remplacer..."
 
 #. MainForm..ActionList1..ReplaceTextActn..Hint
-#: TranscriptMain.dfm:1115
+#: TranscriptMain.dfm:1098
 msgid "Replace text"
 msgstr "Remplacer le texte"
 
 #. MainForm..ActionList1..FindNextActn..Caption
-#: TranscriptMain.dfm:1122
+#: TranscriptMain.dfm:1105
 msgid "Find ne&xt"
 msgstr "Rechercher le &suivant"
 
 #. MainForm..ActionList1..FindNextActn..Hint
-#: TranscriptMain.dfm:1123
+#: TranscriptMain.dfm:1106
 msgid "Find next occurence of text"
 msgstr "Rechercher l'occurrence suivante"
 
 #. MainForm..ActionList1..HelpShowHelpActn..Caption
-#: TranscriptMain.dfm:1130
+#: TranscriptMain.dfm:1113
 msgid "&Help information"
 msgstr "&Aide / information"
 
 #. MainForm..ActionList1..HelpShowHelpActn..Hint
-#: TranscriptMain.dfm:1132
+#: TranscriptMain.dfm:1115
 msgid "Show help information"
 msgstr "Montrer l'aide / l'information"
 
 #. MainForm..ActionList1..HelpAboutActn..Caption
-#: TranscriptMain.dfm:1139
+#: TranscriptMain.dfm:1122
 msgid "&About..."
 msgstr "A &propos de..."
 
 #. MainForm..ActionList1..HelpAboutActn..Hint
-#: TranscriptMain.dfm:1140
+#: TranscriptMain.dfm:1123
 msgid "Information about this program"
 msgstr "A propos du programme"
 
 #. MainForm..ActionList1..DefaultFontActn..Caption
-#: TranscriptMain.dfm:1146
+#: TranscriptMain.dfm:1129
 msgid "Default &font..."
 msgstr "&Police par défaut..."
 
 #. MainForm..ActionList1..DefaultFontActn..Hint
-#: TranscriptMain.dfm:1147
+#: TranscriptMain.dfm:1130
 msgid "Change default font"
 msgstr "Changer la police par défaut"
 
 #. MainForm..ActionList1..ToggleBoldActn..Caption
-#: TranscriptMain.dfm:1154
+#: TranscriptMain.dfm:1137
 msgid "&Bold"
 msgstr "&Gras"
 
 #. MainForm..ActionList1..ToggleBoldActn..Hint
-#: TranscriptMain.dfm:1155
+#: TranscriptMain.dfm:1138
 msgid "Bold"
 msgstr "Gras"
 
 #. MainForm..ActionList1..ToggleItalicActn..Caption
-#: TranscriptMain.dfm:1162
+#: TranscriptMain.dfm:1145
 msgid "&Italic"
 msgstr "&Italique"
 
 #. MainForm..ActionList1..ToggleItalicActn..Hint
-#: TranscriptMain.dfm:1163
+#: TranscriptMain.dfm:1146
 msgid "Italic"
 msgstr "Italique"
 
 #. MainForm..ActionList1..ToggleUnderlineActn..Caption
-#: TranscriptMain.dfm:1170
+#: TranscriptMain.dfm:1153
 msgid "&Underline"
 msgstr "&Souligné"
 
 #. MainForm..ActionList1..ToggleUnderlineActn..Hint
-#: TranscriptMain.dfm:1171
+#: TranscriptMain.dfm:1154
 msgid "Underline"
 msgstr "Souligné"
 
 #. MainForm..ActionList1..PictOpenActn..Caption
-#: TranscriptMain.dfm:1178
+#: TranscriptMain.dfm:1161
 msgid "Open &imagefile..."
 msgstr "Ouvrir un fichier &image..."
 
 #. MainForm..ActionList1..PictOpenActn..Hint
-#: TranscriptMain.dfm:1179
+#: TranscriptMain.dfm:1162
 msgid "Open imagefile to transcribe"
 msgstr "Ouvrir un fichier image à transcrire"
 
 #. MainForm..ActionList1..CurFontActn..Caption
-#: TranscriptMain.dfm:1186
+#: TranscriptMain.dfm:1169
 msgid "&Font..."
 msgstr "&Polices..."
 
 #. MainForm..ActionList1..CurFontActn..Hint
-#: TranscriptMain.dfm:1187
+#: TranscriptMain.dfm:1170
 msgid "Change font"
 msgstr "Changer la police de caractère"
 
 #. MainForm..ActionList1..EditUndo1..Caption
-#: TranscriptMain.dfm:1194
+#: TranscriptMain.dfm:1177
 msgid "&Undo"
 msgstr "&Annuler"
 
 #. MainForm..ActionList1..EditUndo1..Hint
-#: TranscriptMain.dfm:1195
+#: TranscriptMain.dfm:1178
 msgid "Undo|Reverts the last action"
 msgstr "Annuler / Rétablir la dernière action"
 
 #. MainForm..ActionList1..EditCut1..Caption
-#: TranscriptMain.dfm:1202
+#: TranscriptMain.dfm:1185
 msgid "Cu&t"
 msgstr "Cou&per"
 
 #. MainForm..ActionList1..EditCut1..Hint
-#: TranscriptMain.dfm:1203
+#: TranscriptMain.dfm:1186
 msgid "Cut|Cuts the selection and puts it on the Clipboard"
 msgstr "Couper la sélection et placer dans le Presse-papier"
 
 #. MainForm..ActionList1..EditCopy1..Caption
 #. MainForm..ActionList1..actEditCopy..Caption
-#: TranscriptMain.dfm:1209 TranscriptMain.dfm:2020
+#: TranscriptMain.dfm:1192 TranscriptMain.dfm:2003
 msgid "&Copy"
 msgstr "&Copier"
 
 #. MainForm..ActionList1..EditCopy1..Hint
 #. MainForm..ActionList1..actEditCopy..Hint
-#: TranscriptMain.dfm:1211 TranscriptMain.dfm:2021
+#: TranscriptMain.dfm:1194 TranscriptMain.dfm:2004
 msgid "Copy|Copies the selection and puts it on the Clipboard"
 msgstr "Copier la sélection et placer dans le Presse-papier"
 
 #. MainForm..ActionList1..EditPaste1..Caption
 #. MainForm..ActionList1..actEditPaste..Caption
-#: TranscriptMain.dfm:1218 TranscriptMain.dfm:1907
+#: TranscriptMain.dfm:1201 TranscriptMain.dfm:1890
 msgid "&Paste"
 msgstr "C&oller"
 
 #. MainForm..ActionList1..EditPaste1..Hint
 #. MainForm..ActionList1..actEditPaste..Hint
-#: TranscriptMain.dfm:1220 TranscriptMain.dfm:1908
+#: TranscriptMain.dfm:1203 TranscriptMain.dfm:1891
 msgid "Paste|Inserts Clipboard contents"
 msgstr "Coller / Insérer le contenu du Presse-papier"
 
 #. MainForm..ActionList1..EditSelectAll1..Caption
-#: TranscriptMain.dfm:1227
+#: TranscriptMain.dfm:1210
 msgid "Select &All"
 msgstr "Sélectionner &tout"
 
 #. MainForm..ActionList1..EditSelectAll1..Hint
-#: TranscriptMain.dfm:1228
+#: TranscriptMain.dfm:1211
 msgid "Select All|Selects the entire document"
 msgstr "Sélectionner tout le document"
 
 #. MainForm..ActionList1..ToggleStrikeoutActn..Caption
-#: TranscriptMain.dfm:1234
+#: TranscriptMain.dfm:1217
 msgid "&Strikeout"
 msgstr "&Barré"
 
 #. MainForm..ActionList1..ToggleStrikeoutActn..Hint
-#: TranscriptMain.dfm:1235
+#: TranscriptMain.dfm:1218
 msgid "Strikeout"
 msgstr "Barré"
 
 #. MainForm..ActionList1..ToggleBulletsActn..Caption
-#: TranscriptMain.dfm:1242
+#: TranscriptMain.dfm:1225
 msgid "Bullets"
 msgstr "Puces"
 
 #. MainForm..ActionList1..ToggleBulletsActn....Hint
-#: TranscriptMain.dfm:1245
+#: TranscriptMain.dfm:1228
 msgid ""
 "Insert a bullet on the current line (cycle through the bullet styles with "
 "Ctrl+Shift+L)"
 msgstr "Insère une puce à la ligne courante (autres puces avec Ctrl+Shift+L)"
 
 #. MainForm..ActionList1..AlignLeftActn..Caption
-#: TranscriptMain.dfm:1251
+#: TranscriptMain.dfm:1234
 msgid "Align &Left"
 msgstr "Aligner à gauche"
 
 #. MainForm..ActionList1..AlignLeftActn..Hint
-#: TranscriptMain.dfm:1253
+#: TranscriptMain.dfm:1236
 msgid "Align Left|Aligns text at the left indent"
 msgstr "Force l'alignement du texte à gauche"
 
 #. MainForm..ActionList1..AlignRightActn..Caption
-#: TranscriptMain.dfm:1259
+#: TranscriptMain.dfm:1242
 msgid "Align &Right"
 msgstr "Aligner à droite"
 
 #. MainForm..ActionList1..AlignRightActn..Hint
-#: TranscriptMain.dfm:1261
+#: TranscriptMain.dfm:1244
 msgid "Align Right|Aligns text at the right indent"
 msgstr "Force l'alignement du texte à droite"
 
 #. MainForm..ActionList1..AlignCenterActn..Caption
-#: TranscriptMain.dfm:1267
+#: TranscriptMain.dfm:1250
 msgid "&Center"
 msgstr "&Centrer"
 
 #. MainForm..ActionList1..AlignCenterActn..Hint
-#: TranscriptMain.dfm:1269
+#: TranscriptMain.dfm:1252
 msgid "Center|Centers text between margins"
 msgstr "Centre le texte entre les marges"
 
 #. MainForm..ActionList1..ParaOptionsActn..Caption
-#: TranscriptMain.dfm:1275
+#: TranscriptMain.dfm:1258
 msgid "&Paragraph..."
 msgstr "Paragraphe..."
 
 #. MainForm..ActionList1..ParaOptionsActn..Hint
-#: TranscriptMain.dfm:1276
+#: TranscriptMain.dfm:1259
 msgid "Paragraph options"
 msgstr "Options de paragraphe"
 
 #. MainForm..ActionList1..AlignJustifyActn..Caption
-#: TranscriptMain.dfm:1283
+#: TranscriptMain.dfm:1266
 msgid "&Justify"
 msgstr "&Justifier"
 
 #. MainForm..ActionList1..AlignJustifyActn..Hint
-#: TranscriptMain.dfm:1285
+#: TranscriptMain.dfm:1268
 msgid "Justify: Justifies text between left and right margins"
 msgstr "Justifie le texte entre les marges gauche et droite"
 
 #. MainForm..ActionList1..EditDelete1..Caption
 #. EditAutoCorrectionsForm..btnDelete..Caption
-#: TranscriptMain.dfm:1291 TransEditAutoCorrect.dfm:284
+#: TranscriptMain.dfm:1274 TransEditAutoCorrect.dfm:279
 msgid "&Delete"
 msgstr "&Supprimer"
 
 #. MainForm..ActionList1..EditDelete1..Hint
-#: TranscriptMain.dfm:1292
+#: TranscriptMain.dfm:1275
 msgid "Delete|Erases the selection"
 msgstr "Supprimer / Effacer la sélection"
 
 #. MainForm..ActionList1..EditRedoActn..Caption
-#: TranscriptMain.dfm:1297
+#: TranscriptMain.dfm:1280
 msgid "&Redo"
 msgstr "&Refaire"
 
 #. MainForm..ActionList1..EditRedoActn..Hint
-#: TranscriptMain.dfm:1298
+#: TranscriptMain.dfm:1281
 msgid "Redo|Reverts the last undo"
 msgstr "Refaire / Rétablir la dernière annulation"
 
 #. MainForm..ActionList1..TabSettingsActn..Caption
-#: TranscriptMain.dfm:1306
+#: TranscriptMain.dfm:1289
 msgid "&Tabs..."
 msgstr "&Tabulation..."
 
 #. MainForm..ActionList1..TabSettingsActn..Hint
-#: TranscriptMain.dfm:1307
+#: TranscriptMain.dfm:1290
 msgid "Tab settings"
 msgstr "Paramètres de tabulation"
 
 #. MainForm..ActionList1..GetTwainImage..Caption
-#: TranscriptMain.dfm:1319
+#: TranscriptMain.dfm:1302
 msgid "Ac&quire image..."
 msgstr "A&cquérir une image..."
 
 #. MainForm..ActionList1..GetTwainSource..Caption
-#: TranscriptMain.dfm:1325
+#: TranscriptMain.dfm:1308
 msgid "Select Twain source..."
 msgstr "Choisir la source Twain..."
 
 #. MainForm..ActionList1..SuperScriptActn..Caption
-#: TranscriptMain.dfm:1488
+#: TranscriptMain.dfm:1471
 msgid "Superscript"
 msgstr "Exposant"
 
 #. MainForm..ActionList1..SuperScriptActn..Hint
-#: TranscriptMain.dfm:1489
+#: TranscriptMain.dfm:1472
 msgid "Toggle superscript"
 msgstr "Bascule en exposant"
 
 #. MainForm..ActionList1..SubscriptActn..Caption
-#: TranscriptMain.dfm:1495
+#: TranscriptMain.dfm:1478
 msgid "Subscript"
 msgstr "Indice"
 
 #. MainForm..ActionList1..SubscriptActn..Hint
-#: TranscriptMain.dfm:1496
+#: TranscriptMain.dfm:1479
 msgid "Toggle subscript"
 msgstr "Bascule en indice"
 
 #. MainForm..ActionList1..ImportFileActn..Caption
-#: TranscriptMain.dfm:1502
+#: TranscriptMain.dfm:1485
 msgid "Import textfile..."
 msgstr "Importer un fichier texte..."
 
 #. MainForm..ActionList1..ImportFileActn....Hint
-#: TranscriptMain.dfm:1505
+#: TranscriptMain.dfm:1488
 msgid "Import a textfile using the Microsoft Office import/export filters"
 msgstr ""
 "Importer un fichier texte en utilisant les filtres importer/exporter Ms "
 "Office"
 
 #. MainForm..ActionList1..ExportFileActn..Caption
-#: TranscriptMain.dfm:1511
+#: TranscriptMain.dfm:1494
 msgid "Export textfile..."
 msgstr "Exporter un fichier texte..."
 
 #. MainForm..ActionList1..ExportFileActn....Hint
-#: TranscriptMain.dfm:1514
+#: TranscriptMain.dfm:1497
 msgid "Export a textfile using the Microsoft Office import/export filters"
 msgstr ""
 "Exporter un fichier texte en utilisant les filtres importer/exporter Ms "
 "Office"
 
 #. MainForm..ActionList1..InvertPictActn..Caption
-#: TranscriptMain.dfm:1550
+#: TranscriptMain.dfm:1533
 msgid "&Inverted colors"
 msgstr "&Négatif / positif"
 
 #. MainForm..ActionList1..GrayscalePictActn..Caption
-#: TranscriptMain.dfm:1555
+#: TranscriptMain.dfm:1538
 msgid "&Greyscale image"
 msgstr "Image en niveau de &gris"
 
 #. MainForm..ActionList1..Rot90Actn..Caption
-#: TranscriptMain.dfm:1572
+#: TranscriptMain.dfm:1555
 msgid "Rotate 90°"
 msgstr "Rotation à 90°"
 
 #. MainForm..ActionList1..Rot180Actn..Caption
-#: TranscriptMain.dfm:1578
+#: TranscriptMain.dfm:1561
 msgid "Rotate 180°"
 msgstr "Rotation à 180°"
 
 #. MainForm..ActionList1..Rot270Actn..Caption
-#: TranscriptMain.dfm:1584
+#: TranscriptMain.dfm:1567
 msgid "Rotate 270°"
 msgstr "Rotation à 270°"
 
 #. MainForm..ActionList1..NoRotationActn..Caption
-#: TranscriptMain.dfm:1590
+#: TranscriptMain.dfm:1573
 msgid "No Rotation"
 msgstr "Aucune Rotation"
 
 #. MainForm..ActionList1..OriginalImageActn..Caption
-#: TranscriptMain.dfm:1596
+#: TranscriptMain.dfm:1579
 msgid "Original image"
 msgstr "Image originale"
 
 #. MainForm..ActionList1..TopOfRightPageActn..Caption
-#: TranscriptMain.dfm:1608
+#: TranscriptMain.dfm:1591
 msgid "Top of right page"
 msgstr "Coin supérieur droit"
 
 #. MainForm..ActionList1..TopOfRightPageActn..Hint
-#: TranscriptMain.dfm:1609
+#: TranscriptMain.dfm:1592
 msgid "Go to the top of the right page on the image"
 msgstr "Aller au coin supérieur droit de l'image"
 
 #. MainForm..ActionList1..TopOfLeftPageActn..Caption
-#: TranscriptMain.dfm:1615
+#: TranscriptMain.dfm:1598
 msgid "Top of left page"
 msgstr "Coin supérieur gauche"
 
 #. MainForm..ActionList1..TopOfLeftPageActn..Hint
-#: TranscriptMain.dfm:1616
+#: TranscriptMain.dfm:1599
 msgid "Go to the top of the left page on the image"
 msgstr "Aller au coin supérieur gauche de l'image"
 
 #. MainForm..ActionList1..LeftPageActn..Caption
 #. MainForm..ActionList1..actImgLeftPage..Caption
-#: TranscriptMain.dfm:1622 TranscriptMain.dfm:1832
+#: TranscriptMain.dfm:1605 TranscriptMain.dfm:1815
 msgid "Left page"
 msgstr "Page côté gauche"
 
 #. MainForm..ActionList1..LeftPageActn..Hint
-#: TranscriptMain.dfm:1623
+#: TranscriptMain.dfm:1606
 msgid "Go to the left page on the image"
 msgstr "Aller coté gauche de l'image"
 
 #. MainForm..ActionList1..RightPageActn..Caption
 #. MainForm..ActionList1..actImgRightPage..Caption
-#: TranscriptMain.dfm:1629 TranscriptMain.dfm:1857
+#: TranscriptMain.dfm:1612 TranscriptMain.dfm:1840
 msgid "Right page"
 msgstr "Page côté droit"
 
 #. MainForm..ActionList1..RightPageActn..Hint
-#: TranscriptMain.dfm:1630
+#: TranscriptMain.dfm:1613
 msgid "Go to the right page on the image"
 msgstr "Aller coté droit de l'image"
 
 #. MainForm..ActionList1..MaximizePictWin..Caption
-#: TranscriptMain.dfm:1636
+#: TranscriptMain.dfm:1619
 msgid "Maximize &image window"
 msgstr "Agrandir la fenêtre &image"
 
 #. MainForm..ActionList1..MaximizePictWin....Hint
-#: TranscriptMain.dfm:1639
+#: TranscriptMain.dfm:1622
 msgid ""
 "Maximize the image window (editor will not be visible but you can still use "
 "it)"
@@ -945,150 +952,150 @@ msgstr ""
 "Agrandir la fenêtre image (l'éditeur sera invisible mais restera utilisable)"
 
 #. MainForm..ActionList1..MaximizeEditWin..Caption
-#: TranscriptMain.dfm:1646
+#: TranscriptMain.dfm:1629
 msgid "Maximize &editor window"
 msgstr "Agrandir la fenêtre d'&édition"
 
 #. MainForm..ActionList1..MaximizeEditWin..Hint
-#: TranscriptMain.dfm:1647
+#: TranscriptMain.dfm:1630
 msgid "Maximize the editor window (image window will not be visible)"
 msgstr "Agrandir la fenêtre d'édition (la fenêtre image sera invisible)"
 
 #. MainForm..ActionList1..FileCloseImageFileActn..Caption
-#: TranscriptMain.dfm:1654
+#: TranscriptMain.dfm:1637
 msgid "&Close imagefile"
 msgstr "Fermer le fichier image"
 
 #. MainForm..ActionList1..FileCloseImageFileActn..Hint
-#: TranscriptMain.dfm:1655
+#: TranscriptMain.dfm:1638
 msgid "Close the current image file"
 msgstr "Fermer le fichier image courante"
 
 #. MainForm..ActionList1..FileCloseTextFileActn..Caption
-#: TranscriptMain.dfm:1661
+#: TranscriptMain.dfm:1644
 msgid "Close rtf &textfile"
 msgstr "&Fermer le fichier texte rtf"
 
 #. MainForm..ActionList1..FileCloseTextFileActn..Hint
-#: TranscriptMain.dfm:1662
+#: TranscriptMain.dfm:1645
 msgid "Close the current rtf textfile (same as new rtf textfile)"
 msgstr "Fermer le fichier rtf courant (identique à nouveau fichier texte rtf)"
 
 #. MainForm..ActionList1..FullScreenActn..Caption
-#: TranscriptMain.dfm:1669
+#: TranscriptMain.dfm:1652
 msgid "&Full Screen"
 msgstr "&Plein écran"
 
 #. MainForm..ActionList1..RegisterActn..Caption
-#: TranscriptMain.dfm:1676
+#: TranscriptMain.dfm:1659
 msgid "&Register..."
 msgstr "En&registrement..."
 
 #. MainForm..ActionList1..InsertFilenamActn..Caption
-#: TranscriptMain.dfm:1682
+#: TranscriptMain.dfm:1665
 msgid "&Insert autotext"
 msgstr "&Insertion automatique de texte"
 
 #. MainForm..ActionList1..NewProjectActn..Caption
-#: TranscriptMain.dfm:1691
+#: TranscriptMain.dfm:1674
 msgid "&New project..."
 msgstr "&Nouveau projet..."
 
 #. MainForm..ActionList1..NewProjectActn..Hint
-#: TranscriptMain.dfm:1693
+#: TranscriptMain.dfm:1676
 msgid "Make a new project using the current settings"
 msgstr "Faire un nouveau projet avec les paramètres courants"
 
 #. MainForm..ActionList1..ManageProjectsActn..Caption
-#: TranscriptMain.dfm:1701
+#: TranscriptMain.dfm:1684
 msgid "&Manage projects..."
 msgstr "&Modifier les projets..."
 
 #. MainForm..ActionList1..ManageProjectsActn..Hint
-#: TranscriptMain.dfm:1703
+#: TranscriptMain.dfm:1686
 msgid "Manage projects (rename, delete, set sorted)"
 msgstr "Modifier les projets (renommer, effacer, trier)"
 
 #. MainForm..ActionList1..actBackgroundColorBtn..Hint
-#: TranscriptMain.dfm:1711
+#: TranscriptMain.dfm:1694
 msgid "Select backgroundcolor"
 msgstr "Choisir la couleur d'arrière plan"
 
 #. MainForm..ActionList1..actTextColorBtn..Hint
-#: TranscriptMain.dfm:1717
+#: TranscriptMain.dfm:1700
 msgid "Select textcolor"
 msgstr "Choisir la couleur du texte"
 
 #. MainForm..ActionList1..actIncreaseIndent..Caption
-#: TranscriptMain.dfm:1723
+#: TranscriptMain.dfm:1706
 msgid "Increase indentation"
 msgstr "Augmenter le retrait"
 
 #. MainForm..ActionList1..actIncreaseIndent..Hint
-#: TranscriptMain.dfm:1724
+#: TranscriptMain.dfm:1707
 msgid "Increase the indentation of this paragraph"
 msgstr "Augmenter le retrait du paragraphe"
 
 #. MainForm..ActionList1..actDecreaseIndent..Caption
-#: TranscriptMain.dfm:1731
+#: TranscriptMain.dfm:1714
 msgid "Decrease indentation"
 msgstr "Diminuer le retrait"
 
 #. MainForm..ActionList1..actDecreaseIndent..Hint
-#: TranscriptMain.dfm:1732
+#: TranscriptMain.dfm:1715
 msgid "Decrease the indentation of this paragraph"
 msgstr "Diminuer le retrait du paragraphe"
 
 #. MainForm..ActionList1..actShowEditorRuler..Caption
-#: TranscriptMain.dfm:1740
+#: TranscriptMain.dfm:1723
 msgid "Show/Hide Ruler"
 msgstr "Montrer / Cacher la Règle"
 
 #. MainForm..ActionList1..actDoubleUnderline..Caption
 #. MainForm..ActionList1..actDoubleUnderline..Hint
-#: TranscriptMain.dfm:1749 TranscriptMain.dfm:1750
+#: TranscriptMain.dfm:1732 TranscriptMain.dfm:1733
 msgid "Double Underline"
 msgstr "Soulignage double"
 
 #. MainForm..ActionList1..actSharpen..Caption
-#: TranscriptMain.dfm:1756
+#: TranscriptMain.dfm:1739
 msgid "Sharpen"
 msgstr "Netteté et finesse"
 
 #. MainForm..ActionList1..actSharpen..Hint
-#: TranscriptMain.dfm:1757
+#: TranscriptMain.dfm:1740
 msgid "Sharpen image"
 msgstr "Finesse de l'image"
 
 #. MainForm..ActionList1..actAutoContrast..Caption
-#: TranscriptMain.dfm:1763
+#: TranscriptMain.dfm:1746
 msgid "Auto Contrast"
 msgstr "Contraste Automatique"
 
 #. MainForm..ActionList1..actReloadAutoreplacements..Caption
-#: TranscriptMain.dfm:1774
+#: TranscriptMain.dfm:1757
 msgid "Reload autreplacements list"
 msgstr "Charger la liste de correction automatique"
 
 #. MainForm..ActionList1..actZoomIn..Caption
 #. MainForm..ActionList1..actHighlighterZoomIn..Caption
-#: TranscriptMain.dfm:1781 TranscriptMain.dfm:2088
+#: TranscriptMain.dfm:1764 TranscriptMain.dfm:2071
 msgid "Zoom In"
 msgstr "Zoom Avant"
 
 #. MainForm..ActionList1..actZoomOut..Caption
 #. MainForm..ActionList1..actHighlighterZoomOut..Caption
-#: TranscriptMain.dfm:1786 TranscriptMain.dfm:2093
+#: TranscriptMain.dfm:1769 TranscriptMain.dfm:2076
 msgid "Zoom Out"
 msgstr "Zoom Arrière"
 
 #. MainForm..ActionList1..actToggleProjectTimer..Caption
-#: TranscriptMain.dfm:1791
+#: TranscriptMain.dfm:1774
 msgid "Start/pause project timer"
 msgstr "Démarrer/mettre en pause le minuteur projet"
 
 #. MainForm..ActionList1..actToggleProjectTimer....Hint
-#: TranscriptMain.dfm:1795
+#: TranscriptMain.dfm:1778
 msgid ""
 "Start or pause the project timer which measures the time spent on this "
 "project"
@@ -1099,12 +1106,12 @@ msgstr ""
 #. MainForm..ActionList1..actStopProjectTimer..Caption
 #. 13-4-2007
 #. Programmer's name for it: MsgStopTimerCaption
-#: TranscriptMain.dfm:1802 TransTranslatableStrings.pas:143
+#: TranscriptMain.dfm:1785 TransTranslatableStrings.pas:143
 msgid "Stop project timer"
 msgstr "Arrêter le minuteur"
 
 #. MainForm..ActionList1..actStopProjectTimer....Hint
-#: TranscriptMain.dfm:1806
+#: TranscriptMain.dfm:1789
 msgid ""
 "This stops the project timer if it is running and resets the time spent "
 "working on this project to 0"
@@ -1114,321 +1121,326 @@ msgstr ""
 
 #. MainForm..ActionList1..actResetProjectTimer..Caption
 #. Programmer's name for it: MsgResetTimerCaption
-#: TranscriptMain.dfm:1813 TransTranslatableStrings.pas:144
+#: TranscriptMain.dfm:1796 TransTranslatableStrings.pas:144
 msgid "Reset project timer"
 msgstr "Réinitialiser le minuteur"
 
 #. MainForm..ActionList1..actResetProjectTimer..Hint
-#: TranscriptMain.dfm:1815
+#: TranscriptMain.dfm:1798
 msgid "Resets the time spent working on this project to 0"
 msgstr "Réinitialise le temps passé à travailler sur ce projet (mise à 0)"
 
 #. MainForm..ActionList1..actImgSetHorLeftOffset..Caption
-#: TranscriptMain.dfm:1822
+#: TranscriptMain.dfm:1805
 msgid "Set horizontal offset for left pages"
 msgstr "Fixer l'offset horizontal pour les pages de gauche"
 
 #. MainForm..ActionList1..actImgSetHorRightOffset..Caption
-#: TranscriptMain.dfm:1827
+#: TranscriptMain.dfm:1810
 msgid "Set horizontal offset for right pages"
 msgstr "Fixer l'offset horizontal pour les pages de droite"
 
 #. MainForm..ActionList1..actImgSetVertOffset..Caption
-#: TranscriptMain.dfm:1837
+#: TranscriptMain.dfm:1820
 msgid "Set vertical offset"
 msgstr "Choisir la position verticale"
 
 #. MainForm..ActionList1..actSetCenterImage..Caption
-#: TranscriptMain.dfm:1842
+#: TranscriptMain.dfm:1825
 msgid "Horizontal center image"
 msgstr "Centrer l'image horizontalement"
 
 #. MainForm..ActionList1..actSetHorOffsetAll..Caption
-#: TranscriptMain.dfm:1847
+#: TranscriptMain.dfm:1830
 msgid "Use same horizontal offset for all images"
 msgstr "Utiliser la même position horizontale pour toutes les images"
 
 #. MainForm..ActionList1..actSetHorOffsetLeftRight..Caption
-#: TranscriptMain.dfm:1852
+#: TranscriptMain.dfm:1835
 msgid "Use different horizontal offsets for left and right pages"
 msgstr ""
 "Utiliser une position horizontale différente pour les pages gauche et droite"
 
 #. MainForm..ActionList1..actAutoTextDlg..Caption
-#: TranscriptMain.dfm:1862
+#: TranscriptMain.dfm:1845
 msgid "Edit autoreplacements list..."
 msgstr "Éditer la liste de correction automatique..."
 
 #. MainForm..ActionList1..actAddReplacement..Caption
-#: TranscriptMain.dfm:1870
+#: TranscriptMain.dfm:1853
 msgid "Add selection to replacements list..."
 msgstr "Ajouter la sélection à la liste de correction automatique..."
 
 #. MainForm..ActionList1..actDeletePdfImages..Caption
-#: TranscriptMain.dfm:1878
+#: TranscriptMain.dfm:1861
 msgid "Delete all extracted pdf images"
 msgstr "Effacer toutes les images pdf"
 
 #. MainForm..ActionList1..actDeletePdfImages..Hint
-#: TranscriptMain.dfm:1880
+#: TranscriptMain.dfm:1863
 msgid "Deletes all images extracted from pdf in the current directory"
 msgstr "Effacer toutes les images pdf du dossier courant"
 
 #. MainForm..ActionList1..actPdf75dpi..Caption
-#: TranscriptMain.dfm:1886
+#: TranscriptMain.dfm:1869
 msgid "75 dpi"
 msgstr "75 ppp"
 
 #. MainForm..ActionList1..actPdf150dpi..Caption
-#: TranscriptMain.dfm:1893
+#: TranscriptMain.dfm:1876
 msgid "150 dpi"
 msgstr "150 ppp"
 
 #. MainForm..ActionList1..actPdf300dpi..Caption
-#: TranscriptMain.dfm:1900
+#: TranscriptMain.dfm:1883
 msgid "300 dpi"
 msgstr "300 ppp"
 
 #. MainForm..ActionList1..actEditPasteSpecial..Caption
-#: TranscriptMain.dfm:1916
+#: TranscriptMain.dfm:1899
 msgid "Paste special..."
 msgstr "Collage spécial..."
 
 #. MainForm..ActionList1..actToggleReadOnly..Caption
-#: TranscriptMain.dfm:1922
+#: TranscriptMain.dfm:1905
 msgid "Read Only"
 msgstr "Lecture seule"
 
 #. MainForm..ActionList1..actGoToWebsite..Caption
-#: TranscriptMain.dfm:1927
+#: TranscriptMain.dfm:1910
 msgid "Open Transcript website..."
 msgstr "Ouvrir le site Web de Transcript..."
 
 #. MainForm..ActionList1..actResumeTimerWhenTyping..Caption
-#: TranscriptMain.dfm:1934
+#: TranscriptMain.dfm:1917
 msgid "Resume timer when typing"
 msgstr "Redémarrer la minuterie lorsque vous tapez au clavier"
 
 #. MainForm..ActionList1..actResumeTimerWhenTyping..Hint
-#: TranscriptMain.dfm:1936
+#: TranscriptMain.dfm:1919
 msgid "Resume manually paused timer when you start typing"
 msgstr ""
 "Redémarrer la minuterie mise en pause lorsque vous recommencez à saisir du "
 "texte"
 
 #. MainForm..ActionList1..actStretchNearest..Caption
-#: TranscriptMain.dfm:1943
+#: TranscriptMain.dfm:1926
 msgid "Nearest (fastest but worst quality)"
 msgstr "Au plus près (plus rapide, mais qualité médiocre)"
 
 #. MainForm..ActionList1..actStretchDraft..Caption
-#: TranscriptMain.dfm:1951
+#: TranscriptMain.dfm:1934
 msgid "Draft"
 msgstr "Brouillon"
 
 #. MainForm..ActionList1..actStretchLinear..Caption
-#: TranscriptMain.dfm:1959
+#: TranscriptMain.dfm:1942
 msgid "Linear"
 msgstr "Linéaire"
 
 #. MainForm..ActionList1..actStretchCosine..Caption
-#: TranscriptMain.dfm:1967
+#: TranscriptMain.dfm:1950
 msgid "Cosine"
 msgstr "Cosinus"
 
 #. MainForm..ActionList1..actStretchSpline..Caption
-#: TranscriptMain.dfm:1975
+#: TranscriptMain.dfm:1958
 msgid "Spline"
 msgstr "Canelure"
 
 #. MainForm..ActionList1..actStretchLanczos..Caption
-#: TranscriptMain.dfm:1983
+#: TranscriptMain.dfm:1966
 msgid "Lanczos"
 msgstr "Lanczos"
 
 #. MainForm..ActionList1..actStretchMitchell..Caption
-#: TranscriptMain.dfm:1992
+#: TranscriptMain.dfm:1975
 msgid "Mitchell (slowest but best quality)"
 msgstr "Mitchell (plus lent, mais qualité maximale)"
 
 #. MainForm..ActionList1..actMoveMode..Caption
-#: TranscriptMain.dfm:1999
+#: TranscriptMain.dfm:1982
 msgid "Move image with mouse"
 msgstr "Déplacer l'image avec la souris"
 
 #. MainForm..ActionList1..actMoveMode..Hint
-#: TranscriptMain.dfm:2002
+#: TranscriptMain.dfm:1985
 msgid "Use mouse to move image"
 msgstr "Utiliser la souris pour déplacer l'image"
 
 #. MainForm..ActionList1..actSelectMode..Caption
-#: TranscriptMain.dfm:2010
+#: TranscriptMain.dfm:1993
 msgid "Select part of image with mouse"
 msgstr "Sélectionner une partie d'image avec la souris"
 
 #. MainForm..ActionList1..actSelectMode..Hint
-#: TranscriptMain.dfm:2013
+#: TranscriptMain.dfm:1996
 msgid "Use mouse to select part of the image"
 msgstr "Utiliser la souris pour sélectionner une partie d'image"
 
 #. MainForm..ActionList1..actPasteImgSelection..Caption
-#: TranscriptMain.dfm:2029
+#: TranscriptMain.dfm:2012
 msgid "Insert image selection"
 msgstr "Insérer l'image sélectionnée"
 
 #. MainForm..ActionList1..actPasteImgSelection..Hint
-#: TranscriptMain.dfm:2031
+#: TranscriptMain.dfm:2014
 msgid "Insert selected portion of image into the editor"
 msgstr "Insérer la partie sélectionnée de l'image dans l'éditeur"
 
 #. MainForm..ActionList1..actCopySelectionToWindow..Caption
-#: TranscriptMain.dfm:2039
+#: TranscriptMain.dfm:2022
 msgid "Copy selection to separate window"
 msgstr "Copier la sélection dans une fenêtre séparée"
 
 #. MainForm..ActionList1..actSpecialCharsDlg..Caption
-#: TranscriptMain.dfm:2046
+#: TranscriptMain.dfm:2029
 msgid "Special characters..."
 msgstr "Caractères spéciaux..."
 
 #. MainForm..ActionList1..actToggleViewToolbars..Caption
-#: TranscriptMain.dfm:2053
+#: TranscriptMain.dfm:2036
 msgid "Show toolbars"
 msgstr "Montrer les barres d'outils"
 
 #. MainForm..ActionList1..actToggleWindowPositioning..Caption
-#: TranscriptMain.dfm:2060
+#: TranscriptMain.dfm:2043
 msgid "Windows side by side"
 msgstr "Fenêtres côte à côte"
 
 #. MainForm..ActionList1..actShowImageRuler..Caption
-#: TranscriptMain.dfm:2067
+#: TranscriptMain.dfm:2050
 msgid "Show highlighter"
 msgstr "Montrez la barre de mise en valeur"
 
 #. MainForm..ActionList1..actSetHighlighterStartOffset..Caption
-#: TranscriptMain.dfm:2073
+#: TranscriptMain.dfm:2056
 msgid "Set highlighter top offset"
 msgstr "Définir le décalage haut du surligneur"
 
 #. MainForm..ActionList1..actResetZoom..Caption
-#: TranscriptMain.dfm:2078
+#: TranscriptMain.dfm:2061
 msgid "Reset to default zoom"
 msgstr "Restaurer le zoom à sa valeur par défaut"
 
 #. MainForm..ActionList1..actResetBrightness..Caption
-#: TranscriptMain.dfm:2083
+#: TranscriptMain.dfm:2066
 msgid "Reset to default brightness"
 msgstr "Restaurer la luminosité a sa valeur par défaut"
 
 #. MainForm..ActionList1..actHighlighterBrightnessInc..Caption
-#: TranscriptMain.dfm:2098
+#: TranscriptMain.dfm:2081
 msgid "Increase brightness"
 msgstr "Augmente la luminosité"
 
 #. MainForm..ActionList1..actHighlighterBrightnessDec..Caption
-#: TranscriptMain.dfm:2103
+#: TranscriptMain.dfm:2086
 msgid "Decrease brightness"
 msgstr "Réduit la luminosité"
 
 #. MainForm..ActionList1..actCopyImage2Editor..Caption
-#: TranscriptMain.dfm:2108
+#: TranscriptMain.dfm:2091
 msgid "Insert image into editor"
 msgstr "Insérer l'image dans l'éditeur"
 
 #. MainForm..ActionList1..actCopyImage2Editor..Hint
-#: TranscriptMain.dfm:2110
+#: TranscriptMain.dfm:2093
 msgid "Inserts the current image into the editor"
 msgstr "Insère l'image actuelle dans l'éditeur"
 
 #. MainForm..ActionList1..actViewExtraImageWin..Caption
-#: TranscriptMain.dfm:2117
+#: TranscriptMain.dfm:2100
 msgid "Extra image window"
 msgstr "Fenêtre image supplémentaire"
 
 #. MainForm..ActionList1..actGoToFacebook..Caption
-#: TranscriptMain.dfm:2122
+#: TranscriptMain.dfm:2105
 msgid "Open Transcript on Facebook..."
 msgstr ""
 
 #. MainForm..ActionList1..actPayPalBuyNow..Caption
-#: TranscriptMain.dfm:2128
+#: TranscriptMain.dfm:2111
 msgid "Buy Transcript Pro..."
 msgstr ""
 
+#. MainForm..ActionList1..actCheckForUpdates..Caption
+#: TranscriptMain.dfm:2116
+msgid "Check for updates..."
+msgstr ""
+
 #. MainForm..MainMenu..MM_Bestand..Caption
-#: TranscriptMain.dfm:2145
+#: TranscriptMain.dfm:2133
 msgid "&File"
 msgstr "&Fichier"
 
 #. MainForm..MainMenu..MM_Bestand..RecentFilesMenu..Caption
-#: TranscriptMain.dfm:2157
+#: TranscriptMain.dfm:2145
 msgid "&Reopen"
 msgstr "&Rouvrir"
 
 #. MainForm..MainMenu..MM_Bewerken..Caption
-#: TranscriptMain.dfm:2196
+#: TranscriptMain.dfm:2184
 msgid "&Edit"
 msgstr "&Éditer"
 
 #. MainForm..MainMenu..Format1..Caption
-#: TranscriptMain.dfm:2248
+#: TranscriptMain.dfm:2236
 msgid "For&mat"
 msgstr "For&mat"
 
 #. MainForm..MainMenu..MM_View..Caption
-#: TranscriptMain.dfm:2312
+#: TranscriptMain.dfm:2300
 msgid "&View"
 msgstr "Affi&chage"
 
 #. MainForm..MainMenu..MM_Navigatie..Caption
-#: TranscriptMain.dfm:2348
+#: TranscriptMain.dfm:2336
 msgid "&Image"
 msgstr "&Image"
 
 #. MainForm..MainMenu..MM_Navigatie..Pdf1..Caption
 #. OptionsForm..JvPageControl..PdfTab..Caption
-#: TranscriptMain.dfm:2411 TransOpties.dfm:1256
+#: TranscriptMain.dfm:2399 TransOpties.dfm:1213
 msgid "Pdf"
 msgstr "Pdf"
 
 #. MainForm..MainMenu..MM_Navigatie..mnuStretchfilterwhenzoomedin..Caption
-#: TranscriptMain.dfm:2429
+#: TranscriptMain.dfm:2417
 msgid "Stretch filter when zoomed in"
 msgstr "Filtre d'interpolation du zoom avant"
 
 #. MainForm..MainMenu..MM_Navigatie..mnuStretchfilterwhenzoomedout..Caption
-#: TranscriptMain.dfm:2461
+#: TranscriptMain.dfm:2449
 msgid "Stretch filter when zoomed out"
 msgstr "Filtre d'interpolation du zoom arrière"
 
 #. MainForm..MainMenu..MM_Tools..Caption
-#: TranscriptMain.dfm:2494
+#: TranscriptMain.dfm:2482
 msgid "&Tools"
 msgstr "&Outils"
 
 #. MainForm..EditPopup..Inserttext1..Caption
-#: TranscriptMain.dfm:2638
+#: TranscriptMain.dfm:2629
 msgid "&Insert quick text"
 msgstr "&Insertion rapide de texte"
 
 #. MainForm..EditPopup..SetQuicktext..Caption
-#: TranscriptMain.dfm:2671
+#: TranscriptMain.dfm:2662
 msgid "S&et quick text"
 msgstr "Choix du texte rapide à insérer"
 
 #. MainForm..pmImage..Copyselectiontowindow1....Hint
-#: TranscriptMain.dfm:5633
+#: TranscriptMain.dfm:5624
 msgid "Copies the selected portion of the image to a separate image window"
 msgstr "Copie la partie sélectionnée de l'image dans une nouvelle fenêtre"
 
 #. MainForm..pmImage..mnuPositioning..Caption
-#: TranscriptMain.dfm:5642
+#: TranscriptMain.dfm:5633
 msgid "Horizontal image positioning"
 msgstr "Positionnement horizontal de l'image"
 
 #. MainForm..pmImage..mnuPositioning..Horizontalcenterimage1..Caption
-#: TranscriptMain.dfm:5645
+#: TranscriptMain.dfm:5636
 msgid "Center image"
 msgstr "Centrer l'image"
 
@@ -1438,17 +1450,17 @@ msgid "Edit autoreplacements list"
 msgstr "Éditer la liste d'auto-correction"
 
 #. EditAutoCorrectionsForm..JvLabel1..Caption
-#: TransEditAutoCorrect.dfm:157
+#: TransEditAutoCorrect.dfm:156
 msgid "&Replace:"
 msgstr "&Remplace:"
 
 #. EditAutoCorrectionsForm..JvLabel2..Caption
-#: TransEditAutoCorrect.dfm:166
+#: TransEditAutoCorrect.dfm:165
 msgid "&With:"
 msgstr "&Avec:"
 
 #. EditAutoCorrectionsForm..btnAdd..Caption
-#: TransEditAutoCorrect.dfm:270
+#: TransEditAutoCorrect.dfm:265
 msgid "&Add"
 msgstr "&Ajouter"
 
@@ -1810,23 +1822,36 @@ msgstr ""
 msgid "Two pages visible on image"
 msgstr "Deux pages visible sur l'image"
 
+#. OptionsForm..JvPageControl..PictureTab..cbxAutoRotateJpeg....Hint
+#: TransOpties.dfm:487
+msgid ""
+"If checked Transcript will automatically rotate images based on the "
+"orientation in the exif data (note: exif data is not always present or "
+"correct)"
+msgstr ""
+
+#. OptionsForm..JvPageControl..PictureTab..cbxAutoRotateJpeg..Caption
+#: TransOpties.dfm:488
+msgid "Auto rotate images when exif info is available"
+msgstr ""
+
 #. OptionsForm..JvPageControl..AdvancedTab..Caption
-#: TransOpties.dfm:482
+#: TransOpties.dfm:496
 msgid "Advanced"
 msgstr "Avancé"
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..Caption
-#: TransOpties.dfm:490
+#: TransOpties.dfm:504
 msgid "Images and textfiles the same name"
 msgstr "Images et fichiers texte avec le même nom"
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..TextDirLabel..Caption
-#: TransOpties.dfm:498
+#: TransOpties.dfm:512
 msgid "<Directory where text file will be stored>"
 msgstr "<Répertoire dans lequel le fichier texte sera enregistré>"
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..EachPhotoApartCheck....Hint
-#: TransOpties.dfm:514
+#: TransOpties.dfm:528
 msgid ""
 "Whether or not to save the text for each image in their own file. When you "
 "select another image a new textfile is automatically opened or created."
@@ -1836,13 +1861,13 @@ msgstr ""
 "ouvert ou créé."
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..EachPhotoApartCheck..Caption
-#: TransOpties.dfm:515
+#: TransOpties.dfm:529
 msgid "Use the same name for &each image and its corresponding textfile"
 msgstr ""
 "Employez le même nom pour chaque image et son fichier texte correspondant"
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..SeparateTextDirCheck....Hint
-#: TransOpties.dfm:529
+#: TransOpties.dfm:543
 msgid ""
 "Specify if you want to save the rtf text files in a different directory than "
 "the image files."
@@ -1851,12 +1876,12 @@ msgstr ""
 "différent de celui des fichiers images."
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..SeparateTextDirCheck..Caption
-#: TransOpties.dfm:530
+#: TransOpties.dfm:544
 msgid "Use a &different directory"
 msgstr "Utiliser un répertoire &différent"
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..BrowseFolderBtn..Hint
-#: TransOpties.dfm:542
+#: TransOpties.dfm:556
 msgid "Browse to the folder you want to use for saving rtf text files."
 msgstr ""
 "Parcourir le dossier que vous voulez utiliser pour sauver les fichiers texte "
@@ -1865,42 +1890,42 @@ msgstr ""
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..BrowseFolderBtn..Caption
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundBrowseBtn..Caption
 #. OptionsForm..JvPageControl..AutoCorrectTab..ReplaceBrowseBtn..Caption
-#: TransOpties.dfm:543 TransOpties.dfm:1078 TransOpties.dfm:1123
+#: TransOpties.dfm:557 TransOpties.dfm:1035 TransOpties.dfm:1080
 msgid "&Browse..."
 msgstr "&Parcourir..."
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..SaveWithoutAskingCheck....Hint
-#: TransOpties.dfm:555
+#: TransOpties.dfm:569
 msgid "Option to save the rtf text file without asking for confirmation."
 msgstr "Option pour sauver le fichier texte rtf sans confirmation."
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..SaveWithoutAskingCheck..Caption
-#: TransOpties.dfm:556
+#: TransOpties.dfm:570
 msgid "&Save without asking"
 msgstr "&Sauver sans confirmation"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..Caption
-#: TransOpties.dfm:568
+#: TransOpties.dfm:582
 msgid "Automatic text insertion"
 msgstr "Insertion automatique de texte"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..JvLabel100..Caption
-#: TransOpties.dfm:577
+#: TransOpties.dfm:591
 msgid "Autotext specification:"
 msgstr "Paramètre auto-texte:"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingLabel..Caption
-#: TransOpties.dfm:589
+#: TransOpties.dfm:603
 msgid "Counter type:"
 msgstr "Type de compteur:"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingStartLabel..Caption
-#: TransOpties.dfm:601
+#: TransOpties.dfm:615
 msgid "Counter next value:"
 msgstr "Compter valeur suivante:"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..AutoInsertFilenameCheck....Hint
-#: TransOpties.dfm:616
+#: TransOpties.dfm:630
 msgid ""
 "After opening the next image (F6) the program will automatically insert the "
 "autotext according to your specification if this option is set (can be "
@@ -1911,17 +1936,17 @@ msgstr ""
 "(Annuler temporairement cet effet avec la touche Scroll Lock on)"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..AutoInsertFilenameCheck..Caption
-#: TransOpties.dfm:617
+#: TransOpties.dfm:631
 msgid "Automatically insert autotext after showing next image"
 msgstr "Insérer automatiquement le texte après avoir affiché l'image suivante"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..EditInsertFormat..Hint
-#: TransOpties.dfm:628
+#: TransOpties.dfm:642
 msgid "Specify here the text that should be inserted"
 msgstr "Indiquez ici le texte qui devrait être inséré"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..btnResetDefaultSpec....Hint
-#: TransOpties.dfm:638
+#: TransOpties.dfm:652
 msgid ""
 "Use this button to reset the image filename specification to its default "
 "value"
@@ -1930,66 +1955,64 @@ msgstr ""
 "image à la valeur par défaut"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..btnResetDefaultSpec..Caption
-#: TransOpties.dfm:639
+#: TransOpties.dfm:653
 msgid "Reset"
 msgstr "Restaurer"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingTypeCombo....Hint
-#: TransOpties.dfm:650
+#: TransOpties.dfm:664
 msgid "Select the counter type you want to use in your autotext specification"
 msgstr ""
 "Sélectionner le type de compteur que vous utilisez pour vos paramètres "
 "d'auto-texte"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingTypeCombo....Items.Strings
-#: TransOpties.dfm:654
+#: TransOpties.dfm:668
 msgid "Number/Page"
 msgstr "Nombre / Page"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingTypeCombo....Items.Strings
-#: TransOpties.dfm:655
+#: TransOpties.dfm:669
 msgid "Folio"
 msgstr "Folio"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingValueEdit....Hint
-#: TransOpties.dfm:664
+#: TransOpties.dfm:678
 msgid "You can specify here the counter value that will be inserted next"
 msgstr "Vous pouvez indiquer ici la valeur de compteur qui sera insérée après"
 
 #. OptionsForm..JvPageControl..LanguageTab..Caption
-#: TransOpties.dfm:686
+#: TransOpties.dfm:700
 msgid "Language"
 msgstr "Langue"
 
 #. OptionsForm..JvPageControl..LanguageTab..JvStaticText1..Caption
-#: TransOpties.dfm:705
+#: TransOpties.dfm:720
 msgid "Select language:"
 msgstr "Choisir la langue:"
 
-#. OptionsForm..JvPageControl..LanguageTab..Panel1..JvLabel8..Caption
-#. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText2..Caption
-#: TransOpties.dfm:732 TransOpties.dfm:818
-msgid "Program version:"
-msgstr "Programme version:"
-
-#. OptionsForm..JvPageControl..LanguageTab..Panel1..JvLabel7..Caption
-#. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText3..Caption
-#: TransOpties.dfm:749 TransOpties.dfm:844
-msgid "Translator:"
-msgstr "Traducteur:"
-
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvLabel14..Caption
-#: TransOpties.dfm:792
+#: TransOpties.dfm:767
 msgid "Translation Info"
 msgstr "Information de Traduction"
 
+#. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText2..Caption
+#: TransOpties.dfm:793
+msgid "Program version:"
+msgstr "Programme version:"
+
+#. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText3..Caption
+#: TransOpties.dfm:819
+msgid "Translator:"
+msgstr "Traducteur:"
+
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText4..Caption
-#: TransOpties.dfm:904
+#: TransOpties.dfm:867
 msgid "Date:"
 msgstr "Date :"
 
-#. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText5....Caption
-#: TransOpties.dfm:953
+#. OptionsForm..JvPageControl..LanguageTab..Panel1..stReportTranslationErrors....Caption
+#: TransOpties.dfm:910
 msgid ""
 "If you see translation errors please report them using the e-mail below. If "
 "you want to help translate Transcript into your language you can also e-mail "
@@ -2001,33 +2024,33 @@ msgstr ""
 "enregistrée gratuite !"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..Caption
-#: TransOpties.dfm:977
+#: TransOpties.dfm:934
 msgid "Autocorrection"
 msgstr "Correction automatique"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundLabel....Hint
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundEdit....Hint
-#: TransOpties.dfm:987 TransOpties.dfm:1067
+#: TransOpties.dfm:944 TransOpties.dfm:1024
 msgid "Name of sound (wave) file, leave it empty to hear the default sound"
 msgstr "Nom du fichier son (wave), laisser vide pour le son par défaut"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundLabel..Caption
-#: TransOpties.dfm:989
+#: TransOpties.dfm:946
 msgid "Sound file:"
 msgstr "Fichier son:"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..lblReplaceFile..Hint
-#: TransOpties.dfm:997
+#: TransOpties.dfm:954
 msgid "Name of file where the autoreplacements are stored"
 msgstr "Nom du fichier ou sont mémorisés les mots corrects"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..lblReplaceFile..Caption
-#: TransOpties.dfm:999
+#: TransOpties.dfm:956
 msgid "Replacementfile:"
 msgstr "Fichier dico perso:"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..WarnOnCorrectionCheck....Hint
-#: TransOpties.dfm:1009
+#: TransOpties.dfm:966
 msgid ""
 "When you set this option you hear a warning sound whenever something is auto "
 "corrected."
@@ -2036,22 +2059,22 @@ msgstr ""
 "sera effectuée."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..WarnOnCorrectionCheck..Caption
-#: TransOpties.dfm:1010
+#: TransOpties.dfm:967
 msgid "Use warning sound when correcting"
 msgstr "Utiliser un son d'avertissement pour une correction"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..TWoCapitalsCheck..Hint
-#: TransOpties.dfm:1021
+#: TransOpties.dfm:978
 msgid "Set this is you want TWo capitals corrected."
 msgstr "Choisir ceci si vous voulez corriger DEux majuscules consécutives."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..TWoCapitalsCheck..Caption
-#: TransOpties.dfm:1022
+#: TransOpties.dfm:979
 msgid "Correct TWo capitals"
 msgstr "Corriger DEux majuscules"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..IJExceptionCheck....Hint
-#: TransOpties.dfm:1037
+#: TransOpties.dfm:994
 msgid ""
 "Set this if you want the IJ combination considered as an exception where two "
 "capitals should not be corrected"
@@ -2060,12 +2083,12 @@ msgstr ""
 "corrigera pas les deux majuscules"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..IJExceptionCheck..Caption
-#: TransOpties.dfm:1038
+#: TransOpties.dfm:995
 msgid "Do not correct IJ"
 msgstr "Ne pas corriger \"IJ\""
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..sEcondCapCheck....Hint
-#: TransOpties.dfm:1052
+#: TransOpties.dfm:1009
 msgid ""
 "Set this is you want a sEcond capital corrected and replaced by a capital "
 "for the first letter"
@@ -2074,17 +2097,17 @@ msgstr ""
 "majuscule sur la première lettre"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..sEcondCapCheck..Caption
-#: TransOpties.dfm:1053
+#: TransOpties.dfm:1010
 msgid "Correct sEcond capital"
 msgstr "Corriger la sEconde majuscule"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundBrowseBtn..Hint
-#: TransOpties.dfm:1077
+#: TransOpties.dfm:1034
 msgid "Browse to select the sound file you want to use."
 msgstr "Parcourir et choisir le fichier son à utiliser."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..AutoReplaceCheck....Hint
-#: TransOpties.dfm:1091
+#: TransOpties.dfm:1048
 msgid ""
 "When this option is set the specified replacements file will be used to "
 "automatically replace abbreviations or typos with the complete or correct "
@@ -2095,47 +2118,47 @@ msgstr ""
 "frappe par le texte complet ou correct"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..AutoReplaceCheck..Caption
-#: TransOpties.dfm:1092
+#: TransOpties.dfm:1049
 msgid "Enable autoreplacement"
 msgstr "Permettre l'autocorrection"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..ReplaceFileEdit..Hint
-#: TransOpties.dfm:1110
+#: TransOpties.dfm:1067
 msgid "Name of file where the autoreplacements are to be stored"
 msgstr "Nom du fichier contenant les remplacements automatiques"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..ReplaceBrowseBtn....Hint
-#: TransOpties.dfm:1122
+#: TransOpties.dfm:1079
 msgid ""
 "Browse to select the autoreplacements file you want to use or enter the name "
 "of a new file."
 msgstr "Choisir le fichier à utiliser ou donner un nouveau nom de fichier."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbIgnore2ndSpace....Hint
-#: TransOpties.dfm:1134
+#: TransOpties.dfm:1091
 msgid ""
 "Set this if you want two spaces after another replaced by just one space"
 msgstr "Choisir ceci si vous ne voulez qu'un seul espace après correction"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbIgnore2ndSpace..Caption
-#: TransOpties.dfm:1135
+#: TransOpties.dfm:1092
 msgid "Ignore second space"
 msgstr "Ignorer le deuxième espace"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..Caption
-#: TransOpties.dfm:1147
+#: TransOpties.dfm:1104
 msgid "Automatically delete unused autoreplacement items"
 msgstr ""
 "Supprimer automatiquement les mots de remplacement automatique inutilisés"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..JvLabel17..Caption
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..JvLabel9..Caption
-#: TransOpties.dfm:1154 TransOpties.dfm:1165
+#: TransOpties.dfm:1111 TransOpties.dfm:1122
 msgid "weeks"
 msgstr "semaines"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteUnusedItems....Hint
-#: TransOpties.dfm:1178
+#: TransOpties.dfm:1135
 msgid ""
 "Option to automatically delete all items in the autoreplacement list that "
 "were not used in the specified number of weeks"
@@ -2144,17 +2167,17 @@ msgstr ""
 "non employés après un nombre défini de semaines"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteUnusedItems..Caption
-#: TransOpties.dfm:1179
+#: TransOpties.dfm:1136
 msgid "Delete items not used in"
 msgstr "Supprimer les éléments non utilisés en"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..seDeleteUnused....Hint
-#: TransOpties.dfm:1194
+#: TransOpties.dfm:1151
 msgid "Number of weeks that items should not have been used before deleting"
 msgstr "Nombre de semaines avant suppression des mots corrects non employés"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteNeverUsedItems....Hint
-#: TransOpties.dfm:1209
+#: TransOpties.dfm:1166
 msgid ""
 "Option to automatically delete all items in the autoreplacement list that "
 "have never been used and are older than the specified number of weeks"
@@ -2164,17 +2187,17 @@ msgstr ""
 "nombre indiqué de semaines"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteNeverUsedItems..Caption
-#: TransOpties.dfm:1210
+#: TransOpties.dfm:1167
 msgid "Delete never used items older than"
 msgstr "Supprimer les éléments jamais utilisés plus vieux que"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..seDeleteNeverUsed..Hint
-#: TransOpties.dfm:1222
+#: TransOpties.dfm:1179
 msgid "Age in number of weeks before never used items should be deleted"
 msgstr "L'âge en nombre de semaines avant effacement des mots non utilisés"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbResetUsageCount....Hint
-#: TransOpties.dfm:1237
+#: TransOpties.dfm:1194
 msgid ""
 "This option specifies wheter the usage count should be reset to 0 when an "
 "autoreplacement item gets changed"
@@ -2183,7 +2206,7 @@ msgstr ""
 "quand un élément de remplacement automatique est modifié"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbResetUsageCount..Caption
-#: TransOpties.dfm:1238
+#: TransOpties.dfm:1195
 msgid "Reset usage count when changing an autoreplacement item"
 msgstr ""
 "Remettre à zéro le compteur d'utilisation en changeant un mot du "
@@ -2191,20 +2214,20 @@ msgstr ""
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel15....Hint
 #. OptionsForm..JvPageControl..PdfTab..cbResolution....Hint
-#: TransOpties.dfm:1266 TransOpties.dfm:1330
+#: TransOpties.dfm:1223 TransOpties.dfm:1275
 msgid ""
 "Choose the best resolution for the extraction of images from your pdf file"
 msgstr ""
 "Choisir la meilleure résolution pour extraire l'image à partir du fichier pdf"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel15..Caption
-#: TransOpties.dfm:1268
+#: TransOpties.dfm:1225
 msgid "&Pdf images resolution:"
 msgstr "&Pdf résolution de l'image:"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel16....Hint
 #. OptionsForm..JvPageControl..PdfTab..TrackBar....Hint
-#: TransOpties.dfm:1281 TransOpties.dfm:1350
+#: TransOpties.dfm:1238 TransOpties.dfm:1295
 msgid ""
 "Choose the jpeg quality for saving extracted images. (higher value means "
 "better quality but larger files and slower extraction)"
@@ -2214,17 +2237,17 @@ msgstr ""
 "extraction plus lente)"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel16..Caption
-#: TransOpties.dfm:1283
+#: TransOpties.dfm:1240
 msgid "&Jpeg quality:"
 msgstr "Qualité &jpeg:"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel18..Caption
-#: TransOpties.dfm:1294
+#: TransOpties.dfm:1251
 msgid "dpi"
 msgstr "ppp"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterLastImage....Hint
-#: TransOpties.dfm:1365
+#: TransOpties.dfm:1310
 msgid ""
 "Automatically delete all extracted images of the current pdf when you're "
 "done using the last image"
@@ -2233,13 +2256,13 @@ msgstr ""
 "lorsque vous avez terminé avec la dernière image"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterLastImage..Caption
-#: TransOpties.dfm:1366
+#: TransOpties.dfm:1311
 msgid "&Delete extracted images when done with the last page image"
 msgstr ""
 "&Supprimer les images extraites une fois terminé avec la dernière page image"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterChangeDir....Hint
-#: TransOpties.dfm:1380
+#: TransOpties.dfm:1325
 msgid ""
 "Automatically delete all extracted images when changing to another image "
 "directory"
@@ -2248,7 +2271,7 @@ msgstr ""
 "autre dossier image"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterChangeDir..Caption
-#: TransOpties.dfm:1381
+#: TransOpties.dfm:1326
 msgid "Delete &all extracted images after changing directory"
 msgstr "Supprimer &toutes les images extraites après avoir changé de dossier"
 
@@ -2258,13 +2281,13 @@ msgstr "Supprimer &toutes les images extraites après avoir changé de dossier"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..CancelBtn..Caption
 #. RtfTabsDialog..CancelBtn..Caption
-#: TransOpties.dfm:1395 TransPro.dfm:56 RtfParagraphOptionsForm.dfm:156
+#: TransOpties.dfm:1340 TransPro.dfm:56 RtfParagraphOptionsForm.dfm:156
 #: RtfTabSettingsForm.dfm:58
 msgid "&Cancel"
 msgstr "A&nnuler"
 
 #. OptionsForm..BrowseFolderDlg..StatusText
-#: TransOpties.dfm:1411
+#: TransOpties.dfm:1356
 msgid "Select directory to use for saving rtf textfiles"
 msgstr "Choisir le répertoire à utiliser pour la sauvegarde du fichier rtf"
 
@@ -2292,42 +2315,42 @@ msgid "OK"
 msgstr "Accepter"
 
 #. ManageProjectsForm..Caption
-#: TransProjectManager.dfm:7
+#: TransProjectManager.dfm:6
 msgid "Manage projects"
 msgstr "Mofifier les projets"
 
 #. ManageProjectsForm..pnlBack..lbl_1..Caption
-#: TransProjectManager.dfm:43
+#: TransProjectManager.dfm:41
 msgid "Projects:"
 msgstr "Projets:"
 
 #. ManageProjectsForm..pnlBack..HelpBtn..Caption
-#: TransProjectManager.dfm:52
+#: TransProjectManager.dfm:50
 msgid "Help"
 msgstr "&Aide"
 
 #. ManageProjectsForm..pnlBack..DeleteBtn..Caption
-#: TransProjectManager.dfm:62
+#: TransProjectManager.dfm:60
 msgid "Delete Project"
 msgstr "Effacer le Projet"
 
 #. ManageProjectsForm..pnlBack..CreateShortcutBtn..Caption
-#: TransProjectManager.dfm:73
+#: TransProjectManager.dfm:71
 msgid "Create Shortcut"
 msgstr "Créer un raccourci"
 
 #. ManageProjectsForm..pnlBack..btnEditDescription..Caption
-#: TransProjectManager.dfm:95
+#: TransProjectManager.dfm:93
 msgid "Edit Description"
 msgstr "Éditez la Description"
 
 #. ManageProjectsForm..pnlBack..RenameBtn..Caption
-#: TransProjectManager.dfm:115
+#: TransProjectManager.dfm:113
 msgid "Rename Project"
 msgstr "Renommer le Projet"
 
 #. ManageProjectsForm..pnlBack..SortedCheck....Hint
-#: TransProjectManager.dfm:127
+#: TransProjectManager.dfm:125
 msgid ""
 "Select this option if you want the projects in the list to be sorted "
 "alphabetically"
@@ -2336,32 +2359,94 @@ msgstr ""
 "classés par ordre alphabétique"
 
 #. ManageProjectsForm..pnlBack..SortedCheck..Caption
-#: TransProjectManager.dfm:129
+#: TransProjectManager.dfm:127
 msgid "Sort projects"
 msgstr "Trier les projets"
 
 #. ManageProjectsForm..pnlBack..pnlProjInfo..lblTextFile..Caption
-#: TransProjectManager.dfm:151
+#: TransProjectManager.dfm:149
 msgid "Textfile:"
 msgstr "Fichier texte:"
 
 #. ManageProjectsForm..pnlBack..pnlProjInfo..lblImgFile..Caption
-#: TransProjectManager.dfm:158
+#: TransProjectManager.dfm:156
 msgid "Image:"
 msgstr "Image:"
 
 #. ManageProjectsForm..pnlBack..pnlProjInfo..lblDescription..Caption
-#: TransProjectManager.dfm:165
+#: TransProjectManager.dfm:163
 msgid "Description:"
 msgstr "Description:"
 
-#. er kan verschil zitten in de modulelist dus hier weer:
-#: Transcript.dpr:106
+#. Check if Transcript.ini needs converting. Exit in case of failure.
+#: Transcript.dpr:99
 msgid "Unexpected error converting ini file"
 msgstr "Erreur inattendue lors de la conversion du fichier ini"
 
+#. Programmer's name for it: RUpToDate
+#: JgbUpdateForm.pas:45
+msgid "There is no newer version of Transcript available."
+msgstr ""
+
+#. Programmer's name for it: RBeta
+#: JgbUpdateForm.pas:46
+msgid "Beta"
+msgstr ""
+
+#. Programmer's name for it: RStable
+#: JgbUpdateForm.pas:47
+msgid "Stable"
+msgstr ""
+
+#. Programmer's name for it: RNewVersionAvailable
+#: JgbUpdateForm.pas:48
+#, object-pascal-format
+msgid "%s version %s of Transcript is available for download."
+msgstr ""
+
+#. Programmer's name for it: RVersion
+#: JgbUpdateForm.pas:49
+#, object-pascal-format
+msgid "You currently have version %s."
+msgstr ""
+
+#. Programmer's name for it: RDownloadInstructions
+#: JgbUpdateForm.pas:50
+msgid ""
+"Download the installer from the link below, exit Transcript first then start "
+"the installer."
+msgstr ""
+
+#. Programmer's name for it: RUnknownError
+#: JgbUpdateForm.pas:51
+msgid "An unknown error occured while trying to download the version info."
+msgstr ""
+
+#. Programmer's name for it: RErrorMsg
+#: JgbUpdateForm.pas:52
+#, object-pascal-format
+msgid "Error: %s."
+msgstr ""
+
+#. Programmer's name for it: RMissingFile
+#: JgbUpdateForm.pas:53
+msgid "Error: We failed to download the version information."
+msgstr ""
+
+#. Programmer's name for it: RMissingInfo
+#: JgbUpdateForm.pas:54
+msgid "Error: The information we need is missing from the version information."
+msgstr ""
+
+#. Programmer's name for it: RTimeOut
+#: JgbUpdateForm.pas:55
+msgid ""
+"Downloading the version information took too long. Maybe the server is "
+"offline."
+msgstr ""
+
 #. sqlite3 could not be found/loaded
-#: TranscriptMain.pas:1212
+#: TranscriptMain.pas:1217
 msgid ""
 "Could not load sqlite3.dll which is needed for autoreplacements.\n"
 "The zip of Transcript beta versions does not contain all needed files.\n"
@@ -2374,7 +2459,7 @@ msgstr ""
 "Vous devriez copier la béta dans le dossier d'une installation Transcript "
 "normale !"
 
-#: TranscriptMain.pas:1585
+#: TranscriptMain.pas:1531
 msgid ""
 "Couldn't make a backup. Your file was not saved! Possibly the old backup is "
 "in use by another program. Close it there and then try to save again."
@@ -2383,12 +2468,12 @@ msgstr ""
 "que l'ancien fichier soit utilisé par un autre programme. Fermez-le et "
 "essayez de sauvegarder à nouveau."
 
-#: TranscriptMain.pas:1586
+#: TranscriptMain.pas:1532
 msgid "Error making backup"
 msgstr "Erreur de sauvegarde"
 
 #. om te zorgen dat (Gewijzigd) uit caption wordt verwijderd!
-#: TranscriptMain.pas:1597
+#: TranscriptMain.pas:1543
 msgid ""
 "Couldn't Save file. Most likely it is in use by another program. Close it "
 "there and then try to save again."
@@ -2396,12 +2481,12 @@ msgstr ""
 "Impossible de sauvegarder le fichier. Il est probabement utilisé par un "
 "autre programme. Fermez-le et essayez de sauvegarder à nouveau."
 
-#: TranscriptMain.pas:1598
+#: TranscriptMain.pas:1544
 msgid "Error saving file"
 msgstr "Erreur lors de la sauvegarde du fichier"
 
 #. separate space so no need to translate it at end which could be forgotten
-#: TranscriptMain.pas:6490
+#: TranscriptMain.pas:6493
 msgid "width x height:"
 msgstr "largeur x hauteur:"
 
@@ -2412,137 +2497,137 @@ msgstr "Le fil de conversion GhostScript fonctionne déjà !"
 
 #. Make string extraction from consts for translating work:
 #. Programmer's name for it: RsAppError
-#: TransInfoSupplier.pas:68
+#: TransInfoSupplier.pas:71
 #, object-pascal-format
 msgid "%s - application error"
 msgstr "%s - erreur applicative"
 
 #. Programmer's name for it: RsModulesList
-#: TransInfoSupplier.pas:69
+#: TransInfoSupplier.pas:72
 msgid "List of loaded modules:"
 msgstr "Liste des modules chargés:"
 
 #. Programmer's name for it: RsOSVersion
-#: TransInfoSupplier.pas:70
+#: TransInfoSupplier.pas:73
 #, object-pascal-format
-msgid "System: %s %s %d bits, Version: %d.%d, Build: %x, \"%s\""
-msgstr "Système: %s %s %d octets, Version: %d.%d, Build: %x, \"%s\""
+msgid "System: %s %s %d bits, Version: %d.%d, Build: %d, \"%s\""
+msgstr "Système: %s %s %d octets, Version: %d.%d, Build: %d, \"%s\""
 
 #. Programmer's name for it: RsProcessor
-#: TransInfoSupplier.pas:71
+#: TransInfoSupplier.pas:74
 #, object-pascal-format
 msgid "Processor: %s, %s, %d MHz"
 msgstr "Processeur: %s, %s, %d MHz"
 
 #. Programmer's name for it: RsMemory
-#: TransInfoSupplier.pas:72
+#: TransInfoSupplier.pas:75
 #, object-pascal-format
 msgid "Memory: %d MB; free %d MB"
 msgstr "Mémoire: %d MO; libre %d MO"
 
 #. Programmer's name for it: RsColor
-#: TransInfoSupplier.pas:73
+#: TransInfoSupplier.pas:76
 #, object-pascal-format
 msgid "Color depth: %d bpp"
 msgstr "Profondeur de couleur: %d bpp"
 
 #. Programmer's name for it: RsScreen
-#: TransInfoSupplier.pas:74
-#, object-pascal-format
-msgid "Display %d: %dx%d pixels"
-msgstr "Affichage %d: %dx%d pixels"
+#: TransInfoSupplier.pas:77
+#, fuzzy, object-pascal-format
+msgid "Display %d: %dx%d pixels, %d dpi"
+msgstr "Affichage %d: %dx%d pixels, %d dpi"
 
 #. Programmer's name for it: RsActiveControl
-#: TransInfoSupplier.pas:75
+#: TransInfoSupplier.pas:78
 msgid "Active Controls hierarchy:"
 msgstr "Hiérarchie des Contrôles Actifs :"
 
 #. Programmer's name for it: RsMissingVersionInfo
-#: TransInfoSupplier.pas:76
+#: TransInfoSupplier.pas:79
 msgid "(no version info)"
 msgstr "(pas d'information de version)"
 
-#: TransInfoSupplier.pas:120
+#: TransInfoSupplier.pas:139
 msgid "<unknown>"
 msgstr "<inconnu>"
 
 #. Therefore use const!
 #. Programmer's name for it: HEADER_BASIC_INFO
-#: TransInfoSupplier.pas:138
+#: TransInfoSupplier.pas:157
 msgid "Transcript basic info"
 msgstr "Information basique de Transcript"
 
 #. Programmer's name for it: INI_PATH
-#: TransInfoSupplier.pas:139
+#: TransInfoSupplier.pas:158
 #, object-pascal-format
 msgid "Transcript.ini path: %s"
 msgstr "Chemin de Transcript.ini : %s"
 
 #. Programmer's name for it: LANG_NAME
-#: TransInfoSupplier.pas:140
+#: TransInfoSupplier.pas:159
 #, object-pascal-format
 msgid "Language: %s"
 msgstr "Langue: %s"
 
 #. Programmer's name for it: HELP_FILE
-#: TransInfoSupplier.pas:141
+#: TransInfoSupplier.pas:160
 #, object-pascal-format
 msgid "Help file: %s"
 msgstr "Fichier d'aide : %s"
 
 #. Programmer's name for it: EDIT_FILE
-#: TransInfoSupplier.pas:142
+#: TransInfoSupplier.pas:161
 #, object-pascal-format
 msgid "Edit file: %s"
 msgstr "Modifier le fichier : %s"
 
 #. Programmer's name for it: IMAGE_FILE
-#: TransInfoSupplier.pas:143
+#: TransInfoSupplier.pas:162
 #, object-pascal-format
 msgid "Image file: %s"
 msgstr "Fichier image: %s"
 
 #. Programmer's name for it: IMAGE_DIMENSIONS
-#: TransInfoSupplier.pas:144
+#: TransInfoSupplier.pas:163
 msgid "Image width x height:"
 msgstr "largeur x hauteur de l'image :"
 
 #. Programmer's name for it: HEADER_PROJECT_INFO
-#: TransInfoSupplier.pas:145
+#: TransInfoSupplier.pas:164
 msgid "Transcript project info"
 msgstr "Information projet de Transcript"
 
 #. Programmer's name for it: PROJECT_NAME
-#: TransInfoSupplier.pas:146
+#: TransInfoSupplier.pas:165
 #, object-pascal-format
 msgid "Project name: %s"
 msgstr "Nom du projet : %s"
 
 #. Programmer's name for it: AUTOREPLACE_FILE
-#: TransInfoSupplier.pas:147
+#: TransInfoSupplier.pas:166
 #, object-pascal-format
 msgid "Autoreplace file: %s"
 msgstr "Fichier auto-correction : %s"
 
 #. Programmer's name for it: cEXTERNAL_MODULES
-#: TransInfoSupplier.pas:148
+#: TransInfoSupplier.pas:167
 msgid "External modules"
 msgstr "Modules externes"
 
 #. Programmer's name for it: cRICHEDIT_VERSION
-#: TransInfoSupplier.pas:149
+#: TransInfoSupplier.pas:168
 #, object-pascal-format
 msgid "RichEdit version %d used."
 msgstr "Version %d de RichEdit utilisée."
 
 #. Programmer's name for it: cGHOSTSCRIPT_VERSION
-#: TransInfoSupplier.pas:150
+#: TransInfoSupplier.pas:169
 #, object-pascal-format
 msgid "%s version %s installed."
 msgstr "%s version %s installée."
 
 #. Programmer's name for it: cNO_GHOSTSCRIPT
-#: TransInfoSupplier.pas:151
+#: TransInfoSupplier.pas:170
 msgid ""
 "GhostScript not installed or not found (Transcript can only use the 32 bits "
 "version even on 64 bits Windows)."
@@ -2551,34 +2636,34 @@ msgstr ""
 "qu'une version 32 bits, même sur des Windows 64 bits)."
 
 #. Programmer's name for it: cGHOSTSCRIPT_PATH
-#: TransInfoSupplier.pas:152
+#: TransInfoSupplier.pas:171
 #, object-pascal-format
 msgid "Dll path: %s"
 msgstr "Chemin des DLLs : %s"
 
 #. System info
 #. Programmer's name for it: cSYSTEM_INFO
-#: TransInfoSupplier.pas:154
+#: TransInfoSupplier.pas:173
 msgid "System info"
 msgstr "Informations système"
 
 #. Programmer's name for it: cVIRTUAL
-#: TransInfoSupplier.pas:155
+#: TransInfoSupplier.pas:174
 msgid "Virtual"
 msgstr "Virtuel"
 
 #. Programmer's name for it: cLOADED_MODULES
-#: TransInfoSupplier.pas:156
+#: TransInfoSupplier.pas:175
 msgid "Loaded Modules info"
 msgstr "Information sur les modules chargés"
 
 #. Programmer's name for it: cRUNNING_PROCESSES
-#: TransInfoSupplier.pas:157
+#: TransInfoSupplier.pas:176
 msgid "Running Processes info"
 msgstr "Information sur les processus en cours d'exécution"
 
-#. ************** ALS TEST: ZET DIT OP 4 !!!!!!!!!!!!!!!!!!
-#: TransIniConverter.pas:79
+#. Check for the presence of an old RichEdit version (not very likely).
+#: TransIniConverter.pas:83
 msgid ""
 "You are using an older version of Microsoft's RichEd20.dll\n"
 "This means that not all text capabilities will be visible\n"
@@ -3381,33 +3466,38 @@ msgstr "Sous-format d'image non supporté (peu commun) ou image invalide."
 msgid "Image uses unsupported (uncommon) color depth."
 msgstr "L'image utilise une profondeur de couleur non supportée (peu commune)."
 
+#. Programmer's name for it: rsJgbCorruptImage
+#: JgbImgViewResources.pas:18
+msgid "This image is corrupt. It can't be read."
+msgstr ""
+
 #. Programmer's name for it: rsJgbEReadError
-#: JgbImgViewResources.pas:19
+#: JgbImgViewResources.pas:20
 msgid "EReadError: most likely this is an invalid image or uncommon image type"
 msgstr ""
 "EReadError : il est probable que cette image soit invalide ou d'un type peu "
 "commun"
 
 #. Programmer's name for it: rsJgbCantAllocateDIB
-#: JgbImgViewResources.pas:21
+#: JgbImgViewResources.pas:22
 msgid "Can't load image most likely due to not enough available free memory."
 msgstr "Pas assez de mémoire libre pour charger l'image."
 
 #. Programmer's name for it: rsJgbCantLoadImage
-#: JgbImgViewResources.pas:23
+#: JgbImgViewResources.pas:24
 msgid "Can't load image probably due to running out of resources."
 msgstr ""
 "Impossible de charger l'image, probablement à cause d'un manque de "
 "ressources."
 
 #. Programmer's name for it: rsJgbInvalidPNG
-#: JgbImgViewResources.pas:24
+#: JgbImgViewResources.pas:25
 #, object-pascal-format
 msgid "Invalid PNG image (%s)."
 msgstr "Image PNG invalide (%s)."
 
 #. Programmer's name for it: rsJgbInvalidJPEG
-#: JgbImgViewResources.pas:25
+#: JgbImgViewResources.pas:26
 #, object-pascal-format
 msgid "Invalid JPEG image (%s)."
 msgstr "Image JPEG invalide (%s)."

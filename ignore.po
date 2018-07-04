@@ -7,3 +7,6 @@ msgstr ""
 #: JgbSpecialCharsForm.dfm:85
 msgid "MS PMincho"
 msgstr ""
+
+msgid "Segoe UI"
+msgstr ""
