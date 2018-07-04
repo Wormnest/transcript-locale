@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.4.1 BETA\n"
-"POT-Creation-Date: 2018-07-04 14:21\n"
+"POT-Creation-Date: 2018-07-04 20:13\n"
 "PO-Revision-Date: 2018-07-04 14:29+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
@@ -47,7 +47,7 @@ msgstr "Fermer la fenêtre de visualisation d'image supplémentaire"
 #. Transcript main 6-4-2007
 #. Programmer's name for it: MsgImage
 #: JgbImageViewerForm.dfm:267 JgbImageViewerForm.dfm:273
-#: JgbImageViewerForm.dfm:279 JgbImageViewerForm.dfm:285 TransOpties.dfm:292
+#: JgbImageViewerForm.dfm:279 JgbImageViewerForm.dfm:285 TransOpties.dfm:319
 #: TransTranslatableStrings.pas:182
 msgid "Image"
 msgstr "Image"
@@ -194,7 +194,7 @@ msgstr "&Insérer"
 #. RtfParaDialog..HelpBtn..Caption
 #. RtfTabsDialog..HelpBtn..Caption
 #: JgbSpecialCharsForm.dfm:161 TranscriptMain.dfm:2531
-#: TransEditAutoCorrect.dfm:197 TransOpties.dfm:1350 TransPro.dfm:73
+#: TransEditAutoCorrect.dfm:197 TransOpties.dfm:1377 TransPro.dfm:73
 #: RtfParagraphOptionsForm.dfm:165 RtfTabSettingsForm.dfm:67
 msgid "&Help"
 msgstr "&Aide"
@@ -1400,7 +1400,7 @@ msgstr "&Image"
 
 #. MainForm..MainMenu..MM_Navigatie..Pdf1..Caption
 #. OptionsForm..JvPageControl..PdfTab..Caption
-#: TranscriptMain.dfm:2399 TransOpties.dfm:1213
+#: TranscriptMain.dfm:2399 TransOpties.dfm:1240
 msgid "Pdf"
 msgstr "Pdf"
 
@@ -1681,21 +1681,45 @@ msgstr ""
 msgid "Show &progress (percentage images done)"
 msgstr "Montrer la &progression (le % d'images finies)"
 
+#. OptionsForm..JvPageControl..GeneralTab..cbAutoUpdateCheck....Hint
+#: TransOpties.dfm:297
+msgid ""
+"Whether or not you want Transcript to check every 30 days if there is an "
+"update available. Note this needs an internet connection."
+msgstr ""
+
+#. OptionsForm..JvPageControl..GeneralTab..cbAutoUpdateCheck..Caption
+#: TransOpties.dfm:298
+msgid "Automatically check for updates once every 30 days"
+msgstr ""
+
+#. OptionsForm..JvPageControl..GeneralTab..cbCheckBetaToo....Hint
+#: TransOpties.dfm:310
+msgid ""
+"If this is checked then automatic and manual update checks will also report "
+"new beta versions."
+msgstr ""
+
+#. OptionsForm..JvPageControl..GeneralTab..cbCheckBetaToo..Caption
+#: TransOpties.dfm:311
+msgid "Also check for updates of beta versions"
+msgstr ""
+
 #. OptionsForm..JvPageControl..PictureTab..JvLabel2..Hint
 #. OptionsForm..JvPageControl..PictureTab..PictStepEdit..Hint
-#: TransOpties.dfm:299 TransOpties.dfm:404
+#: TransOpties.dfm:326 TransOpties.dfm:431
 #, no-object-pascal-format
 msgid "Change here the zoom factor (between 1 and 50, default 10%)"
 msgstr "Changer le taux d'agrandissement du zoom (entre 1 et 50, défaut à 10%)"
 
 #. OptionsForm..JvPageControl..PictureTab..JvLabel2..Caption
-#: TransOpties.dfm:301
+#: TransOpties.dfm:328
 msgid "&Stepsize for zoom in/out:"
 msgstr "Pa&s d'incrémentation du zoom + / -:"
 
 #. OptionsForm..JvPageControl..PictureTab..JvLabel1....Hint
 #. OptionsForm..JvPageControl..PictureTab..DefaultPictTop....Hint
-#: TransOpties.dfm:314 TransOpties.dfm:430
+#: TransOpties.dfm:341 TransOpties.dfm:457
 msgid ""
 "How many pixels to scroll from the top of the image when showing a new image."
 msgstr ""
@@ -1703,22 +1727,22 @@ msgstr ""
 "image."
 
 #. OptionsForm..JvPageControl..PictureTab..JvLabel1..Caption
-#: TransOpties.dfm:316
+#: TransOpties.dfm:343
 msgid "&Vertical starting position of image:"
 msgstr "Point &vertical de départ pour l'image:"
 
 #. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..Caption
-#: TransOpties.dfm:327
+#: TransOpties.dfm:354
 msgid "Move image"
 msgstr "Déplacer l'image"
 
 #. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..JvLabel5..Caption
-#: TransOpties.dfm:336
+#: TransOpties.dfm:363
 msgid "Pixels to move:"
 msgstr "Nombre de pixels à déplacer:"
 
 #. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..NumPixels2Move....Hint
-#: TransOpties.dfm:349
+#: TransOpties.dfm:376
 msgid ""
 "State here how many pixels to move the image when pressing \"Enter"
 "\" (between 0 en 500)."
@@ -1727,18 +1751,18 @@ msgstr ""
 "appuyant sur \"Entrée\"."
 
 #. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..MoveOnEnterCheck....Hint
-#: TransOpties.dfm:364
+#: TransOpties.dfm:391
 msgid ""
 "State here whether the image should be scrolled down on every \"Enter\"."
 msgstr "Indiquez ici si l'image doit défiler vers le bas à chaque \"Entrée\"."
 
 #. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..MoveOnEnterCheck..Caption
-#: TransOpties.dfm:365
+#: TransOpties.dfm:392
 msgid "Scroll image on every \"Enter\""
 msgstr "Défilement de l'image à chaque \"Entrée\""
 
 #. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..MoveOnWrapCheck....Hint
-#: TransOpties.dfm:378
+#: TransOpties.dfm:405
 msgid ""
 "Check this when you want the image to be scrolled down after every wordwrap."
 msgstr ""
@@ -1746,12 +1770,12 @@ msgstr ""
 "automatique."
 
 #. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..MoveOnWrapCheck..Caption
-#: TransOpties.dfm:379
+#: TransOpties.dfm:406
 msgid "Scroll image on wordwrap"
 msgstr "Défilement de l'image avec le retour à la ligne"
 
 #. OptionsForm..JvPageControl..PictureTab..RememberZoomCheck....Hint
-#: TransOpties.dfm:393
+#: TransOpties.dfm:420
 msgid ""
 "If set all image adjustments like zoom, brightness, inverted, greyscale and "
 "rotation will be preserved when changing images"
@@ -1760,12 +1784,12 @@ msgstr ""
 "rotation seront préservés lors du changement d'images"
 
 #. OptionsForm..JvPageControl..PictureTab..RememberZoomCheck..Caption
-#: TransOpties.dfm:394
+#: TransOpties.dfm:421
 msgid "&Remember image adjustments"
 msgstr "Conse&rver les paramètres de l'image"
 
 #. OptionsForm..JvPageControl..PictureTab..HorScrollCheck....Hint
-#: TransOpties.dfm:417
+#: TransOpties.dfm:444
 msgid ""
 "When checked you can scroll the image entirely to the left until only the "
 "edge is visible."
@@ -1774,12 +1798,12 @@ msgstr ""
 "bord extrême de l'image."
 
 #. OptionsForm..JvPageControl..PictureTab..HorScrollCheck..Caption
-#: TransOpties.dfm:418
+#: TransOpties.dfm:445
 msgid "Scroll image entirely to the left"
 msgstr "Défilement de l'image entièrement vers la gauche"
 
 #. OptionsForm..JvPageControl..PictureTab..AlternateRotateCheck....Hint
-#: TransOpties.dfm:444
+#: TransOpties.dfm:471
 msgid ""
 "If checked rotation alternates between left (270 degrees) and right (90 "
 "degrees) when loading an image"
@@ -1788,12 +1812,12 @@ msgstr ""
 "en chargeant une image"
 
 #. OptionsForm..JvPageControl..PictureTab..AlternateRotateCheck..Caption
-#: TransOpties.dfm:445
+#: TransOpties.dfm:472
 msgid "Alternate between left and right rotation"
 msgstr "Alterner entre la rotation gauche et droite"
 
 #. OptionsForm..JvPageControl..PictureTab..GoBackToEditorCheck....Hint
-#: TransOpties.dfm:457
+#: TransOpties.dfm:484
 msgid ""
 "If checked you will go automatically back to the editor after releasing the "
 "mouse button."
@@ -1802,14 +1826,14 @@ msgstr ""
 "bouton de la souris."
 
 #. OptionsForm..JvPageControl..PictureTab..GoBackToEditorCheck..Caption
-#: TransOpties.dfm:458
+#: TransOpties.dfm:485
 msgid "Go automatically back to the editor after releasing mouse button"
 msgstr ""
 "Retour automatique à l'éditeur de texte après avoir relâché le bouton de la "
 "souris"
 
 #. OptionsForm..JvPageControl..PictureTab..TwoPageCheck....Hint
-#: TransOpties.dfm:473
+#: TransOpties.dfm:500
 msgid ""
 "If checked this assumes that the image contains two pages. Going to the next/"
 "previous page will center it on the left/right part of the image."
@@ -1818,12 +1842,12 @@ msgstr ""
 "suivante / précédente la centrera sur la partie gauche / droite de l'image."
 
 #. OptionsForm..JvPageControl..PictureTab..TwoPageCheck..Caption
-#: TransOpties.dfm:474
+#: TransOpties.dfm:501
 msgid "Two pages visible on image"
 msgstr "Deux pages visible sur l'image"
 
 #. OptionsForm..JvPageControl..PictureTab..cbxAutoRotateJpeg....Hint
-#: TransOpties.dfm:487
+#: TransOpties.dfm:514
 msgid ""
 "If checked Transcript will automatically rotate images based on the "
 "orientation in the exif data (note: exif data is not always present or "
@@ -1831,27 +1855,27 @@ msgid ""
 msgstr ""
 
 #. OptionsForm..JvPageControl..PictureTab..cbxAutoRotateJpeg..Caption
-#: TransOpties.dfm:488
+#: TransOpties.dfm:515
 msgid "Auto rotate images when exif info is available"
 msgstr ""
 
 #. OptionsForm..JvPageControl..AdvancedTab..Caption
-#: TransOpties.dfm:496
+#: TransOpties.dfm:523
 msgid "Advanced"
 msgstr "Avancé"
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..Caption
-#: TransOpties.dfm:504
+#: TransOpties.dfm:531
 msgid "Images and textfiles the same name"
 msgstr "Images et fichiers texte avec le même nom"
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..TextDirLabel..Caption
-#: TransOpties.dfm:512
+#: TransOpties.dfm:539
 msgid "<Directory where text file will be stored>"
 msgstr "<Répertoire dans lequel le fichier texte sera enregistré>"
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..EachPhotoApartCheck....Hint
-#: TransOpties.dfm:528
+#: TransOpties.dfm:555
 msgid ""
 "Whether or not to save the text for each image in their own file. When you "
 "select another image a new textfile is automatically opened or created."
@@ -1861,13 +1885,13 @@ msgstr ""
 "ouvert ou créé."
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..EachPhotoApartCheck..Caption
-#: TransOpties.dfm:529
+#: TransOpties.dfm:556
 msgid "Use the same name for &each image and its corresponding textfile"
 msgstr ""
 "Employez le même nom pour chaque image et son fichier texte correspondant"
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..SeparateTextDirCheck....Hint
-#: TransOpties.dfm:543
+#: TransOpties.dfm:570
 msgid ""
 "Specify if you want to save the rtf text files in a different directory than "
 "the image files."
@@ -1876,12 +1900,12 @@ msgstr ""
 "différent de celui des fichiers images."
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..SeparateTextDirCheck..Caption
-#: TransOpties.dfm:544
+#: TransOpties.dfm:571
 msgid "Use a &different directory"
 msgstr "Utiliser un répertoire &différent"
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..BrowseFolderBtn..Hint
-#: TransOpties.dfm:556
+#: TransOpties.dfm:583
 msgid "Browse to the folder you want to use for saving rtf text files."
 msgstr ""
 "Parcourir le dossier que vous voulez utiliser pour sauver les fichiers texte "
@@ -1890,42 +1914,42 @@ msgstr ""
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..BrowseFolderBtn..Caption
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundBrowseBtn..Caption
 #. OptionsForm..JvPageControl..AutoCorrectTab..ReplaceBrowseBtn..Caption
-#: TransOpties.dfm:557 TransOpties.dfm:1035 TransOpties.dfm:1080
+#: TransOpties.dfm:584 TransOpties.dfm:1062 TransOpties.dfm:1107
 msgid "&Browse..."
 msgstr "&Parcourir..."
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..SaveWithoutAskingCheck....Hint
-#: TransOpties.dfm:569
+#: TransOpties.dfm:596
 msgid "Option to save the rtf text file without asking for confirmation."
 msgstr "Option pour sauver le fichier texte rtf sans confirmation."
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..SaveWithoutAskingCheck..Caption
-#: TransOpties.dfm:570
+#: TransOpties.dfm:597
 msgid "&Save without asking"
 msgstr "&Sauver sans confirmation"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..Caption
-#: TransOpties.dfm:582
+#: TransOpties.dfm:609
 msgid "Automatic text insertion"
 msgstr "Insertion automatique de texte"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..JvLabel100..Caption
-#: TransOpties.dfm:591
+#: TransOpties.dfm:618
 msgid "Autotext specification:"
 msgstr "Paramètre auto-texte:"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingLabel..Caption
-#: TransOpties.dfm:603
+#: TransOpties.dfm:630
 msgid "Counter type:"
 msgstr "Type de compteur:"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingStartLabel..Caption
-#: TransOpties.dfm:615
+#: TransOpties.dfm:642
 msgid "Counter next value:"
 msgstr "Compter valeur suivante:"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..AutoInsertFilenameCheck....Hint
-#: TransOpties.dfm:630
+#: TransOpties.dfm:657
 msgid ""
 "After opening the next image (F6) the program will automatically insert the "
 "autotext according to your specification if this option is set (can be "
@@ -1936,17 +1960,17 @@ msgstr ""
 "(Annuler temporairement cet effet avec la touche Scroll Lock on)"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..AutoInsertFilenameCheck..Caption
-#: TransOpties.dfm:631
+#: TransOpties.dfm:658
 msgid "Automatically insert autotext after showing next image"
 msgstr "Insérer automatiquement le texte après avoir affiché l'image suivante"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..EditInsertFormat..Hint
-#: TransOpties.dfm:642
+#: TransOpties.dfm:669
 msgid "Specify here the text that should be inserted"
 msgstr "Indiquez ici le texte qui devrait être inséré"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..btnResetDefaultSpec....Hint
-#: TransOpties.dfm:652
+#: TransOpties.dfm:679
 msgid ""
 "Use this button to reset the image filename specification to its default "
 "value"
@@ -1955,64 +1979,64 @@ msgstr ""
 "image à la valeur par défaut"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..btnResetDefaultSpec..Caption
-#: TransOpties.dfm:653
+#: TransOpties.dfm:680
 msgid "Reset"
 msgstr "Restaurer"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingTypeCombo....Hint
-#: TransOpties.dfm:664
+#: TransOpties.dfm:691
 msgid "Select the counter type you want to use in your autotext specification"
 msgstr ""
 "Sélectionner le type de compteur que vous utilisez pour vos paramètres "
 "d'auto-texte"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingTypeCombo....Items.Strings
-#: TransOpties.dfm:668
+#: TransOpties.dfm:695
 msgid "Number/Page"
 msgstr "Nombre / Page"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingTypeCombo....Items.Strings
-#: TransOpties.dfm:669
+#: TransOpties.dfm:696
 msgid "Folio"
 msgstr "Folio"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingValueEdit....Hint
-#: TransOpties.dfm:678
+#: TransOpties.dfm:705
 msgid "You can specify here the counter value that will be inserted next"
 msgstr "Vous pouvez indiquer ici la valeur de compteur qui sera insérée après"
 
 #. OptionsForm..JvPageControl..LanguageTab..Caption
-#: TransOpties.dfm:700
+#: TransOpties.dfm:727
 msgid "Language"
 msgstr "Langue"
 
 #. OptionsForm..JvPageControl..LanguageTab..JvStaticText1..Caption
-#: TransOpties.dfm:720
+#: TransOpties.dfm:747
 msgid "Select language:"
 msgstr "Choisir la langue:"
 
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvLabel14..Caption
-#: TransOpties.dfm:767
+#: TransOpties.dfm:794
 msgid "Translation Info"
 msgstr "Information de Traduction"
 
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText2..Caption
-#: TransOpties.dfm:793
+#: TransOpties.dfm:820
 msgid "Program version:"
 msgstr "Programme version:"
 
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText3..Caption
-#: TransOpties.dfm:819
+#: TransOpties.dfm:846
 msgid "Translator:"
 msgstr "Traducteur:"
 
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..JvStaticText4..Caption
-#: TransOpties.dfm:867
+#: TransOpties.dfm:894
 msgid "Date:"
 msgstr "Date :"
 
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..stReportTranslationErrors....Caption
-#: TransOpties.dfm:910
+#: TransOpties.dfm:937
 msgid ""
 "If you see translation errors please report them using the e-mail below. If "
 "you want to help translate Transcript into your language you can also e-mail "
@@ -2024,33 +2048,33 @@ msgstr ""
 "enregistrée gratuite !"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..Caption
-#: TransOpties.dfm:934
+#: TransOpties.dfm:961
 msgid "Autocorrection"
 msgstr "Correction automatique"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundLabel....Hint
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundEdit....Hint
-#: TransOpties.dfm:944 TransOpties.dfm:1024
+#: TransOpties.dfm:971 TransOpties.dfm:1051
 msgid "Name of sound (wave) file, leave it empty to hear the default sound"
 msgstr "Nom du fichier son (wave), laisser vide pour le son par défaut"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundLabel..Caption
-#: TransOpties.dfm:946
+#: TransOpties.dfm:973
 msgid "Sound file:"
 msgstr "Fichier son:"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..lblReplaceFile..Hint
-#: TransOpties.dfm:954
+#: TransOpties.dfm:981
 msgid "Name of file where the autoreplacements are stored"
 msgstr "Nom du fichier ou sont mémorisés les mots corrects"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..lblReplaceFile..Caption
-#: TransOpties.dfm:956
+#: TransOpties.dfm:983
 msgid "Replacementfile:"
 msgstr "Fichier dico perso:"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..WarnOnCorrectionCheck....Hint
-#: TransOpties.dfm:966
+#: TransOpties.dfm:993
 msgid ""
 "When you set this option you hear a warning sound whenever something is auto "
 "corrected."
@@ -2059,22 +2083,22 @@ msgstr ""
 "sera effectuée."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..WarnOnCorrectionCheck..Caption
-#: TransOpties.dfm:967
+#: TransOpties.dfm:994
 msgid "Use warning sound when correcting"
 msgstr "Utiliser un son d'avertissement pour une correction"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..TWoCapitalsCheck..Hint
-#: TransOpties.dfm:978
+#: TransOpties.dfm:1005
 msgid "Set this is you want TWo capitals corrected."
 msgstr "Choisir ceci si vous voulez corriger DEux majuscules consécutives."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..TWoCapitalsCheck..Caption
-#: TransOpties.dfm:979
+#: TransOpties.dfm:1006
 msgid "Correct TWo capitals"
 msgstr "Corriger DEux majuscules"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..IJExceptionCheck....Hint
-#: TransOpties.dfm:994
+#: TransOpties.dfm:1021
 msgid ""
 "Set this if you want the IJ combination considered as an exception where two "
 "capitals should not be corrected"
@@ -2083,12 +2107,12 @@ msgstr ""
 "corrigera pas les deux majuscules"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..IJExceptionCheck..Caption
-#: TransOpties.dfm:995
+#: TransOpties.dfm:1022
 msgid "Do not correct IJ"
 msgstr "Ne pas corriger \"IJ\""
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..sEcondCapCheck....Hint
-#: TransOpties.dfm:1009
+#: TransOpties.dfm:1036
 msgid ""
 "Set this is you want a sEcond capital corrected and replaced by a capital "
 "for the first letter"
@@ -2097,17 +2121,17 @@ msgstr ""
 "majuscule sur la première lettre"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..sEcondCapCheck..Caption
-#: TransOpties.dfm:1010
+#: TransOpties.dfm:1037
 msgid "Correct sEcond capital"
 msgstr "Corriger la sEconde majuscule"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundBrowseBtn..Hint
-#: TransOpties.dfm:1034
+#: TransOpties.dfm:1061
 msgid "Browse to select the sound file you want to use."
 msgstr "Parcourir et choisir le fichier son à utiliser."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..AutoReplaceCheck....Hint
-#: TransOpties.dfm:1048
+#: TransOpties.dfm:1075
 msgid ""
 "When this option is set the specified replacements file will be used to "
 "automatically replace abbreviations or typos with the complete or correct "
@@ -2118,47 +2142,47 @@ msgstr ""
 "frappe par le texte complet ou correct"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..AutoReplaceCheck..Caption
-#: TransOpties.dfm:1049
+#: TransOpties.dfm:1076
 msgid "Enable autoreplacement"
 msgstr "Permettre l'autocorrection"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..ReplaceFileEdit..Hint
-#: TransOpties.dfm:1067
+#: TransOpties.dfm:1094
 msgid "Name of file where the autoreplacements are to be stored"
 msgstr "Nom du fichier contenant les remplacements automatiques"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..ReplaceBrowseBtn....Hint
-#: TransOpties.dfm:1079
+#: TransOpties.dfm:1106
 msgid ""
 "Browse to select the autoreplacements file you want to use or enter the name "
 "of a new file."
 msgstr "Choisir le fichier à utiliser ou donner un nouveau nom de fichier."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbIgnore2ndSpace....Hint
-#: TransOpties.dfm:1091
+#: TransOpties.dfm:1118
 msgid ""
 "Set this if you want two spaces after another replaced by just one space"
 msgstr "Choisir ceci si vous ne voulez qu'un seul espace après correction"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbIgnore2ndSpace..Caption
-#: TransOpties.dfm:1092
+#: TransOpties.dfm:1119
 msgid "Ignore second space"
 msgstr "Ignorer le deuxième espace"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..Caption
-#: TransOpties.dfm:1104
+#: TransOpties.dfm:1131
 msgid "Automatically delete unused autoreplacement items"
 msgstr ""
 "Supprimer automatiquement les mots de remplacement automatique inutilisés"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..JvLabel17..Caption
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..JvLabel9..Caption
-#: TransOpties.dfm:1111 TransOpties.dfm:1122
+#: TransOpties.dfm:1138 TransOpties.dfm:1149
 msgid "weeks"
 msgstr "semaines"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteUnusedItems....Hint
-#: TransOpties.dfm:1135
+#: TransOpties.dfm:1162
 msgid ""
 "Option to automatically delete all items in the autoreplacement list that "
 "were not used in the specified number of weeks"
@@ -2167,17 +2191,17 @@ msgstr ""
 "non employés après un nombre défini de semaines"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteUnusedItems..Caption
-#: TransOpties.dfm:1136
+#: TransOpties.dfm:1163
 msgid "Delete items not used in"
 msgstr "Supprimer les éléments non utilisés en"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..seDeleteUnused....Hint
-#: TransOpties.dfm:1151
+#: TransOpties.dfm:1178
 msgid "Number of weeks that items should not have been used before deleting"
 msgstr "Nombre de semaines avant suppression des mots corrects non employés"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteNeverUsedItems....Hint
-#: TransOpties.dfm:1166
+#: TransOpties.dfm:1193
 msgid ""
 "Option to automatically delete all items in the autoreplacement list that "
 "have never been used and are older than the specified number of weeks"
@@ -2187,17 +2211,17 @@ msgstr ""
 "nombre indiqué de semaines"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteNeverUsedItems..Caption
-#: TransOpties.dfm:1167
+#: TransOpties.dfm:1194
 msgid "Delete never used items older than"
 msgstr "Supprimer les éléments jamais utilisés plus vieux que"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..seDeleteNeverUsed..Hint
-#: TransOpties.dfm:1179
+#: TransOpties.dfm:1206
 msgid "Age in number of weeks before never used items should be deleted"
 msgstr "L'âge en nombre de semaines avant effacement des mots non utilisés"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbResetUsageCount....Hint
-#: TransOpties.dfm:1194
+#: TransOpties.dfm:1221
 msgid ""
 "This option specifies wheter the usage count should be reset to 0 when an "
 "autoreplacement item gets changed"
@@ -2206,7 +2230,7 @@ msgstr ""
 "quand un élément de remplacement automatique est modifié"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbResetUsageCount..Caption
-#: TransOpties.dfm:1195
+#: TransOpties.dfm:1222
 msgid "Reset usage count when changing an autoreplacement item"
 msgstr ""
 "Remettre à zéro le compteur d'utilisation en changeant un mot du "
@@ -2214,20 +2238,20 @@ msgstr ""
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel15....Hint
 #. OptionsForm..JvPageControl..PdfTab..cbResolution....Hint
-#: TransOpties.dfm:1223 TransOpties.dfm:1275
+#: TransOpties.dfm:1250 TransOpties.dfm:1302
 msgid ""
 "Choose the best resolution for the extraction of images from your pdf file"
 msgstr ""
 "Choisir la meilleure résolution pour extraire l'image à partir du fichier pdf"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel15..Caption
-#: TransOpties.dfm:1225
+#: TransOpties.dfm:1252
 msgid "&Pdf images resolution:"
 msgstr "&Pdf résolution de l'image:"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel16....Hint
 #. OptionsForm..JvPageControl..PdfTab..TrackBar....Hint
-#: TransOpties.dfm:1238 TransOpties.dfm:1295
+#: TransOpties.dfm:1265 TransOpties.dfm:1322
 msgid ""
 "Choose the jpeg quality for saving extracted images. (higher value means "
 "better quality but larger files and slower extraction)"
@@ -2237,17 +2261,17 @@ msgstr ""
 "extraction plus lente)"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel16..Caption
-#: TransOpties.dfm:1240
+#: TransOpties.dfm:1267
 msgid "&Jpeg quality:"
 msgstr "Qualité &jpeg:"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel18..Caption
-#: TransOpties.dfm:1251
+#: TransOpties.dfm:1278
 msgid "dpi"
 msgstr "ppp"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterLastImage....Hint
-#: TransOpties.dfm:1310
+#: TransOpties.dfm:1337
 msgid ""
 "Automatically delete all extracted images of the current pdf when you're "
 "done using the last image"
@@ -2256,13 +2280,13 @@ msgstr ""
 "lorsque vous avez terminé avec la dernière image"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterLastImage..Caption
-#: TransOpties.dfm:1311
+#: TransOpties.dfm:1338
 msgid "&Delete extracted images when done with the last page image"
 msgstr ""
 "&Supprimer les images extraites une fois terminé avec la dernière page image"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterChangeDir....Hint
-#: TransOpties.dfm:1325
+#: TransOpties.dfm:1352
 msgid ""
 "Automatically delete all extracted images when changing to another image "
 "directory"
@@ -2271,7 +2295,7 @@ msgstr ""
 "autre dossier image"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterChangeDir..Caption
-#: TransOpties.dfm:1326
+#: TransOpties.dfm:1353
 msgid "Delete &all extracted images after changing directory"
 msgstr "Supprimer &toutes les images extraites après avoir changé de dossier"
 
@@ -2281,13 +2305,13 @@ msgstr "Supprimer &toutes les images extraites après avoir changé de dossier"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..CancelBtn..Caption
 #. RtfTabsDialog..CancelBtn..Caption
-#: TransOpties.dfm:1340 TransPro.dfm:56 RtfParagraphOptionsForm.dfm:156
+#: TransOpties.dfm:1367 TransPro.dfm:56 RtfParagraphOptionsForm.dfm:156
 #: RtfTabSettingsForm.dfm:58
 msgid "&Cancel"
 msgstr "A&nnuler"
 
 #. OptionsForm..BrowseFolderDlg..StatusText
-#: TransOpties.dfm:1356
+#: TransOpties.dfm:1383
 msgid "Select directory to use for saving rtf textfiles"
 msgstr "Choisir le répertoire à utiliser pour la sauvegarde du fichier rtf"
 
@@ -2384,62 +2408,62 @@ msgid "Unexpected error converting ini file"
 msgstr "Erreur inattendue lors de la conversion du fichier ini"
 
 #. Programmer's name for it: RUpToDate
-#: JgbUpdateForm.pas:45
+#: JgbUpdateForm.pas:48
 msgid "There is no newer version of Transcript available."
 msgstr ""
 
 #. Programmer's name for it: RBeta
-#: JgbUpdateForm.pas:46
+#: JgbUpdateForm.pas:49
 msgid "Beta"
 msgstr ""
 
 #. Programmer's name for it: RStable
-#: JgbUpdateForm.pas:47
+#: JgbUpdateForm.pas:50
 msgid "Stable"
 msgstr ""
 
 #. Programmer's name for it: RNewVersionAvailable
-#: JgbUpdateForm.pas:48
+#: JgbUpdateForm.pas:51
 #, object-pascal-format
 msgid "%s version %s of Transcript is available for download."
 msgstr ""
 
 #. Programmer's name for it: RVersion
-#: JgbUpdateForm.pas:49
+#: JgbUpdateForm.pas:52
 #, object-pascal-format
 msgid "You currently have version %s."
 msgstr ""
 
 #. Programmer's name for it: RDownloadInstructions
-#: JgbUpdateForm.pas:50
+#: JgbUpdateForm.pas:53
 msgid ""
 "Download the installer from the link below, exit Transcript first then start "
 "the installer."
 msgstr ""
 
 #. Programmer's name for it: RUnknownError
-#: JgbUpdateForm.pas:51
+#: JgbUpdateForm.pas:54
 msgid "An unknown error occured while trying to download the version info."
 msgstr ""
 
 #. Programmer's name for it: RErrorMsg
-#: JgbUpdateForm.pas:52
+#: JgbUpdateForm.pas:55
 #, object-pascal-format
 msgid "Error: %s."
 msgstr ""
 
 #. Programmer's name for it: RMissingFile
-#: JgbUpdateForm.pas:53
+#: JgbUpdateForm.pas:56
 msgid "Error: We failed to download the version information."
 msgstr ""
 
 #. Programmer's name for it: RMissingInfo
-#: JgbUpdateForm.pas:54
+#: JgbUpdateForm.pas:57
 msgid "Error: The information we need is missing from the version information."
 msgstr ""
 
 #. Programmer's name for it: RTimeOut
-#: JgbUpdateForm.pas:55
+#: JgbUpdateForm.pas:58
 msgid ""
 "Downloading the version information took too long. Maybe the server is "
 "offline."
@@ -2459,7 +2483,21 @@ msgstr ""
 "Vous devriez copier la béta dans le dossier d'une installation Transcript "
 "normale !"
 
-#: TranscriptMain.pas:1531
+#. Make sure first time question is only done once.
+#: TranscriptMain.pas:1501
+msgid ""
+"Transcript can now automatically check for updates every 30 days. Note that "
+"this needs an internet connection.\n"
+"This setting can also be changed in the general tab of Options (F11).\n"
+"Do you want automatic update checking enabled?"
+msgstr ""
+
+#: TranscriptMain.pas:1502
+#, fuzzy
+msgid "Automatic update checking"
+msgstr "Insertion automatique de texte"
+
+#: TranscriptMain.pas:1551
 msgid ""
 "Couldn't make a backup. Your file was not saved! Possibly the old backup is "
 "in use by another program. Close it there and then try to save again."
@@ -2468,12 +2506,12 @@ msgstr ""
 "que l'ancien fichier soit utilisé par un autre programme. Fermez-le et "
 "essayez de sauvegarder à nouveau."
 
-#: TranscriptMain.pas:1532
+#: TranscriptMain.pas:1552
 msgid "Error making backup"
 msgstr "Erreur de sauvegarde"
 
 #. om te zorgen dat (Gewijzigd) uit caption wordt verwijderd!
-#: TranscriptMain.pas:1543
+#: TranscriptMain.pas:1563
 msgid ""
 "Couldn't Save file. Most likely it is in use by another program. Close it "
 "there and then try to save again."
@@ -2481,12 +2519,12 @@ msgstr ""
 "Impossible de sauvegarder le fichier. Il est probabement utilisé par un "
 "autre programme. Fermez-le et essayez de sauvegarder à nouveau."
 
-#: TranscriptMain.pas:1544
+#: TranscriptMain.pas:1564
 msgid "Error saving file"
 msgstr "Erreur lors de la sauvegarde du fichier"
 
 #. separate space so no need to translate it at end which could be forgotten
-#: TranscriptMain.pas:6493
+#: TranscriptMain.pas:6518
 msgid "width x height:"
 msgstr "largeur x hauteur:"
 
