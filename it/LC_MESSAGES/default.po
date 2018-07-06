@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.4.1 BETA\n"
 "POT-Creation-Date: 2018-07-05 00:22\n"
-"PO-Revision-Date: 2018-07-04 14:30+0200\n"
+"PO-Revision-Date: 2018-07-06 12:01+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
 "Language: it\n"
@@ -20,15 +20,14 @@ msgstr ""
 
 #. JgbViewerForm..ActionList..actImgFileOpen..Caption
 #: JgbImageViewerForm.dfm:253
-#, fuzzy
 msgid "Open image..."
-msgstr "Apertura del immagine in corso..."
+msgstr "Apri immagine.."
 
 #. JgbViewerForm..ActionList..actImgFileOpen..Hint
 #: JgbImageViewerForm.dfm:254
 #, fuzzy
 msgid "Open image file..."
-msgstr "Apertura del immagine in corso..."
+msgstr "Apri immagine.."
 
 #. JgbViewerForm..ActionList..actClose..Caption
 #. frmJgbUpdate..btnClose..Caption
@@ -217,9 +216,8 @@ msgstr "Sempre in primo piano"
 
 #. frmJgbUpdate..Caption
 #: JgbUpdateForm.dfm:4
-#, fuzzy
 msgid "Transcript Update Checker"
-msgstr "Transcript.ini path: %s"
+msgstr ""
 
 #. TransAboutForm..Caption
 #: TransAbout.dfm:7
@@ -2477,9 +2475,8 @@ msgid ""
 msgstr ""
 
 #: TranscriptMain.pas:1502
-#, fuzzy
 msgid "Automatic update checking"
-msgstr "Inserimento automatico del testo"
+msgstr ""
 
 #: TranscriptMain.pas:1551
 msgid ""
@@ -3502,7 +3499,7 @@ msgstr "Immagine PNG invalido (%s)"
 #: JgbImgViewResources.pas:26
 #, fuzzy, object-pascal-format
 msgid "Invalid JPEG image (%s)."
-msgstr "Immagine PNG invalido (%s)"
+msgstr "Immagine JPEG invalido (%s)"
 
 # ***** strings for Special characters dialog *****
 # For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
