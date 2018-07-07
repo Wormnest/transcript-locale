@@ -1,13 +1,13 @@
 # Copyright (C) Jacob Boerema, Transcript
 # This file is distributed under the same license as the PACKAGE package.
 # Jacob Boerema, 2012.
-# Utente <klunder@hotmail.com>, 2013.
+# Peter Klunder <klunder@hotmail.com>, 2013.
 # Jacob Boerema <transcript-translation@jacobboerema.nl>, 2013, 2014, 2018.
 msgid ""
 msgstr ""
-"Project-Id-Version: Transcript 2.4.1 BETA\n"
+"Project-Id-Version: Transcript 2.6.0\n"
 "POT-Creation-Date: 2018-07-05 00:22\n"
-"PO-Revision-Date: 2018-07-06 12:01+0200\n"
+"PO-Revision-Date: 2018-07-07 08:57+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
 "Language: it\n"
@@ -15,19 +15,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
-"Original-Translator: Utente\n"
+"X-Generator: Poedit 2.0.8\n"
+"Original-Translator: Peter Klunder\n"
 
 #. JgbViewerForm..ActionList..actImgFileOpen..Caption
 #: JgbImageViewerForm.dfm:253
 msgid "Open image..."
-msgstr "Apri immagine.."
+msgstr "Apri immagine..."
 
 #. JgbViewerForm..ActionList..actImgFileOpen..Hint
 #: JgbImageViewerForm.dfm:254
-#, fuzzy
 msgid "Open image file..."
-msgstr "Apri immagine.."
+msgstr "Apri file immagine..."
 
 #. JgbViewerForm..ActionList..actClose..Caption
 #. frmJgbUpdate..btnClose..Caption
@@ -38,9 +37,8 @@ msgstr "Chiudi"
 
 #. JgbViewerForm..ActionList..actClose..Hint
 #: JgbImageViewerForm.dfm:262
-#, fuzzy
 msgid "Close extra image viewer"
-msgstr "Chiudi immagine corrente"
+msgstr "Chiudi visualizzatore immagine agg."
 
 #. JgbViewerForm..ActionList..actRotateLeft..Category
 #. JgbViewerForm..ActionList..actRotateRight..Category
@@ -188,13 +186,11 @@ msgstr "Chiudi finestra dopo inserimento carattere"
 msgid "&Insert"
 msgstr "&Inserisci"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. SpecialCharsForm..btnHelp..Caption
 #. MainForm..MainMenu..MM_Help..Caption
 #. EditAutoCorrectionsForm..HelpBtn..Caption
 #. OptionsForm..HelpBtn..Caption
 #. ProDialog..HelpBtn..Caption
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..HelpBtn..Caption
 #. RtfTabsDialog..HelpBtn..Caption
 #: JgbSpecialCharsForm.dfm:161 TranscriptMain.dfm:2531
@@ -217,7 +213,7 @@ msgstr "Sempre in primo piano"
 #. frmJgbUpdate..Caption
 #: JgbUpdateForm.dfm:4
 msgid "Transcript Update Checker"
-msgstr ""
+msgstr "Transcript Update Checker"
 
 #. TransAboutForm..Caption
 #: TransAbout.dfm:7
@@ -311,7 +307,6 @@ msgstr "Zoom avanti e indietro sul testo (default è 100)"
 msgid "Choose numbering style"
 msgstr "Sciegli stilo di numerazione"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. MainForm..CoolBar..EditBar..NummeringBtn..Caption
 #. MainForm..ActionList1..NoNumberingActn..Caption
 #: TranscriptMain.dfm:308 TranscriptMain.dfm:1513
@@ -1349,22 +1344,22 @@ msgstr "Inserisci immagine corrente nell'editor"
 #. MainForm..ActionList1..actViewExtraImageWin..Caption
 #: TranscriptMain.dfm:2100
 msgid "Extra image window"
-msgstr ""
+msgstr "Finestra immagine aggiuntiva"
 
 #. MainForm..ActionList1..actGoToFacebook..Caption
 #: TranscriptMain.dfm:2105
 msgid "Open Transcript on Facebook..."
-msgstr ""
+msgstr "Apri Transcript su Facebook..."
 
 #. MainForm..ActionList1..actPayPalBuyNow..Caption
 #: TranscriptMain.dfm:2111
 msgid "Buy Transcript Pro..."
-msgstr ""
+msgstr "Acquista Transcript Pro ..."
 
 #. MainForm..ActionList1..actCheckForUpdates..Caption
 #: TranscriptMain.dfm:2116
 msgid "Check for updates..."
-msgstr ""
+msgstr "Controlla gli aggiornamenti"
 
 #. MainForm..MainMenu..MM_Bestand..Caption
 #: TranscriptMain.dfm:2133
@@ -1477,10 +1472,8 @@ msgstr "&Spedisci"
 msgid "Use Ctrl+C to copy the report to the clipboard"
 msgstr "Usa Crtl+C per copiare il report nei appunti"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. ExceptionDialog..OkBtn..Caption
 #. OptionsForm..OKBtn..Caption
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..OKBtn..Caption
 #. RtfTabsDialog..OKBtn..Caption
 #: TransExceptionDlg.dfm:71 TransOpties.dfm:29 RtfParagraphOptionsForm.dfm:145
@@ -1682,11 +1675,14 @@ msgid ""
 "Whether or not you want Transcript to check every 30 days if there is an "
 "update available. Note this needs an internet connection."
 msgstr ""
+"Se vuoi o meno che Transcript controlli ogni 30 giorni, se c'è un "
+"aggiornamento disponibile. Nota che questo necessita di una connessione "
+"internet."
 
 #. OptionsForm..JvPageControl..GeneralTab..cbAutoUpdateCheck..Caption
 #: TransOpties.dfm:298
 msgid "Automatically check for updates once every 30 days"
-msgstr ""
+msgstr "Controlla automaticamente gli aggiornamenti una volta ogni 30 giorni"
 
 #. OptionsForm..JvPageControl..GeneralTab..cbCheckBetaToo....Hint
 #: TransOpties.dfm:310
@@ -1694,11 +1690,13 @@ msgid ""
 "If this is checked then automatic and manual update checks will also report "
 "new beta versions."
 msgstr ""
+"Selezionando questa opzione controlli degli aggiornamenti automatici e "
+"manuali avviseranno anche nuove versioni beta."
 
 #. OptionsForm..JvPageControl..GeneralTab..cbCheckBetaToo..Caption
 #: TransOpties.dfm:311
 msgid "Also check for updates of beta versions"
-msgstr ""
+msgstr "Controlla anche aggiornamenti di versioni beta"
 
 #. OptionsForm..JvPageControl..PictureTab..JvLabel2..Hint
 #. OptionsForm..JvPageControl..PictureTab..PictStepEdit..Hint
@@ -1850,11 +1848,14 @@ msgid ""
 "orientation in the exif data (note: exif data is not always present or "
 "correct)"
 msgstr ""
+"Selezionando questa opzione Transcript ruoterà immagini basato "
+"sull'orientamento dei dati exif (NB: dati exif non è sempre presente o "
+"corretto)"
 
 #. OptionsForm..JvPageControl..PictureTab..cbxAutoRotateJpeg..Caption
 #: TransOpties.dfm:515
 msgid "Auto rotate images when exif info is available"
-msgstr ""
+msgstr "Ruota immagini automaticamente se esiste informazione exif "
 
 #. OptionsForm..JvPageControl..AdvancedTab..Caption
 #: TransOpties.dfm:523
@@ -1910,7 +1911,7 @@ msgstr "Sfoglia alla cartella dove salvare file di testo RTF."
 #. OptionsForm..JvPageControl..AutoCorrectTab..ReplaceBrowseBtn..Caption
 #: TransOpties.dfm:584 TransOpties.dfm:1062 TransOpties.dfm:1107
 msgid "&Browse..."
-msgstr "&Sfog"
+msgstr "&Sfoglia..."
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..SaveWithoutAskingCheck....Hint
 #: TransOpties.dfm:596
@@ -2289,10 +2290,8 @@ msgstr ""
 msgid "Delete &all extracted images after changing directory"
 msgstr "Cancella &tutte le immagine estratte dopo aver cambiato cartella"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. OptionsForm..CancelBtn..Caption
 #. ProDialog..CancelBtn..Caption
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..CancelBtn..Caption
 #. RtfTabsDialog..CancelBtn..Caption
 #: TransOpties.dfm:1367 TransPro.dfm:56 RtfParagraphOptionsForm.dfm:156
@@ -2320,9 +2319,7 @@ msgstr "Nome utente:"
 msgid "Enter registration code:"
 msgstr "Codice di registrazione:"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. ProDialog..OKBtn..Caption
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfTabsDialog..ActionList1..actOK..Caption
 #: TransPro.dfm:45 RtfTabSettingsForm.dfm:172
 msgid "OK"
@@ -2398,29 +2395,29 @@ msgstr "Errore inaspettato convertendo file INI"
 #. Programmer's name for it: RUpToDate
 #: JgbUpdateForm.pas:48
 msgid "There is no newer version of Transcript available."
-msgstr ""
+msgstr "È disponibile una versione aggiornata di Transcript."
 
 #. Programmer's name for it: RBeta
 #: JgbUpdateForm.pas:49
 msgid "Beta"
-msgstr ""
+msgstr "Beta"
 
 #. Programmer's name for it: RStable
 #: JgbUpdateForm.pas:50
 msgid "Stable"
-msgstr ""
+msgstr "Stabile"
 
 #. Programmer's name for it: RNewVersionAvailable
 #: JgbUpdateForm.pas:51
 #, object-pascal-format
 msgid "%s version %s of Transcript is available for download."
-msgstr ""
+msgstr "%s versione %s di Transcript è disponibile per il download."
 
 #. Programmer's name for it: RVersion
 #: JgbUpdateForm.pas:52
 #, object-pascal-format
 msgid "You currently have version %s."
-msgstr ""
+msgstr "Attualmente istallato Versione  %s."
 
 #. Programmer's name for it: RDownloadInstructions
 #: JgbUpdateForm.pas:53
@@ -2428,27 +2425,30 @@ msgid ""
 "Download the installer from the link below, exit Transcript first then start "
 "the installer."
 msgstr ""
+"Scarica l'installazione dal link sottostante, uscire da Transcript e "
+"lanciare l'installazione."
 
 #. Programmer's name for it: RUnknownError
 #: JgbUpdateForm.pas:54
 msgid "An unknown error occurred while trying to download the version info."
 msgstr ""
+"Errore sconosciuto durante il recupero dell'informazione della versione"
 
 #. Programmer's name for it: RErrorMsg
 #: JgbUpdateForm.pas:55
 #, object-pascal-format
 msgid "Error: %s."
-msgstr ""
+msgstr "Errore: %s."
 
 #. Programmer's name for it: RMissingFile
 #: JgbUpdateForm.pas:56
 msgid "Error: We failed to download the version information."
-msgstr ""
+msgstr "Errore: Informazione versione non scaricato."
 
 #. Programmer's name for it: RMissingInfo
 #: JgbUpdateForm.pas:57
 msgid "Error: The information we need is missing from the version information."
-msgstr ""
+msgstr "Errore: Manca l'informazione necessario della versione."
 
 #. Programmer's name for it: RTimeOut
 #: JgbUpdateForm.pas:58
@@ -2456,6 +2456,8 @@ msgid ""
 "Downloading the version information took too long. Maybe the server is "
 "offline."
 msgstr ""
+"Scaricare l'informazione della versione ci mette troppo tempo. Forse il "
+"server è offline."
 
 #. sqlite3 could not be found/loaded
 #: TranscriptMain.pas:1217
@@ -2464,6 +2466,11 @@ msgid ""
 "The zip of Transcript beta versions does not contain all needed files.\n"
 "You should copy the beta on top of a normal Transcript install!"
 msgstr ""
+"Impossibile caricare sqlite3.dll necessario per sostituzione automatica.\n"
+"Il file ZIP di versioni beta di Transcript non contiene tutti file "
+"necessari.\n"
+"Dovresti copiare la versione beta sopra una installazione di Transcript "
+"normale !"
 
 #. Make sure first time question is only done once.
 #: TranscriptMain.pas:1501
@@ -2473,20 +2480,28 @@ msgid ""
 "This setting can also be changed in the general tab of Options (F11).\n"
 "Do you want automatic update checking enabled?"
 msgstr ""
+"Transcript ora può controllare automaticamente per aggiornamenti ogni 30 "
+"giorni. Nota che questo necessita di una connessione Internet.\n"
+"Questa impostazione può anche essere cambiata nella finestra delle "
+"Impostazioni generali (F11).\n"
+"Vuoi che il controllo automatico degli aggiornamenti venga attivato?"
 
 #: TranscriptMain.pas:1502
 msgid "Automatic update checking"
-msgstr ""
+msgstr "Controllo automatico degli aggiornamenti"
 
 #: TranscriptMain.pas:1551
 msgid ""
 "Couldn't make a backup. Your file was not saved! Possibly the old backup is "
 "in use by another program. Close it there and then try to save again."
 msgstr ""
+"Non sono riuscito a fare un backup. File non salvato! Possibilmente il "
+"vecchio file backup è in uso da un altro programma. Chiudilo e riprova a "
+"salvare."
 
 #: TranscriptMain.pas:1552
 msgid "Error making backup"
-msgstr ""
+msgstr "Errore facendo backup."
 
 #. om te zorgen dat (Gewijzigd) uit caption wordt verwijderd!
 #: TranscriptMain.pas:1563
@@ -2494,10 +2509,12 @@ msgid ""
 "Couldn't Save file. Most likely it is in use by another program. Close it "
 "there and then try to save again."
 msgstr ""
+"Non sono riuscito a salvare il file. Probabilmente il file è in uso da un "
+"altro programma. Chiudilo e riprova a salvare."
 
 #: TranscriptMain.pas:1564
 msgid "Error saving file"
-msgstr ""
+msgstr "Errore salvando il file"
 
 #. separate space so no need to translate it at end which could be forgotten
 #: TranscriptMain.pas:6518
@@ -2547,7 +2564,7 @@ msgstr "Profondità colore: %d bpp"
 
 #. Programmer's name for it: RsScreen
 #: TransInfoSupplier.pas:77
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Display %d: %dx%d pixels, %d dpi"
 msgstr "Schermo %d: %dx%d pixels, %d dpi"
 
@@ -2808,6 +2825,8 @@ msgid ""
 "Cannot load image %s.\n"
 "%s"
 msgstr ""
+"Caricamento immagine impossibile %s.\n"
+"%s"
 
 #. Programmer's name for it: rsLoadEditCaptionErr
 #: TransTranslatableStrings.pas:95
@@ -2821,15 +2840,16 @@ msgid ""
 "Cannot load textfile %s.\n"
 "%s"
 msgstr ""
+"Caricamento documento impossibile %s.\n"
+"%s"
 
 #. Programmer's name for it: rsLoadErrorReason
 #: TransTranslatableStrings.pas:97
 msgid "It does not exist!"
-msgstr ""
+msgstr "Non esiste!"
 
 #. Programmer's name for it: rsEditFileInUseErr
 #: TransTranslatableStrings.pas:98
-#, fuzzy
 msgid "It is in use by another program!"
 msgstr "E' in uso da un altro programma!"
 
@@ -3064,6 +3084,8 @@ msgid ""
 "Ghostscript caused an error: %s\n"
 "You are advised to save your work and restart Transcript."
 msgstr ""
+"Ghostscript ha causato un errore: %s\n"
+"Si consiglia di salvare il tuo lavoro e riavviare Transcript."
 
 #. Programmer's name for it: MsgGhostscriptInitInstanceError
 #: TransTranslatableStrings.pas:179
@@ -3073,6 +3095,10 @@ msgid ""
 "previously.\n"
 "Please restart Transcript and try again."
 msgstr ""
+"Errore di inizializzazione di Ghostscript.\n"
+"Normalmente significa che Ghostscript non è stato correttamente terminato in "
+"precedenza.\n"
+"Riavviare Transcript e prova nuovamente."
 
 #. 21-3-2007
 #. Programmer's name for it: MsgAutoCaption
@@ -3472,12 +3498,14 @@ msgstr "Immagine con schema di colori non supportato."
 #. Programmer's name for it: rsJgbCorruptImage
 #: JgbImgViewResources.pas:18
 msgid "This image is corrupt. It can't be read."
-msgstr ""
+msgstr "Immagine corrotta. Non può essere letta."
 
 #. Programmer's name for it: rsJgbEReadError
 #: JgbImgViewResources.pas:20
 msgid "EReadError: most likely this is an invalid image or uncommon image type"
 msgstr ""
+"EReadError: probabilmente è un'immagine non valida oppure un tipo di "
+"immagine non commune"
 
 #. Programmer's name for it: rsJgbCantAllocateDIB
 #: JgbImgViewResources.pas:22
@@ -3493,13 +3521,13 @@ msgstr "Non è possibile caricare l'immagine per mancanza di risorse."
 #: JgbImgViewResources.pas:25
 #, object-pascal-format
 msgid "Invalid PNG image (%s)."
-msgstr "Immagine PNG invalido (%s)"
+msgstr "Immagine PNG invalida (%s)"
 
 #. Programmer's name for it: rsJgbInvalidJPEG
 #: JgbImgViewResources.pas:26
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Invalid JPEG image (%s)."
-msgstr "Immagine JPEG invalido (%s)"
+msgstr "Immagine JPEG invalida (%s)"
 
 # ***** strings for Special characters dialog *****
 # For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
@@ -3613,7 +3641,7 @@ msgstr "Formati numeri"
 # For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
 # See also Wikipedia: list of unicode blocks
 msgid "Arrows"
-msgstr "Freccie"
+msgstr "Frecce"
 
 # ***** strings for Special characters dialog *****
 # For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
@@ -3705,7 +3733,7 @@ msgstr "Viola"
 #. Programmer's name for it: RsClTeal
 #: JvResources.pas:2128
 msgid "Teal"
-msgstr "Teal"
+msgstr "Verde teal"
 
 #. Programmer's name for it: RsClGray
 #: JvResources.pas:2129
@@ -3930,13 +3958,13 @@ msgid "Default"
 msgstr "Default"
 
 msgid "Shift+"
-msgstr ""
+msgstr "Shift+"
 
 msgid "Ctrl+"
-msgstr ""
+msgstr "Ctrl+"
 
 msgid "Alt+"
-msgstr ""
+msgstr "Alt+"
 
 #, fuzzy
 #~ msgid "Shift"
