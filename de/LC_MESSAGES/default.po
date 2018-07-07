@@ -1,11 +1,11 @@
 # input file: Deutsch.lng
 # original "Last-Translator: Wolfgang Hauer\n"
-# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2013, 2014, 2016.
+# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2013, 2014, 2016, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.4.1 BETA\n"
 "POT-Creation-Date: 2018-07-05 00:22\n"
-"PO-Revision-Date: 2016-12-23 16:27+0200\n"
+"PO-Revision-Date: 2018-07-07 12:46+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
 "Language: de\n"
@@ -1286,7 +1286,7 @@ msgstr "Bildauswahl einfügen"
 #. MainForm..ActionList1..actPasteImgSelection..Hint
 #: TranscriptMain.dfm:2014
 msgid "Insert selected portion of image into the editor"
-msgstr ""
+msgstr "Ausgewählten Teil des Bildes in den Editor einfügen"
 
 #. MainForm..ActionList1..actCopySelectionToWindow..Caption
 #: TranscriptMain.dfm:2022
@@ -1351,22 +1351,23 @@ msgstr ""
 #. MainForm..ActionList1..actViewExtraImageWin..Caption
 #: TranscriptMain.dfm:2100
 msgid "Extra image window"
-msgstr ""
+msgstr "Zusätzliche Bildfenster"
 
 #. MainForm..ActionList1..actGoToFacebook..Caption
 #: TranscriptMain.dfm:2105
 msgid "Open Transcript on Facebook..."
-msgstr ""
+msgstr "Öffnen Sie die Transcript auf Facebook..."
 
 #. MainForm..ActionList1..actPayPalBuyNow..Caption
 #: TranscriptMain.dfm:2111
+#, fuzzy
 msgid "Buy Transcript Pro..."
-msgstr ""
+msgstr "Kaufe Transkript Pro..."
 
 #. MainForm..ActionList1..actCheckForUpdates..Caption
 #: TranscriptMain.dfm:2116
 msgid "Check for updates..."
-msgstr ""
+msgstr "Suchen Sie nach Updates..."
 
 #. MainForm..MainMenu..MM_Bestand..Caption
 #: TranscriptMain.dfm:2133
@@ -1467,7 +1468,7 @@ msgstr "&Hinzufügen"
 #. ExceptionDialog..SendBtn..Hint
 #: TransExceptionDlg.dfm:42
 msgid "Send bug report using default mail client"
-msgstr ""
+msgstr "Mit Standard-Mailclient Fehlerbericht senden"
 
 #. ExceptionDialog..SendBtn..Caption
 #: TransExceptionDlg.dfm:44
@@ -1476,8 +1477,10 @@ msgstr "&Senden"
 
 #. ExceptionDialog..TextLabel..Hint
 #: TransExceptionDlg.dfm:53
+#, fuzzy
 msgid "Use Ctrl+C to copy the report to the clipboard"
 msgstr ""
+"Verwenden Sie STRG + C, um den Bericht in die Zwischenablage zu kopieren"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. ExceptionDialog..OkBtn..Caption
@@ -1492,8 +1495,9 @@ msgstr "&OK"
 
 #. ExceptionDialog..DetailsBtn..Hint
 #: TransExceptionDlg.dfm:81
+#, fuzzy
 msgid "Show or hide additional information"
-msgstr ""
+msgstr "Ein- oder Ausblenden von Zusatzinformationen"
 
 #. ExceptionDialog..DetailsBtn..Caption
 #: TransExceptionDlg.dfm:83
@@ -1688,8 +1692,9 @@ msgstr ""
 
 #. OptionsForm..JvPageControl..GeneralTab..cbAutoUpdateCheck..Caption
 #: TransOpties.dfm:298
+#, fuzzy
 msgid "Automatically check for updates once every 30 days"
-msgstr ""
+msgstr "Suchen Sie automatisch nach Updates einmal alle 30 Tage"
 
 #. OptionsForm..JvPageControl..GeneralTab..cbCheckBetaToo....Hint
 #: TransOpties.dfm:310
@@ -1700,8 +1705,9 @@ msgstr ""
 
 #. OptionsForm..JvPageControl..GeneralTab..cbCheckBetaToo..Caption
 #: TransOpties.dfm:311
+#, fuzzy
 msgid "Also check for updates of beta versions"
-msgstr ""
+msgstr "Suchen Sie auch nach Updates von Beta-Versionen"
 
 #. OptionsForm..JvPageControl..PictureTab..JvLabel2..Hint
 #. OptionsForm..JvPageControl..PictureTab..PictStepEdit..Hint
@@ -2407,13 +2413,14 @@ msgstr ""
 
 #. Programmer's name for it: RUpToDate
 #: JgbUpdateForm.pas:48
+#, fuzzy
 msgid "There is no newer version of Transcript available."
-msgstr ""
+msgstr "Es gibt keine neuere Version von Transcript."
 
 #. Programmer's name for it: RBeta
 #: JgbUpdateForm.pas:49
 msgid "Beta"
-msgstr ""
+msgstr "Beta"
 
 #. Programmer's name for it: RStable
 #: JgbUpdateForm.pas:50
@@ -2424,13 +2431,13 @@ msgstr ""
 #: JgbUpdateForm.pas:51
 #, object-pascal-format
 msgid "%s version %s of Transcript is available for download."
-msgstr ""
+msgstr "%s Version %s der Abschrift steht zum Download bereit."
 
 #. Programmer's name for it: RVersion
 #: JgbUpdateForm.pas:52
 #, object-pascal-format
 msgid "You currently have version %s."
-msgstr ""
+msgstr "Sie haben derzeit Version %s."
 
 #. Programmer's name for it: RDownloadInstructions
 #: JgbUpdateForm.pas:53
@@ -2448,7 +2455,7 @@ msgstr ""
 #: JgbUpdateForm.pas:55
 #, object-pascal-format
 msgid "Error: %s."
-msgstr ""
+msgstr "Fehler: %s."
 
 #. Programmer's name for it: RMissingFile
 #: JgbUpdateForm.pas:56
