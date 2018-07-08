@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.6.0\n"
 "POT-Creation-Date: 2018-07-05 00:22\n"
-"PO-Revision-Date: 2018-07-07 08:57+0200\n"
+"PO-Revision-Date: 2018-07-08 08:31+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
 "Language: it\n"
@@ -630,7 +630,7 @@ msgstr "Sottolineato"
 #. MainForm..ActionList1..PictOpenActn..Caption
 #: TranscriptMain.dfm:1161
 msgid "Open &imagefile..."
-msgstr "Apertura del immagine in corso..."
+msgstr "Apri immagine..."
 
 #. MainForm..ActionList1..PictOpenActn..Hint
 #: TranscriptMain.dfm:1162
@@ -1030,7 +1030,7 @@ msgstr "Incrementa rientro"
 #. MainForm..ActionList1..actIncreaseIndent..Hint
 #: TranscriptMain.dfm:1707
 msgid "Increase the indentation of this paragraph"
-msgstr "Incremento rientro di questo para"
+msgstr "Incremento rientro di questo paragrafo"
 
 #. MainForm..ActionList1..actDecreaseIndent..Caption
 #: TranscriptMain.dfm:1714
@@ -1359,7 +1359,7 @@ msgstr "Acquista Transcript Pro ..."
 #. MainForm..ActionList1..actCheckForUpdates..Caption
 #: TranscriptMain.dfm:2116
 msgid "Check for updates..."
-msgstr "Controlla gli aggiornamenti"
+msgstr "Controlla aggiornamenti..."
 
 #. MainForm..MainMenu..MM_Bestand..Caption
 #: TranscriptMain.dfm:2133
@@ -2207,13 +2207,13 @@ msgstr ""
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteNeverUsedItems..Caption
 #: TransOpties.dfm:1194
 msgid "Delete never used items older than"
-msgstr "Mai cancellare oggetti più vecchi di"
+msgstr "Cancella oggetti mai utilizzati più vecchi di"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..seDeleteNeverUsed..Hint
 #: TransOpties.dfm:1206
 msgid "Age in number of weeks before never used items should be deleted"
 msgstr ""
-"Numero di settimane dopodiché oggetti non utilizzati vengono cancellati"
+"Numero di settimane dopodiché oggetti mai utilizzati vengono cancellati"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbResetUsageCount....Hint
 #: TransOpties.dfm:1221
@@ -2782,7 +2782,7 @@ msgstr "Image files"
 #. Programmer's name for it: WavFilter
 #: TransTranslatableStrings.pas:41
 msgid "Sound files"
-msgstr "Files Suoni"
+msgstr "Files Sonori"
 
 #. Programmer's name for it: TadFilter
 #: TransTranslatableStrings.pas:42
@@ -3599,7 +3599,7 @@ msgstr "Arabo"
 # For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
 # See also Wikipedia: list of unicode blocks
 msgid "Latin Extended Additional"
-msgstr "Latine Esteso Addizionale"
+msgstr "Latino Esteso Addizionale"
 
 # ***** strings for Special characters dialog *****
 # For correct translations see similar Miscrosof Word symbols dialog or OpenOffice dialog
