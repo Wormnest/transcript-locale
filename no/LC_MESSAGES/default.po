@@ -2,9 +2,9 @@
 # Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2015, 2016, 2018.
 msgid ""
 msgstr ""
-"Project-Id-Version: Transcript 2.5.1 BETA\n"
+"Project-Id-Version: Transcript 2.6.0\n"
 "POT-Creation-Date: 2018-07-05 00:22\n"
-"PO-Revision-Date: 2018-07-05 00:19+0200\n"
+"PO-Revision-Date: 2018-08-02 11:35+0200\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
 "Language: no\n"
@@ -183,13 +183,11 @@ msgstr "Lukk vinduet etter innskriving av et tegn"
 msgid "&Insert"
 msgstr "&Sett inn"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. SpecialCharsForm..btnHelp..Caption
 #. MainForm..MainMenu..MM_Help..Caption
 #. EditAutoCorrectionsForm..HelpBtn..Caption
 #. OptionsForm..HelpBtn..Caption
 #. ProDialog..HelpBtn..Caption
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..HelpBtn..Caption
 #. RtfTabsDialog..HelpBtn..Caption
 #: JgbSpecialCharsForm.dfm:161 TranscriptMain.dfm:2531
@@ -211,7 +209,7 @@ msgstr "Alltid øverst"
 #. frmJgbUpdate..Caption
 #: JgbUpdateForm.dfm:4
 msgid "Transcript Update Checker"
-msgstr ""
+msgstr "Se etter Transcript-oppdateringer"
 
 #. TransAboutForm..Caption
 #: TransAbout.dfm:7
@@ -305,7 +303,6 @@ msgstr "Zoom inn eller ut på teksten (standard er 100)"
 msgid "Choose numbering style"
 msgstr "Velg nummerering"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. MainForm..CoolBar..EditBar..NummeringBtn..Caption
 #. MainForm..ActionList1..NoNumberingActn..Caption
 #: TranscriptMain.dfm:308 TranscriptMain.dfm:1513
@@ -1353,7 +1350,7 @@ msgstr "Kjøp Transcript Pro..."
 #. MainForm..ActionList1..actCheckForUpdates..Caption
 #: TranscriptMain.dfm:2116
 msgid "Check for updates..."
-msgstr ""
+msgstr "Se etter oppdateringer..."
 
 #. MainForm..MainMenu..MM_Bestand..Caption
 #: TranscriptMain.dfm:2133
@@ -1466,10 +1463,8 @@ msgstr "&Send"
 msgid "Use Ctrl+C to copy the report to the clipboard"
 msgstr "Bruk Ctrl+C for å kopiere rapporten til utklippstavlen"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. ExceptionDialog..OkBtn..Caption
 #. OptionsForm..OKBtn..Caption
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..OKBtn..Caption
 #. RtfTabsDialog..OKBtn..Caption
 #: TransExceptionDlg.dfm:71 TransOpties.dfm:29 RtfParagraphOptionsForm.dfm:145
@@ -1666,11 +1661,13 @@ msgid ""
 "Whether or not you want Transcript to check every 30 days if there is an "
 "update available. Note this needs an internet connection."
 msgstr ""
+"Velg om du vil at Transcript skal se om det er oppdateringer tilgjengelig. "
+"bemerk at dette krever en internettforbindelse."
 
 #. OptionsForm..JvPageControl..GeneralTab..cbAutoUpdateCheck..Caption
 #: TransOpties.dfm:298
 msgid "Automatically check for updates once every 30 days"
-msgstr ""
+msgstr "Automatisk se om oppdateringer er tilgjengelig en gang per 30 dager"
 
 #. OptionsForm..JvPageControl..GeneralTab..cbCheckBetaToo....Hint
 #: TransOpties.dfm:310
@@ -1678,11 +1675,13 @@ msgid ""
 "If this is checked then automatic and manual update checks will also report "
 "new beta versions."
 msgstr ""
+"Valg for at automatisk og manuell sjekk av oppdateringer vil også varsle om "
+"nye betaversjoner."
 
 #. OptionsForm..JvPageControl..GeneralTab..cbCheckBetaToo..Caption
 #: TransOpties.dfm:311
 msgid "Also check for updates of beta versions"
-msgstr ""
+msgstr "Se også etter oppdateringer av betaversjoner"
 
 #. OptionsForm..JvPageControl..PictureTab..JvLabel2..Hint
 #. OptionsForm..JvPageControl..PictureTab..PictStepEdit..Hint
@@ -1828,11 +1827,14 @@ msgid ""
 "orientation in the exif data (note: exif data is not always present or "
 "correct)"
 msgstr ""
+"Velg om du vil at Transcript automatisk skal snu bilder basert på "
+"orienteringen i exif-data (nb: exif-data er ikke alltid tilgjengelig eller "
+"riktig)"
 
 #. OptionsForm..JvPageControl..PictureTab..cbxAutoRotateJpeg..Caption
 #: TransOpties.dfm:515
 msgid "Auto rotate images when exif info is available"
-msgstr ""
+msgstr "Auomatisk rotasjon av bilder hvis exif-iformasjon er tilgjengelig"
 
 #. OptionsForm..JvPageControl..AdvancedTab..Caption
 #: TransOpties.dfm:523
@@ -2247,10 +2249,8 @@ msgstr ""
 msgid "Delete &all extracted images after changing directory"
 msgstr "Slett &importerte bilder ved bytte til annen bildemappe"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. OptionsForm..CancelBtn..Caption
 #. ProDialog..CancelBtn..Caption
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..CancelBtn..Caption
 #. RtfTabsDialog..CancelBtn..Caption
 #: TransOpties.dfm:1367 TransPro.dfm:56 RtfParagraphOptionsForm.dfm:156
@@ -2278,9 +2278,7 @@ msgstr "Angi brukernavn:"
 msgid "Enter registration code:"
 msgstr "Angi registreringskode:"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. ProDialog..OKBtn..Caption
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfTabsDialog..ActionList1..actOK..Caption
 #: TransPro.dfm:45 RtfTabSettingsForm.dfm:172
 msgid "OK"
@@ -2356,29 +2354,29 @@ msgstr "Uventet feil ved konvertering av ini-fil"
 #. Programmer's name for it: RUpToDate
 #: JgbUpdateForm.pas:48
 msgid "There is no newer version of Transcript available."
-msgstr ""
+msgstr "Ingen nyere versjon av Transcript er tilgjengelig."
 
 #. Programmer's name for it: RBeta
 #: JgbUpdateForm.pas:49
 msgid "Beta"
-msgstr ""
+msgstr "Bea"
 
 #. Programmer's name for it: RStable
 #: JgbUpdateForm.pas:50
 msgid "Stable"
-msgstr ""
+msgstr "Stabil"
 
 #. Programmer's name for it: RNewVersionAvailable
 #: JgbUpdateForm.pas:51
 #, object-pascal-format
 msgid "%s version %s of Transcript is available for download."
-msgstr ""
+msgstr "%s versjon %s av Transcript er tilgjengelig for nedlasting"
 
 #. Programmer's name for it: RVersion
 #: JgbUpdateForm.pas:52
 #, object-pascal-format
 msgid "You currently have version %s."
-msgstr ""
+msgstr "Du har nå versjon %s."
 
 #. Programmer's name for it: RDownloadInstructions
 #: JgbUpdateForm.pas:53
@@ -2386,27 +2384,30 @@ msgid ""
 "Download the installer from the link below, exit Transcript first then start "
 "the installer."
 msgstr ""
+"Last ned installasjonsprogrammet fra lenken under, avslutt Transcript og så "
+"start installasjonsprogrammet."
 
 #. Programmer's name for it: RUnknownError
 #: JgbUpdateForm.pas:54
 msgid "An unknown error occurred while trying to download the version info."
 msgstr ""
+"En ukjent feil oppstod under forsøket på å laste ned versjonsinformasjonen."
 
 #. Programmer's name for it: RErrorMsg
 #: JgbUpdateForm.pas:55
 #, object-pascal-format
 msgid "Error: %s."
-msgstr ""
+msgstr "Feil %s."
 
 #. Programmer's name for it: RMissingFile
 #: JgbUpdateForm.pas:56
 msgid "Error: We failed to download the version information."
-msgstr ""
+msgstr "Feil: Fikk ikke lastet ned versjonsinformasjonen."
 
 #. Programmer's name for it: RMissingInfo
 #: JgbUpdateForm.pas:57
 msgid "Error: The information we need is missing from the version information."
-msgstr ""
+msgstr "Feil: Nødvendig informasjon mangler i versjonsinformasjonen."
 
 #. Programmer's name for it: RTimeOut
 #: JgbUpdateForm.pas:58
@@ -2414,6 +2415,8 @@ msgid ""
 "Downloading the version information took too long. Maybe the server is "
 "offline."
 msgstr ""
+"Nedlasting av versjonen tok for lang tid. Det kan være at serveren er "
+"offline."
 
 #. sqlite3 could not be found/loaded
 #: TranscriptMain.pas:1217
@@ -2435,10 +2438,14 @@ msgid ""
 "This setting can also be changed in the general tab of Options (F11).\n"
 "Do you want automatic update checking enabled?"
 msgstr ""
+"Transcript kan nå se etter oppdateringer hver 30. dag. Bemerk at dette "
+"krever internettforbindelse.\n"
+"Denne innstillingen kan også endres under Generelt i Innstillinger (F11)\n"
+"Pnsker du at Transcript automatisk skal se etter oppdateringer?"
 
 #: TranscriptMain.pas:1502
 msgid "Automatic update checking"
-msgstr ""
+msgstr "Se automatisk etter oppdateringer"
 
 #: TranscriptMain.pas:1551
 msgid ""
@@ -2514,7 +2521,7 @@ msgstr "Farvedybde: %d bpp"
 
 #. Programmer's name for it: RsScreen
 #: TransInfoSupplier.pas:77
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Display %d: %dx%d pixels, %d dpi"
 msgstr "Skjerm %d: %dx%d piksler, %d dpi"
 
@@ -2796,7 +2803,7 @@ msgstr ""
 #. Programmer's name for it: rsLoadErrorReason
 #: TransTranslatableStrings.pas:97
 msgid "It does not exist!"
-msgstr ""
+msgstr "Denne finnes ikke!"
 
 #. Programmer's name for it: rsEditFileInUseErr
 #: TransTranslatableStrings.pas:98
@@ -3439,7 +3446,7 @@ msgstr "Bildet har ikke støttet (uvanlig) farvedybde."
 #. Programmer's name for it: rsJgbCorruptImage
 #: JgbImgViewResources.pas:18
 msgid "This image is corrupt. It can't be read."
-msgstr ""
+msgstr "Dette bildet er skadet. Det kan ikke leses."
 
 #. Programmer's name for it: rsJgbEReadError
 #: JgbImgViewResources.pas:20
