@@ -3,9 +3,9 @@
 # Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: Transcript 2.4.1 BETA\n"
+"Project-Id-Version: Transcript 2.6.0\n"
 "POT-Creation-Date: 2018-07-05 00:22\n"
-"PO-Revision-Date: 2014-12-31 14:30+0200\n"
+"PO-Revision-Date: 2018-08-09 18:15+0300\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
 "Language: fi\n"
@@ -13,20 +13,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Poedit 2.1.1\n"
 "Original-Translator: Pekka Valta\n"
 
 #. JgbViewerForm..ActionList..actImgFileOpen..Caption
 #: JgbImageViewerForm.dfm:253
-#, fuzzy
 msgid "Open image..."
-msgstr "Avaa &kuvatiedosto..."
+msgstr "Avaa kuva..."
 
 #. JgbViewerForm..ActionList..actImgFileOpen..Hint
 #: JgbImageViewerForm.dfm:254
-#, fuzzy
 msgid "Open image file..."
-msgstr "Avaa &kuvatiedosto..."
+msgstr "Avaa kuvatiedosto..."
 
 #. JgbViewerForm..ActionList..actClose..Caption
 #. frmJgbUpdate..btnClose..Caption
@@ -38,7 +36,7 @@ msgstr "Sulje"
 #. JgbViewerForm..ActionList..actClose..Hint
 #: JgbImageViewerForm.dfm:262
 msgid "Close extra image viewer"
-msgstr ""
+msgstr "Sulje ylimääräinen kuvan katseluohjelma"
 
 #. JgbViewerForm..ActionList..actRotateLeft..Category
 #. JgbViewerForm..ActionList..actRotateRight..Category
@@ -135,7 +133,7 @@ msgstr "Käytetyn ajan määrä kuvien eristämisessä."
 #. SpecialCharsForm..Caption
 #: JgbSpecialCharsForm.dfm:7
 msgid "Special characters"
-msgstr "Yritysmerkit"
+msgstr "Erityismerkit"
 
 #. SpecialCharsForm..JvLabel1..Caption
 #: JgbSpecialCharsForm.dfm:31
@@ -145,12 +143,12 @@ msgstr "Fontti:"
 #. SpecialCharsForm..lblFilter..Hint
 #: JgbSpecialCharsForm.dfm:39
 msgid "Specifies the Unicode character encoding subrange to display."
-msgstr ""
+msgstr "Määrittää Unicode-merkkikoodausalueen näytettäväksi."
 
 #. SpecialCharsForm..lblFilter..Caption
 #: JgbSpecialCharsForm.dfm:40
 msgid "Encoding:"
-msgstr "Koodaus:"
+msgstr "& Merkkikoodaus:"
 
 #. SpecialCharsForm..lblKeyCode..Caption
 #: JgbSpecialCharsForm.dfm:49
@@ -170,8 +168,8 @@ msgid ""
 "When checked this window will close after you insert the character of your "
 "choice into the editor (by double clicking or using the insert button)"
 msgstr ""
-"Kun valittuna tämä ikkuna sulkeutuu kun upotat valitsemasi merkin "
-"muokkaajaan (kaksoisklikkaamalla tai käyttäen Upota-painiketta)"
+"Valittuna tämä ikkuna sulkeutuu, kun upotat valitsemasi merkin muokkaajaan "
+"(kaksoisklikkaamalla tai käyttäen Upota-painiketta)"
 
 #. SpecialCharsForm..chkCloseOnInsert..Caption
 #: JgbSpecialCharsForm.dfm:140
@@ -183,13 +181,11 @@ msgstr "Sulje ikkuna merkin upottamisen jälkeen"
 msgid "&Insert"
 msgstr "&Upota"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. SpecialCharsForm..btnHelp..Caption
 #. MainForm..MainMenu..MM_Help..Caption
 #. EditAutoCorrectionsForm..HelpBtn..Caption
 #. OptionsForm..HelpBtn..Caption
 #. ProDialog..HelpBtn..Caption
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..HelpBtn..Caption
 #. RtfTabsDialog..HelpBtn..Caption
 #: JgbSpecialCharsForm.dfm:161 TranscriptMain.dfm:2531
@@ -211,7 +207,7 @@ msgstr "Aina ylimpänä"
 #. frmJgbUpdate..Caption
 #: JgbUpdateForm.dfm:4
 msgid "Transcript Update Checker"
-msgstr ""
+msgstr "Transcript päivitystarkistin"
 
 #. TransAboutForm..Caption
 #: TransAbout.dfm:7
@@ -246,12 +242,12 @@ msgstr "%s versio %d.%d.%d.%d"
 #. TransAboutForm..tcBottom....Tabs.Strings
 #: TransAbout.dfm:320
 msgid "Credits"
-msgstr ""
+msgstr "Ansiot"
 
 #. TransAboutForm..tcBottom....Tabs.Strings
 #: TransAbout.dfm:321
 msgid "Info"
-msgstr ""
+msgstr "Info"
 
 #. TransAboutForm..tcBottom..BackPanel..JvStaticText1..Caption
 #: TransAbout.dfm:354
@@ -303,9 +299,8 @@ msgstr "Lähennä tai loitanna tekstiä (oletus on 100)"
 #. MainForm..CoolBar..EditBar..NummeringBtn..Hint
 #: TranscriptMain.dfm:307
 msgid "Choose numbering style"
-msgstr "Valitse numeroinnin tyyppi"
+msgstr "Valitse numeroinnin tyyli"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. MainForm..CoolBar..EditBar..NummeringBtn..Caption
 #. MainForm..ActionList1..NoNumberingActn..Caption
 #: TranscriptMain.dfm:308 TranscriptMain.dfm:1513
@@ -317,7 +312,7 @@ msgstr "Ei mitään"
 #: TranscriptMain.dfm:397 TranscriptMain.dfm:454
 #: JgbTranslateJvOfficeColorButton.pas:93
 msgid "Automatic"
-msgstr "Ei mitään"
+msgstr "Automaattinen"
 
 #. MainForm..CoolBar..EditBar..BackgroundColorButton..Properties.CustomColorCaption
 #. MainForm..CoolBar..EditBar..TextColorButton..Properties.CustomColorCaption
@@ -438,7 +433,7 @@ msgstr "Oikealle tasauksen kieleke"
 #. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.HintTabWordBar
 #: TranscriptMain.dfm:853
 msgid "Word Bar aligned tab"
-msgstr ""
+msgstr "Sanapalkin tasauksen kieleke"
 
 #. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.MenuTabCenter
 #: TranscriptMain.dfm:854
@@ -463,7 +458,7 @@ msgstr "Tasaus oikealle"
 #. MainForm..MainPanel..JvPanel_RE_FontStore..EditorPanel..EditorRuler..RulerTexts.MenuTabWordBar
 #: TranscriptMain.dfm:858
 msgid "Word Bar align"
-msgstr ""
+msgstr "Sanapalkin tasaus"
 
 #. MainForm..ActionList1..PrevPictActn..Hint
 #: TranscriptMain.dfm:1026
@@ -509,7 +504,7 @@ msgstr "&Lisävalinnat..."
 #. OptionsForm..Caption
 #: TranscriptMain.dfm:1057 TransOpties.dfm:8
 msgid "Options"
-msgstr "Optiot"
+msgstr "Lisävalinnat"
 
 #. MainForm..ActionList1..FindTextActn..Caption
 #: TranscriptMain.dfm:1064
@@ -533,9 +528,8 @@ msgstr "Tallenna &nimellä..."
 
 #. MainForm..ActionList1..FileSaveAsActn..Hint
 #: TranscriptMain.dfm:1082
-#, fuzzy
 msgid "Save rtf textfile under another name"
-msgstr "Tallenna rtf rich text format-muotoisena toisella nimellä"
+msgstr "Tallenna rtf tekstitiedosto toisella nimellä"
 
 #. MainForm..ActionList1..FileNewActn..Caption
 #: TranscriptMain.dfm:1089
@@ -1119,9 +1113,8 @@ msgstr "Nollaa projektiajanotto"
 
 #. MainForm..ActionList1..actResetProjectTimer..Hint
 #: TranscriptMain.dfm:1798
-#, fuzzy
 msgid "Resets the time spent working on this project to 0"
-msgstr "Tämä pysäyttää päällä olevan projektin aikalaskimen ja nollaa sen"
+msgstr "Nollaa tähän projektiin käytetyn ajan laskurin"
 
 #. MainForm..ActionList1..actImgSetHorLeftOffset..Caption
 #: TranscriptMain.dfm:1805
@@ -1140,7 +1133,6 @@ msgstr "Aseta pystysuoran siirron määrä"
 
 #. MainForm..ActionList1..actSetCenterImage..Caption
 #: TranscriptMain.dfm:1825
-#, fuzzy
 msgid "Horizontal center image"
 msgstr "Keskitä kuva"
 
@@ -1211,9 +1203,9 @@ msgstr "Käynnistä aikalaskin tietoja syötettäessä"
 
 #. MainForm..ActionList1..actResumeTimerWhenTyping..Hint
 #: TranscriptMain.dfm:1919
-#, fuzzy
 msgid "Resume manually paused timer when you start typing"
-msgstr "Käynnistä aikalaskin tietoja syötettäessä"
+msgstr ""
+"Käynnistä manuaalisesti pysäytetty aikalaskuri, kun alat syöttää tietoja"
 
 #. MainForm..ActionList1..actStretchNearest..Caption
 #: TranscriptMain.dfm:1926
@@ -1277,9 +1269,8 @@ msgstr "Upota kuvavalinta"
 
 #. MainForm..ActionList1..actPasteImgSelection..Hint
 #: TranscriptMain.dfm:2014
-#, fuzzy
 msgid "Insert selected portion of image into the editor"
-msgstr "Valitse hiirellä osa kuvasta"
+msgstr "Lisää valittu kuvan osa muokkaimeen"
 
 #. MainForm..ActionList1..actCopySelectionToWindow..Caption
 #: TranscriptMain.dfm:2022
@@ -1299,27 +1290,27 @@ msgstr "Näytä työkalupalkit"
 #. MainForm..ActionList1..actToggleWindowPositioning..Caption
 #: TranscriptMain.dfm:2043
 msgid "Windows side by side"
-msgstr ""
+msgstr "Ikkunat vierekkäin"
 
 #. MainForm..ActionList1..actShowImageRuler..Caption
 #: TranscriptMain.dfm:2050
 msgid "Show highlighter"
-msgstr ""
+msgstr "Näytä korostaja"
 
 #. MainForm..ActionList1..actSetHighlighterStartOffset..Caption
 #: TranscriptMain.dfm:2056
 msgid "Set highlighter top offset"
-msgstr ""
+msgstr "Aseta korostajan yläsiirtymä"
 
 #. MainForm..ActionList1..actResetZoom..Caption
 #: TranscriptMain.dfm:2061
 msgid "Reset to default zoom"
-msgstr ""
+msgstr "Palaa oletuszoomiin"
 
 #. MainForm..ActionList1..actResetBrightness..Caption
 #: TranscriptMain.dfm:2066
 msgid "Reset to default brightness"
-msgstr ""
+msgstr "Palaa oletuskirkkauteen"
 
 #. MainForm..ActionList1..actHighlighterBrightnessInc..Caption
 #: TranscriptMain.dfm:2081
@@ -1334,33 +1325,32 @@ msgstr "Pienennä valoisuutta"
 #. MainForm..ActionList1..actCopyImage2Editor..Caption
 #: TranscriptMain.dfm:2091
 msgid "Insert image into editor"
-msgstr ""
+msgstr "Lisää kuva muokkaimeen"
 
 #. MainForm..ActionList1..actCopyImage2Editor..Hint
 #: TranscriptMain.dfm:2093
 msgid "Inserts the current image into the editor"
-msgstr ""
+msgstr "Lisää nykyisen kuvan muokkaimeen"
 
 #. MainForm..ActionList1..actViewExtraImageWin..Caption
 #: TranscriptMain.dfm:2100
-#, fuzzy
 msgid "Extra image window"
-msgstr "Maksimoi &kuvaikkuna"
+msgstr "Ylimääräinen kuvaikkuna"
 
 #. MainForm..ActionList1..actGoToFacebook..Caption
 #: TranscriptMain.dfm:2105
 msgid "Open Transcript on Facebook..."
-msgstr ""
+msgstr "Avaa Transcript Facebookissa..."
 
 #. MainForm..ActionList1..actPayPalBuyNow..Caption
 #: TranscriptMain.dfm:2111
 msgid "Buy Transcript Pro..."
-msgstr ""
+msgstr "Osta Transcript Pro..."
 
 #. MainForm..ActionList1..actCheckForUpdates..Caption
 #: TranscriptMain.dfm:2116
 msgid "Check for updates..."
-msgstr ""
+msgstr "Tarkista päivitykset..."
 
 #. MainForm..MainMenu..MM_Bestand..Caption
 #: TranscriptMain.dfm:2133
@@ -1380,7 +1370,7 @@ msgstr "&Muokkaa"
 #. MainForm..MainMenu..Format1..Caption
 #: TranscriptMain.dfm:2236
 msgid "For&mat"
-msgstr "Muotoile&"
+msgstr "Muo&toile"
 
 #. MainForm..MainMenu..MM_View..Caption
 #: TranscriptMain.dfm:2300
@@ -1425,9 +1415,8 @@ msgstr "A&seta pikateksti"
 
 #. MainForm..pmImage..Copyselectiontowindow1....Hint
 #: TranscriptMain.dfm:5624
-#, fuzzy
 msgid "Copies the selected portion of the image to a separate image window"
-msgstr "Kopioi valinta omaan ikkunaansa"
+msgstr "Kopioi valittu osa kuvasta omaan ikkunaansa"
 
 #. MainForm..pmImage..mnuPositioning..Caption
 #: TranscriptMain.dfm:5633
@@ -1462,7 +1451,7 @@ msgstr "&Lisää"
 #. ExceptionDialog..SendBtn..Hint
 #: TransExceptionDlg.dfm:42
 msgid "Send bug report using default mail client"
-msgstr ""
+msgstr "Lähetä virheilmoitus oletuksena olevalla sähköpostiohjelmalla"
 
 #. ExceptionDialog..SendBtn..Caption
 #: TransExceptionDlg.dfm:44
@@ -1472,12 +1461,10 @@ msgstr "&Lähetä"
 #. ExceptionDialog..TextLabel..Hint
 #: TransExceptionDlg.dfm:53
 msgid "Use Ctrl+C to copy the report to the clipboard"
-msgstr ""
+msgstr "Käytä Crtl+C pikavalintaa raportin kopioimiseksi leikepöydälle"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. ExceptionDialog..OkBtn..Caption
 #. OptionsForm..OKBtn..Caption
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..OKBtn..Caption
 #. RtfTabsDialog..OKBtn..Caption
 #: TransExceptionDlg.dfm:71 TransOpties.dfm:29 RtfParagraphOptionsForm.dfm:145
@@ -1488,7 +1475,7 @@ msgstr "&OK"
 #. ExceptionDialog..DetailsBtn..Hint
 #: TransExceptionDlg.dfm:81
 msgid "Show or hide additional information"
-msgstr ""
+msgstr "Näytä lisätietoja tai piilota ne"
 
 #. ExceptionDialog..DetailsBtn..Caption
 #: TransExceptionDlg.dfm:83
@@ -1680,11 +1667,13 @@ msgid ""
 "Whether or not you want Transcript to check every 30 days if there is an "
 "update available. Note this needs an internet connection."
 msgstr ""
+"Valintasi mukaan Transcript voi tarkistaa mahdolliset päivitykset 30 päivän "
+"välein. Huomaathan että nettiyhteys on tässä tarpeen."
 
 #. OptionsForm..JvPageControl..GeneralTab..cbAutoUpdateCheck..Caption
 #: TransOpties.dfm:298
 msgid "Automatically check for updates once every 30 days"
-msgstr ""
+msgstr "Tarkista automaattisesti päivitykset 30 päivän välein"
 
 #. OptionsForm..JvPageControl..GeneralTab..cbCheckBetaToo....Hint
 #: TransOpties.dfm:310
@@ -1692,11 +1681,13 @@ msgid ""
 "If this is checked then automatic and manual update checks will also report "
 "new beta versions."
 msgstr ""
+"Jos tämä on valittuna, manuaalinen ja automaattinen päivitysten tarkistus "
+"tiedottaa myös uusista beta versioista."
 
 #. OptionsForm..JvPageControl..GeneralTab..cbCheckBetaToo..Caption
 #: TransOpties.dfm:311
 msgid "Also check for updates of beta versions"
-msgstr ""
+msgstr "Tarkista myös uudet beta versiot"
 
 #. OptionsForm..JvPageControl..PictureTab..JvLabel2..Hint
 #. OptionsForm..JvPageControl..PictureTab..PictStepEdit..Hint
@@ -1754,7 +1745,7 @@ msgstr ""
 #. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..MoveOnEnterCheck..Caption
 #: TransOpties.dfm:392
 msgid "Scroll image on every \"Enter\""
-msgstr "Vieritä kuvaa jokaisella \"Enter\"-painalluksella"
+msgstr "Vieritä kuvaa käyttäen \"Enter\""
 
 #. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..MoveOnWrapCheck....Hint
 #: TransOpties.dfm:405
@@ -1847,11 +1838,14 @@ msgid ""
 "orientation in the exif data (note: exif data is not always present or "
 "correct)"
 msgstr ""
+"Jos tämä on valittuna, Transcript kääntää automaattisesti kuvan exif "
+"tiedoissa olevan suuntatiedon perusteella (huomaathan että exif tiedot "
+"voivat puuttua tai niissä voi olla virhe)"
 
 #. OptionsForm..JvPageControl..PictureTab..cbxAutoRotateJpeg..Caption
 #: TransOpties.dfm:515
 msgid "Auto rotate images when exif info is available"
-msgstr ""
+msgstr "Käännä automaattisesti kuvat, jos exif tiedot ovat käytettävissä"
 
 #. OptionsForm..JvPageControl..AdvancedTab..Caption
 #: TransOpties.dfm:523
@@ -1866,7 +1860,7 @@ msgstr "Kuvilla ja tekstitiedostoilla sama nimi"
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..TextDirLabel..Caption
 #: TransOpties.dfm:539
 msgid "<Directory where text file will be stored>"
-msgstr ""
+msgstr "<Tekstitiedoston talletuskansio>"
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..EachPhotoApartCheck....Hint
 #: TransOpties.dfm:555
@@ -2031,6 +2025,9 @@ msgid ""
 "you want to help translate Transcript into your language you can also e-mail "
 "me. Translators get a free registered version!"
 msgstr ""
+"Raportoithan käännösvirheistä alla olevaan sähköpostiosoitteeseen. Jos "
+"haluat kääntää Transcriptin jollekin kielelle, meilaa siitäkin minulle. "
+"Kääntäjät saavat ilmaisen rekisteröidyn version!"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..Caption
 #: TransOpties.dfm:961
@@ -2283,10 +2280,8 @@ msgstr ""
 msgid "Delete &all extracted images after changing directory"
 msgstr "Poista &kaikki erotetut kuvat vaihdettuasi hakemistoa"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. OptionsForm..CancelBtn..Caption
 #. ProDialog..CancelBtn..Caption
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..CancelBtn..Caption
 #. RtfTabsDialog..CancelBtn..Caption
 #: TransOpties.dfm:1367 TransPro.dfm:56 RtfParagraphOptionsForm.dfm:156
@@ -2314,9 +2309,7 @@ msgstr "Syötä käyttäjänimi:"
 msgid "Enter registration code:"
 msgstr "Syötä rekisteröintikoodi:"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. ProDialog..OKBtn..Caption
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfTabsDialog..ActionList1..actOK..Caption
 #: TransPro.dfm:45 RtfTabSettingsForm.dfm:172
 msgid "OK"
@@ -2388,34 +2381,34 @@ msgstr "Kuvaus:"
 #. Check if Transcript.ini needs converting. Exit in case of failure.
 #: Transcript.dpr:99
 msgid "Unexpected error converting ini file"
-msgstr ""
+msgstr "Ini tiedoston käännösessä tuli odottamaton virhe"
 
 #. Programmer's name for it: RUpToDate
 #: JgbUpdateForm.pas:48
 msgid "There is no newer version of Transcript available."
-msgstr ""
+msgstr "Uudempaa Transcriptin versiota ei ole saatavilla."
 
 #. Programmer's name for it: RBeta
 #: JgbUpdateForm.pas:49
 msgid "Beta"
-msgstr ""
+msgstr "Beta"
 
 #. Programmer's name for it: RStable
 #: JgbUpdateForm.pas:50
 msgid "Stable"
-msgstr ""
+msgstr "Vakaa"
 
 #. Programmer's name for it: RNewVersionAvailable
 #: JgbUpdateForm.pas:51
 #, object-pascal-format
 msgid "%s version %s of Transcript is available for download."
-msgstr ""
+msgstr "%s versio %s Transcriptista on ladattavissa."
 
 #. Programmer's name for it: RVersion
 #: JgbUpdateForm.pas:52
 #, object-pascal-format
 msgid "You currently have version %s."
-msgstr ""
+msgstr "Nykyinen versiosi on numeroltaan %s."
 
 #. Programmer's name for it: RDownloadInstructions
 #: JgbUpdateForm.pas:53
@@ -2423,27 +2416,29 @@ msgid ""
 "Download the installer from the link below, exit Transcript first then start "
 "the installer."
 msgstr ""
+"Lataa alla olevasta linkistä asennusohjelma, sulje Transcript ja käynnistä "
+"asennusohjelma."
 
 #. Programmer's name for it: RUnknownError
 #: JgbUpdateForm.pas:54
 msgid "An unknown error occurred while trying to download the version info."
-msgstr ""
+msgstr "Versio tietoja ladattaessa tapahtui odottamaton virhe."
 
 #. Programmer's name for it: RErrorMsg
 #: JgbUpdateForm.pas:55
 #, object-pascal-format
 msgid "Error: %s."
-msgstr ""
+msgstr "Virhe: %s."
 
 #. Programmer's name for it: RMissingFile
 #: JgbUpdateForm.pas:56
 msgid "Error: We failed to download the version information."
-msgstr ""
+msgstr "Virhe: Emme onnistuneet lataamaan version tietoja."
 
 #. Programmer's name for it: RMissingInfo
 #: JgbUpdateForm.pas:57
 msgid "Error: The information we need is missing from the version information."
-msgstr ""
+msgstr "Virhe: Version tiedoista puuttuu tarvitsemamme tiedot."
 
 #. Programmer's name for it: RTimeOut
 #: JgbUpdateForm.pas:58
@@ -2451,6 +2446,7 @@ msgid ""
 "Downloading the version information took too long. Maybe the server is "
 "offline."
 msgstr ""
+"Version tietojen lataaminen kesti liian kauan. Palvelin voi olla päältä pois."
 
 #. sqlite3 could not be found/loaded
 #: TranscriptMain.pas:1217
@@ -2459,6 +2455,10 @@ msgid ""
 "The zip of Transcript beta versions does not contain all needed files.\n"
 "You should copy the beta on top of a normal Transcript install!"
 msgstr ""
+"Ei onnistunut sqlite3.dll lataus. Sitä tarvitaan automaattisissa "
+"korvauksissa..\n"
+"Transcriptin tiivistetiedostossa ei ole kaikkia tarvittavia tiedostoja..\n"
+"Sinun pitäisi ladata beta Transcriptin normaalin asennuksen päälle!"
 
 #. Make sure first time question is only done once.
 #: TranscriptMain.pas:1501
@@ -2468,21 +2468,27 @@ msgid ""
 "This setting can also be changed in the general tab of Options (F11).\n"
 "Do you want automatic update checking enabled?"
 msgstr ""
+"Transcript voi nyt tarkistaa päivitykset 30 päivän välein. Huomaathan, että "
+"nettiyhteys tarvitaan..\n"
+"Tämä asetus on muutettavissa Optioiden yleislehdellä (F11).\n"
+"Haluatko asettaa päälle automaattisen päivitysten tarkastamisen?"
 
 #: TranscriptMain.pas:1502
-#, fuzzy
 msgid "Automatic update checking"
-msgstr "Automaattinen tekstin upotus"
+msgstr "Automaattinen päivityksen tarkistus"
 
 #: TranscriptMain.pas:1551
 msgid ""
 "Couldn't make a backup. Your file was not saved! Possibly the old backup is "
 "in use by another program. Close it there and then try to save again."
 msgstr ""
+"Varmuuskopiointi ei onnistunut. Tiedostoasi ei talletettu! Ehkä vanha "
+"varmuuskopio on jonkun muun ohjelman käytössä. Sulje se ja yritä uudelleen "
+"tallentaa."
 
 #: TranscriptMain.pas:1552
 msgid "Error making backup"
-msgstr ""
+msgstr "Virhe varmuuskopioitaessa"
 
 #. om te zorgen dat (Gewijzigd) uit caption wordt verwijderd!
 #: TranscriptMain.pas:1563
@@ -2490,88 +2496,90 @@ msgid ""
 "Couldn't Save file. Most likely it is in use by another program. Close it "
 "there and then try to save again."
 msgstr ""
+"Tiedoston tallennus ei onnistunut.  Ilmeisimmin muu ohjelma käyttää sitä. "
+"Sulje se ja yritä uudelleen tallentamista."
 
 #: TranscriptMain.pas:1564
 msgid "Error saving file"
-msgstr ""
+msgstr "Virhe tiedoston tallentamisessa"
 
 #. separate space so no need to translate it at end which could be forgotten
 #: TranscriptMain.pas:6518
 msgid "width x height:"
-msgstr ""
+msgstr "kuvan leveys x korkeus:"
 
 #. Converts a pdf InputFile to images baes on OutputFileMask
 #: TransGhostScript.pas:476
 msgid "GhostScript conversion thread already running!"
-msgstr ""
+msgstr "GhostScript  muuntamisen säi on jo käynnissä!"
 
 #. Make string extraction from consts for translating work:
 #. Programmer's name for it: RsAppError
 #: TransInfoSupplier.pas:71
 #, object-pascal-format
 msgid "%s - application error"
-msgstr ""
+msgstr "%s - sovellusvirhe"
 
 #. Programmer's name for it: RsModulesList
 #: TransInfoSupplier.pas:72
 msgid "List of loaded modules:"
-msgstr ""
+msgstr "Ladattujen moduulien lista:"
 
 #. Programmer's name for it: RsOSVersion
 #: TransInfoSupplier.pas:73
 #, object-pascal-format
 msgid "System: %s %s %d bits, Version: %d.%d, Build: %d, \"%s\""
-msgstr ""
+msgstr "Järjestelmä: %s %s %d bittiä, Versio: %d.%d, Käännös: %d, \"%s\""
 
 #. Programmer's name for it: RsProcessor
 #: TransInfoSupplier.pas:74
 #, object-pascal-format
 msgid "Processor: %s, %s, %d MHz"
-msgstr ""
+msgstr "Prosessori: %s, %s, %d MHz"
 
 #. Programmer's name for it: RsMemory
 #: TransInfoSupplier.pas:75
 #, object-pascal-format
 msgid "Memory: %d MB; free %d MB"
-msgstr ""
+msgstr "Muisti: %d MB; vapaana %d MB"
 
 #. Programmer's name for it: RsColor
 #: TransInfoSupplier.pas:76
 #, object-pascal-format
 msgid "Color depth: %d bpp"
-msgstr ""
+msgstr "Värisyvyys: %d bpp"
 
 #. Programmer's name for it: RsScreen
 #: TransInfoSupplier.pas:77
 #, object-pascal-format
 msgid "Display %d: %dx%d pixels, %d dpi"
-msgstr ""
+msgstr "Näyttö %d: %dx%d pixeliä, %d dpi"
 
 #. Programmer's name for it: RsActiveControl
 #: TransInfoSupplier.pas:78
 msgid "Active Controls hierarchy:"
-msgstr ""
+msgstr "Aktiivisten kontrollien hierarkia:"
 
 #. Programmer's name for it: RsMissingVersionInfo
 #: TransInfoSupplier.pas:79
 msgid "(no version info)"
-msgstr ""
+msgstr "(ei version tietoja)"
 
 #: TransInfoSupplier.pas:139
 msgid "<unknown>"
-msgstr ""
+msgstr "<tuntematon>"
 
 #. Therefore use const!
 #. Programmer's name for it: HEADER_BASIC_INFO
 #: TransInfoSupplier.pas:157
 msgid "Transcript basic info"
-msgstr ""
+msgstr "Transcriptin perustiedot"
 
 #. Programmer's name for it: INI_PATH
 #: TransInfoSupplier.pas:158
 #, object-pascal-format
 msgid "Transcript.ini path: %s"
-msgstr ""
+msgstr "Transcript.ini polku: %s"
 
 #. Programmer's name for it: LANG_NAME
 #: TransInfoSupplier.pas:159
@@ -2583,58 +2591,58 @@ msgstr "Kieli: %s"
 #: TransInfoSupplier.pas:160
 #, object-pascal-format
 msgid "Help file: %s"
-msgstr ""
+msgstr "Ohjetiedosto: %s"
 
 #. Programmer's name for it: EDIT_FILE
 #: TransInfoSupplier.pas:161
 #, object-pascal-format
 msgid "Edit file: %s"
-msgstr ""
+msgstr "Päivitystiedosto: %s"
 
 #. Programmer's name for it: IMAGE_FILE
 #: TransInfoSupplier.pas:162
 #, object-pascal-format
 msgid "Image file: %s"
-msgstr ""
+msgstr "Kuvan tiedosto: %s"
 
 #. Programmer's name for it: IMAGE_DIMENSIONS
 #: TransInfoSupplier.pas:163
 msgid "Image width x height:"
-msgstr ""
+msgstr "Kuvalla leveys x korkeus:"
 
 #. Programmer's name for it: HEADER_PROJECT_INFO
 #: TransInfoSupplier.pas:164
 msgid "Transcript project info"
-msgstr ""
+msgstr "Transcript projektin tietoja"
 
 #. Programmer's name for it: PROJECT_NAME
 #: TransInfoSupplier.pas:165
 #, object-pascal-format
 msgid "Project name: %s"
-msgstr ""
+msgstr "Projektin nimi: %s"
 
 #. Programmer's name for it: AUTOREPLACE_FILE
 #: TransInfoSupplier.pas:166
 #, object-pascal-format
 msgid "Autoreplace file: %s"
-msgstr ""
+msgstr "Automaattisen korvauksen tiedosto: %s"
 
 #. Programmer's name for it: cEXTERNAL_MODULES
 #: TransInfoSupplier.pas:167
 msgid "External modules"
-msgstr ""
+msgstr "Ulkoiset moduulit"
 
 #. Programmer's name for it: cRICHEDIT_VERSION
 #: TransInfoSupplier.pas:168
 #, object-pascal-format
 msgid "RichEdit version %d used."
-msgstr ""
+msgstr "RichEdit versio %d käytössä.."
 
 #. Programmer's name for it: cGHOSTSCRIPT_VERSION
 #: TransInfoSupplier.pas:169
 #, object-pascal-format
 msgid "%s version %s installed."
-msgstr ""
+msgstr "%s versio %s asennettu."
 
 #. Programmer's name for it: cNO_GHOSTSCRIPT
 #: TransInfoSupplier.pas:170
@@ -2642,33 +2650,35 @@ msgid ""
 "GhostScript not installed or not found (Transcript can only use the 32 bits "
 "version even on 64 bits Windows)."
 msgstr ""
+"GhostScript ei asennettuna tai ei löytynyt muuten (Transcript osaa käyttää "
+"vain 32 bittistä versiota myös 64 bitin Windowsissa)."
 
 #. Programmer's name for it: cGHOSTSCRIPT_PATH
 #: TransInfoSupplier.pas:171
 #, object-pascal-format
 msgid "Dll path: %s"
-msgstr ""
+msgstr "Dll polku: %s"
 
 #. System info
 #. Programmer's name for it: cSYSTEM_INFO
 #: TransInfoSupplier.pas:173
 msgid "System info"
-msgstr ""
+msgstr "Järjestelmän tietoja"
 
 #. Programmer's name for it: cVIRTUAL
 #: TransInfoSupplier.pas:174
 msgid "Virtual"
-msgstr ""
+msgstr "Virtuaalinen"
 
 #. Programmer's name for it: cLOADED_MODULES
 #: TransInfoSupplier.pas:175
 msgid "Loaded Modules info"
-msgstr ""
+msgstr "Ladattujen moduulien tietoja"
 
 #. Programmer's name for it: cRUNNING_PROCESSES
 #: TransInfoSupplier.pas:176
 msgid "Running Processes info"
-msgstr ""
+msgstr "Käynnisssä olevien prosessien tietoja"
 
 #. Check for the presence of an old RichEdit version (not very likely).
 #: TransIniConverter.pas:83
@@ -2679,6 +2689,11 @@ msgid ""
 "You can look for a newer version on Microsoft's site.\n"
 "Preferrably fileversion 5.30.x.x or higher (RichEdit version 3)."
 msgstr ""
+"Käytät vanhempaa versiota Microsoft's RichEd20.dll\n"
+"Siksi kaikki tekstin ominaisuudet eivät näy\n"
+"(esim. tasaa). Muuten se ei vaikuta ohjelmaani.\n"
+"Voit hakea uudempaa versiota Microsoftin sivustolla.\n"
+"Suositeltava tiedoston versio 5.30.x.x tai ylempi (RichEdit versio 3)."
 
 #. Programmer's name for it: AllFilter
 #: TransTranslatableStrings.pas:26
@@ -2797,11 +2812,13 @@ msgid ""
 "Cannot load image %s.\n"
 "%s"
 msgstr ""
+"Kuvan %s lataus ei onnistu\n"
+"%s"
 
 #. Programmer's name for it: rsLoadEditCaptionErr
 #: TransTranslatableStrings.pas:95
 msgid "Error loading textfile"
-msgstr ""
+msgstr "Virhe tekstitiedostoa ladattaessa"
 
 #. Programmer's name for it: rsLoadEditFileErr
 #: TransTranslatableStrings.pas:96
@@ -2810,16 +2827,18 @@ msgid ""
 "Cannot load textfile %s.\n"
 "%s"
 msgstr ""
+"Tekstitiedoston %s lataus ei onnistu.\n"
+"%s"
 
 #. Programmer's name for it: rsLoadErrorReason
 #: TransTranslatableStrings.pas:97
 msgid "It does not exist!"
-msgstr ""
+msgstr "Sitä ei ole!"
 
 #. Programmer's name for it: rsEditFileInUseErr
 #: TransTranslatableStrings.pas:98
 msgid "It is in use by another program!"
-msgstr ""
+msgstr "Se on toisen ohjelman käytössä!"
 
 #. Programmer's name for it: rsExpFileExistsErr
 #: TransTranslatableStrings.pas:99
@@ -2828,6 +2847,8 @@ msgid ""
 "%s already exists.\n"
 "Do you want to replace it?"
 msgstr ""
+"%s jo olemassa.\n"
+"Haluatko korvata sen?"
 
 #. Confirm save as
 #. Programmer's name for it: rsExpConfirmCaptionErr
@@ -2858,7 +2879,7 @@ msgstr ""
 #. Programmer's name for it: MsgCaptionFileNamesDiffer
 #: TransTranslatableStrings.pas:111
 msgid "Filenames are different"
-msgstr ""
+msgstr "Tiedostojen nimet ovat erilaisia"
 
 #. Programmer's name for it: MsgCaptionFileNamesDiffer
 #: TransTranslatableStrings.pas:117
@@ -2878,7 +2899,7 @@ msgstr ""
 #. Programmer's name for it: MsgCaptionFilePathsDiffer
 #: TransTranslatableStrings.pas:118
 msgid "Pathnames are different"
-msgstr ""
+msgstr "Polkujen nimet ovat erilaisia"
 
 #. Programmer's name for it: MsgTextNotFound
 #: TransTranslatableStrings.pas:120
@@ -3014,7 +3035,7 @@ msgstr "Alustaminen"
 #. Programmer's name for it: MsgGhostScriptCaption
 #: TransTranslatableStrings.pas:166
 msgid "Pdf conversion"
-msgstr ""
+msgstr "Pdf muunnos"
 
 #. Programmer's name for it: MsgGhostScriptNotFound
 #: TransTranslatableStrings.pas:169
@@ -3023,6 +3044,9 @@ msgid ""
 "Transcript cannot use pdf files without Ghostscript.\n"
 "See my website for instructions on how to download Ghostscript."
 msgstr ""
+"Koneellasi ei ole asennettuna 32-bittistä Ghostscript 32 ohjelmaa.\n"
+"Ilman Ghostscript ohjelmaa Transcript ei voi käyttää pdf-tiedostoja.\n"
+"Ghostscriptin latausohjeet löytyvät nettisivustollani."
 
 #. Programmer's name for it: MsgGhostscriptError
 #: TransTranslatableStrings.pas:174
@@ -3033,6 +3057,12 @@ msgid ""
 "The first problem can be fixed by copying the pdf to a location\n"
 "that you can write to."
 msgstr ""
+"Ghostscript kohtasi virheen.\n"
+"Todennäköisimmin syinä on tallennusvälineen kirjoitussuojaus (cd/dvd/folder) "
+"tai\n"
+"pdf ei salli kuvien eristämistä.\n"
+"Edellinen ongelma on hoidettavissa kopioimalla pdf paikkaan,\n"
+"johon sinulla on kirjoitusoikeus."
 
 #. Programmer's name for it: MsgGhostscriptFatalError
 #: TransTranslatableStrings.pas:176
@@ -3041,6 +3071,8 @@ msgid ""
 "Ghostscript caused an error: %s\n"
 "You are advised to save your work and restart Transcript."
 msgstr ""
+"Ghostscript antoi virheen: %s\n"
+"Suositellaan työsi tallentamista ja Transcriptin käynnistystä uudelleen."
 
 #. Programmer's name for it: MsgGhostscriptInitInstanceError
 #: TransTranslatableStrings.pas:179
@@ -3050,6 +3082,10 @@ msgid ""
 "previously.\n"
 "Please restart Transcript and try again."
 msgstr ""
+"Virhe käynnistettäessä Ghostscript istuntoa.\n"
+"Syy on useimmiten siinä, että Ghostscriptiä ei suljettu oikein edellisellä "
+"kerralla.\n"
+"Käynnistäthän Transcriptin uudelleen ja yritäthän uudelleen."
 
 #. 21-3-2007
 #. Programmer's name for it: MsgAutoCaption
@@ -3144,7 +3180,7 @@ msgstr "täydellinen polku, tiedosto ja määrite; %c"
 #. Programmer's name for it: strSpecifierInfo8
 #: TransTranslatableStrings.pas:210
 msgid "insert counter/page number. Anything else is literally inserted."
-msgstr "Upota laskuri/sivunumero. Kaikki muu lisätään merkkeinä."
+msgstr "upota laskuri/sivunumero. Kaikki muu lisätään merkkeinä."
 
 #. ***** Toolbar strings (pictcombo)
 #. Programmer's name for it: strNone
@@ -3362,9 +3398,8 @@ msgstr "Useita"
 
 #. RtfTabsDialog..Caption
 #: RtfTabSettingsForm.dfm:7
-#, fuzzy
 msgid "Tabs"
-msgstr "Sarkaimet"
+msgstr "Kielekkeet"
 
 #. RtfTabsDialog..JvLabel1..Caption
 #: RtfTabSettingsForm.dfm:28
@@ -3429,49 +3464,54 @@ msgstr "Peruuta"
 #. Programmer's name for it: rsJgbOpen
 #: JgbImgViewResources.pas:14
 msgid "Open Image"
-msgstr ""
+msgstr "Avaa kuva"
 
 #. Programmer's name for it: rsJgbUnsupportedImage
 #: JgbImgViewResources.pas:16
 msgid "Unsupported (uncommon) image subformat or not a valid image."
 msgstr ""
+"Kuvan tyyppiä ei tueta tai se on epätavallinen tai se ei ole kelvollinen "
+"kuvatiedostona."
 
 #. Programmer's name for it: rsJgbUnsupportedColorDepth
 #: JgbImgViewResources.pas:17
 msgid "Image uses unsupported (uncommon) color depth."
-msgstr ""
+msgstr "Kuvasyvyyttä ei tueta tai se on epätavallinen."
 
 #. Programmer's name for it: rsJgbCorruptImage
 #: JgbImgViewResources.pas:18
 msgid "This image is corrupt. It can't be read."
-msgstr ""
+msgstr "Kuva on vioittunut ja lukukelvoton."
 
 #. Programmer's name for it: rsJgbEReadError
 #: JgbImgViewResources.pas:20
 msgid "EReadError: most likely this is an invalid image or uncommon image type"
 msgstr ""
+"EReadError: todennäköisimmin tämä on kelvoton kuvatiedostona tai se on "
+"tyypiltään epätavallinen"
 
 #. Programmer's name for it: rsJgbCantAllocateDIB
 #: JgbImgViewResources.pas:22
 msgid "Can't load image most likely due to not enough available free memory."
 msgstr ""
+"Kuvan lataus ei onnistu ilmeisimmin, koska vapaata muistia ei ole tarpeeksi."
 
 #. Programmer's name for it: rsJgbCantLoadImage
 #: JgbImgViewResources.pas:24
 msgid "Can't load image probably due to running out of resources."
-msgstr ""
+msgstr "Kuvan lataus ei onnistu ilmeisimmin, koska resurssit loppuvat."
 
 #. Programmer's name for it: rsJgbInvalidPNG
 #: JgbImgViewResources.pas:25
 #, object-pascal-format
 msgid "Invalid PNG image (%s)."
-msgstr ""
+msgstr "Kelvoton PNG kuva (%s)."
 
 #. Programmer's name for it: rsJgbInvalidJPEG
 #: JgbImgViewResources.pas:26
 #, object-pascal-format
 msgid "Invalid JPEG image (%s)."
-msgstr ""
+msgstr "Kelvoton JPEG kuva (%s)."
 
 msgid "Basic Latin"
 msgstr "Latinalainen, perus"
@@ -3567,259 +3607,259 @@ msgstr "Erikoismerkit"
 #. Programmer's name for it: RsClBlack
 #: JvResources.pas:2122
 msgid "Black"
-msgstr ""
+msgstr "Musta"
 
 #. Programmer's name for it: RsClMaroon
 #: JvResources.pas:2123
 msgid "Maroon"
-msgstr ""
+msgstr "Kastanjanruskea"
 
 #. Programmer's name for it: RsClNavy
 #: JvResources.pas:2126
 msgid "Navy blue"
-msgstr ""
+msgstr "Laivaston sininen"
 
 #. Programmer's name for it: RsClPurple
 #: JvResources.pas:2127
 msgid "Purple"
-msgstr ""
+msgstr "Sinipunainen"
 
 #. Programmer's name for it: RsClTeal
 #: JvResources.pas:2128
 msgid "Teal"
-msgstr ""
+msgstr "Sinivihreä"
 
 #. Programmer's name for it: RsClGray
 #: JvResources.pas:2129
 msgid "Gray"
-msgstr ""
+msgstr "Harmaa"
 
 #. Programmer's name for it: RsClSilver
 #: JvResources.pas:2130
 msgid "Silver"
-msgstr ""
+msgstr "Hopeinen"
 
 #. Programmer's name for it: RsClLime
 #: JvResources.pas:2132
 msgid "Lime"
-msgstr ""
+msgstr "Limen vihreä"
 
 #. Programmer's name for it: RsClFuchsia
 #: JvResources.pas:2135
 msgid "Fuchsia"
-msgstr ""
+msgstr "Fuksian punainen"
 
 #. Programmer's name for it: RsClAqua
 #: JvResources.pas:2136
 msgid "Aqua"
-msgstr ""
+msgstr "Vedenvärinen"
 
 #. Programmer's name for it: RsClWhite
 #: JvResources.pas:2137
 msgid "White"
-msgstr ""
+msgstr "Valkoinen"
 
 #. Programmer's name for it: RsClMoneyGreen
 #: JvResources.pas:2138
 msgid "Money green"
-msgstr ""
+msgstr "Setelin vihreä"
 
 #. Programmer's name for it: RsClSkyBlue
 #: JvResources.pas:2139
 msgid "Sky blue"
-msgstr ""
+msgstr "Taivaan sininen"
 
 #. Programmer's name for it: RsClCream
 #: JvResources.pas:2140
 msgid "Cream"
-msgstr ""
+msgstr "Kerma"
 
 #. Programmer's name for it: RsClMedGray
 #: JvResources.pas:2141
 msgid "Medium gray"
-msgstr ""
+msgstr "Keskiharmaa"
 
 #. Standrad colors
 #. Programmer's name for it: RsClBrown
 #: JvResources.pas:2144
 msgid "Brown"
-msgstr ""
+msgstr "Ruskea"
 
 #. Programmer's name for it: RsClOliveGreen
 #: JvResources.pas:2145
 msgid "Olive Green"
-msgstr ""
+msgstr "Oliivin vihreä"
 
 #. Programmer's name for it: RsClDarkGreen
 #: JvResources.pas:2146
 msgid "Dark Green"
-msgstr ""
+msgstr "Tumman vihreä"
 
 #. Programmer's name for it: RsClDarkTeal
 #: JvResources.pas:2147
 msgid "Dark Teal"
-msgstr ""
+msgstr "Tumman sinivihreä"
 
 #. Programmer's name for it: RsClDarkBlue
 #: JvResources.pas:2148
 msgid "Dark Blue"
-msgstr ""
+msgstr "Tumman sininen"
 
 #. Programmer's name for it: RsClIndigo
 #: JvResources.pas:2149
 msgid "Indigo"
-msgstr ""
+msgstr "Indigon sininen"
 
 #. Programmer's name for it: RsClGray80
 #: JvResources.pas:2150
 msgid "Gray 80%"
-msgstr ""
+msgstr "Harmaa 80%"
 
 #. Programmer's name for it: RsClDarkRed
 #: JvResources.pas:2152
 msgid "Dark Red"
-msgstr ""
+msgstr "Tumman punainen"
 
 #. Programmer's name for it: RsClOrange
 #: JvResources.pas:2153
 msgid "Orange"
-msgstr ""
+msgstr "Oranssi"
 
 #. Programmer's name for it: RsClDarkYellow
 #: JvResources.pas:2154
 msgid "Dark Yellow"
-msgstr ""
+msgstr "Tumman keltainen"
 
 #. Programmer's name for it: RsClBlueGray
 #: JvResources.pas:2155
 msgid "Blue Gray"
-msgstr ""
+msgstr "Siniharmaa"
 
 #. Programmer's name for it: RsClGray50
 #: JvResources.pas:2156
 msgid "Gray 50%"
-msgstr ""
+msgstr "Harmaa 50%"
 
 #. Programmer's name for it: RsClLightOrange
 #: JvResources.pas:2158
 msgid "Light Orange"
-msgstr ""
+msgstr "Vaalean oranssi"
 
 #. Programmer's name for it: RsClSeaGreen
 #: JvResources.pas:2159
 msgid "Sea Green"
-msgstr ""
+msgstr "Meren vihreä"
 
 #. Programmer's name for it: RsClLightBlue
 #: JvResources.pas:2160
 msgid "Light Blue"
-msgstr ""
+msgstr "Vaalean sininen"
 
 #. Programmer's name for it: RsClViolet
 #: JvResources.pas:2161
 msgid "Violet"
-msgstr ""
+msgstr "Sinipunainen"
 
 #. Programmer's name for it: RsClGray40
 #: JvResources.pas:2162
 msgid "Gray 40%"
-msgstr ""
+msgstr "Harmaa 40%"
 
 #. Programmer's name for it: RsClPink
 #: JvResources.pas:2164
 msgid "Pink"
-msgstr ""
+msgstr "Vaalean punainen"
 
 #. Programmer's name for it: RsClGold
 #: JvResources.pas:2165
 msgid "Gold"
-msgstr ""
+msgstr "Kultainen"
 
 #. Programmer's name for it: RsClBrightGreen
 #: JvResources.pas:2166
 msgid "Bright Green"
-msgstr ""
+msgstr "Kirkkaan vihreä"
 
 #. Programmer's name for it: RsClTurquoise
 #: JvResources.pas:2167
 msgid "Turquoise"
-msgstr ""
+msgstr "Turkoosi"
 
 #. Programmer's name for it: RsClPlum
 #: JvResources.pas:2168
 msgid "Plum"
-msgstr ""
+msgstr "Luumu"
 
 #. Programmer's name for it: RsClGray25
 #: JvResources.pas:2169
 msgid "Gray 25%"
-msgstr ""
+msgstr "Harmaa 25%"
 
 #. Programmer's name for it: RsClRose
 #: JvResources.pas:2171
 msgid "Rose"
-msgstr ""
+msgstr "Ruusu"
 
 #. Programmer's name for it: RsClTan
 #: JvResources.pas:2172
 msgid "Tan"
-msgstr ""
+msgstr "Kellanruskea"
 
 #. Programmer's name for it: RsClLightYellow
 #: JvResources.pas:2173
 msgid "Light Yellow"
-msgstr ""
+msgstr "Vaalean keltainen"
 
 #. Programmer's name for it: RsClLightGreen
 #: JvResources.pas:2174
 msgid "Light Green"
-msgstr ""
+msgstr "Vaalean vihreä"
 
 #. Programmer's name for it: RsClLightTurquoise
 #: JvResources.pas:2175
 msgid "Light Turquoise"
-msgstr ""
+msgstr "Vaalean turkoosi"
 
 #. Programmer's name for it: RsClPaleBlue
 #: JvResources.pas:2176
 msgid "Pale Blue"
-msgstr ""
+msgstr "Kalpean sininen"
 
 #. Programmer's name for it: RsClLavender
 #: JvResources.pas:2177
 msgid "Lavender"
-msgstr ""
+msgstr "Vaalean purppura"
 
 #. Programmer's name for it: RsRGB_Red
 #. Programmer's name for it: RsClRed
 #: JvResources.pas:872 JvResources.pas:2131
 msgid "Red"
-msgstr ""
+msgstr "Punainen"
 
 #. Programmer's name for it: RsRGB_Green
 #. Programmer's name for it: RsClGreen
 #: JvResources.pas:873 JvResources.pas:2124
 msgid "Green"
-msgstr ""
+msgstr "Vihreä"
 
 #. Programmer's name for it: RsRGB_Blue
 #. Programmer's name for it: RsClBlue
 #: JvResources.pas:874 JvResources.pas:2134
 msgid "Blue"
-msgstr ""
+msgstr "Sininen"
 
 msgid "Default"
 msgstr "Oletus"
 
 # This is apparently how it's used in shortcut keys
 msgid "Shift+"
-msgstr ""
+msgstr "Shift+"
 
 msgid "Ctrl+"
-msgstr ""
+msgstr "Ctrl+"
 
 msgid "Alt+"
-msgstr ""
+msgstr "Alt+"
 
 #, fuzzy
 #~ msgid "pdf"
