@@ -1,11 +1,11 @@
 # input file: Nederlands.lng
 # original "Last-Translator: Jacob Boerema\n"
-# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2013, 2014, 2015, 2016, 2018.
+# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2013, 2014, 2015, 2016, 2018, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.6.0\n"
 "POT-Creation-Date: 2018-07-05 00:22\n"
-"PO-Revision-Date: 2018-07-05 00:23+0200\n"
+"PO-Revision-Date: 2019-09-04 13:22-0400\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
 "Language: nl\n"
@@ -3060,7 +3060,7 @@ msgstr "Kan het programma niet sluiten"
 #. Programmer's name for it: MsgTimerPaused
 #: TransTranslatableStrings.pas:156
 msgid "(paused)"
-msgstr "(gepauseerd)"
+msgstr "(gepauzeerd)"
 
 #. Programmer's name for it: rsProject
 #: TransTranslatableStrings.pas:157
