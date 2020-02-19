@@ -1,11 +1,11 @@
 # input file: Nederlands.lng
 # original "Last-Translator: Jacob Boerema\n"
-# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2013, 2014, 2015, 2016, 2018, 2019.
+# Jacob Boerema <transcript-translation@jacobboerema.nl>, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.6.0\n"
-"POT-Creation-Date: 2018-07-05 00:22\n"
-"PO-Revision-Date: 2019-09-04 13:22-0400\n"
+"POT-Creation-Date: 2020-02-19 18:33\n"
+"PO-Revision-Date: 2020-02-19 18:36-0400\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
 "Language: nl\n"
@@ -47,31 +47,31 @@ msgstr "Sluit extra afbeeldings venster"
 #. Programmer's name for it: MsgImage
 #: JgbImageViewerForm.dfm:267 JgbImageViewerForm.dfm:273
 #: JgbImageViewerForm.dfm:279 JgbImageViewerForm.dfm:285 TransOpties.dfm:319
-#: TransTranslatableStrings.pas:182
+#: TransTranslatableStrings.pas:184
 msgid "Image"
 msgstr "Foto"
 
 #. JgbViewerForm..ActionList..actRotateLeft..Caption
 #. MainForm..ActionList1..RotateLeftActn..Caption
-#: JgbImageViewerForm.dfm:268 TranscriptMain.dfm:1543
+#: JgbImageViewerForm.dfm:268 TranscriptMain.dfm:1539
 msgid "Rotate &left"
 msgstr "&Linksom draaien"
 
 #. JgbViewerForm..ActionList..actRotateRight..Caption
 #. MainForm..ActionList1..RotateRightActn..Caption
-#: JgbImageViewerForm.dfm:274 TranscriptMain.dfm:1549
+#: JgbImageViewerForm.dfm:274 TranscriptMain.dfm:1545
 msgid "Rotate &right"
 msgstr "&Rechtsom draaien"
 
 #. JgbViewerForm..ActionList..actNextImage..Caption
 #. MainForm..ActionList1..NextPictActn..Caption
-#: JgbImageViewerForm.dfm:280 TranscriptMain.dfm:1072
+#: JgbImageViewerForm.dfm:280 TranscriptMain.dfm:1068
 msgid "&Next image"
 msgstr "&Volgende foto"
 
 #. JgbViewerForm..ActionList..actPrevImage..Caption
 #. MainForm..ActionList1..PrevPictActn..Caption
-#: JgbImageViewerForm.dfm:286 TranscriptMain.dfm:1024
+#: JgbImageViewerForm.dfm:286 TranscriptMain.dfm:1020
 msgid "&Previous image"
 msgstr "V&orige foto"
 
@@ -192,7 +192,7 @@ msgstr "&Invoegen"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..HelpBtn..Caption
 #. RtfTabsDialog..HelpBtn..Caption
-#: JgbSpecialCharsForm.dfm:161 TranscriptMain.dfm:2531
+#: JgbSpecialCharsForm.dfm:161 TranscriptMain.dfm:2527
 #: TransEditAutoCorrect.dfm:197 TransOpties.dfm:1377 TransPro.dfm:73
 #: RtfParagraphOptionsForm.dfm:165 RtfTabSettingsForm.dfm:67
 msgid "&Help"
@@ -234,9 +234,9 @@ msgstr "Website"
 #. TransAboutForm..JvPanel3..JvHotLink2..URL
 #. 16-1-2008 Website url
 #. Programmer's name for it: WebsiteUrl
-#: TransAbout.dfm:113 TransAbout.dfm:129 TransTranslatableStrings.pas:216
-msgid "http://www.jacobboerema.nl/en/Freeware.htm"
-msgstr "http://www.jacobboerema.nl/Transcript/Freeware.htm"
+#: TransAbout.dfm:113 TransAbout.dfm:129 TransTranslatableStrings.pas:218
+msgid "https://www.jacobboerema.nl/en/Freeware.htm"
+msgstr "https://www.jacobboerema.nl/Transcript/Freeware.htm"
 
 #. TransAboutForm..JvPanel1..StaticProgVersion..Caption
 #. Application.Title - verkorte versienummer (Transcript, of Transcript Pro)
@@ -264,18 +264,6 @@ msgstr "Dit programma gebruikt broncode en componenten van"
 #: TransAbout.dfm:372
 msgid "Jedi Visual Component Library (JVCL)"
 msgstr "Jedi Visual Component Library (JVCL)"
-
-#. TransAboutForm..tcBottom..BackPanel..JvHotLink3..Caption
-#. TransAboutForm..tcBottom..BackPanel..JvHotLink3..URL
-#: TransAbout.dfm:392 TransAbout.dfm:408
-msgid "http://jvcl.delphi-jedi.org/"
-msgstr "http://jvcl.delphi-jedi.org/"
-
-#. TransAboutForm..tcBottom..BackPanel..JclLink..Caption
-#. TransAboutForm..tcBottom..BackPanel..JclLink..URL
-#: TransAbout.dfm:419 TransAbout.dfm:435
-msgid "http://jcl.delphi-jedi.org/"
-msgstr "http://jcl.delphi-jedi.org/"
 
 #. TransAboutForm..tcBottom..BackPanel..lblJcl..Caption
 #: TransAbout.dfm:444
@@ -310,7 +298,7 @@ msgstr "Kies een nummering stijl"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. MainForm..CoolBar..EditBar..NummeringBtn..Caption
 #. MainForm..ActionList1..NoNumberingActn..Caption
-#: TranscriptMain.dfm:308 TranscriptMain.dfm:1513
+#: TranscriptMain.dfm:308 TranscriptMain.dfm:1509
 msgid "None"
 msgstr "Geen"
 
@@ -470,257 +458,257 @@ msgid "Word Bar align"
 msgstr "Lijn"
 
 #. MainForm..ActionList1..PrevPictActn..Hint
-#: TranscriptMain.dfm:1026
+#: TranscriptMain.dfm:1022
 msgid "Go to the previous image"
 msgstr "Ga naar de vorige foto"
 
 #. MainForm..ActionList1..FileOpenActn..Caption
-#: TranscriptMain.dfm:1033
+#: TranscriptMain.dfm:1029
 msgid "&Open rtf textfile..."
 msgstr "&Open rtf tekstbestand..."
 
 #. MainForm..ActionList1..FileOpenActn..Hint
-#: TranscriptMain.dfm:1034
+#: TranscriptMain.dfm:1030
 msgid "Open textfile in rich text format"
 msgstr "Open een tekstbestand van het rtf type"
 
 #. MainForm..ActionList1..FileSaveActn..Caption
-#: TranscriptMain.dfm:1041
+#: TranscriptMain.dfm:1037
 msgid "&Save rtf textfile"
 msgstr "Op&slaan rtf tekstbestand"
 
 #. MainForm..ActionList1..FileSaveActn..Hint
-#: TranscriptMain.dfm:1042
+#: TranscriptMain.dfm:1038
 msgid "Save a textfile in rich text format"
 msgstr "Opslaan tekstbestand van het rtf type"
 
 #. MainForm..ActionList1..FileCloseActn..Caption
-#: TranscriptMain.dfm:1049
+#: TranscriptMain.dfm:1045
 msgid "E&xit"
 msgstr "&Afsluiten"
 
 #. MainForm..ActionList1..FileCloseActn..Hint
-#: TranscriptMain.dfm:1050
+#: TranscriptMain.dfm:1046
 msgid "Exit program (Alt+F4)"
 msgstr "Programma afsluiten (Alt+F4)"
 
 #. MainForm..ActionList1..OptionsActn..Caption
-#: TranscriptMain.dfm:1056
+#: TranscriptMain.dfm:1052
 msgid "&Options..."
 msgstr "Op&ties..."
 
 #. MainForm..ActionList1..OptionsActn..Hint
 #. OptionsForm..Caption
-#: TranscriptMain.dfm:1057 TransOpties.dfm:8
+#: TranscriptMain.dfm:1053 TransOpties.dfm:8
 msgid "Options"
 msgstr "Opties"
 
 #. MainForm..ActionList1..FindTextActn..Caption
-#: TranscriptMain.dfm:1064
+#: TranscriptMain.dfm:1060
 msgid "&Find..."
 msgstr "&Zoeken..."
 
 #. MainForm..ActionList1..FindTextActn..Hint
-#: TranscriptMain.dfm:1065
+#: TranscriptMain.dfm:1061
 msgid "Find text"
 msgstr "Tekst zoeken"
 
 #. MainForm..ActionList1..NextPictActn..Hint
-#: TranscriptMain.dfm:1074
+#: TranscriptMain.dfm:1070
 msgid "Go to the next image"
 msgstr "Ga naar de volgende foto"
 
 #. MainForm..ActionList1..FileSaveAsActn..Caption
-#: TranscriptMain.dfm:1081
+#: TranscriptMain.dfm:1077
 msgid "Save &as..."
 msgstr "Ops&laan als..."
 
 #. MainForm..ActionList1..FileSaveAsActn..Hint
-#: TranscriptMain.dfm:1082
+#: TranscriptMain.dfm:1078
 msgid "Save rtf textfile under another name"
 msgstr "Rtf tekstbestand opslaan onder een andere naam"
 
 #. MainForm..ActionList1..FileNewActn..Caption
-#: TranscriptMain.dfm:1089
+#: TranscriptMain.dfm:1085
 msgid "&New rtf textfile"
 msgstr "&Nieuw rtf tekstbestand"
 
 #. MainForm..ActionList1..FileNewActn..Hint
-#: TranscriptMain.dfm:1090
+#: TranscriptMain.dfm:1086
 msgid "Create new rtf textfile"
 msgstr "Nieuw rtf tekstbestand aanmaken"
 
 #. MainForm..ActionList1..ReplaceTextActn..Caption
-#: TranscriptMain.dfm:1097
+#: TranscriptMain.dfm:1093
 msgid "R&eplace..."
 msgstr "Ve&rvangen..."
 
 #. MainForm..ActionList1..ReplaceTextActn..Hint
-#: TranscriptMain.dfm:1098
+#: TranscriptMain.dfm:1094
 msgid "Replace text"
 msgstr "Tekst zoeken en vervangen door andere tekst"
 
 #. MainForm..ActionList1..FindNextActn..Caption
-#: TranscriptMain.dfm:1105
+#: TranscriptMain.dfm:1101
 msgid "Find ne&xt"
 msgstr "Vo&lgende zoeken"
 
 #. MainForm..ActionList1..FindNextActn..Hint
-#: TranscriptMain.dfm:1106
+#: TranscriptMain.dfm:1102
 msgid "Find next occurence of text"
 msgstr "Volgende zoeken"
 
 #. MainForm..ActionList1..HelpShowHelpActn..Caption
-#: TranscriptMain.dfm:1113
+#: TranscriptMain.dfm:1109
 msgid "&Help information"
 msgstr "&Help informatie"
 
 #. MainForm..ActionList1..HelpShowHelpActn..Hint
-#: TranscriptMain.dfm:1115
+#: TranscriptMain.dfm:1111
 msgid "Show help information"
 msgstr "Bekijk het help bestand"
 
 #. MainForm..ActionList1..HelpAboutActn..Caption
-#: TranscriptMain.dfm:1122
+#: TranscriptMain.dfm:1118
 msgid "&About..."
 msgstr "&Info..."
 
 #. MainForm..ActionList1..HelpAboutActn..Hint
-#: TranscriptMain.dfm:1123
+#: TranscriptMain.dfm:1119
 msgid "Information about this program"
 msgstr "Informatie over dit programma"
 
 #. MainForm..ActionList1..DefaultFontActn..Caption
-#: TranscriptMain.dfm:1129
+#: TranscriptMain.dfm:1125
 msgid "Default &font..."
 msgstr "Standaard &lettertype..."
 
 #. MainForm..ActionList1..DefaultFontActn..Hint
-#: TranscriptMain.dfm:1130
+#: TranscriptMain.dfm:1126
 msgid "Change default font"
 msgstr "Standaard lettertype wijzigen"
 
 #. MainForm..ActionList1..ToggleBoldActn..Caption
-#: TranscriptMain.dfm:1137
+#: TranscriptMain.dfm:1133
 msgid "&Bold"
 msgstr "&Vet"
 
 #. MainForm..ActionList1..ToggleBoldActn..Hint
-#: TranscriptMain.dfm:1138
+#: TranscriptMain.dfm:1134
 msgid "Bold"
 msgstr "Vet"
 
 #. MainForm..ActionList1..ToggleItalicActn..Caption
-#: TranscriptMain.dfm:1145
+#: TranscriptMain.dfm:1141
 msgid "&Italic"
 msgstr "&Cursief"
 
 #. MainForm..ActionList1..ToggleItalicActn..Hint
-#: TranscriptMain.dfm:1146
+#: TranscriptMain.dfm:1142
 msgid "Italic"
 msgstr "Cursief"
 
 #. MainForm..ActionList1..ToggleUnderlineActn..Caption
-#: TranscriptMain.dfm:1153
+#: TranscriptMain.dfm:1149
 msgid "&Underline"
 msgstr "&Onderstrepen"
 
 #. MainForm..ActionList1..ToggleUnderlineActn..Hint
-#: TranscriptMain.dfm:1154
+#: TranscriptMain.dfm:1150
 msgid "Underline"
 msgstr "Onderstrepen"
 
 #. MainForm..ActionList1..PictOpenActn..Caption
-#: TranscriptMain.dfm:1161
+#: TranscriptMain.dfm:1157
 msgid "Open &imagefile..."
 msgstr "Open &fotobestand..."
 
 #. MainForm..ActionList1..PictOpenActn..Hint
-#: TranscriptMain.dfm:1162
+#: TranscriptMain.dfm:1158
 msgid "Open imagefile to transcribe"
 msgstr "Open een fotobestand om te transcriberen"
 
 #. MainForm..ActionList1..CurFontActn..Caption
-#: TranscriptMain.dfm:1169
+#: TranscriptMain.dfm:1165
 msgid "&Font..."
 msgstr "Lettert&ype..."
 
 #. MainForm..ActionList1..CurFontActn..Hint
-#: TranscriptMain.dfm:1170
+#: TranscriptMain.dfm:1166
 msgid "Change font"
 msgstr "Lettertype wijzigen"
 
 #. MainForm..ActionList1..EditUndo1..Caption
-#: TranscriptMain.dfm:1177
+#: TranscriptMain.dfm:1173
 msgid "&Undo"
 msgstr "&Ongedaan maken"
 
 #. MainForm..ActionList1..EditUndo1..Hint
-#: TranscriptMain.dfm:1178
+#: TranscriptMain.dfm:1174
 msgid "Undo|Reverts the last action"
 msgstr "Laatste tekstbewerking ongedaan maken"
 
 #. MainForm..ActionList1..EditCut1..Caption
-#: TranscriptMain.dfm:1185
+#: TranscriptMain.dfm:1181
 msgid "Cu&t"
 msgstr "K&nippen"
 
 #. MainForm..ActionList1..EditCut1..Hint
-#: TranscriptMain.dfm:1186
+#: TranscriptMain.dfm:1182
 msgid "Cut|Cuts the selection and puts it on the Clipboard"
 msgstr "Verwijder de selectie en plaats het op het klembord"
 
 #. MainForm..ActionList1..EditCopy1..Caption
 #. MainForm..ActionList1..actEditCopy..Caption
-#: TranscriptMain.dfm:1192 TranscriptMain.dfm:2003
+#: TranscriptMain.dfm:1188 TranscriptMain.dfm:1999
 msgid "&Copy"
 msgstr "&Kopiëren"
 
 #. MainForm..ActionList1..EditCopy1..Hint
 #. MainForm..ActionList1..actEditCopy..Hint
-#: TranscriptMain.dfm:1194 TranscriptMain.dfm:2004
+#: TranscriptMain.dfm:1190 TranscriptMain.dfm:2000
 msgid "Copy|Copies the selection and puts it on the Clipboard"
 msgstr "Kopieer de selectie naar het klembord"
 
 #. MainForm..ActionList1..EditPaste1..Caption
 #. MainForm..ActionList1..actEditPaste..Caption
-#: TranscriptMain.dfm:1201 TranscriptMain.dfm:1890
+#: TranscriptMain.dfm:1197 TranscriptMain.dfm:1886
 msgid "&Paste"
 msgstr "&Plakken"
 
 #. MainForm..ActionList1..EditPaste1..Hint
 #. MainForm..ActionList1..actEditPaste..Hint
-#: TranscriptMain.dfm:1203 TranscriptMain.dfm:1891
+#: TranscriptMain.dfm:1199 TranscriptMain.dfm:1887
 msgid "Paste|Inserts Clipboard contents"
 msgstr "Plak de inhoud van het klembord in de tekst"
 
 #. MainForm..ActionList1..EditSelectAll1..Caption
-#: TranscriptMain.dfm:1210
+#: TranscriptMain.dfm:1206
 msgid "Select &All"
 msgstr "&Alles selecteren"
 
 #. MainForm..ActionList1..EditSelectAll1..Hint
-#: TranscriptMain.dfm:1211
+#: TranscriptMain.dfm:1207
 msgid "Select All|Selects the entire document"
 msgstr "Selecteer de tekst van het gehele document"
 
 #. MainForm..ActionList1..ToggleStrikeoutActn..Caption
-#: TranscriptMain.dfm:1217
+#: TranscriptMain.dfm:1213
 msgid "&Strikeout"
 msgstr "&Doorhalen"
 
 #. MainForm..ActionList1..ToggleStrikeoutActn..Hint
-#: TranscriptMain.dfm:1218
+#: TranscriptMain.dfm:1214
 msgid "Strikeout"
 msgstr "Doorhalen"
 
 #. MainForm..ActionList1..ToggleBulletsActn..Caption
-#: TranscriptMain.dfm:1225
+#: TranscriptMain.dfm:1221
 msgid "Bullets"
 msgstr "Opsommingsteken"
 
 #. MainForm..ActionList1..ToggleBulletsActn....Hint
-#: TranscriptMain.dfm:1228
+#: TranscriptMain.dfm:1224
 msgid ""
 "Insert a bullet on the current line (cycle through the bullet styles with "
 "Ctrl+Shift+L)"
@@ -729,224 +717,224 @@ msgstr ""
 "opsommingsstijlen met Ctrl+Shift+L)"
 
 #. MainForm..ActionList1..AlignLeftActn..Caption
-#: TranscriptMain.dfm:1234
+#: TranscriptMain.dfm:1230
 msgid "Align &Left"
 msgstr "&Links uitlijnen"
 
 #. MainForm..ActionList1..AlignLeftActn..Hint
-#: TranscriptMain.dfm:1236
+#: TranscriptMain.dfm:1232
 msgid "Align Left|Aligns text at the left indent"
 msgstr "Lijn de tekst links uit"
 
 #. MainForm..ActionList1..AlignRightActn..Caption
-#: TranscriptMain.dfm:1242
+#: TranscriptMain.dfm:1238
 msgid "Align &Right"
 msgstr "&Rechts uitlijnen"
 
 #. MainForm..ActionList1..AlignRightActn..Hint
-#: TranscriptMain.dfm:1244
+#: TranscriptMain.dfm:1240
 msgid "Align Right|Aligns text at the right indent"
 msgstr "Lijn de tekst rechts uit"
 
 #. MainForm..ActionList1..AlignCenterActn..Caption
-#: TranscriptMain.dfm:1250
+#: TranscriptMain.dfm:1246
 msgid "&Center"
 msgstr "&Centreren"
 
 #. MainForm..ActionList1..AlignCenterActn..Hint
-#: TranscriptMain.dfm:1252
+#: TranscriptMain.dfm:1248
 msgid "Center|Centers text between margins"
 msgstr "Centreer de tekst tussen de marges"
 
 #. MainForm..ActionList1..ParaOptionsActn..Caption
-#: TranscriptMain.dfm:1258
+#: TranscriptMain.dfm:1254
 msgid "&Paragraph..."
 msgstr "Alin&ea..."
 
 #. MainForm..ActionList1..ParaOptionsActn..Hint
-#: TranscriptMain.dfm:1259
+#: TranscriptMain.dfm:1255
 msgid "Paragraph options"
 msgstr "Alinea opties"
 
 #. MainForm..ActionList1..AlignJustifyActn..Caption
-#: TranscriptMain.dfm:1266
+#: TranscriptMain.dfm:1262
 msgid "&Justify"
 msgstr "Volledig &uitlijnen"
 
 #. MainForm..ActionList1..AlignJustifyActn..Hint
-#: TranscriptMain.dfm:1268
+#: TranscriptMain.dfm:1264
 msgid "Justify: Justifies text between left and right margins"
 msgstr "De tekst uitlijnen tussen de linker en rechter marges"
 
 #. MainForm..ActionList1..EditDelete1..Caption
 #. EditAutoCorrectionsForm..btnDelete..Caption
-#: TranscriptMain.dfm:1274 TransEditAutoCorrect.dfm:279
+#: TranscriptMain.dfm:1270 TransEditAutoCorrect.dfm:279
 msgid "&Delete"
 msgstr "&Verwijderen"
 
 #. MainForm..ActionList1..EditDelete1..Hint
-#: TranscriptMain.dfm:1275
+#: TranscriptMain.dfm:1271
 msgid "Delete|Erases the selection"
 msgstr "Verwijder de geselecteerde tekst"
 
 #. MainForm..ActionList1..EditRedoActn..Caption
-#: TranscriptMain.dfm:1280
+#: TranscriptMain.dfm:1276
 msgid "&Redo"
 msgstr "Opnieu&w"
 
 #. MainForm..ActionList1..EditRedoActn..Hint
-#: TranscriptMain.dfm:1281
+#: TranscriptMain.dfm:1277
 msgid "Redo|Reverts the last undo"
 msgstr "Een ongedaan gemaakte wijziging weer terug zetten"
 
 #. MainForm..ActionList1..TabSettingsActn..Caption
-#: TranscriptMain.dfm:1289
+#: TranscriptMain.dfm:1285
 msgid "&Tabs..."
 msgstr "&Tabs..."
 
 #. MainForm..ActionList1..TabSettingsActn..Hint
-#: TranscriptMain.dfm:1290
+#: TranscriptMain.dfm:1286
 msgid "Tab settings"
 msgstr "Tab instellingen"
 
 #. MainForm..ActionList1..GetTwainImage..Caption
-#: TranscriptMain.dfm:1302
+#: TranscriptMain.dfm:1298
 msgid "Ac&quire image..."
 msgstr "Foto scannen..."
 
 #. MainForm..ActionList1..GetTwainSource..Caption
-#: TranscriptMain.dfm:1308
+#: TranscriptMain.dfm:1304
 msgid "Select Twain source..."
 msgstr "Selecteer Twain apparaat..."
 
 #. MainForm..ActionList1..SuperScriptActn..Caption
-#: TranscriptMain.dfm:1471
+#: TranscriptMain.dfm:1467
 msgid "Superscript"
 msgstr "Superscript"
 
 #. MainForm..ActionList1..SuperScriptActn..Hint
-#: TranscriptMain.dfm:1472
+#: TranscriptMain.dfm:1468
 msgid "Toggle superscript"
 msgstr "Superscript aan/uit"
 
 #. MainForm..ActionList1..SubscriptActn..Caption
-#: TranscriptMain.dfm:1478
+#: TranscriptMain.dfm:1474
 msgid "Subscript"
 msgstr "Subscript"
 
 #. MainForm..ActionList1..SubscriptActn..Hint
-#: TranscriptMain.dfm:1479
+#: TranscriptMain.dfm:1475
 msgid "Toggle subscript"
 msgstr "Subscript aan/uit"
 
 #. MainForm..ActionList1..ImportFileActn..Caption
-#: TranscriptMain.dfm:1485
+#: TranscriptMain.dfm:1481
 msgid "Import textfile..."
 msgstr "Importeer tekstbestand..."
 
 #. MainForm..ActionList1..ImportFileActn....Hint
-#: TranscriptMain.dfm:1488
+#: TranscriptMain.dfm:1484
 msgid "Import a textfile using the Microsoft Office import/export filters"
 msgstr ""
 "Importeer een tekstbestand met behulp van de Microsoft Office import/export "
 "filters"
 
 #. MainForm..ActionList1..ExportFileActn..Caption
-#: TranscriptMain.dfm:1494
+#: TranscriptMain.dfm:1490
 msgid "Export textfile..."
 msgstr "Exporteer tekstbestand..."
 
 #. MainForm..ActionList1..ExportFileActn....Hint
-#: TranscriptMain.dfm:1497
+#: TranscriptMain.dfm:1493
 msgid "Export a textfile using the Microsoft Office import/export filters"
 msgstr ""
 "Exporteer een tekstbestand met behulp van de Microsoft Office import/export "
 "filters"
 
 #. MainForm..ActionList1..InvertPictActn..Caption
-#: TranscriptMain.dfm:1533
+#: TranscriptMain.dfm:1529
 msgid "&Inverted colors"
 msgstr "O&mgekeerde kleuren"
 
 #. MainForm..ActionList1..GrayscalePictActn..Caption
-#: TranscriptMain.dfm:1538
+#: TranscriptMain.dfm:1534
 msgid "&Greyscale image"
 msgstr "&Grijswaarden foto"
 
 #. MainForm..ActionList1..Rot90Actn..Caption
-#: TranscriptMain.dfm:1555
+#: TranscriptMain.dfm:1551
 msgid "Rotate 90°"
 msgstr "90° draaien"
 
 #. MainForm..ActionList1..Rot180Actn..Caption
-#: TranscriptMain.dfm:1561
+#: TranscriptMain.dfm:1557
 msgid "Rotate 180°"
 msgstr "180° draaien"
 
 #. MainForm..ActionList1..Rot270Actn..Caption
-#: TranscriptMain.dfm:1567
+#: TranscriptMain.dfm:1563
 msgid "Rotate 270°"
 msgstr "270° draaien"
 
 #. MainForm..ActionList1..NoRotationActn..Caption
-#: TranscriptMain.dfm:1573
+#: TranscriptMain.dfm:1569
 msgid "No Rotation"
 msgstr "Originele stand"
 
 #. MainForm..ActionList1..OriginalImageActn..Caption
-#: TranscriptMain.dfm:1579
+#: TranscriptMain.dfm:1575
 msgid "Original image"
 msgstr "Originele foto"
 
 #. MainForm..ActionList1..TopOfRightPageActn..Caption
-#: TranscriptMain.dfm:1591
+#: TranscriptMain.dfm:1587
 msgid "Top of right page"
 msgstr "Top rechter pagina"
 
 #. MainForm..ActionList1..TopOfRightPageActn..Hint
-#: TranscriptMain.dfm:1592
+#: TranscriptMain.dfm:1588
 msgid "Go to the top of the right page on the image"
 msgstr "Ga naar de bovenkant van de rechterpagina op de foto"
 
 #. MainForm..ActionList1..TopOfLeftPageActn..Caption
-#: TranscriptMain.dfm:1598
+#: TranscriptMain.dfm:1594
 msgid "Top of left page"
 msgstr "Top linker pagina"
 
 #. MainForm..ActionList1..TopOfLeftPageActn..Hint
-#: TranscriptMain.dfm:1599
+#: TranscriptMain.dfm:1595
 msgid "Go to the top of the left page on the image"
 msgstr "Ga naar de bovenkant van de linkerpagina op de foto"
 
 #. MainForm..ActionList1..LeftPageActn..Caption
 #. MainForm..ActionList1..actImgLeftPage..Caption
-#: TranscriptMain.dfm:1605 TranscriptMain.dfm:1815
+#: TranscriptMain.dfm:1601 TranscriptMain.dfm:1811
 msgid "Left page"
 msgstr "Linker pagina"
 
 #. MainForm..ActionList1..LeftPageActn..Hint
-#: TranscriptMain.dfm:1606
+#: TranscriptMain.dfm:1602
 msgid "Go to the left page on the image"
 msgstr "Ga naar de linkerpagina op de foto"
 
 #. MainForm..ActionList1..RightPageActn..Caption
 #. MainForm..ActionList1..actImgRightPage..Caption
-#: TranscriptMain.dfm:1612 TranscriptMain.dfm:1840
+#: TranscriptMain.dfm:1608 TranscriptMain.dfm:1836
 msgid "Right page"
 msgstr "Rechter pagina"
 
 #. MainForm..ActionList1..RightPageActn..Hint
-#: TranscriptMain.dfm:1613
+#: TranscriptMain.dfm:1609
 msgid "Go to the right page on the image"
 msgstr "Ga naar de rechterpagina op de foto"
 
 #. MainForm..ActionList1..MaximizePictWin..Caption
-#: TranscriptMain.dfm:1619
+#: TranscriptMain.dfm:1615
 msgid "Maximize &image window"
 msgstr "Maximaliseer &foto venster"
 
 #. MainForm..ActionList1..MaximizePictWin....Hint
-#: TranscriptMain.dfm:1622
+#: TranscriptMain.dfm:1618
 msgid ""
 "Maximize the image window (editor will not be visible but you can still use "
 "it)"
@@ -955,151 +943,151 @@ msgstr ""
 "typen is nog steeds mogelijk)"
 
 #. MainForm..ActionList1..MaximizeEditWin..Caption
-#: TranscriptMain.dfm:1629
+#: TranscriptMain.dfm:1625
 msgid "Maximize &editor window"
 msgstr "Maximaliseer &tekst venster"
 
 #. MainForm..ActionList1..MaximizeEditWin..Hint
-#: TranscriptMain.dfm:1630
+#: TranscriptMain.dfm:1626
 msgid "Maximize the editor window (image window will not be visible)"
 msgstr ""
 "Maximaliseer het tekst venster zodat het foto venster niet meer zichtbaar is"
 
 #. MainForm..ActionList1..FileCloseImageFileActn..Caption
-#: TranscriptMain.dfm:1637
+#: TranscriptMain.dfm:1633
 msgid "&Close imagefile"
 msgstr "Sluit fotobestand"
 
 #. MainForm..ActionList1..FileCloseImageFileActn..Hint
-#: TranscriptMain.dfm:1638
+#: TranscriptMain.dfm:1634
 msgid "Close the current image file"
 msgstr "Sluit het huidige fotobestand"
 
 #. MainForm..ActionList1..FileCloseTextFileActn..Caption
-#: TranscriptMain.dfm:1644
+#: TranscriptMain.dfm:1640
 msgid "Close rtf &textfile"
 msgstr "Sluit rtf tekstbestand"
 
 #. MainForm..ActionList1..FileCloseTextFileActn..Hint
-#: TranscriptMain.dfm:1645
+#: TranscriptMain.dfm:1641
 msgid "Close the current rtf textfile (same as new rtf textfile)"
 msgstr "Sluit huidige rtf tekstbestand (hetzelfde als nieuw rtf tekstbestand)"
 
 #. MainForm..ActionList1..FullScreenActn..Caption
-#: TranscriptMain.dfm:1652
+#: TranscriptMain.dfm:1648
 msgid "&Full Screen"
 msgstr "&Volledig scherm"
 
 #. MainForm..ActionList1..RegisterActn..Caption
-#: TranscriptMain.dfm:1659
+#: TranscriptMain.dfm:1655
 msgid "&Register..."
 msgstr "&Registreren..."
 
 #. MainForm..ActionList1..InsertFilenamActn..Caption
-#: TranscriptMain.dfm:1665
+#: TranscriptMain.dfm:1661
 msgid "&Insert autotext"
 msgstr "Autotekst &invoegen"
 
 #. MainForm..ActionList1..NewProjectActn..Caption
-#: TranscriptMain.dfm:1674
+#: TranscriptMain.dfm:1670
 msgid "&New project..."
 msgstr "&Nieuw project..."
 
 #. MainForm..ActionList1..NewProjectActn..Hint
-#: TranscriptMain.dfm:1676
+#: TranscriptMain.dfm:1672
 msgid "Make a new project using the current settings"
 msgstr "Maak een nieuw project op basis van de huidige instellingen"
 
 #. MainForm..ActionList1..ManageProjectsActn..Caption
-#: TranscriptMain.dfm:1684
+#: TranscriptMain.dfm:1680
 msgid "&Manage projects..."
 msgstr "&Beheer projecten..."
 
 #. MainForm..ActionList1..ManageProjectsActn..Hint
-#: TranscriptMain.dfm:1686
+#: TranscriptMain.dfm:1682
 msgid "Manage projects (rename, delete, set sorted)"
 msgstr "Projecten beheer (hernoem, verwijder, sortering instellen)"
 
 #. MainForm..ActionList1..actBackgroundColorBtn..Hint
-#: TranscriptMain.dfm:1694
+#: TranscriptMain.dfm:1690
 msgid "Select backgroundcolor"
 msgstr "Kies achtergrondkleur"
 
 #. MainForm..ActionList1..actTextColorBtn..Hint
-#: TranscriptMain.dfm:1700
+#: TranscriptMain.dfm:1696
 msgid "Select textcolor"
 msgstr "Kies tekstkleur"
 
 #. MainForm..ActionList1..actIncreaseIndent..Caption
-#: TranscriptMain.dfm:1706
+#: TranscriptMain.dfm:1702
 msgid "Increase indentation"
 msgstr "Inspringen vergroten"
 
 #. MainForm..ActionList1..actIncreaseIndent..Hint
-#: TranscriptMain.dfm:1707
+#: TranscriptMain.dfm:1703
 msgid "Increase the indentation of this paragraph"
 msgstr "Vergroot de inspringing van deze alinea"
 
 #. MainForm..ActionList1..actDecreaseIndent..Caption
-#: TranscriptMain.dfm:1714
+#: TranscriptMain.dfm:1710
 msgid "Decrease indentation"
 msgstr "Inspringen verkleinen"
 
 #. MainForm..ActionList1..actDecreaseIndent..Hint
-#: TranscriptMain.dfm:1715
+#: TranscriptMain.dfm:1711
 msgid "Decrease the indentation of this paragraph"
 msgstr "Verklein de inspringing van deze alinea"
 
 #. MainForm..ActionList1..actShowEditorRuler..Caption
-#: TranscriptMain.dfm:1723
+#: TranscriptMain.dfm:1719
 msgid "Show/Hide Ruler"
 msgstr "Toon/verberg liniaal"
 
 #. MainForm..ActionList1..actDoubleUnderline..Caption
 #. MainForm..ActionList1..actDoubleUnderline..Hint
-#: TranscriptMain.dfm:1732 TranscriptMain.dfm:1733
+#: TranscriptMain.dfm:1728 TranscriptMain.dfm:1729
 msgid "Double Underline"
 msgstr "Dubbel onderstrepen"
 
 #. MainForm..ActionList1..actSharpen..Caption
-#: TranscriptMain.dfm:1739
+#: TranscriptMain.dfm:1735
 msgid "Sharpen"
 msgstr "Verscherpen"
 
 #. MainForm..ActionList1..actSharpen..Hint
-#: TranscriptMain.dfm:1740
+#: TranscriptMain.dfm:1736
 msgid "Sharpen image"
 msgstr "Afbeelding verscherpen (duidelijker proberen te maken)"
 
 #. MainForm..ActionList1..actAutoContrast..Caption
-#: TranscriptMain.dfm:1746
+#: TranscriptMain.dfm:1742
 msgid "Auto Contrast"
 msgstr "Auto Contrast"
 
 #. MainForm..ActionList1..actReloadAutoreplacements..Caption
-#: TranscriptMain.dfm:1757
+#: TranscriptMain.dfm:1753
 msgid "Reload autreplacements list"
 msgstr "Herlaad de autovervang lijst"
 
 #. MainForm..ActionList1..actZoomIn..Caption
 #. MainForm..ActionList1..actHighlighterZoomIn..Caption
-#: TranscriptMain.dfm:1764 TranscriptMain.dfm:2071
+#: TranscriptMain.dfm:1760 TranscriptMain.dfm:2067
 msgid "Zoom In"
 msgstr "Inzoomen"
 
 #. MainForm..ActionList1..actZoomOut..Caption
 #. MainForm..ActionList1..actHighlighterZoomOut..Caption
-#: TranscriptMain.dfm:1769 TranscriptMain.dfm:2076
+#: TranscriptMain.dfm:1765 TranscriptMain.dfm:2072
 msgid "Zoom Out"
 msgstr "Uitzoomen"
 
 #. MainForm..ActionList1..actToggleProjectTimer..Caption
-#: TranscriptMain.dfm:1774
+#: TranscriptMain.dfm:1770
 msgid "Start/pause project timer"
 msgstr "Start/pauseer project tijdmeting"
 
 #. MainForm..ActionList1..actToggleProjectTimer....Hint
-#: TranscriptMain.dfm:1778
+#: TranscriptMain.dfm:1774
 msgid ""
 "Start or pause the project timer which measures the time spent on this "
 "project"
@@ -1110,12 +1098,12 @@ msgstr ""
 #. MainForm..ActionList1..actStopProjectTimer..Caption
 #. 13-4-2007
 #. Programmer's name for it: MsgStopTimerCaption
-#: TranscriptMain.dfm:1785 TransTranslatableStrings.pas:143
+#: TranscriptMain.dfm:1781 TransTranslatableStrings.pas:143
 msgid "Stop project timer"
 msgstr "Stop project tijdmeting"
 
 #. MainForm..ActionList1..actStopProjectTimer....Hint
-#: TranscriptMain.dfm:1789
+#: TranscriptMain.dfm:1785
 msgid ""
 "This stops the project timer if it is running and resets the time spent "
 "working on this project to 0"
@@ -1124,325 +1112,325 @@ msgstr ""
 
 #. MainForm..ActionList1..actResetProjectTimer..Caption
 #. Programmer's name for it: MsgResetTimerCaption
-#: TranscriptMain.dfm:1796 TransTranslatableStrings.pas:144
+#: TranscriptMain.dfm:1792 TransTranslatableStrings.pas:144
 msgid "Reset project timer"
 msgstr "Herstart project tijdmeting"
 
 #. MainForm..ActionList1..actResetProjectTimer..Hint
-#: TranscriptMain.dfm:1798
+#: TranscriptMain.dfm:1794
 msgid "Resets the time spent working on this project to 0"
 msgstr "Zet de project tijdmeting terug op 0"
 
 #. MainForm..ActionList1..actImgSetHorLeftOffset..Caption
-#: TranscriptMain.dfm:1805
+#: TranscriptMain.dfm:1801
 msgid "Set horizontal offset for left pages"
 msgstr "Instellen horizontale positie linker pagina"
 
 #. MainForm..ActionList1..actImgSetHorRightOffset..Caption
-#: TranscriptMain.dfm:1810
+#: TranscriptMain.dfm:1806
 msgid "Set horizontal offset for right pages"
 msgstr "Instellen horizontale positie rechter pagina"
 
 #. MainForm..ActionList1..actImgSetVertOffset..Caption
-#: TranscriptMain.dfm:1820
+#: TranscriptMain.dfm:1816
 msgid "Set vertical offset"
 msgstr "Vertikale startpositie instellen"
 
 #. MainForm..ActionList1..actSetCenterImage..Caption
-#: TranscriptMain.dfm:1825
+#: TranscriptMain.dfm:1821
 msgid "Horizontal center image"
 msgstr "Afbeelding horizontaal centreren"
 
 #. MainForm..ActionList1..actSetHorOffsetAll..Caption
-#: TranscriptMain.dfm:1830
+#: TranscriptMain.dfm:1826
 msgid "Use same horizontal offset for all images"
 msgstr "Dezelfde horizontale positie voor alle afbeeldingen"
 
 #. MainForm..ActionList1..actSetHorOffsetLeftRight..Caption
-#: TranscriptMain.dfm:1835
+#: TranscriptMain.dfm:1831
 msgid "Use different horizontal offsets for left and right pages"
 msgstr "Verschillende posities voor linker en rechter pagina's"
 
 #. MainForm..ActionList1..actAutoTextDlg..Caption
-#: TranscriptMain.dfm:1845
+#: TranscriptMain.dfm:1841
 msgid "Edit autoreplacements list..."
 msgstr "Bewerk autovervangen lijst..."
 
 #. MainForm..ActionList1..actAddReplacement..Caption
-#: TranscriptMain.dfm:1853
+#: TranscriptMain.dfm:1849
 msgid "Add selection to replacements list..."
 msgstr "Selectie toevoegen aan autovervangen lijst..."
 
 #. MainForm..ActionList1..actDeletePdfImages..Caption
-#: TranscriptMain.dfm:1861
+#: TranscriptMain.dfm:1857
 msgid "Delete all extracted pdf images"
 msgstr "Verwijder alle uitgepakte pdf afbeeldingen"
 
 #. MainForm..ActionList1..actDeletePdfImages..Hint
-#: TranscriptMain.dfm:1863
+#: TranscriptMain.dfm:1859
 msgid "Deletes all images extracted from pdf in the current directory"
 msgstr ""
 "Verwijdert alle afbeeldingen in de huidige map die uit een pdf zijn gehaald "
 "(de pdf zelf wordt niet verwijderd)"
 
 #. MainForm..ActionList1..actPdf75dpi..Caption
-#: TranscriptMain.dfm:1869
+#: TranscriptMain.dfm:1865
 msgid "75 dpi"
 msgstr "75 dpi"
 
 #. MainForm..ActionList1..actPdf150dpi..Caption
-#: TranscriptMain.dfm:1876
+#: TranscriptMain.dfm:1872
 msgid "150 dpi"
 msgstr "150 dpi"
 
 #. MainForm..ActionList1..actPdf300dpi..Caption
-#: TranscriptMain.dfm:1883
+#: TranscriptMain.dfm:1879
 msgid "300 dpi"
 msgstr "300 dpi"
 
 #. MainForm..ActionList1..actEditPasteSpecial..Caption
-#: TranscriptMain.dfm:1899
+#: TranscriptMain.dfm:1895
 msgid "Paste special..."
 msgstr "Plakken speciaal..."
 
 #. MainForm..ActionList1..actToggleReadOnly..Caption
-#: TranscriptMain.dfm:1905
+#: TranscriptMain.dfm:1901
 msgid "Read Only"
 msgstr "Alleen lezen"
 
 #. MainForm..ActionList1..actGoToWebsite..Caption
-#: TranscriptMain.dfm:1910
+#: TranscriptMain.dfm:1906
 msgid "Open Transcript website..."
 msgstr "Open Transcript website..."
 
 #. MainForm..ActionList1..actResumeTimerWhenTyping..Caption
-#: TranscriptMain.dfm:1917
+#: TranscriptMain.dfm:1913
 msgid "Resume timer when typing"
 msgstr "Pauze opheffen zodra er getypt wordt"
 
 #. MainForm..ActionList1..actResumeTimerWhenTyping..Hint
-#: TranscriptMain.dfm:1919
+#: TranscriptMain.dfm:1915
 msgid "Resume manually paused timer when you start typing"
 msgstr "Pauze opheffen zodra er getypt wordt"
 
 #. MainForm..ActionList1..actStretchNearest..Caption
-#: TranscriptMain.dfm:1926
+#: TranscriptMain.dfm:1922
 msgid "Nearest (fastest but worst quality)"
 msgstr "Nearest (snelste maar slechtste kwaliteit)"
 
 #. MainForm..ActionList1..actStretchDraft..Caption
-#: TranscriptMain.dfm:1934
+#: TranscriptMain.dfm:1930
 msgid "Draft"
 msgstr "Ontwerp"
 
 #. MainForm..ActionList1..actStretchLinear..Caption
-#: TranscriptMain.dfm:1942
+#: TranscriptMain.dfm:1938
 msgid "Linear"
 msgstr "Lineair"
 
 #. MainForm..ActionList1..actStretchCosine..Caption
-#: TranscriptMain.dfm:1950
+#: TranscriptMain.dfm:1946
 msgid "Cosine"
 msgstr "Cosinus"
 
 #. MainForm..ActionList1..actStretchSpline..Caption
-#: TranscriptMain.dfm:1958
+#: TranscriptMain.dfm:1954
 msgid "Spline"
 msgstr "Spline"
 
 #. MainForm..ActionList1..actStretchLanczos..Caption
-#: TranscriptMain.dfm:1966
+#: TranscriptMain.dfm:1962
 msgid "Lanczos"
 msgstr "Lanczos"
 
 #. MainForm..ActionList1..actStretchMitchell..Caption
-#: TranscriptMain.dfm:1975
+#: TranscriptMain.dfm:1971
 msgid "Mitchell (slowest but best quality)"
 msgstr "Mitchell (langzaamste maar beste kwaliteit)"
 
 #. MainForm..ActionList1..actMoveMode..Caption
-#: TranscriptMain.dfm:1982
+#: TranscriptMain.dfm:1978
 msgid "Move image with mouse"
 msgstr "Verplaats foto met de muis"
 
 #. MainForm..ActionList1..actMoveMode..Hint
-#: TranscriptMain.dfm:1985
+#: TranscriptMain.dfm:1981
 msgid "Use mouse to move image"
 msgstr "Gebruik de muis om de foto te verplaatsen"
 
 #. MainForm..ActionList1..actSelectMode..Caption
-#: TranscriptMain.dfm:1993
+#: TranscriptMain.dfm:1989
 msgid "Select part of image with mouse"
 msgstr "Selecteer deel foto met de muis"
 
 #. MainForm..ActionList1..actSelectMode..Hint
-#: TranscriptMain.dfm:1996
+#: TranscriptMain.dfm:1992
 msgid "Use mouse to select part of the image"
 msgstr "Gebruik de muis om een deel van de foto te selecteren"
 
 #. MainForm..ActionList1..actPasteImgSelection..Caption
-#: TranscriptMain.dfm:2012
+#: TranscriptMain.dfm:2008
 msgid "Insert image selection"
 msgstr "Foto selectie invoegen"
 
 #. MainForm..ActionList1..actPasteImgSelection..Hint
-#: TranscriptMain.dfm:2014
+#: TranscriptMain.dfm:2010
 msgid "Insert selected portion of image into the editor"
 msgstr "Geselecteerde deel van afbeelding in tekstverwerker invoegen"
 
 #. MainForm..ActionList1..actCopySelectionToWindow..Caption
-#: TranscriptMain.dfm:2022
+#: TranscriptMain.dfm:2018
 msgid "Copy selection to separate window"
 msgstr "Kopieer selectie naar een eigen venster"
 
 #. MainForm..ActionList1..actSpecialCharsDlg..Caption
-#: TranscriptMain.dfm:2029
+#: TranscriptMain.dfm:2025
 msgid "Special characters..."
 msgstr "Speciale tekens..."
 
 #. MainForm..ActionList1..actToggleViewToolbars..Caption
-#: TranscriptMain.dfm:2036
+#: TranscriptMain.dfm:2032
 msgid "Show toolbars"
 msgstr "Toon menu en knoppenbalken"
 
 #. MainForm..ActionList1..actToggleWindowPositioning..Caption
-#: TranscriptMain.dfm:2043
+#: TranscriptMain.dfm:2039
 msgid "Windows side by side"
 msgstr "Vensters naast elkaar"
 
 #. MainForm..ActionList1..actShowImageRuler..Caption
-#: TranscriptMain.dfm:2050
+#: TranscriptMain.dfm:2046
 msgid "Show highlighter"
 msgstr "Toon foto markering"
 
 #. MainForm..ActionList1..actSetHighlighterStartOffset..Caption
-#: TranscriptMain.dfm:2056
+#: TranscriptMain.dfm:2052
 msgid "Set highlighter top offset"
 msgstr "Stel markering top positie in"
 
 #. MainForm..ActionList1..actResetZoom..Caption
-#: TranscriptMain.dfm:2061
+#: TranscriptMain.dfm:2057
 msgid "Reset to default zoom"
 msgstr "Herstel standaard zoom"
 
 #. MainForm..ActionList1..actResetBrightness..Caption
-#: TranscriptMain.dfm:2066
+#: TranscriptMain.dfm:2062
 msgid "Reset to default brightness"
 msgstr "Herstel standaard helderheid"
 
 #. MainForm..ActionList1..actHighlighterBrightnessInc..Caption
-#: TranscriptMain.dfm:2081
+#: TranscriptMain.dfm:2077
 msgid "Increase brightness"
 msgstr "Verhoog helderheid"
 
 #. MainForm..ActionList1..actHighlighterBrightnessDec..Caption
-#: TranscriptMain.dfm:2086
+#: TranscriptMain.dfm:2082
 msgid "Decrease brightness"
 msgstr "Verminder helderheid"
 
 #. MainForm..ActionList1..actCopyImage2Editor..Caption
-#: TranscriptMain.dfm:2091
+#: TranscriptMain.dfm:2087
 msgid "Insert image into editor"
 msgstr "Foto in tekstverwerker invoegen"
 
 #. MainForm..ActionList1..actCopyImage2Editor..Hint
-#: TranscriptMain.dfm:2093
+#: TranscriptMain.dfm:2089
 msgid "Inserts the current image into the editor"
 msgstr "De huidige foto in de tekstverwerker invoegen"
 
 #. MainForm..ActionList1..actViewExtraImageWin..Caption
-#: TranscriptMain.dfm:2100
+#: TranscriptMain.dfm:2096
 msgid "Extra image window"
 msgstr "Extra afbeeldings venster"
 
 #. MainForm..ActionList1..actGoToFacebook..Caption
-#: TranscriptMain.dfm:2105
+#: TranscriptMain.dfm:2101
 msgid "Open Transcript on Facebook..."
 msgstr "Open Transcript op Facebook..."
 
 #. MainForm..ActionList1..actPayPalBuyNow..Caption
-#: TranscriptMain.dfm:2111
+#: TranscriptMain.dfm:2107
 msgid "Buy Transcript Pro..."
 msgstr "Koop Transcript Pro..."
 
 #. MainForm..ActionList1..actCheckForUpdates..Caption
-#: TranscriptMain.dfm:2116
+#: TranscriptMain.dfm:2112
 msgid "Check for updates..."
 msgstr "Controleer op nieuwe versie..."
 
 #. MainForm..MainMenu..MM_Bestand..Caption
-#: TranscriptMain.dfm:2133
+#: TranscriptMain.dfm:2129
 msgid "&File"
 msgstr "&Bestand"
 
 #. MainForm..MainMenu..MM_Bestand..RecentFilesMenu..Caption
-#: TranscriptMain.dfm:2145
+#: TranscriptMain.dfm:2141
 msgid "&Reopen"
 msgstr "He&ropen"
 
 #. MainForm..MainMenu..MM_Bewerken..Caption
-#: TranscriptMain.dfm:2184
+#: TranscriptMain.dfm:2180
 msgid "&Edit"
 msgstr "B&ewerken"
 
 #. MainForm..MainMenu..Format1..Caption
-#: TranscriptMain.dfm:2236
+#: TranscriptMain.dfm:2232
 msgid "For&mat"
 msgstr "&Opmaak"
 
 #. MainForm..MainMenu..MM_View..Caption
-#: TranscriptMain.dfm:2300
+#: TranscriptMain.dfm:2296
 msgid "&View"
 msgstr "Beel&d"
 
 #. MainForm..MainMenu..MM_Navigatie..Caption
-#: TranscriptMain.dfm:2336
+#: TranscriptMain.dfm:2332
 msgid "&Image"
 msgstr "&Foto"
 
 #. MainForm..MainMenu..MM_Navigatie..Pdf1..Caption
 #. OptionsForm..JvPageControl..PdfTab..Caption
-#: TranscriptMain.dfm:2399 TransOpties.dfm:1240
+#: TranscriptMain.dfm:2395 TransOpties.dfm:1240
 msgid "Pdf"
 msgstr "Pdf"
 
 #. MainForm..MainMenu..MM_Navigatie..mnuStretchfilterwhenzoomedin..Caption
-#: TranscriptMain.dfm:2417
+#: TranscriptMain.dfm:2413
 msgid "Stretch filter when zoomed in"
 msgstr "Interpolatie filter bij inzoomen"
 
 #. MainForm..MainMenu..MM_Navigatie..mnuStretchfilterwhenzoomedout..Caption
-#: TranscriptMain.dfm:2449
+#: TranscriptMain.dfm:2445
 msgid "Stretch filter when zoomed out"
 msgstr "Interpolatie filter bij uitzoomen"
 
 #. MainForm..MainMenu..MM_Tools..Caption
-#: TranscriptMain.dfm:2482
+#: TranscriptMain.dfm:2478
 msgid "&Tools"
 msgstr "E&xtra"
 
 #. MainForm..EditPopup..Inserttext1..Caption
-#: TranscriptMain.dfm:2629
+#: TranscriptMain.dfm:2625
 msgid "&Insert quick text"
 msgstr "Tekstfragment &invoegen"
 
 #. MainForm..EditPopup..SetQuicktext..Caption
-#: TranscriptMain.dfm:2662
+#: TranscriptMain.dfm:2658
 msgid "S&et quick text"
 msgstr "Tekstfragment in&stellen"
 
 #. MainForm..pmImage..Copyselectiontowindow1....Hint
-#: TranscriptMain.dfm:5624
+#: TranscriptMain.dfm:5620
 msgid "Copies the selected portion of the image to a separate image window"
 msgstr "Kopieer de selectie naar een eigen venster"
 
 #. MainForm..pmImage..mnuPositioning..Caption
-#: TranscriptMain.dfm:5633
+#: TranscriptMain.dfm:5629
 msgid "Horizontal image positioning"
 msgstr "Horizontale startpositie afbeelding"
 
 #. MainForm..pmImage..mnuPositioning..Horizontalcenterimage1..Caption
-#: TranscriptMain.dfm:5636
+#: TranscriptMain.dfm:5632
 msgid "Center image"
 msgstr "Afbeelding centreren"
 
@@ -2425,7 +2413,7 @@ msgid "Description:"
 msgstr "Omschrijving:"
 
 #. Check if Transcript.ini needs converting. Exit in case of failure.
-#: Transcript.dpr:99
+#: Transcript.dpr:102
 msgid "Unexpected error converting ini file"
 msgstr "Onverwachte fout bij het converteren van het ini bestand"
 
@@ -2499,7 +2487,7 @@ msgstr ""
 "server off line."
 
 #. sqlite3 could not be found/loaded
-#: TranscriptMain.pas:1217
+#: TranscriptMain.pas:1220
 msgid ""
 "Could not load sqlite3.dll which is needed for autoreplacements.\n"
 "The zip of Transcript beta versions does not contain all needed files.\n"
@@ -2510,7 +2498,7 @@ msgstr ""
 "U behoort de beta te kopiëren over een normale Transcript installatie."
 
 #. Make sure first time question is only done once.
-#: TranscriptMain.pas:1501
+#: TranscriptMain.pas:1505
 msgid ""
 "Transcript can now automatically check for updates every 30 days. Note that "
 "this needs an internet connection.\n"
@@ -2523,11 +2511,11 @@ msgstr ""
 "opties (F11).\n"
 "Wilt u automatische update controle inschakelen?"
 
-#: TranscriptMain.pas:1502
+#: TranscriptMain.pas:1506
 msgid "Automatic update checking"
 msgstr "Automatische update controle"
 
-#: TranscriptMain.pas:1551
+#: TranscriptMain.pas:1555
 msgid ""
 "Couldn't make a backup. Your file was not saved! Possibly the old backup is "
 "in use by another program. Close it there and then try to save again."
@@ -2536,12 +2524,12 @@ msgstr ""
 "backup in gebruik door een ander programma. Sluit dat bestand daar eerst en "
 "probeer dan opnieuw te bewaren."
 
-#: TranscriptMain.pas:1552
+#: TranscriptMain.pas:1556
 msgid "Error making backup"
 msgstr "Fout bij het maken van een back-up"
 
 #. om te zorgen dat (Gewijzigd) uit caption wordt verwijderd!
-#: TranscriptMain.pas:1563
+#: TranscriptMain.pas:1567
 msgid ""
 "Couldn't Save file. Most likely it is in use by another program. Close it "
 "there and then try to save again."
@@ -2550,17 +2538,17 @@ msgstr ""
 "een ander programma. Sluit het bestand daar eerst en probeer dan opnieuw te "
 "bewaren."
 
-#: TranscriptMain.pas:1564
+#: TranscriptMain.pas:1568
 msgid "Error saving file"
 msgstr "Fout tijdens bewaren bestand"
 
 #. separate space so no need to translate it at end which could be forgotten
-#: TranscriptMain.pas:6518
+#: TranscriptMain.pas:6646
 msgid "width x height:"
 msgstr "breedte x hoogte:"
 
 #. Converts a pdf InputFile to images baes on OutputFileMask
-#: TransGhostScript.pas:476
+#: TransGhostScript.pas:480
 msgid "GhostScript conversion thread already running!"
 msgstr "GhostScript conversie thread is al bezig!"
 
@@ -3105,17 +3093,17 @@ msgstr ""
 #: TransTranslatableStrings.pas:174
 msgid ""
 "Ghostscript encountered an error.\n"
-"Most likely reasons are a write protected medium (cd/dvd/folder) or\n"
-"a pdf that does not allow extracting images.\n"
-"The first problem can be fixed by copying the pdf to a location\n"
-"that you can write to."
+"Most likely reasons are a write protected medium (cd/dvd/folder) or a pdf "
+"that does not allow extracting images.\n"
+"The first problem can be fixed by copying the pdf to a location that you can "
+"write to."
 msgstr ""
 "Fout in Ghostscript.\n"
-"De meest voorkomende redenen zijn het niet kunnen schrijven naar een\n"
-"medium (cd/dvd/map) of een pdf bestand die het niet toestaat\n"
+"De meest voorkomende redenen zijn het niet kunnen schrijven naar een medium "
+"(cd/dvd/map) of een pdf bestand die het niet toestaat\n"
 "dat de afbeeldingen worden gekopieerd.\n"
-"Het eerste probleem kan opgelost worden door de pdf bestanden te\n"
-"kopiëren naar een lokatie waar wel naar toe geschreven kan worden."
+"Het eerste probleem kan opgelost worden door de pdf bestanden te kopiëren "
+"naar een locatie waar wel naar toe geschreven kan worden."
 
 #. Programmer's name for it: MsgGhostscriptFatalError
 #: TransTranslatableStrings.pas:176
@@ -3140,14 +3128,20 @@ msgstr ""
 "correct afgesloten is.\n"
 "Herstart Transcript en probeer dan opnieuw."
 
+#. Programmer's name for it: MsgErrorCode
+#: TransTranslatableStrings.pas:181
+#, object-pascal-format
+msgid "Error code: %s"
+msgstr "Fout code: %s."
+
 #. 21-3-2007
 #. Programmer's name for it: MsgAutoCaption
-#: TransTranslatableStrings.pas:186
+#: TransTranslatableStrings.pas:188
 msgid "Autoreplacement"
 msgstr "Autovervangen"
 
 #. Programmer's name for it: MsgAutoNoList
-#: TransTranslatableStrings.pas:187
+#: TransTranslatableStrings.pas:189
 msgid ""
 "Before you can use autoreplacements you first need to set a filename in "
 "options!"
@@ -3156,7 +3150,7 @@ msgstr ""
 "in opties!"
 
 #. Programmer's name for it: MsgAutoNotAllowed
-#: TransTranslatableStrings.pas:188
+#: TransTranslatableStrings.pas:190
 msgid "The replacement source should only contain alphanumeric characters!"
 msgstr ""
 "De te vervangen tekst mag alleen maar alfanumerieke tekens bevatten (en dus "
@@ -3164,77 +3158,77 @@ msgstr ""
 
 #. Registration
 #. Programmer's name for it: rsRegCaption
-#: TransTranslatableStrings.pas:191
+#: TransTranslatableStrings.pas:193
 msgid "Registration of Transcript"
 msgstr "Registratie van Transcript"
 
 #. Programmer's name for it: rsRegFailed
-#: TransTranslatableStrings.pas:192
+#: TransTranslatableStrings.pas:194
 msgid "Invalid registration name or code!"
 msgstr "Ongeldige registratie naam of code!"
 
 #. Programmer's name for it: rsRegOk
-#: TransTranslatableStrings.pas:193
+#: TransTranslatableStrings.pas:195
 msgid "Thanks for registering. You can now use all pro features."
 msgstr ""
 "Bedankt voor het registreren. U kunt nu alle pro mogelijkheden gebruiken."
 
 #. ***** Options dialog
 #. Programmer's name for it: strUnknown
-#: TransTranslatableStrings.pas:196
+#: TransTranslatableStrings.pas:198
 msgid "Unknown"
 msgstr "Onbekend"
 
 #. Programmer's name for it: strDefault
-#: TransTranslatableStrings.pas:197
+#: TransTranslatableStrings.pas:199
 msgid "(Default)"
 msgstr "(Standaard)"
 
 #. tussen de linkerkant en de rechterkant van de =
 #. Programmer's name for it: strSpecifierInfo1
-#: TransTranslatableStrings.pas:203
+#: TransTranslatableStrings.pas:205
 #, object-pascal-format
 msgid "Possible specifiers (case is important!): %f"
 msgstr "Mogelijke specificaties (hoofd/kleine letters maken verschil!): %f"
 
 #. Programmer's name for it: strSpecifierInfo2
-#: TransTranslatableStrings.pas:204
+#: TransTranslatableStrings.pas:206
 #, no-object-pascal-format
 msgid "filename only without extension; %e"
 msgstr "alleen bestandsnaam zonder extensie; %e"
 
 #. Programmer's name for it: strSpecifierInfo3
-#: TransTranslatableStrings.pas:205
+#: TransTranslatableStrings.pas:207
 #, no-object-pascal-format
 msgid "extension (including '.'); %p"
 msgstr "extensie (inclusief '.'); %p"
 
 #. Programmer's name for it: strSpecifierInfo4
-#: TransTranslatableStrings.pas:206
+#: TransTranslatableStrings.pas:208
 #, no-object-pascal-format
 msgid "path (including last '\\'); %n"
 msgstr "pad (inclusief '\\' op het einde); %n"
 
 #. Programmer's name for it: strSpecifierInfo5
-#: TransTranslatableStrings.pas:207
+#: TransTranslatableStrings.pas:209
 #, no-object-pascal-format
 msgid "new line; %t"
 msgstr "nieuwe regel; %t"
 
 #. Programmer's name for it: strSpecifierInfo6
-#: TransTranslatableStrings.pas:208
+#: TransTranslatableStrings.pas:210
 #, no-object-pascal-format
 msgid "tab; %F"
 msgstr "tab; %F"
 
 #. Programmer's name for it: strSpecifierInfo7
-#: TransTranslatableStrings.pas:209
+#: TransTranslatableStrings.pas:211
 #, no-object-pascal-format
 msgid "complete path, file and extension; %c"
 msgstr "complete pad, bestandsnaam en extensie; %c"
 
 #. Programmer's name for it: strSpecifierInfo8
-#: TransTranslatableStrings.pas:210
+#: TransTranslatableStrings.pas:212
 msgid "insert counter/page number. Anything else is literally inserted."
 msgstr ""
 "teller/pagina nummer invoegen. Alle andere tekens worden lettelijk "
@@ -3242,7 +3236,7 @@ msgstr ""
 
 #. ***** Toolbar strings (pictcombo)
 #. Programmer's name for it: strNone
-#: TransTranslatableStrings.pas:213
+#: TransTranslatableStrings.pas:215
 msgid "(none)"
 msgstr "(geen)"
 
@@ -3520,56 +3514,56 @@ msgid "Cancel"
 msgstr "Annuleren"
 
 #. Programmer's name for it: rsJgbOpen
-#: JgbImgViewResources.pas:14
+#: jgbimgviewresources.pas:14
 msgid "Open Image"
 msgstr "Afbeelding openen"
 
 #. Programmer's name for it: rsJgbUnsupportedImage
-#: JgbImgViewResources.pas:16
+#: jgbimgviewresources.pas:16
 msgid "Unsupported (uncommon) image subformat or not a valid image."
 msgstr ""
 "Niet ondersteunde (zeldzaam) afbeeldings subformaat of niet een geldige "
 "afbeelding."
 
 #. Programmer's name for it: rsJgbUnsupportedColorDepth
-#: JgbImgViewResources.pas:17
+#: jgbimgviewresources.pas:17
 msgid "Image uses unsupported (uncommon) color depth."
 msgstr "Afbeelding gebruikt een niet ondersteunde (zeldzame) kleurdiepte."
 
 #. Programmer's name for it: rsJgbCorruptImage
-#: JgbImgViewResources.pas:18
+#: jgbimgviewresources.pas:18
 msgid "This image is corrupt. It can't be read."
 msgstr "Deze afbeelding is beschadigd en kan daardoor niet worden gelezen."
 
 #. Programmer's name for it: rsJgbEReadError
-#: JgbImgViewResources.pas:20
+#: jgbimgviewresources.pas:20
 msgid "EReadError: most likely this is an invalid image or uncommon image type"
 msgstr ""
 "LeesFout: meest waarschijnlijke oorzaak is een ongeldige afbeelding of een "
 "niet veel voorkomend type afbeelding."
 
 #. Programmer's name for it: rsJgbCantAllocateDIB
-#: JgbImgViewResources.pas:22
+#: jgbimgviewresources.pas:22
 msgid "Can't load image most likely due to not enough available free memory."
 msgstr ""
 "Kan de afbeelding niet laden waarschijnlijk omdat er niet genoeg vrij "
 "beschikbaar geheugen is."
 
 #. Programmer's name for it: rsJgbCantLoadImage
-#: JgbImgViewResources.pas:24
+#: jgbimgviewresources.pas:24
 msgid "Can't load image probably due to running out of resources."
 msgstr ""
 "Kan afbeelding niet laden waarschijnlijk omdat er te weinig systeembronnen "
 "beschikbaar zijn."
 
 #. Programmer's name for it: rsJgbInvalidPNG
-#: JgbImgViewResources.pas:25
+#: jgbimgviewresources.pas:25
 #, object-pascal-format
 msgid "Invalid PNG image (%s)."
 msgstr "Ongeldige PNG afbeelding (%s)."
 
 #. Programmer's name for it: rsJgbInvalidJPEG
-#: JgbImgViewResources.pas:26
+#: jgbimgviewresources.pas:26
 #, object-pascal-format
 msgid "Invalid JPEG image (%s)."
 msgstr "Ongeldige JPEG afbeelding (%s)."
@@ -3921,6 +3915,18 @@ msgstr "Ctrl+"
 msgid "Alt+"
 msgstr "Alt+"
 
+#, fuzzy
+#~ msgid "https://jvcl.delphi-jedi.org/"
+#~ msgstr "http://jvcl.delphi-jedi.org/"
+
+#, fuzzy
+#~ msgid "https://jcl.delphi-jedi.org/"
+#~ msgstr "http://jcl.delphi-jedi.org/"
+
+#, fuzzy
+#~ msgid "https://graphics32.org/"
+#~ msgstr "http://graphics32.org/"
+
 #~ msgid ""
 #~ "It doesn't exist or the filename contains multibyte unicode characters!"
 #~ msgstr "Het bestaat niet of de bestandsnaam bevat multibyte unicode tekens!"
@@ -4047,9 +4053,6 @@ msgstr "Alt+"
 
 #~ msgid "Graphics32"
 #~ msgstr "Graphics32"
-
-#~ msgid "http://graphics32.org/"
-#~ msgstr "http://graphics32.org/"
 
 #~ msgid "http://www.wilsonc.demon.co.uk/delphi_6.htm"
 #~ msgstr "http://www.wilsonc.demon.co.uk/delphi_6.htm"
