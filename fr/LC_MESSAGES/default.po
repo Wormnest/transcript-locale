@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Transcript 2.4.1 BETA\n"
 "POT-Creation-Date: 2020-02-19 18:33\n"
-"PO-Revision-Date: 2020-02-19 18:48-0400\n"
+"PO-Revision-Date: 2020-03-22 13:32-0400\n"
 "Last-Translator: Jacob Boerema <transcript-translation@jacobboerema.nl>\n"
 "Language-Team: Transcript\n"
 "Language: fr\n"
@@ -214,7 +214,7 @@ msgstr "Toujours au dessus"
 #. frmJgbUpdate..Caption
 #: JgbUpdateForm.dfm:4
 msgid "Transcript Update Checker"
-msgstr ""
+msgstr "Vérificateur de mise à jour de Transcript"
 
 #. TransAboutForm..Caption
 #: TransAbout.dfm:7
@@ -1342,19 +1342,18 @@ msgstr "Fenêtre image supplémentaire"
 
 #. MainForm..ActionList1..actGoToFacebook..Caption
 #: TranscriptMain.dfm:2101
-#, fuzzy
 msgid "Open Transcript on Facebook..."
-msgstr "Ouvrir le site Web de Transcript en Facebook..."
+msgstr "Ouvrir le site Web de Transcript sur Facebook..."
 
 #. MainForm..ActionList1..actPayPalBuyNow..Caption
 #: TranscriptMain.dfm:2107
 msgid "Buy Transcript Pro..."
-msgstr ""
+msgstr "Acheter Transcript Pro ..."
 
 #. MainForm..ActionList1..actCheckForUpdates..Caption
 #: TranscriptMain.dfm:2112
 msgid "Check for updates..."
-msgstr ""
+msgstr "Vérifier les mises à jour"
 
 #. MainForm..MainMenu..MM_Bestand..Caption
 #: TranscriptMain.dfm:2129
@@ -2398,64 +2397,69 @@ msgstr "Erreur inattendue lors de la conversion du fichier ini"
 #. Programmer's name for it: RUpToDate
 #: JgbUpdateForm.pas:48
 msgid "There is no newer version of Transcript available."
-msgstr ""
+msgstr "Il n’existe pas de version plus récente de Transcript."
 
 #. Programmer's name for it: RBeta
 #: JgbUpdateForm.pas:49
 msgid "Beta"
-msgstr ""
+msgstr "Bêta"
 
 #. Programmer's name for it: RStable
 #: JgbUpdateForm.pas:50
 msgid "Stable"
-msgstr ""
+msgstr "Stable"
 
 #. Programmer's name for it: RNewVersionAvailable
 #: JgbUpdateForm.pas:51
 #, object-pascal-format
 msgid "%s version %s of Transcript is available for download."
-msgstr ""
+msgstr "La version %s %s de Transcript est disponible en téléchargement."
 
 #. Programmer's name for it: RVersion
 #: JgbUpdateForm.pas:52
 #, object-pascal-format
 msgid "You currently have version %s."
-msgstr ""
+msgstr "Vous disposez actuellement de la version%s."
 
 #. Programmer's name for it: RDownloadInstructions
 #: JgbUpdateForm.pas:53
 msgid ""
-"Download the installer from the link below, exit Transcript first then start "
-"the installer."
+"Download the installer from the link below, exit Transcript first then start the installer."
 msgstr ""
+"Téléchargez le programme d'installation à partir du lien ci-dessous, quittez d'abord "
+"Transcript, puis démarrez le programme d'installation."
 
 #. Programmer's name for it: RUnknownError
 #: JgbUpdateForm.pas:54
 msgid "An unknown error occurred while trying to download the version info."
 msgstr ""
+"Une erreur inconnue s'est produite lors de la tentative de téléchargement des informations "
+"de version."
 
 #. Programmer's name for it: RErrorMsg
 #: JgbUpdateForm.pas:55
 #, object-pascal-format
 msgid "Error: %s."
-msgstr ""
+msgstr "Erreur: %s."
 
 #. Programmer's name for it: RMissingFile
 #: JgbUpdateForm.pas:56
 msgid "Error: We failed to download the version information."
-msgstr ""
+msgstr "Erreur: nous n'avons pas pu télécharger les informations de version."
 
 #. Programmer's name for it: RMissingInfo
 #: JgbUpdateForm.pas:57
 msgid "Error: The information we need is missing from the version information."
 msgstr ""
+"Erreur: les informations dont nous avons besoin sont manquantes dans les informations de "
+"version."
 
 #. Programmer's name for it: RTimeOut
 #: JgbUpdateForm.pas:58
-msgid ""
-"Downloading the version information took too long. Maybe the server is "
-"offline."
+msgid "Downloading the version information took too long. Maybe the server is offline."
 msgstr ""
+"Le téléchargement des informations de version a pris trop de temps. Peut-être que le "
+"serveur est hors ligne."
 
 #. sqlite3 could not be found/loaded
 #: TranscriptMain.pas:1220
@@ -2464,35 +2468,31 @@ msgid ""
 "The zip of Transcript beta versions does not contain all needed files.\n"
 "You should copy the beta on top of a normal Transcript install!"
 msgstr ""
-"Impossible de charger sqlite3.dll qui est nécessaire aux remplacements "
-"automatiques.\n"
-"Le dossier compressé des versions béta de Transcript ne contient pas tous "
-"les fichiers requis.\n"
-"Vous devriez copier la béta dans le dossier d'une installation Transcript "
-"normale !"
+"Impossible de charger sqlite3.dll qui est nécessaire aux remplacements automatiques.\n"
+"Le dossier compressé des versions béta de Transcript ne contient pas tous les fichiers "
+"requis.\n"
+"Vous devriez copier la béta dans le dossier d'une installation Transcript normale !"
 
 #. Make sure first time question is only done once.
 #: TranscriptMain.pas:1505
 msgid ""
-"Transcript can now automatically check for updates every 30 days. Note that "
-"this needs an internet connection.\n"
+"Transcript can now automatically check for updates every 30 days. Note that this needs an "
+"internet connection.\n"
 "This setting can also be changed in the general tab of Options (F11).\n"
 "Do you want automatic update checking enabled?"
 msgstr ""
 
 #: TranscriptMain.pas:1506
-#, fuzzy
 msgid "Automatic update checking"
-msgstr "Insertion automatique de texte"
+msgstr ""
 
 #: TranscriptMain.pas:1555
 msgid ""
-"Couldn't make a backup. Your file was not saved! Possibly the old backup is "
-"in use by another program. Close it there and then try to save again."
+"Couldn't make a backup. Your file was not saved! Possibly the old backup is in use by "
+"another program. Close it there and then try to save again."
 msgstr ""
-"Sauvegarde impossible. Votre fichier n'est pas enregistré ! Il est possible "
-"que l'ancien fichier soit utilisé par un autre programme. Fermez-le et "
-"essayez de sauvegarder à nouveau."
+"Sauvegarde impossible. Votre fichier n'est pas enregistré ! Il est possible que l'ancien "
+"fichier soit utilisé par un autre programme. Fermez-le et essayez de sauvegarder à nouveau."
 
 #: TranscriptMain.pas:1556
 msgid "Error making backup"
@@ -2559,7 +2559,7 @@ msgstr "Profondeur de couleur: %d bpp"
 
 #. Programmer's name for it: RsScreen
 #: TransInfoSupplier.pas:77
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Display %d: %dx%d pixels, %d dpi"
 msgstr "Affichage %d: %dx%d pixels, %d dpi"
 
@@ -3087,20 +3087,19 @@ msgstr ""
 #: TransTranslatableStrings.pas:179
 msgid ""
 "Error initializing Ghostscript instance.\n"
-"In most cases this means Ghostscript wasn't correctly terminated "
-"previously.\n"
+"In most cases this means Ghostscript wasn't correctly terminated previously.\n"
 "Please restart Transcript and try again."
 msgstr ""
 "Erreur d'initialisation de l'instance Ghostscript.\n"
-"Dans la plupart des cas, cela signifie que Ghostscript ne s'est pas "
-"précédemment correctement terminé.\n"
+"Dans la plupart des cas, cela signifie que Ghostscript ne s'est pas précédemment "
+"correctement terminé.\n"
 "Veuillez redémarrer Transcript et réessayer."
 
 #. Programmer's name for it: MsgErrorCode
 #: TransTranslatableStrings.pas:181
 #, object-pascal-format
 msgid "Error code: %s"
-msgstr ""
+msgstr "Code d'erreur: %s"
 
 #. 21-3-2007
 #. Programmer's name for it: MsgAutoCaption
@@ -3501,14 +3500,12 @@ msgstr "L'image utilise une profondeur de couleur non supportée (peu commune)."
 #. Programmer's name for it: rsJgbCorruptImage
 #: jgbimgviewresources.pas:18
 msgid "This image is corrupt. It can't be read."
-msgstr ""
+msgstr "Cette image est corrompue. Ça ne peut pas être lu."
 
 #. Programmer's name for it: rsJgbEReadError
 #: jgbimgviewresources.pas:20
 msgid "EReadError: most likely this is an invalid image or uncommon image type"
-msgstr ""
-"EReadError : il est probable que cette image soit invalide ou d'un type peu "
-"commun"
+msgstr "EReadError : il est probable que cette image soit invalide ou d'un type peu commun"
 
 #. Programmer's name for it: rsJgbCantAllocateDIB
 #: jgbimgviewresources.pas:22
