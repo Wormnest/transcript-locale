@@ -46,9 +46,8 @@ msgstr "Fermer la fenêtre de visualisation d'image supplémentaire"
 #. OptionsForm..JvPageControl..PictureTab..Caption
 #. Transcript main 6-4-2007
 #. Programmer's name for it: MsgImage
-#: JgbImageViewerForm.dfm:267 JgbImageViewerForm.dfm:273
-#: JgbImageViewerForm.dfm:279 JgbImageViewerForm.dfm:285 TransOpties.dfm:319
-#: TransTranslatableStrings.pas:184
+#: JgbImageViewerForm.dfm:267 JgbImageViewerForm.dfm:273 JgbImageViewerForm.dfm:279
+#: JgbImageViewerForm.dfm:285 TransOpties.dfm:319 TransTranslatableStrings.pas:184
 msgid "Image"
 msgstr "Image"
 
@@ -79,14 +78,13 @@ msgstr "Image &précédente"
 #. JgbProgressDialog....Hint
 #: JgbProgressForm.dfm:8
 msgid ""
-"This dialog shows the progress of the image extraction from a pdf file. It "
-"is not possible to cancel this extraction. You can however focus the editor "
-"window and start typing once the first page has been extracted."
+"This dialog shows the progress of the image extraction from a pdf file. It is not possible "
+"to cancel this extraction. You can however focus the editor window and start typing once "
+"the first page has been extracted."
 msgstr ""
-"Ce dialogue montre la progression de l'extraction d'image à partir d'un "
-"fichier PDF. Il n'est pas possible d'arrêter cette extraction. Vous pouvez "
-"cependant activer la fenêtre d'édition texte et commencer à transcrire dès "
-"que la première page a été extraite."
+"Ce dialogue montre la progression de l'extraction d'image à partir d'un fichier PDF. Il "
+"n'est pas possible d'arrêter cette extraction. Vous pouvez cependant activer la fenêtre "
+"d'édition texte et commencer à transcrire dès que la première page a été extraite."
 
 #. JgbProgressDialog..Caption
 #: JgbProgressForm.dfm:12
@@ -106,11 +104,11 @@ msgstr "Statut:"
 #. JgbProgressDialog..lblStatus....Hint
 #: JgbProgressForm.dfm:58
 msgid ""
-"Status of image extraction. Shows how many images have been extracted and "
-"the total number of images."
+"Status of image extraction. Shows how many images have been extracted and the total number "
+"of images."
 msgstr ""
-"État de l'extraction d'images. Il montre le nombre d'images extraites et le "
-"nombre total d'images."
+"État de l'extraction d'images. Il montre le nombre d'images extraites et le nombre total "
+"d'images."
 
 #. JgbProgressDialog..JvLabel3..Caption
 #: JgbProgressForm.dfm:66
@@ -167,12 +165,11 @@ msgstr "&Fermer"
 #. SpecialCharsForm..chkCloseOnInsert....Hint
 #: JgbSpecialCharsForm.dfm:139
 msgid ""
-"When checked this window will close after you insert the character of your "
-"choice into the editor (by double clicking or using the insert button)"
+"When checked this window will close after you insert the character of your choice into the "
+"editor (by double clicking or using the insert button)"
 msgstr ""
-"Lorsque cochée, cette fenêtre se ferme après l'insertion du caractère de "
-"votre choix dans l'éditeur (en double cliquant ou à l'aide du bouton "
-"d'insertion)"
+"Lorsque cochée, cette fenêtre se ferme après l'insertion du caractère de votre choix dans "
+"l'éditeur (en double cliquant ou à l'aide du bouton d'insertion)"
 
 #. SpecialCharsForm..chkCloseOnInsert..Caption
 #: JgbSpecialCharsForm.dfm:140
@@ -184,18 +181,16 @@ msgstr "Fermer la fenêtre après l'insertion d'un caractère"
 msgid "&Insert"
 msgstr "&Insérer"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. SpecialCharsForm..btnHelp..Caption
 #. MainForm..MainMenu..MM_Help..Caption
 #. EditAutoCorrectionsForm..HelpBtn..Caption
 #. OptionsForm..HelpBtn..Caption
 #. ProDialog..HelpBtn..Caption
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..HelpBtn..Caption
 #. RtfTabsDialog..HelpBtn..Caption
-#: JgbSpecialCharsForm.dfm:161 TranscriptMain.dfm:2527
-#: TransEditAutoCorrect.dfm:197 TransOpties.dfm:1377 TransPro.dfm:73
-#: RtfParagraphOptionsForm.dfm:165 RtfTabSettingsForm.dfm:67
+#: JgbSpecialCharsForm.dfm:161 TranscriptMain.dfm:2527 TransEditAutoCorrect.dfm:197
+#: TransOpties.dfm:1377 TransPro.dfm:73 RtfParagraphOptionsForm.dfm:165
+#: RtfTabSettingsForm.dfm:67
 msgid "&Help"
 msgstr "&Aide"
 
@@ -203,8 +198,7 @@ msgstr "&Aide"
 #: JgbSpecialCharsForm.dfm:170
 msgid "Option to show this window always above the Transcript window."
 msgstr ""
-"Option pour afficher cette fenêtre toujours au-dessus de la fenêtre de "
-"transcription."
+"Option pour afficher cette fenêtre toujours au-dessus de la fenêtre de transcription."
 
 #. SpecialCharsForm..chkAlwaysOnTop..Caption
 #: JgbSpecialCharsForm.dfm:171
@@ -296,7 +290,6 @@ msgstr "Zoomer + ou - sur le texte (défaut à 100%)"
 msgid "Choose numbering style"
 msgstr "Choisir le modèle de numérotation"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. MainForm..CoolBar..EditBar..NummeringBtn..Caption
 #. MainForm..ActionList1..NoNumberingActn..Caption
 #: TranscriptMain.dfm:308 TranscriptMain.dfm:1509
@@ -305,37 +298,32 @@ msgstr "Aucun"
 
 #. MainForm..CoolBar..EditBar..BackgroundColorButton..Properties.DefaultColorCaption
 #. MainForm..CoolBar..EditBar..TextColorButton..Properties.DefaultColorCaption
-#: TranscriptMain.dfm:397 TranscriptMain.dfm:454
-#: JgbTranslateJvOfficeColorButton.pas:93
+#: TranscriptMain.dfm:397 TranscriptMain.dfm:454 JgbTranslateJvOfficeColorButton.pas:93
 msgid "Automatic"
 msgstr "Automatique"
 
 #. MainForm..CoolBar..EditBar..BackgroundColorButton..Properties.CustomColorCaption
 #. MainForm..CoolBar..EditBar..TextColorButton..Properties.CustomColorCaption
 #. Update the other hints/buttons
-#: TranscriptMain.dfm:398 TranscriptMain.dfm:455
-#: JgbTranslateJvOfficeColorButton.pas:91
+#: TranscriptMain.dfm:398 TranscriptMain.dfm:455 JgbTranslateJvOfficeColorButton.pas:91
 msgid "Other colors..."
 msgstr "Autres couleurs..."
 
 #. MainForm..CoolBar..EditBar..BackgroundColorButton..Properties.DefaultColorHint
 #. MainForm..CoolBar..EditBar..TextColorButton..Properties.DefaultColorHint
-#: TranscriptMain.dfm:399 TranscriptMain.dfm:456
-#: JgbTranslateJvOfficeColorButton.pas:94
+#: TranscriptMain.dfm:399 TranscriptMain.dfm:456 JgbTranslateJvOfficeColorButton.pas:94
 msgid "Automatic color"
 msgstr "Couleur automatique"
 
 #. MainForm..CoolBar..EditBar..BackgroundColorButton..Properties.CustomColorHint
 #. MainForm..CoolBar..EditBar..TextColorButton..Properties.CustomColorHint
-#: TranscriptMain.dfm:400 TranscriptMain.dfm:457
-#: JgbTranslateJvOfficeColorButton.pas:92
+#: TranscriptMain.dfm:400 TranscriptMain.dfm:457 JgbTranslateJvOfficeColorButton.pas:92
 msgid "Other colors"
 msgstr "Autres couleurs"
 
 #. MainForm..CoolBar..EditBar..BackgroundColorButton..Properties.DragBarHint
 #. MainForm..CoolBar..EditBar..TextColorButton..Properties.DragBarHint
-#: TranscriptMain.dfm:416 TranscriptMain.dfm:473
-#: JgbTranslateJvOfficeColorButton.pas:95
+#: TranscriptMain.dfm:416 TranscriptMain.dfm:473 JgbTranslateJvOfficeColorButton.pas:95
 msgid "Drag to make this menu floating"
 msgstr "Cliquer et glisser pour déplacer ce menu"
 
@@ -709,8 +697,7 @@ msgstr "Puces"
 #. MainForm..ActionList1..ToggleBulletsActn....Hint
 #: TranscriptMain.dfm:1224
 msgid ""
-"Insert a bullet on the current line (cycle through the bullet styles with "
-"Ctrl+Shift+L)"
+"Insert a bullet on the current line (cycle through the bullet styles with Ctrl+Shift+L)"
 msgstr "Insère une puce à la ligne courante (autres puces avec Ctrl+Shift+L)"
 
 #. MainForm..ActionList1..AlignLeftActn..Caption
@@ -832,9 +819,7 @@ msgstr "Importer un fichier texte..."
 #. MainForm..ActionList1..ImportFileActn....Hint
 #: TranscriptMain.dfm:1484
 msgid "Import a textfile using the Microsoft Office import/export filters"
-msgstr ""
-"Importer un fichier texte en utilisant les filtres importer/exporter Ms "
-"Office"
+msgstr "Importer un fichier texte en utilisant les filtres importer/exporter Ms Office"
 
 #. MainForm..ActionList1..ExportFileActn..Caption
 #: TranscriptMain.dfm:1490
@@ -844,9 +829,7 @@ msgstr "Exporter un fichier texte..."
 #. MainForm..ActionList1..ExportFileActn....Hint
 #: TranscriptMain.dfm:1493
 msgid "Export a textfile using the Microsoft Office import/export filters"
-msgstr ""
-"Exporter un fichier texte en utilisant les filtres importer/exporter Ms "
-"Office"
+msgstr "Exporter un fichier texte en utilisant les filtres importer/exporter Ms Office"
 
 #. MainForm..ActionList1..InvertPictActn..Caption
 #: TranscriptMain.dfm:1529
@@ -932,11 +915,8 @@ msgstr "Agrandir la fenêtre &image"
 
 #. MainForm..ActionList1..MaximizePictWin....Hint
 #: TranscriptMain.dfm:1618
-msgid ""
-"Maximize the image window (editor will not be visible but you can still use "
-"it)"
-msgstr ""
-"Agrandir la fenêtre image (l'éditeur sera invisible mais restera utilisable)"
+msgid "Maximize the image window (editor will not be visible but you can still use it)"
+msgstr "Agrandir la fenêtre image (l'éditeur sera invisible mais restera utilisable)"
 
 #. MainForm..ActionList1..MaximizeEditWin..Caption
 #: TranscriptMain.dfm:1625
@@ -1083,12 +1063,9 @@ msgstr "Démarrer/mettre en pause le minuteur projet"
 
 #. MainForm..ActionList1..actToggleProjectTimer....Hint
 #: TranscriptMain.dfm:1774
-msgid ""
-"Start or pause the project timer which measures the time spent on this "
-"project"
+msgid "Start or pause the project timer which measures the time spent on this project"
 msgstr ""
-"Démarrer ou mettre en pause le minuteur projet qui mesure le temps passé sur "
-"le projet"
+"Démarrer ou mettre en pause le minuteur projet qui mesure le temps passé sur le projet"
 
 #. MainForm..ActionList1..actStopProjectTimer..Caption
 #. 13-4-2007
@@ -1100,11 +1077,10 @@ msgstr "Arrêter le minuteur"
 #. MainForm..ActionList1..actStopProjectTimer....Hint
 #: TranscriptMain.dfm:1785
 msgid ""
-"This stops the project timer if it is running and resets the time spent "
-"working on this project to 0"
+"This stops the project timer if it is running and resets the time spent working on this "
+"project to 0"
 msgstr ""
-"Ceci arrête le minuteur projet s'il tourne et remet à zéro le temps passé "
-"sur le projet"
+"Ceci arrête le minuteur projet s'il tourne et remet à zéro le temps passé sur le projet"
 
 #. MainForm..ActionList1..actResetProjectTimer..Caption
 #. Programmer's name for it: MsgResetTimerCaption
@@ -1145,8 +1121,7 @@ msgstr "Utiliser la même position horizontale pour toutes les images"
 #. MainForm..ActionList1..actSetHorOffsetLeftRight..Caption
 #: TranscriptMain.dfm:1831
 msgid "Use different horizontal offsets for left and right pages"
-msgstr ""
-"Utiliser une position horizontale différente pour les pages gauche et droite"
+msgstr "Utiliser une position horizontale différente pour les pages gauche et droite"
 
 #. MainForm..ActionList1..actAutoTextDlg..Caption
 #: TranscriptMain.dfm:1841
@@ -1206,9 +1181,7 @@ msgstr "Redémarrer la minuterie lorsque vous tapez au clavier"
 #. MainForm..ActionList1..actResumeTimerWhenTyping..Hint
 #: TranscriptMain.dfm:1915
 msgid "Resume manually paused timer when you start typing"
-msgstr ""
-"Redémarrer la minuterie mise en pause lorsque vous recommencez à saisir du "
-"texte"
+msgstr "Redémarrer la minuterie mise en pause lorsque vous recommencez à saisir du texte"
 
 #. MainForm..ActionList1..actStretchNearest..Caption
 #: TranscriptMain.dfm:1922
@@ -1454,8 +1427,7 @@ msgstr "&Ajouter"
 #. ExceptionDialog..SendBtn..Hint
 #: TransExceptionDlg.dfm:42
 msgid "Send bug report using default mail client"
-msgstr ""
-"Envoyer le rapport d'erreur en utilisant le client de messagerie par défaut"
+msgstr "Envoyer le rapport d'erreur en utilisant le client de messagerie par défaut"
 
 #. ExceptionDialog..SendBtn..Caption
 #: TransExceptionDlg.dfm:44
@@ -1467,10 +1439,8 @@ msgstr "&Envoyer"
 msgid "Use Ctrl+C to copy the report to the clipboard"
 msgstr "Utiliser Ctrl+C pour copier le rapport dans le presse-papier"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. ExceptionDialog..OkBtn..Caption
 #. OptionsForm..OKBtn..Caption
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..OKBtn..Caption
 #. RtfTabsDialog..OKBtn..Caption
 #: TransExceptionDlg.dfm:71 TransOpties.dfm:29 RtfParagraphOptionsForm.dfm:145
@@ -1525,12 +1495,10 @@ msgstr "Régler ici la fréquence en minutes de la sauvegarde automatique."
 
 #. OptionsForm..JvPageControl..GeneralTab..AutoSaveGroup..MakeBackups....Hint
 #: TransOpties.dfm:112
-msgid ""
-"If you set this option a backup copy of the rtf textfile will be made when "
-"saving"
+msgid "If you set this option a backup copy of the rtf textfile will be made when saving"
 msgstr ""
-"Si vous cochez cette option, une copie d'archive du fichier texte rtf sera "
-"faite pendant la sauvegarde"
+"Si vous cochez cette option, une copie d'archive du fichier texte rtf sera faite pendant "
+"la sauvegarde"
 
 #. OptionsForm..JvPageControl..GeneralTab..AutoSaveGroup..MakeBackups..Caption
 #: TransOpties.dfm:113
@@ -1541,8 +1509,7 @@ msgstr "Faire une &copie d'archive (backup)"
 #: TransOpties.dfm:126
 msgid "Option whether or not the previously used files are opened at startup."
 msgstr ""
-"Option définissant si les fichiers précédemment utilisés sont réouverts au "
-"démarrage."
+"Option définissant si les fichiers précédemment utilisés sont réouverts au démarrage."
 
 #. OptionsForm..JvPageControl..GeneralTab..AutoLoadFiles..Caption
 #: TransOpties.dfm:127
@@ -1598,8 +1565,7 @@ msgstr "centimètres"
 #: TransOpties.dfm:210
 msgid "Set this option to restore previous text zoom value at program startup"
 msgstr ""
-"Choisir cette option pour restaurer au démarrage les paramètres zoom du "
-"texte précédent"
+"Choisir cette option pour restaurer au démarrage les paramètres zoom du texte précédent"
 
 #. OptionsForm..JvPageControl..GeneralTab..RememberTextZoomCheck..Caption
 #: TransOpties.dfm:211
@@ -1619,20 +1585,20 @@ msgstr "Taquet par défaut:"
 #. OptionsForm..JvPageControl..GeneralTab..IndentSettingsBox..IndentEdit....Hint
 #: TransOpties.dfm:240
 msgid ""
-"Specify the amount with which the indentation should be changed when "
-"pressing then increase or decrease indent buttons"
+"Specify the amount with which the indentation should be changed when pressing then "
+"increase or decrease indent buttons"
 msgstr ""
-"Spécifiez la valeur de modification des taquets d'indentation lors de "
-"l'appui sur les boutons augmenter ou diminuer le retrait"
+"Spécifiez la valeur de modification des taquets d'indentation lors de l'appui sur les "
+"boutons augmenter ou diminuer le retrait"
 
 #. OptionsForm..JvPageControl..GeneralTab..rgrpDefaultFilename....Hint
 #: TransOpties.dfm:257
 msgid ""
-"Choose wether the default name for new text files should be based on the "
-"first line of text or on the name of the current image"
+"Choose wether the default name for new text files should be based on the first line of "
+"text or on the name of the current image"
 msgstr ""
-"Choisir si le nom par défaut pour les nouveaux fichiers texte doit être basé "
-"sur la première ligne du texte ou sur le nom de l'image courante"
+"Choisir si le nom par défaut pour les nouveaux fichiers texte doit être basé sur la "
+"première ligne du texte ou sur le nom de l'image courante"
 
 #. OptionsForm..JvPageControl..GeneralTab..rgrpDefaultFilename..Caption
 #: TransOpties.dfm:258
@@ -1657,11 +1623,11 @@ msgstr "Progression du fichier image"
 #. OptionsForm..JvPageControl..GeneralTab..grpbProgress..cbShowProgress....Hint
 #: TransOpties.dfm:279
 msgid ""
-"When you check this the progress of the images you have done will be visible "
-"in the filename list on the image toolbar"
+"When you check this the progress of the images you have done will be visible in the "
+"filename list on the image toolbar"
 msgstr ""
-"Quand vous cochez ceci, la progression des images sera visible dans la liste "
-"de noms de fichiers sur la barre porte-outils image"
+"Quand vous cochez ceci, la progression des images sera visible dans la liste de noms de "
+"fichiers sur la barre porte-outils image"
 
 #. OptionsForm..JvPageControl..GeneralTab..grpbProgress..cbShowProgress..Caption
 #: TransOpties.dfm:280
@@ -1671,8 +1637,8 @@ msgstr "Montrer la &progression (le % d'images finies)"
 #. OptionsForm..JvPageControl..GeneralTab..cbAutoUpdateCheck....Hint
 #: TransOpties.dfm:297
 msgid ""
-"Whether or not you want Transcript to check every 30 days if there is an "
-"update available. Note this needs an internet connection."
+"Whether or not you want Transcript to check every 30 days if there is an update available. "
+"Note this needs an internet connection."
 msgstr ""
 
 #. OptionsForm..JvPageControl..GeneralTab..cbAutoUpdateCheck..Caption
@@ -1683,8 +1649,8 @@ msgstr ""
 #. OptionsForm..JvPageControl..GeneralTab..cbCheckBetaToo....Hint
 #: TransOpties.dfm:310
 msgid ""
-"If this is checked then automatic and manual update checks will also report "
-"new beta versions."
+"If this is checked then automatic and manual update checks will also report new beta "
+"versions."
 msgstr ""
 
 #. OptionsForm..JvPageControl..GeneralTab..cbCheckBetaToo..Caption
@@ -1707,11 +1673,8 @@ msgstr "Pa&s d'incrémentation du zoom + / -:"
 #. OptionsForm..JvPageControl..PictureTab..JvLabel1....Hint
 #. OptionsForm..JvPageControl..PictureTab..DefaultPictTop....Hint
 #: TransOpties.dfm:341 TransOpties.dfm:457
-msgid ""
-"How many pixels to scroll from the top of the image when showing a new image."
-msgstr ""
-"Nombre de pixel à défiler depuis le haut de l'image pour voir la nouvelle "
-"image."
+msgid "How many pixels to scroll from the top of the image when showing a new image."
+msgstr "Nombre de pixel à défiler depuis le haut de l'image pour voir la nouvelle image."
 
 #. OptionsForm..JvPageControl..PictureTab..JvLabel1..Caption
 #: TransOpties.dfm:343
@@ -1731,16 +1694,14 @@ msgstr "Nombre de pixels à déplacer:"
 #. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..NumPixels2Move....Hint
 #: TransOpties.dfm:376
 msgid ""
-"State here how many pixels to move the image when pressing \"Enter"
-"\" (between 0 en 500)."
+"State here how many pixels to move the image when pressing \"Enter\" (between 0 en 500)."
 msgstr ""
-"Donnez ici le nombre de pixels (entre 0 et 500) pour déplacer l'image en "
-"appuyant sur \"Entrée\"."
+"Donnez ici le nombre de pixels (entre 0 et 500) pour déplacer l'image en appuyant sur "
+"\"Entrée\"."
 
 #. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..MoveOnEnterCheck....Hint
 #: TransOpties.dfm:391
-msgid ""
-"State here whether the image should be scrolled down on every \"Enter\"."
+msgid "State here whether the image should be scrolled down on every \"Enter\"."
 msgstr "Indiquez ici si l'image doit défiler vers le bas à chaque \"Entrée\"."
 
 #. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..MoveOnEnterCheck..Caption
@@ -1750,11 +1711,9 @@ msgstr "Défilement de l'image à chaque \"Entrée\""
 
 #. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..MoveOnWrapCheck....Hint
 #: TransOpties.dfm:405
-msgid ""
-"Check this when you want the image to be scrolled down after every wordwrap."
+msgid "Check this when you want the image to be scrolled down after every wordwrap."
 msgstr ""
-"Choisir ceci si l'image doit défiler vers le bas à chaque retour à la ligne "
-"automatique."
+"Choisir ceci si l'image doit défiler vers le bas à chaque retour à la ligne automatique."
 
 #. OptionsForm..JvPageControl..PictureTab..PhotoScrollGroup..MoveOnWrapCheck..Caption
 #: TransOpties.dfm:406
@@ -1764,11 +1723,11 @@ msgstr "Défilement de l'image avec le retour à la ligne"
 #. OptionsForm..JvPageControl..PictureTab..RememberZoomCheck....Hint
 #: TransOpties.dfm:420
 msgid ""
-"If set all image adjustments like zoom, brightness, inverted, greyscale and "
-"rotation will be preserved when changing images"
+"If set all image adjustments like zoom, brightness, inverted, greyscale and rotation will "
+"be preserved when changing images"
 msgstr ""
-"Les réglages d'image tel que zoom, luminosité, négatif, niveaux de gris et "
-"rotation seront préservés lors du changement d'images"
+"Les réglages d'image tel que zoom, luminosité, négatif, niveaux de gris et rotation seront "
+"préservés lors du changement d'images"
 
 #. OptionsForm..JvPageControl..PictureTab..RememberZoomCheck..Caption
 #: TransOpties.dfm:421
@@ -1778,11 +1737,10 @@ msgstr "Conse&rver les paramètres de l'image"
 #. OptionsForm..JvPageControl..PictureTab..HorScrollCheck....Hint
 #: TransOpties.dfm:444
 msgid ""
-"When checked you can scroll the image entirely to the left until only the "
-"edge is visible."
+"When checked you can scroll the image entirely to the left until only the edge is visible."
 msgstr ""
-"Une fois coché, vous pouvez défiler l'image entièrement à gauche jusqu'au "
-"bord extrême de l'image."
+"Une fois coché, vous pouvez défiler l'image entièrement à gauche jusqu'au bord extrême de "
+"l'image."
 
 #. OptionsForm..JvPageControl..PictureTab..HorScrollCheck..Caption
 #: TransOpties.dfm:445
@@ -1792,11 +1750,11 @@ msgstr "Défilement de l'image entièrement vers la gauche"
 #. OptionsForm..JvPageControl..PictureTab..AlternateRotateCheck....Hint
 #: TransOpties.dfm:471
 msgid ""
-"If checked rotation alternates between left (270 degrees) and right (90 "
-"degrees) when loading an image"
+"If checked rotation alternates between left (270 degrees) and right (90 degrees) when "
+"loading an image"
 msgstr ""
-"Si coché la rotation alterne entre gauche (270 degrés) et droite (90 degrés) "
-"en chargeant une image"
+"Si coché la rotation alterne entre gauche (270 degrés) et droite (90 degrés) en chargeant "
+"une image"
 
 #. OptionsForm..JvPageControl..PictureTab..AlternateRotateCheck..Caption
 #: TransOpties.dfm:472
@@ -1806,27 +1764,24 @@ msgstr "Alterner entre la rotation gauche et droite"
 #. OptionsForm..JvPageControl..PictureTab..GoBackToEditorCheck....Hint
 #: TransOpties.dfm:484
 msgid ""
-"If checked you will go automatically back to the editor after releasing the "
-"mouse button."
+"If checked you will go automatically back to the editor after releasing the mouse button."
 msgstr ""
-"Si coché, retourne automatiquement à l'éditeur de texte après relâchement du "
-"bouton de la souris."
+"Si coché, retourne automatiquement à l'éditeur de texte après relâchement du bouton de la "
+"souris."
 
 #. OptionsForm..JvPageControl..PictureTab..GoBackToEditorCheck..Caption
 #: TransOpties.dfm:485
 msgid "Go automatically back to the editor after releasing mouse button"
-msgstr ""
-"Retour automatique à l'éditeur de texte après avoir relâché le bouton de la "
-"souris"
+msgstr "Retour automatique à l'éditeur de texte après avoir relâché le bouton de la souris"
 
 #. OptionsForm..JvPageControl..PictureTab..TwoPageCheck....Hint
 #: TransOpties.dfm:500
 msgid ""
-"If checked this assumes that the image contains two pages. Going to the next/"
-"previous page will center it on the left/right part of the image."
+"If checked this assumes that the image contains two pages. Going to the next/previous page "
+"will center it on the left/right part of the image."
 msgstr ""
-"Si coché ceci suppose que l'image contient deux pages. Aller à la page "
-"suivante / précédente la centrera sur la partie gauche / droite de l'image."
+"Si coché ceci suppose que l'image contient deux pages. Aller à la page suivante / "
+"précédente la centrera sur la partie gauche / droite de l'image."
 
 #. OptionsForm..JvPageControl..PictureTab..TwoPageCheck..Caption
 #: TransOpties.dfm:501
@@ -1836,9 +1791,8 @@ msgstr "Deux pages visible sur l'image"
 #. OptionsForm..JvPageControl..PictureTab..cbxAutoRotateJpeg....Hint
 #: TransOpties.dfm:514
 msgid ""
-"If checked Transcript will automatically rotate images based on the "
-"orientation in the exif data (note: exif data is not always present or "
-"correct)"
+"If checked Transcript will automatically rotate images based on the orientation in the "
+"exif data (note: exif data is not always present or correct)"
 msgstr ""
 
 #. OptionsForm..JvPageControl..PictureTab..cbxAutoRotateJpeg..Caption
@@ -1864,27 +1818,25 @@ msgstr "<Répertoire dans lequel le fichier texte sera enregistré>"
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..EachPhotoApartCheck....Hint
 #: TransOpties.dfm:555
 msgid ""
-"Whether or not to save the text for each image in their own file. When you "
-"select another image a new textfile is automatically opened or created."
+"Whether or not to save the text for each image in their own file. When you select another "
+"image a new textfile is automatically opened or created."
 msgstr ""
-"Cocher pour sauver le texte pour chaque image dans son propre fichier. Quand "
-"vous choisissez une autre image un nouveau fichier texte est automatiquement "
-"ouvert ou créé."
+"Cocher pour sauver le texte pour chaque image dans son propre fichier. Quand vous "
+"choisissez une autre image un nouveau fichier texte est automatiquement ouvert ou créé."
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..EachPhotoApartCheck..Caption
 #: TransOpties.dfm:556
 msgid "Use the same name for &each image and its corresponding textfile"
-msgstr ""
-"Employez le même nom pour chaque image et son fichier texte correspondant"
+msgstr "Employez le même nom pour chaque image et son fichier texte correspondant"
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..SeparateTextDirCheck....Hint
 #: TransOpties.dfm:570
 msgid ""
-"Specify if you want to save the rtf text files in a different directory than "
-"the image files."
+"Specify if you want to save the rtf text files in a different directory than the image "
+"files."
 msgstr ""
-"Indiquez si vous voulez sauver les fichiers texte rtf dans un répertoire "
-"différent de celui des fichiers images."
+"Indiquez si vous voulez sauver les fichiers texte rtf dans un répertoire différent de "
+"celui des fichiers images."
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..SeparateTextDirCheck..Caption
 #: TransOpties.dfm:571
@@ -1894,9 +1846,7 @@ msgstr "Utiliser un répertoire &différent"
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..BrowseFolderBtn..Hint
 #: TransOpties.dfm:583
 msgid "Browse to the folder you want to use for saving rtf text files."
-msgstr ""
-"Parcourir le dossier que vous voulez utiliser pour sauver les fichiers texte "
-"rtf."
+msgstr "Parcourir le dossier que vous voulez utiliser pour sauver les fichiers texte rtf."
 
 #. OptionsForm..JvPageControl..AdvancedTab..SameNameGroup..BrowseFolderBtn..Caption
 #. OptionsForm..JvPageControl..AutoCorrectTab..SoundBrowseBtn..Caption
@@ -1938,13 +1888,13 @@ msgstr "Compter valeur suivante:"
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..AutoInsertFilenameCheck....Hint
 #: TransOpties.dfm:657
 msgid ""
-"After opening the next image (F6) the program will automatically insert the "
-"autotext according to your specification if this option is set (can be "
-"temporarily disabled by setting scoll lock on)"
+"After opening the next image (F6) the program will automatically insert the autotext "
+"according to your specification if this option is set (can be temporarily disabled by "
+"setting scoll lock on)"
 msgstr ""
-"Après ouverture de la prochaine image (F6) le programme insèrera "
-"automatiquement du texte selon vos spécifications si cette option est cochée "
-"(Annuler temporairement cet effet avec la touche Scroll Lock on)"
+"Après ouverture de la prochaine image (F6) le programme insèrera automatiquement du texte "
+"selon vos spécifications si cette option est cochée (Annuler temporairement cet effet avec "
+"la touche Scroll Lock on)"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..AutoInsertFilenameCheck..Caption
 #: TransOpties.dfm:658
@@ -1958,12 +1908,10 @@ msgstr "Indiquez ici le texte qui devrait être inséré"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..btnResetDefaultSpec....Hint
 #: TransOpties.dfm:679
-msgid ""
-"Use this button to reset the image filename specification to its default "
-"value"
+msgid "Use this button to reset the image filename specification to its default value"
 msgstr ""
-"Utilisez ce bouton pour remettre à zéro les paramètres de nom de fichier "
-"image à la valeur par défaut"
+"Utilisez ce bouton pour remettre à zéro les paramètres de nom de fichier image à la valeur "
+"par défaut"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..btnResetDefaultSpec..Caption
 #: TransOpties.dfm:680
@@ -1973,9 +1921,7 @@ msgstr "Restaurer"
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingTypeCombo....Hint
 #: TransOpties.dfm:691
 msgid "Select the counter type you want to use in your autotext specification"
-msgstr ""
-"Sélectionner le type de compteur que vous utilisez pour vos paramètres "
-"d'auto-texte"
+msgstr "Sélectionner le type de compteur que vous utilisez pour vos paramètres d'auto-texte"
 
 #. OptionsForm..JvPageControl..AdvancedTab..InsertFilenameGroup..NumberingTypeCombo....Items.Strings
 #: TransOpties.dfm:695
@@ -2025,14 +1971,13 @@ msgstr "Date :"
 #. OptionsForm..JvPageControl..LanguageTab..Panel1..stReportTranslationErrors....Caption
 #: TransOpties.dfm:937
 msgid ""
-"If you see translation errors please report them using the e-mail below. If "
-"you want to help translate Transcript into your language you can also e-mail "
-"me. Translators get a free registered version!"
+"If you see translation errors please report them using the e-mail below. If you want to "
+"help translate Transcript into your language you can also e-mail me. Translators get a "
+"free registered version!"
 msgstr ""
-"Si vous voyez des erreurs de traduction, veuillez les signaler en utilisant "
-"l'e-mail ci-dessous. Si vous voulez aider à traduire Transcript dans votre "
-"langue, vous pouvez aussi m'écrire. Les traducteurs reçoivent une version "
-"enregistrée gratuite !"
+"Si vous voyez des erreurs de traduction, veuillez les signaler en utilisant l'e-mail ci-"
+"dessous. Si vous voulez aider à traduire Transcript dans votre langue, vous pouvez aussi "
+"m'écrire. Les traducteurs reçoivent une version enregistrée gratuite !"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..Caption
 #: TransOpties.dfm:961
@@ -2063,11 +2008,9 @@ msgstr "Fichier dico perso:"
 #. OptionsForm..JvPageControl..AutoCorrectTab..WarnOnCorrectionCheck....Hint
 #: TransOpties.dfm:993
 msgid ""
-"When you set this option you hear a warning sound whenever something is auto "
-"corrected."
+"When you set this option you hear a warning sound whenever something is auto corrected."
 msgstr ""
-"Cocher cette option activera un son d'alerte chaque fois qu'une correction "
-"sera effectuée."
+"Cocher cette option activera un son d'alerte chaque fois qu'une correction sera effectuée."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..WarnOnCorrectionCheck..Caption
 #: TransOpties.dfm:994
@@ -2087,11 +2030,11 @@ msgstr "Corriger DEux majuscules"
 #. OptionsForm..JvPageControl..AutoCorrectTab..IJExceptionCheck....Hint
 #: TransOpties.dfm:1021
 msgid ""
-"Set this if you want the IJ combination considered as an exception where two "
-"capitals should not be corrected"
+"Set this if you want the IJ combination considered as an exception where two capitals "
+"should not be corrected"
 msgstr ""
-"Choisir ceci considère la combinaison \"IJ\" comme une exception et ne "
-"corrigera pas les deux majuscules"
+"Choisir ceci considère la combinaison \"IJ\" comme une exception et ne corrigera pas les "
+"deux majuscules"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..IJExceptionCheck..Caption
 #: TransOpties.dfm:1022
@@ -2101,11 +2044,11 @@ msgstr "Ne pas corriger \"IJ\""
 #. OptionsForm..JvPageControl..AutoCorrectTab..sEcondCapCheck....Hint
 #: TransOpties.dfm:1036
 msgid ""
-"Set this is you want a sEcond capital corrected and replaced by a capital "
-"for the first letter"
+"Set this is you want a sEcond capital corrected and replaced by a capital for the first "
+"letter"
 msgstr ""
-"Choisir ceci corrigera la sEconde majuscule et la remplacera par une "
-"majuscule sur la première lettre"
+"Choisir ceci corrigera la sEconde majuscule et la remplacera par une majuscule sur la "
+"première lettre"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..sEcondCapCheck..Caption
 #: TransOpties.dfm:1037
@@ -2120,13 +2063,12 @@ msgstr "Parcourir et choisir le fichier son à utiliser."
 #. OptionsForm..JvPageControl..AutoCorrectTab..AutoReplaceCheck....Hint
 #: TransOpties.dfm:1075
 msgid ""
-"When this option is set the specified replacements file will be used to "
-"automatically replace abbreviations or typos with the complete or correct "
-"text"
+"When this option is set the specified replacements file will be used to automatically "
+"replace abbreviations or typos with the complete or correct text"
 msgstr ""
-"Lorsque cette option est activée, le fichier de remplacements indiqué est "
-"utilisé pour remplacer automatiquement les abréviations ou les erreurs de "
-"frappe par le texte complet ou correct"
+"Lorsque cette option est activée, le fichier de remplacements indiqué est utilisé pour "
+"remplacer automatiquement les abréviations ou les erreurs de frappe par le texte complet "
+"ou correct"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..AutoReplaceCheck..Caption
 #: TransOpties.dfm:1076
@@ -2141,14 +2083,12 @@ msgstr "Nom du fichier contenant les remplacements automatiques"
 #. OptionsForm..JvPageControl..AutoCorrectTab..ReplaceBrowseBtn....Hint
 #: TransOpties.dfm:1106
 msgid ""
-"Browse to select the autoreplacements file you want to use or enter the name "
-"of a new file."
+"Browse to select the autoreplacements file you want to use or enter the name of a new file."
 msgstr "Choisir le fichier à utiliser ou donner un nouveau nom de fichier."
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbIgnore2ndSpace....Hint
 #: TransOpties.dfm:1118
-msgid ""
-"Set this if you want two spaces after another replaced by just one space"
+msgid "Set this if you want two spaces after another replaced by just one space"
 msgstr "Choisir ceci si vous ne voulez qu'un seul espace après correction"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbIgnore2ndSpace..Caption
@@ -2159,8 +2099,7 @@ msgstr "Ignorer le deuxième espace"
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..Caption
 #: TransOpties.dfm:1131
 msgid "Automatically delete unused autoreplacement items"
-msgstr ""
-"Supprimer automatiquement les mots de remplacement automatique inutilisés"
+msgstr "Supprimer automatiquement les mots de remplacement automatique inutilisés"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..JvLabel17..Caption
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..JvLabel9..Caption
@@ -2171,11 +2110,11 @@ msgstr "semaines"
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteUnusedItems....Hint
 #: TransOpties.dfm:1162
 msgid ""
-"Option to automatically delete all items in the autoreplacement list that "
-"were not used in the specified number of weeks"
+"Option to automatically delete all items in the autoreplacement list that were not used in "
+"the specified number of weeks"
 msgstr ""
-"Option pour supprimer automatiquement les mots de la liste de remplacement "
-"non employés après un nombre défini de semaines"
+"Option pour supprimer automatiquement les mots de la liste de remplacement non employés "
+"après un nombre défini de semaines"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteUnusedItems..Caption
 #: TransOpties.dfm:1163
@@ -2190,12 +2129,11 @@ msgstr "Nombre de semaines avant suppression des mots corrects non employés"
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteNeverUsedItems....Hint
 #: TransOpties.dfm:1193
 msgid ""
-"Option to automatically delete all items in the autoreplacement list that "
-"have never been used and are older than the specified number of weeks"
+"Option to automatically delete all items in the autoreplacement list that have never been "
+"used and are older than the specified number of weeks"
 msgstr ""
-"Option pour supprimer automatiquement tous les mots de la liste de "
-"remplacement qui n'ont jamais été employés et sont plus anciens que le "
-"nombre indiqué de semaines"
+"Option pour supprimer automatiquement tous les mots de la liste de remplacement qui n'ont "
+"jamais été employés et sont plus anciens que le nombre indiqué de semaines"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..gpbAutoDelete..cbDeleteNeverUsedItems..Caption
 #: TransOpties.dfm:1194
@@ -2210,26 +2148,23 @@ msgstr "L'âge en nombre de semaines avant effacement des mots non utilisés"
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbResetUsageCount....Hint
 #: TransOpties.dfm:1221
 msgid ""
-"This option specifies wheter the usage count should be reset to 0 when an "
-"autoreplacement item gets changed"
+"This option specifies wheter the usage count should be reset to 0 when an autoreplacement "
+"item gets changed"
 msgstr ""
-"Cette option définit si le compteur d'utilisation devrait être remis à zéro "
-"quand un élément de remplacement automatique est modifié"
+"Cette option définit si le compteur d'utilisation devrait être remis à zéro quand un "
+"élément de remplacement automatique est modifié"
 
 #. OptionsForm..JvPageControl..AutoCorrectTab..cbResetUsageCount..Caption
 #: TransOpties.dfm:1222
 msgid "Reset usage count when changing an autoreplacement item"
 msgstr ""
-"Remettre à zéro le compteur d'utilisation en changeant un mot du "
-"remplacement automatique"
+"Remettre à zéro le compteur d'utilisation en changeant un mot du remplacement automatique"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel15....Hint
 #. OptionsForm..JvPageControl..PdfTab..cbResolution....Hint
 #: TransOpties.dfm:1250 TransOpties.dfm:1302
-msgid ""
-"Choose the best resolution for the extraction of images from your pdf file"
-msgstr ""
-"Choisir la meilleure résolution pour extraire l'image à partir du fichier pdf"
+msgid "Choose the best resolution for the extraction of images from your pdf file"
+msgstr "Choisir la meilleure résolution pour extraire l'image à partir du fichier pdf"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel15..Caption
 #: TransOpties.dfm:1252
@@ -2240,12 +2175,11 @@ msgstr "&Pdf résolution de l'image:"
 #. OptionsForm..JvPageControl..PdfTab..TrackBar....Hint
 #: TransOpties.dfm:1265 TransOpties.dfm:1322
 msgid ""
-"Choose the jpeg quality for saving extracted images. (higher value means "
-"better quality but larger files and slower extraction)"
+"Choose the jpeg quality for saving extracted images. (higher value means better quality "
+"but larger files and slower extraction)"
 msgstr ""
-"Choisir jpeg pour des images moins lourdes. (une valeur plus importante "
-"signifie une meilleure qualité mais aussi fichiers plus gros et une "
-"extraction plus lente)"
+"Choisir jpeg pour des images moins lourdes. (une valeur plus importante signifie une "
+"meilleure qualité mais aussi fichiers plus gros et une extraction plus lente)"
 
 #. OptionsForm..JvPageControl..PdfTab..JvLabel16..Caption
 #: TransOpties.dfm:1267
@@ -2260,36 +2194,30 @@ msgstr "ppp"
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterLastImage....Hint
 #: TransOpties.dfm:1337
 msgid ""
-"Automatically delete all extracted images of the current pdf when you're "
-"done using the last image"
+"Automatically delete all extracted images of the current pdf when you're done using the "
+"last image"
 msgstr ""
-"Supprimer automatiquement toutes les images extraites de ce pdf courant "
-"lorsque vous avez terminé avec la dernière image"
+"Supprimer automatiquement toutes les images extraites de ce pdf courant lorsque vous avez "
+"terminé avec la dernière image"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterLastImage..Caption
 #: TransOpties.dfm:1338
 msgid "&Delete extracted images when done with the last page image"
-msgstr ""
-"&Supprimer les images extraites une fois terminé avec la dernière page image"
+msgstr "&Supprimer les images extraites une fois terminé avec la dernière page image"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterChangeDir....Hint
 #: TransOpties.dfm:1352
-msgid ""
-"Automatically delete all extracted images when changing to another image "
-"directory"
+msgid "Automatically delete all extracted images when changing to another image directory"
 msgstr ""
-"Supprime automatiquement toutes les images extraites lors du choix d'un "
-"autre dossier image"
+"Supprime automatiquement toutes les images extraites lors du choix d'un autre dossier image"
 
 #. OptionsForm..JvPageControl..PdfTab..ckbDelAfterChangeDir..Caption
 #: TransOpties.dfm:1353
 msgid "Delete &all extracted images after changing directory"
 msgstr "Supprimer &toutes les images extraites après avoir changé de dossier"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. OptionsForm..CancelBtn..Caption
 #. ProDialog..CancelBtn..Caption
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfParaDialog..CancelBtn..Caption
 #. RtfTabsDialog..CancelBtn..Caption
 #: TransOpties.dfm:1367 TransPro.dfm:56 RtfParagraphOptionsForm.dfm:156
@@ -2317,9 +2245,7 @@ msgstr "Entrer le nom d'utilisateur:"
 msgid "Enter registration code:"
 msgstr "Entrer le code d'enregistrement:"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. ProDialog..OKBtn..Caption
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RtfTabsDialog..ActionList1..actOK..Caption
 #: TransPro.dfm:45 RtfTabSettingsForm.dfm:172
 msgid "OK"
@@ -2362,12 +2288,10 @@ msgstr "Renommer le Projet"
 
 #. ManageProjectsForm..pnlBack..SortedCheck....Hint
 #: TransProjectManager.dfm:125
-msgid ""
-"Select this option if you want the projects in the list to be sorted "
-"alphabetically"
+msgid "Select this option if you want the projects in the list to be sorted alphabetically"
 msgstr ""
-"Choisir cette option si vous voulez que les projets dans la liste soient "
-"classés par ordre alphabétique"
+"Choisir cette option si vous voulez que les projets dans la liste soient classés par ordre "
+"alphabétique"
 
 #. ManageProjectsForm..pnlBack..SortedCheck..Caption
 #: TransProjectManager.dfm:127
@@ -2501,11 +2425,11 @@ msgstr "Erreur de sauvegarde"
 #. om te zorgen dat (Gewijzigd) uit caption wordt verwijderd!
 #: TranscriptMain.pas:1567
 msgid ""
-"Couldn't Save file. Most likely it is in use by another program. Close it "
-"there and then try to save again."
+"Couldn't Save file. Most likely it is in use by another program. Close it there and then "
+"try to save again."
 msgstr ""
-"Impossible de sauvegarder le fichier. Il est probabement utilisé par un "
-"autre programme. Fermez-le et essayez de sauvegarder à nouveau."
+"Impossible de sauvegarder le fichier. Il est probabement utilisé par un autre programme. "
+"Fermez-le et essayez de sauvegarder à nouveau."
 
 #: TranscriptMain.pas:1568
 msgid "Error saving file"
@@ -2655,11 +2579,11 @@ msgstr "%s version %s installée."
 #. Programmer's name for it: cNO_GHOSTSCRIPT
 #: TransInfoSupplier.pas:170
 msgid ""
-"GhostScript not installed or not found (Transcript can only use the 32 bits "
-"version even on 64 bits Windows)."
+"GhostScript not installed or not found (Transcript can only use the 32 bits version even "
+"on 64 bits Windows)."
 msgstr ""
-"GhostScript n'est pas installé ou pas trouvé (Transcript ne peut utiliser "
-"qu'une version 32 bits, même sur des Windows 64 bits)."
+"GhostScript n'est pas installé ou pas trouvé (Transcript ne peut utiliser qu'une version "
+"32 bits, même sur des Windows 64 bits)."
 
 #. Programmer's name for it: cGHOSTSCRIPT_PATH
 #: TransInfoSupplier.pas:171
@@ -2879,11 +2803,10 @@ msgstr ""
 "Vous avez choisi l'option \"Utiliser le même nom pour chaque image\n"
 "et son fichier texte correspondant\" seulement le nom du fichier image\n"
 "et celui du texte courant sont différents.\n"
-"Choisissez Oui pour changer le nom du fichier texte courant pour celui du "
-"fichier image.\n"
+"Choisissez Oui pour changer le nom du fichier texte courant pour celui du fichier image.\n"
 "Choisissez Non pour désactiver cette option.\n"
-"Choisissez Annuler pour ne rien modifier (l'option reste active mais les "
-"noms des fichiers actuellement ouverts ne seront pas modifiés)."
+"Choisissez Annuler pour ne rien modifier (l'option reste active mais les noms des fichiers "
+"actuellement ouverts ne seront pas modifiés)."
 
 #. Programmer's name for it: MsgCaptionFileNamesDiffer
 #: TransTranslatableStrings.pas:111
@@ -3003,10 +2926,8 @@ msgstr "Éditer la description du projet"
 #. 19-1-2007
 #. Programmer's name for it: MsgCannotClose
 #: TransTranslatableStrings.pas:152
-msgid ""
-"The program cannot close at the moment: the pdf extraction is not yet done!"
-msgstr ""
-"Le programme ne peut être fermé: l'extraction du pdf est toujours en cours!"
+msgid "The program cannot close at the moment: the pdf extraction is not yet done!"
+msgstr "Le programme ne peut être fermé: l'extraction du pdf est toujours en cours!"
 
 #. Programmer's name for it: MsgCannotCloseCaption
 #: TransTranslatableStrings.pas:153
@@ -3062,16 +2983,15 @@ msgstr ""
 #: TransTranslatableStrings.pas:174
 msgid ""
 "Ghostscript encountered an error.\n"
-"Most likely reasons are a write protected medium (cd/dvd/folder) or a pdf "
-"that does not allow extracting images.\n"
-"The first problem can be fixed by copying the pdf to a location that you can "
-"write to."
+"Most likely reasons are a write protected medium (cd/dvd/folder) or a pdf that does not "
+"allow extracting images.\n"
+"The first problem can be fixed by copying the pdf to a location that you can write to."
 msgstr ""
 "Ghostscript a rencontré une erreur.\n"
-"Les raisons les plus probables sont un support protégé en écriture "
-"(cd/dvd/dossier) ou un pdf qui n'autorise pas l'extraction d'images.\n"
-"Le premier problème peut être fixé en copiant le pdf à un endroit où vous "
-"avez les droits d'écriture."
+"Les raisons les plus probables sont un support protégé en écriture (cd/dvd/dossier) ou un "
+"pdf qui n'autorise pas l'extraction d'images.\n"
+"Le premier problème peut être fixé en copiant le pdf à un endroit où vous avez les droits "
+"d'écriture."
 
 #. Programmer's name for it: MsgGhostscriptFatalError
 #: TransTranslatableStrings.pas:176
@@ -3109,12 +3029,10 @@ msgstr "Auto correction"
 
 #. Programmer's name for it: MsgAutoNoList
 #: TransTranslatableStrings.pas:189
-msgid ""
-"Before you can use autoreplacements you first need to set a filename in "
-"options!"
+msgid "Before you can use autoreplacements you first need to set a filename in options!"
 msgstr ""
-"Avant de pouvoir utiliser l'auto correction vous devez d'abord donner un nom "
-"de fichier dans options !"
+"Avant de pouvoir utiliser l'auto correction vous devez d'abord donner un nom de fichier "
+"dans options !"
 
 #. Programmer's name for it: MsgAutoNotAllowed
 #: TransTranslatableStrings.pas:190
@@ -3138,8 +3056,8 @@ msgstr "Code ou nom d'enregistrement erroné !"
 #: TransTranslatableStrings.pas:195
 msgid "Thanks for registering. You can now use all pro features."
 msgstr ""
-"Merci de vous être enregistré. Maintenant vous utilisez la Version PRO avec "
-"toutes ses options."
+"Merci de vous être enregistré. Maintenant vous utilisez la Version PRO avec toutes ses "
+"options."
 
 #. ***** Options dialog
 #. Programmer's name for it: strUnknown
@@ -3198,9 +3116,7 @@ msgstr "chemin complet, fichier et extension ; %c"
 #. Programmer's name for it: strSpecifierInfo8
 #: TransTranslatableStrings.pas:212
 msgid "insert counter/page number. Anything else is literally inserted."
-msgstr ""
-"insérer le compteur/numéro de page. Toute autre chose est littéralement "
-"insérée."
+msgstr "insérer le compteur/numéro de page. Toute autre chose est littéralement insérée."
 
 #. ***** Toolbar strings (pictcombo)
 #. Programmer's name for it: strNone
@@ -3338,8 +3254,7 @@ msgstr " cm"
 #. RtfParaDialog..DefaultParaSetting..Hint
 #: RtfParagraphOptionsForm.dfm:174
 msgid "Use these paragraph options as default for new documents"
-msgstr ""
-"Employez ces options de paragraphe par défaut pour les nouveaux documents"
+msgstr "Employez ces options de paragraphe par défaut pour les nouveaux documents"
 
 #. RtfParaDialog..DefaultParaSetting..Caption
 #: RtfParagraphOptionsForm.dfm:175
@@ -3515,9 +3430,7 @@ msgstr "Pas assez de mémoire libre pour charger l'image."
 #. Programmer's name for it: rsJgbCantLoadImage
 #: jgbimgviewresources.pas:24
 msgid "Can't load image probably due to running out of resources."
-msgstr ""
-"Impossible de charger l'image, probablement à cause d'un manque de "
-"ressources."
+msgstr "Impossible de charger l'image, probablement à cause d'un manque de ressources."
 
 #. Programmer's name for it: rsJgbInvalidPNG
 #: jgbimgviewresources.pas:25
@@ -3890,11 +3803,9 @@ msgstr "Alt+"
 #~ msgid "https://graphics32.org/"
 #~ msgstr "http://graphics32.org/"
 
-#~ msgid ""
-#~ "It doesn't exist or the filename contains multibyte unicode characters!"
+#~ msgid "It doesn't exist or the filename contains multibyte unicode characters!"
 #~ msgstr ""
-#~ "Il n'existe pas, ou le nom de fichier contient des caractères unicode "
-#~ "multi-octets!"
+#~ "Il n'existe pas, ou le nom de fichier contient des caractères unicode multi-octets!"
 
 #, fuzzy
 #~ msgid "Shift"
@@ -3947,12 +3858,11 @@ msgstr "Alt+"
 #~ msgstr "Barre"
 
 #~ msgid ""
-#~ "Choose between new and old style image cursor handling. New style means "
-#~ "dragging is default, you can zoom by using the ctrl key."
+#~ "Choose between new and old style image cursor handling. New style means dragging is "
+#~ "default, you can zoom by using the ctrl key."
 #~ msgstr ""
-#~ "Choisissez entre le nouveau ou l'ancien modèle de curseur. Les nouveaux "
-#~ "modèles sont Traînant par défaut, vous pouvez Zoomer en employant la "
-#~ "touche Ctrl."
+#~ "Choisissez entre le nouveau ou l'ancien modèle de curseur. Les nouveaux modèles sont "
+#~ "Traînant par défaut, vous pouvez Zoomer en employant la touche Ctrl."
 
 #~ msgid "Image cursor style"
 #~ msgstr "Style de curseur"
